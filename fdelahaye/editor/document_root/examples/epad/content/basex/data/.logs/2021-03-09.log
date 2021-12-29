@@ -1,0 +1,142 @@
+07:58:09.577	SERVER	admin	OK	Server was stopped (port: 1984)
+07:58:09.578	SERVER	admin	OK	HTTP Server was stopped (port: 8984)
+17:16:51.967	SERVER	admin	OK	Server was started (port: 1984)
+17:16:52.023	SERVER	admin	OK	HTTP Server was started (port: 8984)
+17:18:00.253	10.101.1.201:56701	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+17:18:00.461	10.101.1.201:56701	admin	200		210.58 ms
+17:18:00.695	10.101.1.201:56701	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+17:18:00.737	10.101.1.201:56702	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/css/style.css
+17:18:00.746	10.101.1.201:56702	admin	404	No function found that matches the request.	8.68 ms
+17:18:00.748	10.101.1.201:56701	admin	200		53.12 ms
+17:18:07.579	10.101.1.201:56704	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+17:18:07.599	10.101.1.201:56704	admin	200		19.93 ms
+17:22:21.038	10.101.1.201:56880	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices/css/style.css
+17:22:21.044	10.101.1.201:56880	admin	404	No function found that matches the request.	6.64 ms
+17:23:24.061	10.101.1.201:56922	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+17:23:24.085	10.101.1.201:56922	admin	200		24.29 ms
+17:23:24.224	10.101.1.201:56923	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+17:23:24.236	10.101.1.201:56923	admin	200		12.91 ms
+17:25:13.835	10.101.1.201:56995	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+17:25:13.857	10.101.1.201:56995	admin	200		21.42 ms
+17:25:13.915	10.101.1.201:56995	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+17:25:13.929	10.101.1.201:56995	admin	200		13.65 ms
+17:26:12.732	10.101.1.201:56995	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+17:26:12.750	10.101.1.201:56995	admin	200		18.14 ms
+17:26:12.805	10.101.1.201:56995	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+17:26:12.818	10.101.1.201:56995	admin	200		12.34 ms
+17:26:16.488	10.101.1.201:56995	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/record_practices_file_of_author_form
+17:26:16.498	10.101.1.201:56995	admin	200		10.38 ms
+17:26:24.542	10.101.1.201:56995	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+17:26:24.554	10.101.1.201:56995	admin	200		12.4 ms
+17:26:31.451	10.101.1.201:56995	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/record_practices_file_of_author_form
+17:26:31.461	10.101.1.201:56995	admin	200		10.87 ms
+17:26:40.824	10.101.1.201:56995	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+17:26:40.836	10.101.1.201:56995	admin	200		11.83 ms
+17:26:50.170	10.101.1.201:56995	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_logs_request
+17:26:50.393	10.101.1.201:56995	admin	200		223.13 ms
+17:26:56.661	10.101.1.201:56995	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+17:26:56.672	10.101.1.201:56995	admin	200		11.1 ms
+17:39:24.163	10.101.1.201:57568	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+17:39:24.286	10.101.1.201:57568	admin	200		122.57 ms
+17:39:24.338	10.101.1.201:57568	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+17:39:24.348	10.101.1.201:57568	admin	200		9.64 ms
+17:39:25.691	10.101.1.201:57568	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+17:39:25.700	10.101.1.201:57568	admin	200		9.71 ms
+17:39:28.394	10.101.1.201:57568	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+17:39:29.323	10.101.1.201:57568	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 400/16: [FODC0002] Line 2: Whitespace expected, '>' found.	929.44 ms
+17:47:44.511	10.101.1.201:57846	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+17:47:44.524	10.101.1.201:57846	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 1038/28: [XPST0008] Undefined variable $number.	12.99 ms
+17:51:24.577	10.101.1.201:57963	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+17:51:24.596	10.101.1.201:57963	admin	200		19.01 ms
+17:51:24.650	10.101.1.201:57963	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+17:51:24.665	10.101.1.201:57963	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 512/39: [XPDY0002] No context item defined to evaluate '@email'. Stack Trace: - /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 364/10	15.37 ms
+18:02:11.944	10.101.1.201:58329	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+18:02:11.960	10.101.1.201:58329	admin	200		15.82 ms
+18:02:12.016	10.101.1.201:58329	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+18:02:12.198	10.101.1.201:58329	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 401/16: [FODC0002] Line 2: Whitespace expected, '>' found. Stack Trace: - /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 364/10	181.97 ms
+18:10:55.204	10.101.1.201:58617	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+18:10:55.209	10.101.1.201:58617	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 20/36: [XQST0108] No output declarations allowed in library modules.	4.49 ms
+18:11:54.352	10.101.1.201:58617	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+18:11:54.367	10.101.1.201:58617	admin	200		14.33 ms
+18:11:54.420	10.101.1.201:58617	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+18:11:54.543	10.101.1.201:58617	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 404/16: [FODC0002] Line 2: Whitespace expected, '>' found. Stack Trace: - /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 367/10	122.72 ms
+18:14:05.879	10.101.1.201:58725	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+18:14:05.895	10.101.1.201:58725	admin	200		16.33 ms
+18:14:05.972	10.101.1.201:58725	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+18:14:06.088	10.101.1.201:58725	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 404/16: [FODC0002] Line 2: Whitespace expected, '>' found. Stack Trace: - /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 367/10	116.33 ms
+18:20:14.520	10.101.1.201:58929	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+18:20:14.528	10.101.1.201:58929	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 1315/18: [XQST0118] Start and end tag are different: <xsl:output>...</xsl:stylesheet>.	7.93 ms
+18:20:59.923	10.101.1.201:58929	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+18:20:59.936	10.101.1.201:58929	admin	200		13.36 ms
+18:20:59.989	10.101.1.201:58929	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+18:21:00.082	10.101.1.201:58929	admin	200		93.58 ms
+18:21:04.164	10.101.1.201:58929	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+18:21:04.174	10.101.1.201:58929	admin	200		9.5 ms
+18:21:08.507	10.101.1.201:58929	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+18:21:08.600	10.101.1.201:58929	admin	200		93.16 ms
+18:25:03.185	10.101.1.201:59091	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+18:25:03.198	10.101.1.201:59091	admin	200		12.9 ms
+18:25:03.255	10.101.1.201:59091	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+18:25:03.349	10.101.1.201:59091	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 404/16: [bxerr:BXSL0001] Error at char 7 in xsl:variable/@select on line 73 column 66 of file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/: XPTY0004: Unsuitable types for - operation (xs:integer, xs:string) at xsl:call-template name="weekday" (file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/#22) at xsl:apply-templates (file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/#107) processing /practices/meta[1]/date[1] at xsl:apply-templates (file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/#150) processing /practices/meta[1]/date[1] at xsl:apply-templates (file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/#138) processing /practices Stack Trace: - /home/httpd/htdocs/epad/fdelaha...	94.11 ms
+18:26:31.407	10.101.1.201:59138	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+18:26:31.419	10.101.1.201:59138	admin	200		12.37 ms
+18:26:31.516	10.101.1.201:59138	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+18:26:31.621	10.101.1.201:59138	admin	200		105.23 ms
+18:26:39.805	10.101.1.201:59138	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+18:26:39.828	10.101.1.201:59138	admin	200		23.2 ms
+18:26:42.460	10.101.1.201:59138	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+18:26:42.554	10.101.1.201:59138	admin	200		93.82 ms
+18:28:59.587	10.101.1.201:59222	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+18:28:59.599	10.101.1.201:59222	admin	200		12.62 ms
+18:28:59.654	10.101.1.201:59222	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+18:28:59.747	10.101.1.201:59222	admin	200		93.56 ms
+18:35:01.960	10.101.1.201:59420	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+18:35:01.988	10.101.1.201:59420	admin	200		27.89 ms
+18:35:02.045	10.101.1.201:59420	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+18:35:02.185	10.101.1.201:59420	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 404/16: [FODC0002] Line 2: Whitespace expected, '>' found.	140.94 ms
+18:37:35.263	10.101.1.201:59508	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+18:37:35.269	10.101.1.201:59508	admin	200		6.77 ms
+18:37:35.328	10.101.1.201:59508	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+18:37:35.412	10.101.1.201:59508	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 404/16: [FODC0002] Line 5: </head> found, </meta> expected.	84.69 ms
+18:40:25.141	10.101.1.201:59598	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+18:40:25.148	10.101.1.201:59598	admin	200		6.71 ms
+18:40:25.249	10.101.1.201:59598	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+18:40:25.325	10.101.1.201:59598	admin	200		75.49 ms
+18:42:27.368	10.101.1.201:59675	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+18:42:27.378	10.101.1.201:59675	admin	200		10.51 ms
+18:42:27.494	10.101.1.201:59675	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+18:42:27.566	10.101.1.201:59675	admin	200		71.88 ms
+18:42:51.025	10.101.1.201:59675	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+18:42:51.031	10.101.1.201:59675	admin	200		6.58 ms
+18:42:51.102	10.101.1.201:59675	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+18:42:51.173	10.101.1.201:59675	admin	200		71.83 ms
+18:42:55.356	10.101.1.201:59675	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+18:42:55.363	10.101.1.201:59675	admin	200		7.51 ms
+18:42:57.427	10.101.1.201:59675	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+18:42:57.499	10.101.1.201:59675	admin	200		72.0 ms
+18:45:08.492	10.101.1.201:59784	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+18:45:08.502	10.101.1.201:59784	admin	200		9.49 ms
+18:45:08.566	10.101.1.201:59784	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+18:45:08.634	10.101.1.201:59784	admin	200		67.51 ms
+18:45:09.984	10.101.1.201:59784	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+18:45:09.991	10.101.1.201:59784	admin	200		6.59 ms
+18:45:11.716	10.101.1.201:59784	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+18:45:11.781	10.101.1.201:59784	admin	200		65.39 ms
+19:15:03.486	10.101.1.201:60940	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/xopus/xopus.html
+19:15:03.488	10.101.1.201:60940	admin	404	No function found that matches the request.	2.52 ms
+19:20:16.103	10.101.1.201:61111	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/editor/xopus/xopus.html
+19:20:16.108	10.101.1.201:61111	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/editor/examples/howto/integrate-with-mark_logic_server/actions/new-document.xqy, 1/24: [XQST0031] XQuery version '1.0-ml' not supported.	4.48 ms
+19:23:36.413	SERVER	admin	OK	HTTP Server was stopped (port: 8984)
+19:23:36.425	SERVER	admin	OK	Server was stopped (port: 1984)
+19:23:40.828	SERVER	admin	OK	Server was started (port: 1984)
+19:23:40.860	SERVER	admin	OK	HTTP Server was started (port: 8984)
+19:40:33.793	10.101.1.201:61784	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/
+19:40:34.127	10.101.1.201:61784	admin	200		336.29 ms
+19:58:31.262	10.101.1.201:62374	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/examples/epad/practices.html
+19:58:31.280	10.101.1.201:62374	admin	404	No function found that matches the request.	18.09 ms
+19:58:31.389	10.101.1.201:62380	admin	REQUEST	[HEAD] http://dev1.dmz.loc:8984/examples/epad/practices.html
+19:58:31.402	10.101.1.201:62380	admin	404	No function found that matches the request.	12.83 ms
+19:58:49.316	10.101.1.201:62374	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/examples/epad/practices.html
+19:58:49.327	10.101.1.201:62374	admin	404	No function found that matches the request.	11.29 ms
+19:58:49.433	10.101.1.201:62374	admin	REQUEST	[HEAD] http://dev1.dmz.loc:8984/examples/epad/practices.html
+19:58:49.444	10.101.1.201:62374	admin	404	No function found that matches the request.	10.73 ms

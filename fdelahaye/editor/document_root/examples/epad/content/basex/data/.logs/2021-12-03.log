@@ -1,0 +1,2 @@
+12:15:07.072	0:0:0:0:0:0:0:1:60646	admin	REQUEST	[GET] http://localhost:8984/get_dict_file_content_as_markdown_request?file=content/dictionary_f.delahaye_bpri.xml
+12:15:07.413	0:0:0:0:0:0:0:1:60646	admin	200		346.1 ms

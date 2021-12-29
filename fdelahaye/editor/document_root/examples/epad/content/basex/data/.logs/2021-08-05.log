@@ -1,0 +1,2 @@
+08:48:39.932	0:0:0:0:0:0:0:1:54057	admin	REQUEST	[POST] http://localhost:8984/save_dict_file_request?uri=http://localhost:8984/get_dict_file_xml_content_request?file=content/dictionary_f.delahaye_bpri.xml
+08:48:40.040	0:0:0:0:0:0:0:1:54057	admin	200		108.19 ms

@@ -1,0 +1,6 @@
+13:38:02.713	SERVER	admin	OK	Server was started (port: 1984)
+13:38:02.834	SERVER	admin	OK	HTTP Server was started (port: 8984)
+13:38:17.917	10.101.1.203:49207	admin	REQUEST	[GET] http://dev.dmz.loc:8984/
+13:38:18.310	10.101.1.203:49207	admin	200		395.18 ms
+13:38:18.702	10.101.1.203:49208	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+13:38:18.718	10.101.1.203:49208	admin	404	No function found that matches the request.	15.76 ms

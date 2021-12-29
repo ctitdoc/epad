@@ -1,0 +1,128 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #5D6E7F;
+}
+
+body .left {
+    background: url("sdl-xopus-logo.svg") no-repeat;
+    padding: 90px;
+    margin-left: 30px;
+    margin-top: 20px;
+    float: left;
+    display: inline-block;
+}
+
+body .main {
+    background: #F6F6F6;
+    overflow-x: hidden;
+    border-left: 1px solid #25BD59;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+html, body, .main {
+	height: 100%;
+}
+
+body .main .wrapper {
+    max-width: 800px;
+}
+
+a {
+    color: #0096D6;
+}
+
+a:hover {
+    color: #0086C0;
+}
+
+.yup {
+    background: #afa;
+    color: #000;
+}
+
+.nope {
+    background: #fcc;
+    color: #000;
+}
+
+html,
+body {
+    font-family: 'Calibri', serif;
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h4, h5, h6, p {
+    margin: 0 0 20px 0;
+}
+
+h1 {
+    margin: 0 0 1em;
+}
+
+h2, h3 {
+    margin: 1.2em 0 0.8em;
+}
+
+
+ul, ul li {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+table {
+    margin-bottom: 2em;
+}
+
+td, th {
+    text-align: left;
+}
+
+.requirements th {
+    padding: 3px;
+}
+
+.requirements td {
+    text-align: center;
+}
+
+abbr {
+    border: 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+button {
+	display: inline-block;
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 4px;
+    transition: all .3s ease;
+    cursor: pointer;
+    background-color: #25bd59;
+    border-style: solid;
+    border-color: #25bd59;
+    border-bottom-width: 2px;
+    border-bottom-color: #21a94f;
+    font-size: 14px;
+    height: 26px;
+}
+
+button:hover {
+    background-color: #21a94f;
+    border-color: #21a94f;
+    border-bottom-color: #21a94f;
+}

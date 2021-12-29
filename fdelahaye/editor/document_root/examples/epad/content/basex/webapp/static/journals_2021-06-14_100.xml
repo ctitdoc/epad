@@ -1,0 +1,616 @@
+<journals>
+<issue_68737>
+<issue_url>https://redmine.bilendi.com/issues/68737</issue_url>
+</issue_68737>
+<issue_68736>
+<issue_url>https://redmine.bilendi.com/issues/68736</issue_url>
+</issue_68736>
+<issue_68735>
+<issue_url>https://redmine.bilendi.com/issues/68735</issue_url>
+</issue_68735>
+<issue_68734>
+<issue_url>https://redmine.bilendi.com/issues/68734</issue_url>
+</issue_68734>
+<issue_68733>
+<issue_url>https://redmine.bilendi.com/issues/68733</issue_url>
+</issue_68733>
+<issue_68732>
+<issue_url>https://redmine.bilendi.com/issues/68732</issue_url>
+</issue_68732>
+<issue_68731>
+<issue_url>https://redmine.bilendi.com/issues/68731</issue_url>
+</issue_68731>
+<issue_68721>
+<issue_url>https://redmine.bilendi.com/issues/68721</issue_url>
+</issue_68721>
+<issue_68720>
+<issue_url>https://redmine.bilendi.com/issues/68720</issue_url>
+</issue_68720>
+<issue_68716>
+<issue_url>https://redmine.bilendi.com/issues/68716</issue_url>
+</issue_68716>
+<issue_68715>
+<issue_url>https://redmine.bilendi.com/issues/68715</issue_url>
+</issue_68715>
+<issue_68698>
+<issue_url>https://redmine.bilendi.com/issues/68698</issue_url>
+</issue_68698>
+<issue_68689>
+<issue_url>https://redmine.bilendi.com/issues/68689</issue_url>
+</issue_68689>
+<issue_68687>
+<issue_url>https://redmine.bilendi.com/issues/68687</issue_url>
+</issue_68687>
+<issue_68682>
+<issue_url>https://redmine.bilendi.com/issues/68682</issue_url>
+</issue_68682>
+<issue_68679>
+<issue_url>https://redmine.bilendi.com/issues/68679</issue_url>
+</issue_68679>
+<issue_68675>
+<issue_url>https://redmine.bilendi.com/issues/68675</issue_url>
+</issue_68675>
+<issue_68672>
+<issue_url>https://redmine.bilendi.com/issues/68672</issue_url>
+</issue_68672>
+<issue_68669>
+<issue_url>https://redmine.bilendi.com/issues/68669</issue_url>
+</issue_68669>
+<issue_68665>
+<issue_url>https://redmine.bilendi.com/issues/68665</issue_url>
+</issue_68665>
+<issue_68664>
+<issue_url>https://redmine.bilendi.com/issues/68664</issue_url>
+</issue_68664>
+<issue_68663>
+<issue_url>https://redmine.bilendi.com/issues/68663</issue_url>
+</issue_68663>
+<issue_68660>
+<issue_url>https://redmine.bilendi.com/issues/68660</issue_url>
+</issue_68660>
+<issue_68657>
+<issue_url>https://redmine.bilendi.com/issues/68657</issue_url>
+</issue_68657>
+<issue_68656>
+<issue_url>https://redmine.bilendi.com/issues/68656</issue_url>
+</issue_68656>
+<issue_68655>
+<issue_url>https://redmine.bilendi.com/issues/68655</issue_url>
+</issue_68655>
+<issue_68653>
+<issue_url>https://redmine.bilendi.com/issues/68653</issue_url>
+</issue_68653>
+<issue_68650>
+<issue_url>https://redmine.bilendi.com/issues/68650</issue_url>
+</issue_68650>
+<issue_68649>
+<issue_url>https://redmine.bilendi.com/issues/68649</issue_url>
+</issue_68649>
+<issue_68647>
+<issue_url>https://redmine.bilendi.com/issues/68647</issue_url>
+</issue_68647>
+<issue_68645>
+<issue_url>https://redmine.bilendi.com/issues/68645</issue_url>
+</issue_68645>
+<issue_68644>
+<issue_url>https://redmine.bilendi.com/issues/68644</issue_url>
+</issue_68644>
+<issue_68643>
+<issue_url>https://redmine.bilendi.com/issues/68643</issue_url>
+</issue_68643>
+<issue_68640>
+<issue_url>https://redmine.bilendi.com/issues/68640</issue_url>
+</issue_68640>
+<issue_68637>
+<issue_url>https://redmine.bilendi.com/issues/68637</issue_url>
+</issue_68637>
+<issue_68632>
+<issue_url>https://redmine.bilendi.com/issues/68632</issue_url>
+</issue_68632>
+<issue_68630>
+<issue_url>https://redmine.bilendi.com/issues/68630</issue_url>
+</issue_68630>
+<issue_68626>
+<issue_url>https://redmine.bilendi.com/issues/68626</issue_url>
+</issue_68626>
+<issue_68616>
+<issue_url>https://redmine.bilendi.com/issues/68616</issue_url>
+<journal id="639252">
+  <user id="529" name="Franck D."/>
+  <notes>Attached screenshots are two new email change request customization scenarios (baxi and atout-france), that are to be checked for potential impacts of this change</notes>
+  <created_on>2021-06-14T06:34:49Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="attachment" name="98966">
+      <old_value/>
+      <new_value>Capture d’écran 2021-06-14 à 08.23.36.png</new_value>
+    </detail>
+    <detail property="attachment" name="98967">
+      <old_value/>
+      <new_value>Capture d’écran 2021-06-14 à 08.26.04.png</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="639323">
+  <user id="529" name="Franck D."/>
+  <notes>Ticket reject status :
+* here are the reasons leading to the decision to reject this ticket :
+* initial goal of this ticket are :
+** from a business point of view : to provide a common solution to the case of an email that has become invalid, because of a change in a new version of the email validation constraints deployed in production;
+** from a technical point of view : to limit as much as possible in the solution : its complexity and "apps specific" changes;
+* namely, this request was created from a previous one avoiding "good members" to be blocked by the email validation because of a "too strong 'spam' constraints pushed in production regarding their own specific email" : &lt;pre&gt;
+tommasina.spampinato@virgilio.it
+mariaelisa.spampinato89@gmail.com
+spampima@gmail.com
+&lt;/pre&gt;
+* so the idea is to provide a common solution guiding members in such cases, whatever the reason is because of a "two strong 'spam' constraint" or another constraint;
+* yet, from 5 years back experience, such a case has only occured because of a two strong 'spam' constraint for specific member emails, and never because of the others email constraints =&gt; so making a solution applying to ANY email constraints is not that much a real requirement from this experience feedback;
+* furthermore, the technical analysis made in the previous notes and in the "Dev notes" section of tkt Description, identifies a bunch of potential impacts to be checked, namely on customized email change request scenario, in differnt apps =&gt; leading to the identification of duplicated customized code, that should at least be factorized in a bundle to avoid, again duplicating the new code added + multiple branch managment + multiple test scenarios etc...;
+* furthermore, a lead/admin talk, lead to consider that the managment of such case only because of the 'spam' constraint, is much less possible after the last fix refusing only email local parts "ending by 'spam'", instead  of "containing  'spam'";
+* furthermore, if this 'spam' constraint 'looseness' would sometime authorize "bad 'spam' emails", then a simple alternative would be to disable it again, and manage a whitelist with the authorized 'spam' emails like the ones above =&gt; the 5 years back experience confirms that there a not so much such cases, and that a (hashtable based) php array is okay to implement such a basic whitelist;
+* so considering that this change :
+** is not really mandatory today to solve a real issue;
+** and adds :
+*** heavy impacts analysis process, 
+*** heavy customized duplicated code test coverage of code that should be first factorized,
+*** and also some more dependencies of the email validator feature with other services (like session service), which increase its complexity,
+* descision is to reject this ticket for now,
+* plan the needed customized code refactoring tasks,
+* and reconsider it once they are done, and if ever a case not managed by the "whitelist" solution described above would justify it.
+
+_NB : issues #67996 and #67443 have also been discussed with colleagues, and could have pushed to make such a "common solution" to manage existing members in such cases, that is with email having slashes and/or ending with 'spam', but this two request cases asking for a common solution (implictely for any apps), have been rejected after analysis (and/or repurposed with an alternate solution for now)._</notes>
+  <created_on>2021-06-14T10:24:09Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="attr" name="status_id">
+      <old_value>2</old_value>
+      <new_value>6</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="639446">
+  <user id="529" name="Franck D."/>
+  <notes>branch and merge request of this tkt are pushed as Draft, to keep the code made and dev tested before the reject decision, in case of catch up of such an issue.</notes>
+  <created_on>2021-06-15T06:32:35Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="cf" name="16">
+      <old_value/>
+      <new_value>DON'T MERGE ME ! see #68616#note-20
+https://gitlab.bilendi.net/dev/bilendi-member-bundle/-/merge_requests/370</new_value>
+    </detail>
+  </details>
+</journal></issue_68616>
+<issue_68608>
+<issue_url>https://redmine.bilendi.com/issues/68608</issue_url>
+</issue_68608>
+<issue_68607>
+<issue_url>https://redmine.bilendi.com/issues/68607</issue_url>
+</issue_68607>
+<issue_68605>
+<issue_url>https://redmine.bilendi.com/issues/68605</issue_url>
+</issue_68605>
+<issue_68602>
+<issue_url>https://redmine.bilendi.com/issues/68602</issue_url>
+</issue_68602>
+<issue_68601>
+<issue_url>https://redmine.bilendi.com/issues/68601</issue_url>
+</issue_68601>
+<issue_68600>
+<issue_url>https://redmine.bilendi.com/issues/68600</issue_url>
+</issue_68600>
+<issue_68598>
+<issue_url>https://redmine.bilendi.com/issues/68598</issue_url>
+</issue_68598>
+<issue_68596>
+<issue_url>https://redmine.bilendi.com/issues/68596</issue_url>
+</issue_68596>
+<issue_68593>
+<issue_url>https://redmine.bilendi.com/issues/68593</issue_url>
+</issue_68593>
+<issue_68590>
+<issue_url>https://redmine.bilendi.com/issues/68590</issue_url>
+</issue_68590>
+<issue_68589>
+<issue_url>https://redmine.bilendi.com/issues/68589</issue_url>
+</issue_68589>
+<issue_68588>
+<issue_url>https://redmine.bilendi.com/issues/68588</issue_url>
+</issue_68588>
+<issue_68586>
+<issue_url>https://redmine.bilendi.com/issues/68586</issue_url>
+</issue_68586>
+<issue_68579>
+<issue_url>https://redmine.bilendi.com/issues/68579</issue_url>
+</issue_68579>
+<issue_68577>
+<issue_url>https://redmine.bilendi.com/issues/68577</issue_url>
+</issue_68577>
+<issue_68576>
+<issue_url>https://redmine.bilendi.com/issues/68576</issue_url>
+</issue_68576>
+<issue_68575>
+<issue_url>https://redmine.bilendi.com/issues/68575</issue_url>
+</issue_68575>
+<issue_68574>
+<issue_url>https://redmine.bilendi.com/issues/68574</issue_url>
+</issue_68574>
+<issue_68572>
+<issue_url>https://redmine.bilendi.com/issues/68572</issue_url>
+</issue_68572>
+<issue_68571>
+<issue_url>https://redmine.bilendi.com/issues/68571</issue_url>
+<journal id="639637">
+  <user id="529" name="Franck D."/>
+  <notes>MET DONE NOW : {{collapse(sql script execution log)
+
+&lt;pre&gt;
+[2021-06-15 16:56:50] Connected
+dbddi_testing.public&gt; BEGIN
+[2021-06-15 16:56:50] completed in 47 ms
+dbddi_testing.public&gt; UPDATE department
+                      SET id_regional_directorate = (SELECT id_regional_directorate FROM regional_directorates WHERE name = 'SUD OUEST')
+                      WHERE department_number = '12'
+[2021-06-15 16:57:00] 1 row affected in 71 ms
+dbddi_testing.public&gt; UPDATE department
+                      SET id_regional_directorate = (SELECT id_regional_directorate FROM regional_directorates WHERE name = 'AUVERGNE RHONE ALPES')
+                      WHERE department_number = '15'
+[2021-06-15 16:57:05] 1 row affected in 48 ms
+dbddi_testing.public&gt; COMMIT
+[2021-06-15 16:57:25] completed in 49 ms
+&lt;/pre&gt;
+
+}}
+
+card is moved in testing trello column with dev tagged for dev test in testing.</notes>
+  <created_on>2021-06-15T15:02:07Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array"/>
+</journal>
+<journal id="639639">
+  <user id="529" name="Franck D."/>
+  <notes/>
+  <created_on>2021-06-15T15:04:58Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="attr" name="status_id">
+      <old_value>20</old_value>
+      <new_value>8</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="640086">
+  <user id="529" name="Franck D."/>
+  <notes>la vérif du nom de la bdd en prod donne : dbddi (sur lr serveur db-ddi.prod.bilendi.net);
+l'exécution du script de MET en note #68571#note-5 indique comme nom de bdd : dbddi_testing;
+on en déduit que ce script a été exécuté sur la bdd de testing et pas de prod;
+par ailleurs les seul agent trouvés en bdd de testing qui travaillent pour le département 15 (= sont liés à ce dpt en bdd), sont :
+* gilles.desplaces@dedietrichthermique.com;
+* patrick.touraille@dedietrichthermique.com;
+
+cf les screenshots de ces deux agent :
+* ils ont tous les deux le dpt 15, mais chacun a un directeur (ou direction) régional différent;
+* en effet la logique de base de de ddi concernant la structuration agent/direction régionale/departement est :
+** un agent est rattaché directement à une et une seule direction régionale (on va dire la direction dont il dépend administrativement ou logique dans ce genre...);
+** mais il peut exercer sont activité pour le compte de plusieurs département, eux mêmes rattachés à des direction régionales potentiellement différentes;
+
+(le schema en attaché avec les flêches jaune illustre cette structuration)
+
+Donc le tableau des screenshots se lit ainsi :
+- colonne "Départements" = tous les dpt pour lequel l'agent exerce une activité;
+- colonne "Directeur Régionale" = la direction régionale de rattachement de l'agent =&gt; qui peut donc n'être aucune des directions régionales des dpt de la colonne "Départements", ou l'une d'entre elles, bref ces deux colonnes ne permettent pas au final, de vérifier les liens "Départements" / "Direction Régionale".
+
+... et de souvenir je suis pas sûr qu'il y ait un écran permettant de vérifier ces liens... à défaut, voilà ce que me dit la bdd de testing concernant les directions régionales des dpt 12 et 15 :
+&lt;pre&gt;
+select department_number , name as direction_regionale
+from department
+join regional_directorates rd on department.id_regional_directorate = rd.id_regional_directorate
+
+where department_number in ('12','15');
+
+
+--résultat :
+
+12,SUD OUEST
+15,AUVERGNE RHONE ALPES
+
+&lt;/pre&gt;
+
+... et en prod :
+&lt;pre&gt;
+select department_number , name as direction_regionale
+from department
+join regional_directorates rd on department.id_regional_directorate = rd.id_regional_directorate
+
+where department_number in ('12','15');
+
+
+--résultat :
+
+15,MEDITERRANEE
+12,MEDITERRANEE
+
+
+&lt;/pre&gt;
+
+A défaut de pouvoir faire d'autres vérif plus niveau métier, voilà déjà ma conte-vérif via ces rqt en bdd;
+je repasse le tkt en testing pour d'éventuelle validation complémentaires et/ou décider de valider sur cette base là...</notes>
+  <created_on>2021-06-17T12:31:29Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="attr" name="status_id">
+      <old_value>2</old_value>
+      <new_value>8</new_value>
+    </detail>
+    <detail property="attachment" name="99047">
+      <old_value/>
+      <new_value>Capture d’écran 2021-06-17 à 13.52.29.png</new_value>
+    </detail>
+    <detail property="attachment" name="99048">
+      <old_value/>
+      <new_value>Capture d’écran 2021-06-17 à 14.01.47.png</new_value>
+    </detail>
+    <detail property="attr" name="assigned_to_id">
+      <old_value>355</old_value>
+      <new_value>883</new_value>
+    </detail>
+    <detail property="attachment" name="99046">
+      <old_value/>
+      <new_value>Capture d’écran 2021-06-17 à 13.52.08.png</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="640388">
+  <user id="529" name="Franck D."/>
+  <notes>{{collapse(MEP and result check done)
+&lt;pre&gt;
+dbddi.public&gt; select department_number , name as direction_regionale
+              from department
+                       join regional_directorates rd on department.id_regional_directorate = rd.id_regional_directorate
+              
+              where department_number in ('12','15')
+
+-- Result :
+
+15,MEDITERRANEE
+12,MEDITERRANEE
+----------------
+
+
+[2021-06-21 08:01:17] 2 rows retrieved starting from 1 in 129 ms (execution: 45 ms, fetching: 84 ms)
+dbddi.public&gt; BEGIN
+[2021-06-21 08:01:39] completed in 49 ms
+dbddi.public&gt; UPDATE department
+              SET id_regional_directorate = (SELECT id_regional_directorate FROM regional_directorates WHERE name = 'SUD OUEST')
+              WHERE department_number = '12'
+[2021-06-21 08:01:39] 1 row affected in 45 ms
+dbddi.public&gt; UPDATE department
+              SET id_regional_directorate = (SELECT id_regional_directorate FROM regional_directorates WHERE name = 'AUVERGNE RHONE ALPES')
+              WHERE department_number = '15'
+[2021-06-21 08:01:40] 1 row affected in 43 ms
+dbddi.public&gt; COMMIT
+[2021-06-21 08:02:01] completed in 51 ms
+dbddi.public&gt; select department_number , name as direction_regionale
+              from department
+                       join regional_directorates rd on department.id_regional_directorate = rd.id_regional_directorate
+              
+              where department_number in ('12','15')
+[2021-06-21 08:02:16] 2 rows retrieved starting from 1 in 176 ms (execution: 46 ms, fetching: 130 ms)
+
+-- Result :
+12,SUD OUEST
+15,AUVERGNE RHONE ALPES
+------------
+&lt;/pre&gt;
+}}
+
+I leave the tkt on Mabel for the check in prod =&gt; to be moved then on "Team CT" after the check (and on "To do" if ever the check is ko...).</notes>
+  <created_on>2021-06-21T06:10:30Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="attr" name="status_id">
+      <old_value>9</old_value>
+      <new_value>5</new_value>
+    </detail>
+    <detail property="attr" name="assigned_to_id">
+      <old_value>355</old_value>
+      <new_value>883</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="640395">
+  <user id="529" name="Franck D."/>
+  <notes>ha oui c'est "available in prod" dsl... je confond avec le statut DONE qui veut dire pareil mais sur la board bundle (à moins qu'il soit obsolete...)</notes>
+  <created_on>2021-06-21T06:53:30Z</created_on>
+  <private_notes>true</private_notes>
+  <details type="array"/>
+</journal></issue_68571>
+<issue_68568>
+<issue_url>https://redmine.bilendi.com/issues/68568</issue_url>
+</issue_68568>
+<issue_68565>
+<issue_url>https://redmine.bilendi.com/issues/68565</issue_url>
+</issue_68565>
+<issue_68556>
+<issue_url>https://redmine.bilendi.com/issues/68556</issue_url>
+</issue_68556>
+<issue_68555>
+<issue_url>https://redmine.bilendi.com/issues/68555</issue_url>
+</issue_68555>
+<issue_68552>
+<issue_url>https://redmine.bilendi.com/issues/68552</issue_url>
+</issue_68552>
+<issue_68538>
+<issue_url>https://redmine.bilendi.com/issues/68538</issue_url>
+</issue_68538>
+<issue_68524>
+<issue_url>https://redmine.bilendi.com/issues/68524</issue_url>
+</issue_68524>
+<issue_68523>
+<issue_url>https://redmine.bilendi.com/issues/68523</issue_url>
+</issue_68523>
+<issue_68521>
+<issue_url>https://redmine.bilendi.com/issues/68521</issue_url>
+</issue_68521>
+<issue_68520>
+<issue_url>https://redmine.bilendi.com/issues/68520</issue_url>
+<journal id="640074">
+  <user id="529" name="Franck D."/>
+  <notes/>
+  <created_on>2021-06-17T10:49:54Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="relation" name="blocks">
+      <old_value/>
+      <new_value>66686</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="640671">
+  <user id="529" name="Franck D."/>
+  <notes/>
+  <created_on>2021-06-22T09:44:59Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="relation" name="blocked">
+      <old_value/>
+      <new_value>66685</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="640680">
+  <user id="529" name="Franck D."/>
+  <notes>comme discuté lors du meeting streamline vs migration sf4, j'ai rajouté un lien "bloqué par" #66685 (= le meta tkt d'export streamline), car ce tkt doit d'abord gérer la migration de ces export en sf4 avant de pouvoir être poussé en testing, vu que le client test ces export (dans leur version sf3 à date) en testing jusqu'en aout;
+donc deux alternatives possibles dans le futur pour pouvoir pousser ce tkt en testing :
+* soit le client termine la valid de #66685 avant que les dev/test de #68520 soient terminés,
+* =&gt; alors les évol de #66685 sont à migrer en sf4 via un nouveau merge de master à migrer;
+* soit le client ne termine pas la valid de #66685 avant que les dev/test de #68520 soient terminés :
+* =&gt; alors :
+* il faut créer un nouveau tkt "migration #66685 en sf4" et dev/tester cette migration;
+* puis pousser #68520 en testing;
+* puis pousser ce nouveau tkt en testing;
+* et puis :
+* si les test de #68520 sont ok, mais que le client n'a pas fini de valider #66685 =&gt; meper uniquement #68520;
+* si les test de #68520 sont ok, et que le client a fini de valider #66685 =&gt; meper #68520 et le tkt "migration #66685 en sf4";
+* si les test de #68520 sont ko, et que le client a fini de valider #66685 =&gt; ben j'ai pas mieux que : prévenir Géraldine et se dépécher de terminer #68520;</notes>
+  <created_on>2021-06-22T10:07:41Z</created_on>
+  <private_notes>true</private_notes>
+  <details type="array"/>
+</journal>
+<journal id="640712">
+  <user id="529" name="Franck D."/>
+  <notes>#68805 devrait anticiper la correc des return manquant tel que décrit ci-après, mais je laisse qd même cette description à titre de support, des fois que certains soient zappés (et que donc ce tkt de migr ait ce blocage phpstan...) :
+* en sf 3, le fait de mettre un "return &lt;integer_status_code&gt;" dans la méthode "execute" n'est pas indiqué dans la doc, du coup il n'y est pas par défaut dans nos Command, mais maintenant : d'une part phpstan bloque le commit (lors du hook de pré-commit), d'autre part la doc sf 4.4 indique de le mettre;
+* il faudrait donc en rajouter un par défaut à la fin des "execute" de nos Comand, avec un TODO de refacto, genre :
+&lt;pre&gt;
+execute (...) {
+...;
+...;
+...;
+
+
+//default sf4 migration fix of missing return statement in Command :
+return 0;
+//TODO refactor such a return in other execution branches of this method
+// see https://symfony.com/doc/4.4/console.html
+
+}
+&lt;/pre&gt;</notes>
+  <created_on>2021-06-22T11:50:29Z</created_on>
+  <private_notes>true</private_notes>
+  <details type="array"/>
+</journal></issue_68520>
+<issue_68499>
+<issue_url>https://redmine.bilendi.com/issues/68499</issue_url>
+</issue_68499>
+<issue_68483>
+<issue_url>https://redmine.bilendi.com/issues/68483</issue_url>
+</issue_68483>
+<issue_68478>
+<issue_url>https://redmine.bilendi.com/issues/68478</issue_url>
+</issue_68478>
+<issue_68473>
+<issue_url>https://redmine.bilendi.com/issues/68473</issue_url>
+</issue_68473>
+<issue_68469>
+<issue_url>https://redmine.bilendi.com/issues/68469</issue_url>
+</issue_68469>
+<issue_68460>
+<issue_url>https://redmine.bilendi.com/issues/68460</issue_url>
+</issue_68460>
+<issue_68458>
+<issue_url>https://redmine.bilendi.com/issues/68458</issue_url>
+</issue_68458>
+<issue_68456>
+<issue_url>https://redmine.bilendi.com/issues/68456</issue_url>
+</issue_68456>
+<issue_68438>
+<issue_url>https://redmine.bilendi.com/issues/68438</issue_url>
+</issue_68438>
+<issue_68432>
+<issue_url>https://redmine.bilendi.com/issues/68432</issue_url>
+</issue_68432>
+<issue_68429>
+<issue_url>https://redmine.bilendi.com/issues/68429</issue_url>
+</issue_68429>
+<issue_68414>
+<issue_url>https://redmine.bilendi.com/issues/68414</issue_url>
+</issue_68414>
+<issue_68411>
+<issue_url>https://redmine.bilendi.com/issues/68411</issue_url>
+</issue_68411>
+<issue_68410>
+<issue_url>https://redmine.bilendi.com/issues/68410</issue_url>
+</issue_68410>
+<issue_68405>
+<issue_url>https://redmine.bilendi.com/issues/68405</issue_url>
+</issue_68405>
+<issue_68391>
+<issue_url>https://redmine.bilendi.com/issues/68391</issue_url>
+</issue_68391>
+<issue_68357>
+<issue_url>https://redmine.bilendi.com/issues/68357</issue_url>
+</issue_68357>
+<issue_68353>
+<issue_url>https://redmine.bilendi.com/issues/68353</issue_url>
+</issue_68353>
+<issue_68313>
+<issue_url>https://redmine.bilendi.com/issues/68313</issue_url>
+</issue_68313>
+<issue_68301>
+<issue_url>https://redmine.bilendi.com/issues/68301</issue_url>
+</issue_68301>
+<issue_68297>
+<issue_url>https://redmine.bilendi.com/issues/68297</issue_url>
+</issue_68297>
+<issue_68294>
+<issue_url>https://redmine.bilendi.com/issues/68294</issue_url>
+</issue_68294>
+<issue_68287>
+<issue_url>https://redmine.bilendi.com/issues/68287</issue_url>
+</issue_68287>
+<issue_68286>
+<issue_url>https://redmine.bilendi.com/issues/68286</issue_url>
+</issue_68286>
+<issue_68285>
+<issue_url>https://redmine.bilendi.com/issues/68285</issue_url>
+</issue_68285>
+<issue_68284>
+<issue_url>https://redmine.bilendi.com/issues/68284</issue_url>
+</issue_68284>
+<issue_68283>
+<issue_url>https://redmine.bilendi.com/issues/68283</issue_url>
+</issue_68283>
+<issue_68276>
+<issue_url>https://redmine.bilendi.com/issues/68276</issue_url>
+</issue_68276>
+<issue_68262>
+<issue_url>https://redmine.bilendi.com/issues/68262</issue_url>
+</issue_68262>
+<issue_68252>
+<issue_url>https://redmine.bilendi.com/issues/68252</issue_url>
+</issue_68252>
+<issue_68246>
+<issue_url>https://redmine.bilendi.com/issues/68246</issue_url>
+</issue_68246>
+</journals>

@@ -1,0 +1,15 @@
+<dictionary section-numbering="true" figure-numbering="true"
+><h text-align="justify">Franck's managed business datas dictionary</h
+><data_definition view="normal" behavior="section" managed="true" id="change_me_asap"
+><h text-align="justify">Business Data title</h
+><p>This wiki is edited with  <a href="http://dev.dmz.loc:8984/static/editor/xopus/xopus.html#/edit_dict_file_request?file=content/dictionary_f.delahaye.xml">this editor</a>; it currently plays the role of a test case for this editor; so modifying directly the markdown of this wiki will cause the modifications to be lost, so please see with Franck D. first if you need to modify this wiki.</p
+><p>Business data first paragraph : remove, replace me, or complete me...</p
+><data_constraints_definition view="list" behavior="section"
+><h text-align="justify">Constraints</h
+><data_constraint_definition id="change_me_asap_too" view="list" managed="true" behavior="section"
+><h text-align="justify">Constraint title</h
+><p>Business data constraint first paragraph : remove, replace me, or complete me...</p
+></data_constraint_definition
+></data_constraints_definition
+></data_definition
+></dictionary>

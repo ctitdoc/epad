@@ -1,0 +1,1076 @@
+<journals>
+<issue_68242>
+<issue_url>https://redmine.bilendi.com/issues/68242</issue_url>
+</issue_68242>
+<issue_68232>
+<issue_url>https://redmine.bilendi.com/issues/68232</issue_url>
+</issue_68232>
+<issue_68226>
+<issue_url>https://redmine.bilendi.com/issues/68226</issue_url>
+</issue_68226>
+<issue_68222>
+<issue_url>https://redmine.bilendi.com/issues/68222</issue_url>
+</issue_68222>
+<issue_68208>
+<issue_url>https://redmine.bilendi.com/issues/68208</issue_url>
+</issue_68208>
+<issue_68184>
+<issue_url>https://redmine.bilendi.com/issues/68184</issue_url>
+</issue_68184>
+<issue_68152>
+<issue_url>https://redmine.bilendi.com/issues/68152</issue_url>
+</issue_68152>
+<issue_68145>
+<issue_url>https://redmine.bilendi.com/issues/68145</issue_url>
+</issue_68145>
+<issue_68136>
+<issue_url>https://redmine.bilendi.com/issues/68136</issue_url>
+</issue_68136>
+<issue_68127>
+<issue_url>https://redmine.bilendi.com/issues/68127</issue_url>
+</issue_68127>
+<issue_68117>
+<issue_url>https://redmine.bilendi.com/issues/68117</issue_url>
+</issue_68117>
+<issue_68112>
+<issue_url>https://redmine.bilendi.com/issues/68112</issue_url>
+</issue_68112>
+<issue_68106>
+<issue_url>https://redmine.bilendi.com/issues/68106</issue_url>
+</issue_68106>
+<issue_68104>
+<issue_url>https://redmine.bilendi.com/issues/68104</issue_url>
+</issue_68104>
+<issue_68087>
+<issue_url>https://redmine.bilendi.com/issues/68087</issue_url>
+</issue_68087>
+<issue_68080>
+<issue_url>https://redmine.bilendi.com/issues/68080</issue_url>
+</issue_68080>
+<issue_68074>
+<issue_url>https://redmine.bilendi.com/issues/68074</issue_url>
+</issue_68074>
+<issue_68072>
+<issue_url>https://redmine.bilendi.com/issues/68072</issue_url>
+</issue_68072>
+<issue_68057>
+<issue_url>https://redmine.bilendi.com/issues/68057</issue_url>
+</issue_68057>
+<issue_68056>
+<issue_url>https://redmine.bilendi.com/issues/68056</issue_url>
+</issue_68056>
+<issue_68055>
+<issue_url>https://redmine.bilendi.com/issues/68055</issue_url>
+</issue_68055>
+<issue_67996>
+<issue_url>https://redmine.bilendi.com/issues/67996</issue_url>
+<journal id="639294">
+  <user id="529" name="Franck D."/>
+  <notes>After a leads/admins talk, decision is to reject this request as the italian email tispam@libero.it can be translated (in english or french) as antispam@libero.it (see regulatory italian text below using this italian term "tispam" as "antispam" signification).
+So such an email can typically be a case of "spam trap":https://fr.mailjet.com/blog/news/spam-traps/  scenario.
+If one is sure this member is a "good person", it's a good thing for him/her to change his/her email for a less "hacking firendly" email.
+
+Regulatory italian text using the term "tispam" for "antispam" signification :
+* "Il Promotore non si assume alcuna responsabilità in caso di mancata consegna e/o recapito del premio e/o di eventuali comunicazioni effettuate ai De-stinatari, dovuta all’indicazione da parte dei Destinatari di dati errati e/o non aggiornati, a indirizzi e-mail inesistenti/errati, non disponibili o inseriti in una black-list, a mailbox piene o disabilitate, a server irraggiungibili, a filtri a tispam oppure a recapiti inesistenti, errati e/o non aggiornati".
+* french translation :
+* "Le promoteur n’assume aucune responsabilité en cas de non-livraison et/ou de livraison du prix et/ou de toute communication faite aux bénéficiaires, en raison de l’indication par les bénéficiaires de données incorrectes et/ou périmées, d’adresses électroniques inexistantes/erronées, indisponibles ou figurant sur une liste noire, de boîtes aux lettres pleines ou désactivées, de serveurs inaccessibles, de filtres anti-spam ou d’adresses inexistantes, incorrectes et/ou périmées."</notes>
+  <created_on>2021-06-14T09:11:32Z</created_on>
+  <private_notes>true</private_notes>
+  <details type="array"/>
+</journal></issue_67996>
+<issue_67973>
+<issue_url>https://redmine.bilendi.com/issues/67973</issue_url>
+</issue_67973>
+<issue_67961>
+<issue_url>https://redmine.bilendi.com/issues/67961</issue_url>
+</issue_67961>
+<issue_67902>
+<issue_url>https://redmine.bilendi.com/issues/67902</issue_url>
+</issue_67902>
+<issue_67838>
+<issue_url>https://redmine.bilendi.com/issues/67838</issue_url>
+</issue_67838>
+<issue_67813>
+<issue_url>https://redmine.bilendi.com/issues/67813</issue_url>
+</issue_67813>
+<issue_67806>
+<issue_url>https://redmine.bilendi.com/issues/67806</issue_url>
+</issue_67806>
+<issue_67760>
+<issue_url>https://redmine.bilendi.com/issues/67760</issue_url>
+</issue_67760>
+<issue_67737>
+<issue_url>https://redmine.bilendi.com/issues/67737</issue_url>
+</issue_67737>
+<issue_67709>
+<issue_url>https://redmine.bilendi.com/issues/67709</issue_url>
+</issue_67709>
+<issue_67701>
+<issue_url>https://redmine.bilendi.com/issues/67701</issue_url>
+</issue_67701>
+<issue_67700>
+<issue_url>https://redmine.bilendi.com/issues/67700</issue_url>
+</issue_67700>
+<issue_67699>
+<issue_url>https://redmine.bilendi.com/issues/67699</issue_url>
+</issue_67699>
+<issue_67698>
+<issue_url>https://redmine.bilendi.com/issues/67698</issue_url>
+</issue_67698>
+<issue_67697>
+<issue_url>https://redmine.bilendi.com/issues/67697</issue_url>
+</issue_67697>
+<issue_67696>
+<issue_url>https://redmine.bilendi.com/issues/67696</issue_url>
+</issue_67696>
+<issue_67695>
+<issue_url>https://redmine.bilendi.com/issues/67695</issue_url>
+</issue_67695>
+<issue_67693>
+<issue_url>https://redmine.bilendi.com/issues/67693</issue_url>
+</issue_67693>
+<issue_67692>
+<issue_url>https://redmine.bilendi.com/issues/67692</issue_url>
+</issue_67692>
+<issue_67691>
+<issue_url>https://redmine.bilendi.com/issues/67691</issue_url>
+</issue_67691>
+<issue_67690>
+<issue_url>https://redmine.bilendi.com/issues/67690</issue_url>
+</issue_67690>
+<issue_67689>
+<issue_url>https://redmine.bilendi.com/issues/67689</issue_url>
+</issue_67689>
+<issue_67688>
+<issue_url>https://redmine.bilendi.com/issues/67688</issue_url>
+</issue_67688>
+<issue_67687>
+<issue_url>https://redmine.bilendi.com/issues/67687</issue_url>
+</issue_67687>
+<issue_67686>
+<issue_url>https://redmine.bilendi.com/issues/67686</issue_url>
+</issue_67686>
+<issue_67642>
+<issue_url>https://redmine.bilendi.com/issues/67642</issue_url>
+</issue_67642>
+<issue_67641>
+<issue_url>https://redmine.bilendi.com/issues/67641</issue_url>
+</issue_67641>
+<issue_67640>
+<issue_url>https://redmine.bilendi.com/issues/67640</issue_url>
+</issue_67640>
+<issue_67630>
+<issue_url>https://redmine.bilendi.com/issues/67630</issue_url>
+</issue_67630>
+<issue_67629>
+<issue_url>https://redmine.bilendi.com/issues/67629</issue_url>
+</issue_67629>
+<issue_67628>
+<issue_url>https://redmine.bilendi.com/issues/67628</issue_url>
+</issue_67628>
+<issue_67626>
+<issue_url>https://redmine.bilendi.com/issues/67626</issue_url>
+</issue_67626>
+<issue_67625>
+<issue_url>https://redmine.bilendi.com/issues/67625</issue_url>
+</issue_67625>
+<issue_67624>
+<issue_url>https://redmine.bilendi.com/issues/67624</issue_url>
+</issue_67624>
+<issue_67622>
+<issue_url>https://redmine.bilendi.com/issues/67622</issue_url>
+</issue_67622>
+<issue_67621>
+<issue_url>https://redmine.bilendi.com/issues/67621</issue_url>
+</issue_67621>
+<issue_67618>
+<issue_url>https://redmine.bilendi.com/issues/67618</issue_url>
+</issue_67618>
+<issue_67604>
+<issue_url>https://redmine.bilendi.com/issues/67604</issue_url>
+</issue_67604>
+<issue_67603>
+<issue_url>https://redmine.bilendi.com/issues/67603</issue_url>
+</issue_67603>
+<issue_67595>
+<issue_url>https://redmine.bilendi.com/issues/67595</issue_url>
+</issue_67595>
+<issue_67586>
+<issue_url>https://redmine.bilendi.com/issues/67586</issue_url>
+</issue_67586>
+<issue_67565>
+<issue_url>https://redmine.bilendi.com/issues/67565</issue_url>
+</issue_67565>
+<issue_67517>
+<issue_url>https://redmine.bilendi.com/issues/67517</issue_url>
+</issue_67517>
+<issue_67516>
+<issue_url>https://redmine.bilendi.com/issues/67516</issue_url>
+</issue_67516>
+<issue_67515>
+<issue_url>https://redmine.bilendi.com/issues/67515</issue_url>
+</issue_67515>
+<issue_67493>
+<issue_url>https://redmine.bilendi.com/issues/67493</issue_url>
+</issue_67493>
+<issue_67489>
+<issue_url>https://redmine.bilendi.com/issues/67489</issue_url>
+</issue_67489>
+<issue_67443>
+<issue_url>https://redmine.bilendi.com/issues/67443</issue_url>
+</issue_67443>
+<issue_67439>
+<issue_url>https://redmine.bilendi.com/issues/67439</issue_url>
+</issue_67439>
+<issue_67430>
+<issue_url>https://redmine.bilendi.com/issues/67430</issue_url>
+</issue_67430>
+<issue_67411>
+<issue_url>https://redmine.bilendi.com/issues/67411</issue_url>
+</issue_67411>
+<issue_67409>
+<issue_url>https://redmine.bilendi.com/issues/67409</issue_url>
+</issue_67409>
+<issue_67407>
+<issue_url>https://redmine.bilendi.com/issues/67407</issue_url>
+</issue_67407>
+<issue_67402>
+<issue_url>https://redmine.bilendi.com/issues/67402</issue_url>
+</issue_67402>
+<issue_67387>
+<issue_url>https://redmine.bilendi.com/issues/67387</issue_url>
+</issue_67387>
+<issue_67384>
+<issue_url>https://redmine.bilendi.com/issues/67384</issue_url>
+</issue_67384>
+<issue_67322>
+<issue_url>https://redmine.bilendi.com/issues/67322</issue_url>
+</issue_67322>
+<issue_67315>
+<issue_url>https://redmine.bilendi.com/issues/67315</issue_url>
+</issue_67315>
+<issue_67311>
+<issue_url>https://redmine.bilendi.com/issues/67311</issue_url>
+</issue_67311>
+<issue_67308>
+<issue_url>https://redmine.bilendi.com/issues/67308</issue_url>
+</issue_67308>
+<issue_67298>
+<issue_url>https://redmine.bilendi.com/issues/67298</issue_url>
+</issue_67298>
+<issue_67280>
+<issue_url>https://redmine.bilendi.com/issues/67280</issue_url>
+</issue_67280>
+<issue_67248>
+<issue_url>https://redmine.bilendi.com/issues/67248</issue_url>
+</issue_67248>
+<issue_67188>
+<issue_url>https://redmine.bilendi.com/issues/67188</issue_url>
+<journal id="639356">
+  <user id="529" name="Franck D."/>
+  <notes>ce tkt repasse todo pour le run de chgt "sf 4 migration anticipation" statué aujourd'hui avec la team migration sf4.</notes>
+  <created_on>2021-06-14T13:20:46Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array"/>
+</journal>
+<journal id="639357">
+  <user id="529" name="Franck D."/>
+  <notes/>
+  <created_on>2021-06-14T13:21:07Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="attr" name="status_id">
+      <old_value>8</old_value>
+      <new_value>2</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="640151">
+  <user id="529" name="Franck D."/>
+  <notes>retour de review : 
+* la résolution des conflit du composer.lock a le même bug que celui décrit dans #66686#note-54 : {{collapse()
+&lt;pre&gt;
+        {
+            "name": "phar-io/version",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phar-io/version.git",
+                "reference": "bae7c545bef187884426f042434e561ab1ddb182"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phar-io/version/zipball/bae7c545bef187884426f042434e561ab1ddb182",
+                "reference": "bae7c545bef187884426f042434e561ab1ddb182",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Arne Blankerts",
+                    "email": "arne@blankerts.de",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Sebastian Heuer",
+                    "email": "sebastian@phpeople.de",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Allows to configure dependency injection using annotations",
+            "homepage": "http://jmsyst.com/bundles/JMSDiExtraBundle",
+            "keywords": [
+                "annotations",
+                "dependency injection"
+            ],
+            "time": "2018-01-12T19:04:30+00:00"
+        },
+
+&lt;/pre&gt;
+}}
+** cf les champs description et homepage qui sont ceux d'un autre package JMSDiExtraBundle et non ceux de ce package phar-io/version;
+
+Il faut donc effectuer une correction similaire à celle décrite dans cette note (faire un backup de sa branche avant de faire les git reset --hard qui peuvent induire une perte de données/blocage si pas fait correctement... me demander si on est pas sûr de son coup).</notes>
+  <created_on>2021-06-17T14:27:05Z</created_on>
+  <private_notes>true</private_notes>
+  <details type="array"/>
+</journal>
+<journal id="640152">
+  <user id="529" name="Franck D."/>
+  <notes/>
+  <created_on>2021-06-17T14:27:31Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="attr" name="status_id">
+      <old_value>20</old_value>
+      <new_value>2</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="640218">
+  <user id="529" name="Franck D."/>
+  <notes>les TU sont OK suite à la résolution du bug en note #67188#note-39 : {{collapse()
+&lt;pre&gt;
+/usr/bin/php /home/parallels/dev/apps/ddi/vendor/phpunit/phpunit/phpunit --configuration /home/parallels/dev/apps/ddi/phpunit.xml.dist /home/parallels/dev/apps/ddi/tests --teamcity
+Testing started at 10:38 AM ...
+PHPUnit 9.5.5 by Sebastian Bergmann and contributors.
+
+Warning:       Your XML configuration validates against a deprecated schema.
+Suggestion:    Migrate your XML configuration using "--migrate-configuration"!
+
+
+
+Time: 00:17.491, Memory: 73.00 MB
+
+OK (2 tests, 9 assertions)
+
+Remaining deprecation notices (112)
+
+  15x: Bundle inheritance is deprecated as of 3.4 and will be removed in 4.0.
+    6x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    3x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    3x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    3x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "AppBundle\Command\Import\DirectorCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "AppBundle\Command\Cron\IntegrityCheckerCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "FOS\JsRoutingBundle\Command\RouterDebugExposedCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "FOS\JsRoutingBundle\Command\DumpCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "JMS\TranslationBundle\Command\ResourcesListCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "JMS\TranslationBundle\Command\ExtractTranslationCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "AppBundle\Command\Util\DatabaseNameCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "AppBundle\Command\Import\RegionalDirectorateDepartmentCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "AppBundle\Command\Import\AccountPointsCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "AppBundle\Command\Cron\AllMultiProductDeclarationExtractCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "AppBundle\Command\Cron\ValidEarnMemberReachedTheirQuotasCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "Symfony\Bundle\AsseticBundle\Command\DumpCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "AppBundle\Command\Cron\DeclarationExtractCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "Symfony\Bundle\SwiftmailerBundle\Command\NewEmailCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "Symfony\Bundle\SwiftmailerBundle\Command\SendEmailCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "Symfony\Bundle\SwiftmailerBundle\Command\DebugCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "Symfony\Bundle\AsseticBundle\Command\WatchCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "Nelmio\ApiDocBundle\Command\DumpCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "Nelmio\ApiDocBundle\Command\SwaggerDumpCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: getEntityManager is deprecated since Symfony 2.1. Use getManager instead
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Symfony\Bundle\FrameworkBundle\Command\RouterDebugCommand::__construct() expects an instance of "Symfony\Component\Routing\RouterInterface" as first argument since Symfony 3.4. Not passing it is deprecated and will throw a TypeError in 4.0.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  2x: Calling Doctrine\ORM\EntityManager::flush() with any arguments to flush specific entities is deprecated and will not be supported in Doctrine ORM 3.0.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+
+  2x: The "Doctrine\Common\Inflector\Inflector::classify" method is deprecated and will be dropped in doctrine/inflector 2.0. Please update to the new Inflector API.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+
+  2x: The "app.file.export.ftp" service is private, getting it from the container is deprecated since Symfony 3.2 and will fail in 4.0. You should either make the service public, or stop using the container directly and use dependency injection instead.
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  1x: Autowiring services based on the types they implement is deprecated since Symfony 3.3 and won't be supported in version 4.0. Try changing the type-hint for argument "$earnManager" of method "Tests\DataFixtures\ORM\LoadEarnData::__construct()" to "Bilendi\EarningBundle\EarnManagerInterface" instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+
+  1x: Using the "Twig_BaseNodeVisitor" class is deprecated since Twig version 2.7, use "Twig\NodeVisitor\AbstractNodeVisitor" instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+
+  1x: Using the "Twig_RuntimeLoaderInterface" class is deprecated since Twig version 2.7, use "Twig\RuntimeLoader\RuntimeLoaderInterface" instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+
+  1x: The Symfony\Component\ClassLoader\ClassLoader class is deprecated since Symfony 3.3 and will be removed in 4.0. Use Composer instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+
+  1x: Listener "form_login" on firewall "ws" has no "provider" set but multiple providers exist. Using the first configured provider (sso_provider) is deprecated since Symfony 3.4 and will throw an exception in 4.0, set the "provider" key on the firewall instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+
+  1x: Listener "guard" on firewall "ws" has no "provider" set but multiple providers exist. Using the first configured provider (sso_provider) is deprecated since Symfony 3.4 and will throw an exception in 4.0, set the "provider" key on the firewall instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+
+  1x: Using the KERNEL_DIR environment variable or the automatic guessing based on the phpunit.xml / phpunit.xml.dist file location is deprecated since Symfony 3.4. Set the KERNEL_CLASS environment variable to the fully-qualified class name of your Kernel instead. Not setting the KERNEL_CLASS environment variable will throw an exception on 4.0 unless you override the :createKernel() or :getKernelClass() method.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+
+Process finished with exit code 1
+
+&lt;/pre&gt;
+
+(les warning de deprecated sf 4 de ce TU sont gérés dans le cadre du tkt de migration sf4).
+}}</notes>
+  <created_on>2021-06-17T17:25:33Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array"/>
+</journal>
+<journal id="640302">
+  <user id="529" name="Franck D."/>
+  <notes>{{collapse(unit test ok after branches refactoring)
+&lt;pre&gt;
+/usr/bin/php /home/parallels/dev/apps/ddi/vendor/phpunit/phpunit/phpunit --configuration /home/parallels/dev/apps/ddi/phpunit.xml.dist /home/parallels/dev/apps/ddi/tests --teamcity
+Testing started at 5:44 AM ...
+PHPUnit 9.5.5 by Sebastian Bergmann and contributors.
+
+Warning:       Your XML configuration validates against a deprecated schema.
+Suggestion:    Migrate your XML configuration using "--migrate-configuration"!
+
+
+
+Time: 00:23.400, Memory: 75.00 MB
+
+OK (2 tests, 9 assertions)
+
+Remaining deprecation notices (112)
+
+  15x: Bundle inheritance is deprecated as of 3.4 and will be removed in 4.0.
+    6x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    3x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    3x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    3x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "AppBundle\Command\Import\DirectorCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "AppBundle\Command\Cron\IntegrityCheckerCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "FOS\JsRoutingBundle\Command\RouterDebugExposedCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "FOS\JsRoutingBundle\Command\DumpCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "JMS\TranslationBundle\Command\ResourcesListCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "JMS\TranslationBundle\Command\ExtractTranslationCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "AppBundle\Command\Util\DatabaseNameCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "AppBundle\Command\Import\RegionalDirectorateDepartmentCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "AppBundle\Command\Import\AccountPointsCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "AppBundle\Command\Cron\AllMultiProductDeclarationExtractCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "AppBundle\Command\Cron\ValidEarnMemberReachedTheirQuotasCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "Symfony\Bundle\AsseticBundle\Command\DumpCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "AppBundle\Command\Cron\DeclarationExtractCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "Symfony\Bundle\SwiftmailerBundle\Command\NewEmailCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "Symfony\Bundle\SwiftmailerBundle\Command\SendEmailCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "Symfony\Bundle\SwiftmailerBundle\Command\DebugCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "Symfony\Bundle\AsseticBundle\Command\WatchCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "Nelmio\ApiDocBundle\Command\DumpCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Auto-registration of the command "Nelmio\ApiDocBundle\Command\SwaggerDumpCommand" is deprecated since Symfony 3.4 and won't be supported in 4.0. Use PSR-4 based service discovery instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: getEntityManager is deprecated since Symfony 2.1. Use getManager instead
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  4x: Symfony\Bundle\FrameworkBundle\Command\RouterDebugCommand::__construct() expects an instance of "Symfony\Component\Routing\RouterInterface" as first argument since Symfony 3.4. Not passing it is deprecated and will throw a TypeError in 4.0.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  2x: Calling Doctrine\ORM\EntityManager::flush() with any arguments to flush specific entities is deprecated and will not be supported in Doctrine ORM 3.0.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+
+  2x: The "Doctrine\Common\Inflector\Inflector::classify" method is deprecated and will be dropped in doctrine/inflector 2.0. Please update to the new Inflector API.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::setUp from Tests\AppBundle\Command\Cron
+
+  2x: The "app.file.export.ftp" service is private, getting it from the container is deprecated since Symfony 3.2 and will fail in 4.0. You should either make the service public, or stop using the container directly and use dependency injection instead.
+    1x in StreamlineExportCommandTest::testCommand from Tests\AppBundle\Command\Cron
+    1x in ValidatedDeclarationExtractCommandTest::testCommand from Tests\AppBundle\Command\Cron
+
+  1x: Autowiring services based on the types they implement is deprecated since Symfony 3.3 and won't be supported in version 4.0. Try changing the type-hint for argument "$earnManager" of method "Tests\DataFixtures\ORM\LoadEarnData::__construct()" to "Bilendi\EarningBundle\EarnManagerInterface" instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+
+  1x: Using the "Twig_BaseNodeVisitor" class is deprecated since Twig version 2.7, use "Twig\NodeVisitor\AbstractNodeVisitor" instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+
+  1x: Using the "Twig_RuntimeLoaderInterface" class is deprecated since Twig version 2.7, use "Twig\RuntimeLoader\RuntimeLoaderInterface" instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+
+  1x: The Symfony\Component\ClassLoader\ClassLoader class is deprecated since Symfony 3.3 and will be removed in 4.0. Use Composer instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+
+  1x: Listener "form_login" on firewall "ws" has no "provider" set but multiple providers exist. Using the first configured provider (sso_provider) is deprecated since Symfony 3.4 and will throw an exception in 4.0, set the "provider" key on the firewall instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+
+  1x: Listener "guard" on firewall "ws" has no "provider" set but multiple providers exist. Using the first configured provider (sso_provider) is deprecated since Symfony 3.4 and will throw an exception in 4.0, set the "provider" key on the firewall instead.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+
+  1x: Using the KERNEL_DIR environment variable or the automatic guessing based on the phpunit.xml / phpunit.xml.dist file location is deprecated since Symfony 3.4. Set the KERNEL_CLASS environment variable to the fully-qualified class name of your Kernel instead. Not setting the KERNEL_CLASS environment variable will throw an exception on 4.0 unless you override the :createKernel() or :getKernelClass() method.
+    1x in StreamlineExportCommandTest::setUp from Tests\AppBundle\Command\Cron
+
+Process finished with exit code 1
+
+&lt;/pre&gt;
+}}
+
+(deprecated are managed in the sf4 migration ticket (in wip))</notes>
+  <created_on>2021-06-18T12:48:22Z</created_on>
+  <private_notes>true</private_notes>
+  <details type="array"/>
+</journal>
+<journal id="640342">
+  <user id="529" name="Franck D."/>
+  <notes/>
+  <created_on>2021-06-18T15:34:04Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="relation" name="relates">
+      <old_value>66686</old_value>
+      <new_value/>
+    </detail>
+  </details>
+</journal>
+<journal id="640344">
+  <user id="529" name="Franck D."/>
+  <notes/>
+  <created_on>2021-06-18T15:34:13Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="relation" name="blocked">
+      <old_value/>
+      <new_value>66686</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="640364">
+  <user id="529" name="Franck D."/>
+  <notes/>
+  <created_on>2021-06-18T16:52:00Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="attr" name="description">
+      <old_value>[DDI] souhaite un nouvel export qui comporte tous les mouvements de points. 1 ligne = 1 mouvement. 
+L'export comporte les crédits et les débits. Si le débit est une commande il est attendu le numéro correspondant.
+
+L'export inclus les mouvements de la veille se baser sur date.gain pour ne prednre en compte que les points 'utilisables' donc &lt;&gt; gains.valid = 'A' 
+
+
+|_.Titre   |_.Objet   |_.VALEUR|
+|  Client VIP   |Client VIP     |Numéro|
+|  Mois |Mois du crédit/ débit |sous le format 2 caractères (01, 12)|
+|  Commande |Commande      |(Si acquis via commande ) Le num de commande qui correspond au débit ? si plusieurs commandes plusieurs lignes ?|
+| Points  |Mouvement Points     |Crédit en + et débit en -, une ligne par mouvement|
+| Date de début de validité  |Date de début de validité    |champs non obligatoire non renseigné pour un débit. NB pour les crédit dans le passé sur un programme antérieur renseigné par défaut le 01/01 de l'année concernée  |
+| Date de fin de validité   |Date de fin de validité    |champs non obligatoire non renseigné pour un débit |
+
+*Spécifique* : doit exclure les points pending et prévoir un rattrapage dès lors que les points change de statut et son utilisable par le membre VIP (300 europoints ou 8 générateurs sur le programme concerné)
+Fréquence quotidienne
+
+Il est attendu 2 fichiers similaires qui seront déposés sur le même SFTP dans 2 dossiers distincts
+
+
+Dépôt sur le SFTP (SFTP client info dans le ticket parent)
+Prod :
+SAP/Points
+CRM/Points
+
+Testing:
+SAP/Points
+CRM/Points
+
+
+Export :
+Fréquence quotidienne
+Format : Le fichier CSV séparateur ";"
+Nommage : en attente du format avec notion de jour mois année 
+
+Edit 30/04/2021 : Date début = dategain  et Date Fin = Date_expiration_miles</old_value>
+      <new_value>{{ToC}}
+
+*@dev,@leads : avant toute action de dev/test/commit/push/review/met sur ce tkt : lire https://redmine.bilendi.com/issues/66685#Proc%C3%A9dure-de-d%C3%A9ploiement*
+
+h1. Demande du demandeur
+
+[DDI] souhaite un nouvel export qui comporte tous les mouvements de points. 1 ligne = 1 mouvement. 
+L'export comporte les crédits et les débits. Si le débit est une commande il est attendu le numéro correspondant.
+
+L'export inclus les mouvements de la veille se baser sur date.gain pour ne prednre en compte que les points 'utilisables' donc &lt;&gt; gains.valid = 'A' 
+
+
+|_.Titre   |_.Objet   |_.VALEUR|
+|  Client VIP   |Client VIP     |Numéro|
+|  Mois |Mois du crédit/ débit |sous le format 2 caractères (01, 12)|
+|  Commande |Commande      |(Si acquis via commande ) Le num de commande qui correspond au débit ? si plusieurs commandes plusieurs lignes ?|
+| Points  |Mouvement Points     |Crédit en + et débit en -, une ligne par mouvement|
+| Date de début de validité  |Date de début de validité    |champs non obligatoire non renseigné pour un débit. NB pour les crédit dans le passé sur un programme antérieur renseigné par défaut le 01/01 de l'année concernée  |
+| Date de fin de validité   |Date de fin de validité    |champs non obligatoire non renseigné pour un débit |
+
+*Spécifique* : doit exclure les points pending et prévoir un rattrapage dès lors que les points change de statut et son utilisable par le membre VIP (300 europoints ou 8 générateurs sur le programme concerné)
+Fréquence quotidienne
+
+Il est attendu 2 fichiers similaires qui seront déposés sur le même SFTP dans 2 dossiers distincts
+
+
+Dépôt sur le SFTP (SFTP client info dans le ticket parent)
+Prod :
+SAP/Points
+CRM/Points
+
+Testing:
+SAP/Points
+CRM/Points
+
+
+Export :
+Fréquence quotidienne
+Format : Le fichier CSV séparateur ";"
+Nommage : en attente du format avec notion de jour mois année 
+
+Edit 30/04/2021 : Date début = dategain  et Date Fin = Date_expiration_miles
+
+----
+
+h1. Dev notes
+
+*@dev,@leads : avant toute action de dev/test/commit/push/review/met sur ce tkt : lire https://redmine.bilendi.com/issues/66685#Proc%C3%A9dure-de-d%C3%A9ploiement*
+
+h2. Procédure de déploiement
+
+
+Lire https://redmine.bilendi.com/issues/66685#Proc%C3%A9dure-de-d%C3%A9ploiement</new_value>
+    </detail>
+    <detail property="cf" name="16">
+      <old_value>https://gitlab.bilendi.net/dev/ddi/-/merge_requests/828
+php bin/console app:cron:streamline-export (a brancher quotidiennement)
+
+Cette branche inclue les les changement de #66686 qui permet de faire un environnement. Pour regarder le code specifique a cette branche il faut regarder le dernier commit uniquement</old_value>
+      <new_value>https://gitlab.bilendi.net/dev/ddi/-/merge_requests/842
+
+LIRE: https://redmine.bilendi.com/issues/66685#Proc%C3%A9dure-de-d%C3%A9ploiement
+
+CRON :
+php bin/console app:cron:streamline-export (a brancher quotidiennement)
+
+
+OBSOLETE (forget me): 
+https://gitlab.bilendi.net/dev/ddi/-/merge_requests/828
+
+[OBSOLETE (forget me): 
+Cette branche inclue les les changement de #66686 qui permet de faire un environnement. Pour regarder le code specifique a cette branche il faut regarder le dernier commit uniquement</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="640366">
+  <user id="529" name="Franck D."/>
+  <notes>met des dernières correction + réorg de gestion de branche/code avec #66686  voir https://redmine.bilendi.com/issues/66685#Proc%C3%A9dure-de-d%C3%A9ploiement</notes>
+  <created_on>2021-06-18T16:59:46Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="attr" name="assigned_to_id">
+      <old_value>355</old_value>
+      <new_value>441</new_value>
+    </detail>
+    <detail property="attr" name="status_id">
+      <old_value>2</old_value>
+      <new_value>8</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="640375">
+  <user id="529" name="Franck D."/>
+  <notes/>
+  <created_on>2021-06-18T17:11:20Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="cf" name="16">
+      <old_value>https://gitlab.bilendi.net/dev/ddi/-/merge_requests/842
+
+LIRE: https://redmine.bilendi.com/issues/66685#Proc%C3%A9dure-de-d%C3%A9ploiement
+
+CRON :
+php bin/console app:cron:streamline-export (a brancher quotidiennement)
+
+
+OBSOLETE (forget me): 
+https://gitlab.bilendi.net/dev/ddi/-/merge_requests/828
+
+[OBSOLETE (forget me): 
+Cette branche inclue les les changement de #66686 qui permet de faire un environnement. Pour regarder le code specifique a cette branche il faut regarder le dernier commit uniquement</old_value>
+      <new_value>LIRE :
+https://redmine.bilendi.com/issues/66685#Proc%C3%A9dure-de-d%C3%A9ploiement
+
+https://gitlab.bilendi.net/dev/ddi/-/merge_requests/842
+
+
+CRON :
+php bin/console app:cron:streamline-export (a brancher quotidiennement)
+
+
+OBSOLETE (forget me): 
+https://gitlab.bilendi.net/dev/ddi/-/merge_requests/828
+
+[OBSOLETE (forget me): 
+Cette branche inclue les les changement de #66686 qui permet de faire un environnement. Pour regarder le code specifique a cette branche il faut regarder le dernier commit uniquement</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="640377">
+  <user id="529" name="Franck D."/>
+  <notes/>
+  <created_on>2021-06-18T17:12:03Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="cf" name="16">
+      <old_value>LIRE :
+https://redmine.bilendi.com/issues/66685#Proc%C3%A9dure-de-d%C3%A9ploiement
+
+https://gitlab.bilendi.net/dev/ddi/-/merge_requests/842
+
+
+CRON :
+php bin/console app:cron:streamline-export (a brancher quotidiennement)
+
+
+OBSOLETE (forget me): 
+https://gitlab.bilendi.net/dev/ddi/-/merge_requests/828
+
+[OBSOLETE (forget me): 
+Cette branche inclue les les changement de #66686 qui permet de faire un environnement. Pour regarder le code specifique a cette branche il faut regarder le dernier commit uniquement</old_value>
+      <new_value>LIRE :
+https://redmine.bilendi.com/issues/66685#Proc%C3%A9dure-de-d%C3%A9ploiement
+
+MR :
+https://gitlab.bilendi.net/dev/ddi/-/merge_requests/842
+
+CRON :
+php bin/console app:cron:streamline-export (a brancher quotidiennement)
+
+
+OBSOLETE (forget me): 
+https://gitlab.bilendi.net/dev/ddi/-/merge_requests/828
+
+[OBSOLETE (forget me): 
+Cette branche inclue les les changement de #66686 qui permet de faire un environnement. Pour regarder le code specifique a cette branche il faut regarder le dernier commit uniquement</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="640380">
+  <user id="529" name="Franck D."/>
+  <notes/>
+  <created_on>2021-06-18T17:13:11Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="cf" name="16">
+      <old_value>LIRE :
+https://redmine.bilendi.com/issues/66685#Proc%C3%A9dure-de-d%C3%A9ploiement
+
+MR :
+https://gitlab.bilendi.net/dev/ddi/-/merge_requests/842
+
+CRON :
+php bin/console app:cron:streamline-export (a brancher quotidiennement)
+
+
+OBSOLETE (forget me): 
+https://gitlab.bilendi.net/dev/ddi/-/merge_requests/828
+
+[OBSOLETE (forget me): 
+Cette branche inclue les les changement de #66686 qui permet de faire un environnement. Pour regarder le code specifique a cette branche il faut regarder le dernier commit uniquement</old_value>
+      <new_value>LIRE :
+https://redmine.bilendi.com/issues/66685#Proc%C3%A9dure-de-d%C3%A9ploiement
+
+MR :
+https://gitlab.bilendi.net/dev/ddi/-/merge_requests/842
+
+CRON :
+php bin/console app:cron:streamline-export (a brancher quotidiennement)
+
+
+OBSOLETE (forget me): 
+https://gitlab.bilendi.net/dev/ddi/-/merge_requests/828
+
+OBSOLETE (forget me): 
+Cette branche inclue les les changement de #66686 qui permet de faire un environnement. Pour regarder le code specifique a cette branche il faut regarder le dernier commit uniquement</new_value>
+    </detail>
+  </details>
+</journal></issue_67188>
+<issue_67154>
+<issue_url>https://redmine.bilendi.com/issues/67154</issue_url>
+</issue_67154>
+<issue_67138>
+<issue_url>https://redmine.bilendi.com/issues/67138</issue_url>
+</issue_67138>
+<issue_67042>
+<issue_url>https://redmine.bilendi.com/issues/67042</issue_url>
+</issue_67042>
+<issue_67041>
+<issue_url>https://redmine.bilendi.com/issues/67041</issue_url>
+</issue_67041>
+<issue_67039>
+<issue_url>https://redmine.bilendi.com/issues/67039</issue_url>
+</issue_67039>
+<issue_67006>
+<issue_url>https://redmine.bilendi.com/issues/67006</issue_url>
+</issue_67006>
+<issue_66987>
+<issue_url>https://redmine.bilendi.com/issues/66987</issue_url>
+</issue_66987>
+<issue_66986>
+<issue_url>https://redmine.bilendi.com/issues/66986</issue_url>
+</issue_66986>
+<issue_66956>
+<issue_url>https://redmine.bilendi.com/issues/66956</issue_url>
+</issue_66956>
+<issue_66928>
+<issue_url>https://redmine.bilendi.com/issues/66928</issue_url>
+</issue_66928>
+<issue_66917>
+<issue_url>https://redmine.bilendi.com/issues/66917</issue_url>
+</issue_66917>
+<issue_66865>
+<issue_url>https://redmine.bilendi.com/issues/66865</issue_url>
+</issue_66865>
+<issue_66823>
+<issue_url>https://redmine.bilendi.com/issues/66823</issue_url>
+</issue_66823>
+<issue_66815>
+<issue_url>https://redmine.bilendi.com/issues/66815</issue_url>
+</issue_66815>
+<issue_66730>
+<issue_url>https://redmine.bilendi.com/issues/66730</issue_url>
+</issue_66730>
+</journals>

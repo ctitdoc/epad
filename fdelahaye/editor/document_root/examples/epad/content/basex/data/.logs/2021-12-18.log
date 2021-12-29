@@ -1,0 +1,10 @@
+15:32:48.642	0:0:0:0:0:0:0:1:65154	admin	REQUEST	[GET] http://localhost:8984/get_dict_file_content_request?file=content/dictionary_f.delahaye_bpri.xml
+15:32:48.852	0:0:0:0:0:0:0:1:65154	admin	200		211.18 ms
+17:04:19.029	SERVER	admin	OK	Server was stopped (port: 1984)
+17:04:19.032	SERVER	admin	OK	HTTP Server was stopped (port: 8984)
+18:12:53.438	SERVER	admin	OK	Server was started (port: 1984)
+18:12:53.535	SERVER	admin	OK	HTTP Server was started (port: 8984)
+18:13:17.193	0:0:0:0:0:0:0:1:57224	admin	REQUEST	[GET] http://localhost:8984/get_dict_file_content_as_markdown_request?file=content/dictionary_f.delahaye_bpri.xml
+18:13:19.687	0:0:0:0:0:0:0:1:57224	admin	200		2500.78 ms
+18:14:30.815	0:0:0:0:0:0:0:1:57540	admin	REQUEST	[GET] http://localhost:8984/get_dict_file_content_as_markdown_request?file=content/dictionary_f.delahaye_bpri.xml
+18:14:31.600	0:0:0:0:0:0:0:1:57540	admin	200		786.76 ms

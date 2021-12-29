@@ -1,0 +1,68 @@
+19:55:29.423	SERVER	admin	OK	Server was started (port: 1984)
+19:55:29.594	SERVER	admin	OK	HTTP Server was started (port: 8984)
+19:56:45.439	10.101.1.201:56004		ERROR	Access denied.	39438.28 ms
+19:56:45.441	10.101.1.201:56005		ERROR	Access denied.	39285.78 ms
+19:57:05.796	SERVER	admin	OK	Server was stopped (port: 1984)
+19:57:05.797	SERVER	admin	OK	HTTP Server was stopped (port: 8984)
+19:58:15.689	SERVER	admin	OK	Server was started (port: 1984)
+19:58:15.721	SERVER	admin	OK	HTTP Server was started (port: 8984)
+20:00:18.483	10.101.1.201:56154	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/
+20:00:18.638	10.101.1.201:56154	admin	200		157.63 ms
+20:00:18.893	10.101.1.201:56154	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/favicon.ico
+20:00:18.895	10.101.1.201:56154	admin	404	No function found that matches the request.	2.44 ms
+20:00:58.199	10.101.1.201:56155	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/hello/World
+20:00:58.252	10.101.1.201:56155	admin	200		53.36 ms
+20:01:04.314	10.101.1.201:56155	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/hello/Universe
+20:01:04.319	10.101.1.201:56155	admin	200		5.58 ms
+20:01:20.207	10.101.1.201:56155	admin	REQUEST	[POST] http://dev1.dmz.loc:8984/form
+20:01:20.215	10.101.1.201:56155	admin	200		7.58 ms
+20:02:07.429	10.101.1.201:56155	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/rest
+20:02:07.438	10.101.1.201:56155	admin	200		8.97 ms
+20:02:21.007	10.101.1.201:56155	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/rest
+20:02:21.008	10.101.1.201:56155	admin	200		1.47 ms
+20:04:08.950	10.101.1.201:56291	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/webdav
+20:04:09.022	10.101.1.201:56291	admin	200		72.76 ms
+20:04:26.484	10.101.1.201:56291	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/webdav
+20:04:26.600	10.101.1.201:56291	admin	200		115.9 ms
+20:05:10.397	10.101.1.201:56291	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/webdav
+20:05:10.407	10.101.1.201:56291	admin	200		10.17 ms
+20:05:16.212	10.101.1.201:56291	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/webdav
+20:05:16.235	10.101.1.201:56291	admin	200		22.89 ms
+20:05:16.379	10.101.1.201:56291	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/favicon.ico
+20:05:16.380	10.101.1.201:56291	admin	404	No function found that matches the request.	1.3 ms
+20:07:15.199	10.101.1.201:56399	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/webdav
+20:07:15.209	10.101.1.201:56399	admin	200		10.44 ms
+20:07:51.278	10.101.1.201:56399	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/webdav
+20:07:51.288	10.101.1.201:56399	admin	200		10.28 ms
+20:08:18.894	10.101.1.201:56399	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/webdav/
+20:08:18.902	10.101.1.201:56399	admin	200		8.85 ms
+20:11:53.401	SERVER	admin	OK	HTTP Server was stopped (port: 8984)
+20:11:53.401	SERVER	admin	OK	Server was stopped (port: 1984)
+20:48:32.535	SERVER	admin	OK	Server was started (port: 1984)
+20:48:32.567	SERVER	admin	OK	HTTP Server was started (port: 8984)
+20:48:40.763	10.101.1.201:57797	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/
+20:48:40.915	10.101.1.201:57797	admin	200		154.92 ms
+20:48:48.086	10.101.1.201:57797	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/webdav
+20:48:48.167	10.101.1.201:57797	admin	200		81.33 ms
+21:03:29.337	10.101.1.201:58350	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/dba
+21:03:29.339	10.101.1.201:58350	admin	404	No function found that matches the request.	2.35 ms
+21:04:25.355	10.101.1.201:58350	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/
+21:04:25.365	10.101.1.201:58350	admin	200		10.43 ms
+21:04:35.756	10.101.1.201:58350	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/dba
+21:04:35.757	10.101.1.201:58350	admin	404	No function found that matches the request.	1.43 ms
+21:04:41.813	10.101.1.201:58350	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/dba/
+21:04:41.814	10.101.1.201:58350	admin	404	No function found that matches the request.	1.44 ms
+21:04:43.686	10.101.1.201:58350	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/dba
+21:04:43.687	10.101.1.201:58350	admin	404	No function found that matches the request.	1.3 ms
+21:04:58.613	10.101.1.201:58350	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/rest
+21:04:58.621	10.101.1.201:58350	admin	200		8.03 ms
+21:10:35.221	SERVER	admin	OK	HTTP Server was stopped (port: 8984)
+21:10:35.222	SERVER	admin	OK	Server was stopped (port: 1984)
+21:11:47.840	SERVER	admin	OK	Server was started (port: 1984)
+21:11:47.872	SERVER	admin	OK	HTTP Server was started (port: 8984)
+21:11:51.507	10.101.1.201:58636	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/webdav
+21:11:51.595	10.101.1.201:58636	admin	200		90.15 ms
+21:11:59.289	10.101.1.201:58636	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/
+21:11:59.439	10.101.1.201:58636	admin	200		149.76 ms
+21:12:09.521	10.101.1.201:58636	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/rest
+21:12:09.537	10.101.1.201:58636	admin	200		16.35 ms

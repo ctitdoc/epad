@@ -1,0 +1,499 @@
+00:12:25.486	SERVER	admin	OK	HTTP Server was stopped (port: 8984)
+00:12:25.486	SERVER	admin	OK	Server was stopped (port: 1984)
+00:13:39.209	SERVER	admin	OK	Server was started (port: 1984)
+00:13:39.241	SERVER	admin	OK	HTTP Server was started (port: 8984)
+00:21:37.944	10.101.1.201:51795	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/record_xsl_request
+00:21:38.126	10.101.1.201:51795	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 373/10: [bxerr:BASX0003] Variable $author_sso_pseudo is not assigned by the annotations.	184.38 ms
+00:22:09.351	10.101.1.201:51795	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/record_xsl_request
+00:22:09.374	10.101.1.201:51795	admin	404	No function found that matches the request.	22.5 ms
+00:22:51.912	10.101.1.201:51795	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/record_xsl_request
+00:22:51.978	10.101.1.201:51795	admin	200		66.86 ms
+00:23:12.952	10.101.1.201:51795	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+00:23:12.967	10.101.1.201:51795	admin	200		14.97 ms
+00:23:13.048	10.101.1.201:51795	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+00:23:13.064	10.101.1.201:51795	admin	200		16.44 ms
+00:23:16.474	10.101.1.201:51795	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+00:23:16.486	10.101.1.201:51795	admin	200		12.24 ms
+00:35:25.529	10.101.1.201:52259	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_logs_request
+00:35:25.703	10.101.1.201:52259	admin	400	org.eclipse.jetty.io.EofException	174.93 ms
+00:35:25.704	10.101.1.201:52259	admin	500	Committed	0.2 ms
+00:37:05.154	10.101.1.201:52316	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_logs_request
+00:37:05.203	10.101.1.201:52316	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 395/10: [XPTY0004] Cannot treat element() as element(entry): <logs>...</logs>.	49.82 ms
+00:37:33.295	10.101.1.201:52316	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_logs_request
+00:37:33.495	10.101.1.201:52316	admin	200		200.35 ms
+00:40:49.168	10.101.1.201:52439	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/record_xsl_request
+00:40:49.179	10.101.1.201:52439	admin	200		11.92 ms
+00:42:20.349	10.101.1.201:52490	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_logs_request
+00:42:20.544	10.101.1.201:52490	admin	200		195.9 ms
+00:44:27.887	10.101.1.201:52562	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_logs_request
+00:44:28.251	10.101.1.201:52562	admin	200		363.76 ms
+00:44:43.131	10.101.1.201:52562	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/record_xsl_request
+00:44:43.193	10.101.1.201:52562	admin	200		61.77 ms
+00:45:03.219	10.101.1.201:52562	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_logs_request
+00:45:03.512	10.101.1.201:52562	admin	200		293.48 ms
+00:45:25.736	10.101.1.201:52562	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+00:45:25.745	10.101.1.201:52562	admin	200		9.25 ms
+00:45:25.801	10.101.1.201:52562	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+00:45:25.811	10.101.1.201:52562	admin	200		9.44 ms
+00:45:41.040	10.101.1.201:52562	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/delete_file_request?file=stylesheet.xsl
+00:45:41.055	10.101.1.201:52562	admin	200		15.17 ms
+00:45:43.007	10.101.1.201:52562	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+00:45:43.017	10.101.1.201:52562	admin	200		9.52 ms
+00:46:31.812	10.101.1.201:52562	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/record_xsl_request
+00:46:31.870	10.101.1.201:52562	admin	200		59.0 ms
+00:46:40.605	10.101.1.201:52562	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+00:46:40.614	10.101.1.201:52562	admin	200		8.52 ms
+00:46:40.671	10.101.1.201:52562	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+00:46:40.680	10.101.1.201:52562	admin	200		9.38 ms
+00:47:03.456	10.101.1.201:52562	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/delete_file_request?file=xsl
+00:47:03.466	10.101.1.201:52562	admin	200		9.83 ms
+00:47:05.307	10.101.1.201:52562	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+00:47:05.316	10.101.1.201:52562	admin	200		9.18 ms
+00:49:13.597	10.101.1.201:52719	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+00:49:13.605	10.101.1.201:52719	admin	200		8.16 ms
+00:49:13.839	10.101.1.201:52719	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+00:49:13.847	10.101.1.201:52719	admin	200		8.29 ms
+00:49:13.882	10.101.1.201:52720	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/favicon.ico
+00:49:13.885	10.101.1.201:52720	admin	404	No function found that matches the request.	3.51 ms
+00:51:47.610	10.101.1.201:52803	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/record_xsl_request
+00:51:47.621	10.101.1.201:52803	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 387/28: [XPST0017] Function 'file:children' is unknown.	10.55 ms
+00:54:19.650	10.101.1.201:52890	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/record_xsl_request
+00:54:19.677	10.101.1.201:52890	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 388/15: [FODC0002] "/home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/xsl/bkp.xsl" (Line 3): The prefix "xsl" for element "xsl:template" is not bound.	27.93 ms
+00:56:29.435	10.101.1.201:52960	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/record_xsl_request
+00:56:29.533	10.101.1.201:52960	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 388/15: [FODC0002] "/home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/xsl/prepareXIncludes.xsl" (Line 13): An include failed, and no fallback element was found.	97.65 ms
+01:03:06.870	10.101.1.201:53244	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/record_xsl_request
+01:03:06.954	10.101.1.201:53244	admin	200		83.5 ms
+01:03:15.724	10.101.1.201:53244	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+01:03:15.733	10.101.1.201:53244	admin	200		8.76 ms
+01:03:15.799	10.101.1.201:53244	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+01:03:15.809	10.101.1.201:53244	admin	200		10.7 ms
+08:47:49.318	10.101.1.201:51649	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/record_xsl_request
+08:47:49.386	10.101.1.201:51649	admin	200		68.62 ms
+08:48:03.097	10.101.1.201:51649	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+08:48:03.110	10.101.1.201:51649	admin	200		13.06 ms
+08:48:03.214	10.101.1.201:51649	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+08:48:03.235	10.101.1.201:51649	admin	200		20.7 ms
+08:48:20.969	10.101.1.201:51649	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/delete_file_request?file=xsl
+08:48:20.977	10.101.1.201:51649	admin	200		8.64 ms
+08:48:23.626	10.101.1.201:51649	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+08:48:23.633	10.101.1.201:51649	admin	200		7.79 ms
+08:48:28.311	10.101.1.201:51649	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+08:48:28.318	10.101.1.201:51649	admin	200		6.78 ms
+08:48:28.373	10.101.1.201:51649	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+08:48:28.380	10.101.1.201:51649	admin	200		7.4 ms
+08:48:41.033	10.101.1.201:51649	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/record_xsl_request
+08:48:41.091	10.101.1.201:51649	admin	200		57.85 ms
+08:48:53.622	10.101.1.201:51649	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+08:48:53.629	10.101.1.201:51649	admin	200		6.52 ms
+08:48:53.687	10.101.1.201:51649	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+08:48:53.694	10.101.1.201:51649	admin	200		7.31 ms
+08:49:17.400	10.101.1.201:51649	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/record_xsl_request
+08:49:17.468	10.101.1.201:51649	admin	200		68.72 ms
+08:49:25.402	10.101.1.201:51649	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+08:49:25.408	10.101.1.201:51649	admin	200		6.6 ms
+08:49:25.471	10.101.1.201:51649	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+08:49:25.479	10.101.1.201:51649	admin	200		7.78 ms
+09:03:16.661	10.101.1.201:52142	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:03:16.672	10.101.1.201:52142	admin	200		10.44 ms
+09:03:31.934	10.101.1.201:52142	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+09:03:31.941	10.101.1.201:52142	admin	200		6.61 ms
+09:03:32.002	10.101.1.201:52142	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:03:32.009	10.101.1.201:52142	admin	200		6.37 ms
+09:03:33.665	10.101.1.201:52142	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_logs_request
+09:03:33.886	10.101.1.201:52142	admin	200		221.06 ms
+09:03:55.895	10.101.1.201:52142	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/record_practices_file_of_author_form
+09:03:55.902	10.101.1.201:52142	admin	200		6.37 ms
+09:04:03.502	10.101.1.201:52142	admin	REQUEST	[POST] http://dev1.dmz.loc:8984/record_practices_file_of_author_request
+09:04:03.520	10.101.1.201:52142	admin	200		17.77 ms
+09:04:05.362	10.101.1.201:52142	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:04:05.375	10.101.1.201:52142	admin	200		12.36 ms
+09:04:36.158	10.101.1.201:52142	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/delete_file_request?file=content/practices_f.delahaye.xml
+09:04:36.166	10.101.1.201:52142	admin	200		7.85 ms
+09:04:40.011	10.101.1.201:52142	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:04:40.018	10.101.1.201:52142	admin	200		7.03 ms
+09:04:45.540	10.101.1.201:52142	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/record_practices_file_of_author_form
+09:04:45.546	10.101.1.201:52142	admin	200		6.19 ms
+09:04:53.604	10.101.1.201:52142	admin	REQUEST	[POST] http://dev1.dmz.loc:8984/record_practices_file_of_author_request
+09:04:53.614	10.101.1.201:52142	admin	200		10.02 ms
+09:04:57.550	10.101.1.201:52142	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:04:57.556	10.101.1.201:52142	admin	200		6.97 ms
+09:04:59.999	10.101.1.201:52142	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/record_practices_file_of_author_form
+09:05:00.004	10.101.1.201:52142	admin	200		5.74 ms
+09:05:04.165	10.101.1.201:52142	admin	REQUEST	[POST] http://dev1.dmz.loc:8984/record_practices_file_of_author_request
+09:05:04.175	10.101.1.201:52142	admin	200		10.07 ms
+09:05:05.658	10.101.1.201:52142	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:05:05.665	10.101.1.201:52142	admin	200		7.13 ms
+09:18:56.374	10.101.1.201:52634	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:18:56.386	10.101.1.201:52634	admin	200		11.63 ms
+09:19:12.451	10.101.1.201:52634	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/delete_file_request?file=content/practices_f.delahaye.xml
+09:19:12.458	10.101.1.201:52634	admin	200		7.21 ms
+09:19:15.147	10.101.1.201:52634	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:19:15.153	10.101.1.201:52634	admin	200		6.47 ms
+09:19:16.890	10.101.1.201:52634	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/record_practices_file_of_author_form
+09:19:16.896	10.101.1.201:52634	admin	200		5.81 ms
+09:19:19.785	10.101.1.201:52634	admin	REQUEST	[POST] http://dev1.dmz.loc:8984/record_practices_file_of_author_request
+09:19:19.794	10.101.1.201:52634	admin	200		8.96 ms
+09:19:20.883	10.101.1.201:52634	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:19:20.890	10.101.1.201:52634	admin	200		6.74 ms
+09:19:28.034	10.101.1.201:52634	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+09:19:28.047	10.101.1.201:52634	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 367/16: [FODC0002] Resource "/home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/practices/xsl/practices.xsl" does not exist.	13.02 ms
+09:24:36.429	10.101.1.201:52812	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:24:36.439	10.101.1.201:52812	admin	200		10.35 ms
+09:24:38.149	10.101.1.201:52812	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+09:24:38.423	10.101.1.201:52812	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 367/16: [FODC0002] "" (Line 1): White spaces are required between publicId and systemId.	273.93 ms
+09:25:42.612	10.101.1.201:52893	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_logs_request
+09:25:42.880	10.101.1.201:52893	admin	200		268.51 ms
+09:27:18.474	10.101.1.201:52944	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:27:18.481	10.101.1.201:52944	admin	200		7.01 ms
+09:27:19.964	10.101.1.201:52944	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+09:27:20.090	10.101.1.201:52944	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 367/16: [FODC0002] "" (Line 1): White spaces are required between publicId and systemId.	125.87 ms
+09:27:28.950	10.101.1.201:52944	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:27:28.959	10.101.1.201:52944	admin	200		9.33 ms
+09:27:30.739	10.101.1.201:52944	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+09:27:30.746	10.101.1.201:52944	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 367/16: [FODC0002] Resource "/home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/practices/content/practices_f.delahaye.xml" does not exist.	6.86 ms
+09:30:30.131	10.101.1.201:53050	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:30:30.140	10.101.1.201:53050	admin	200		9.18 ms
+09:30:32.799	10.101.1.201:53050	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+09:30:32.804	10.101.1.201:53050	admin	200		5.53 ms
+09:30:32.880	10.101.1.201:53050	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:30:32.886	10.101.1.201:53050	admin	200		5.68 ms
+09:30:34.937	10.101.1.201:53050	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+09:30:35.037	10.101.1.201:53050	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 367/16: [FODC0002] "" (Line 1): White spaces are required between publicId and systemId.	99.64 ms
+09:32:50.194	SERVER	admin	OK	HTTP Server was stopped (port: 8984)
+09:32:50.195	SERVER	admin	OK	Server was stopped (port: 1984)
+09:33:17.103	SERVER	admin	OK	Server was started (port: 1984)
+09:33:17.135	SERVER	admin	OK	HTTP Server was started (port: 8984)
+09:35:13.166	SERVER	admin	OK	Server was stopped (port: 1984)
+09:35:13.166	SERVER	admin	OK	HTTP Server was stopped (port: 8984)
+09:35:18.355	SERVER	admin	OK	Server was started (port: 1984)
+09:35:18.386	SERVER	admin	OK	HTTP Server was started (port: 8984)
+09:35:27.105	10.101.1.201:53216	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:35:27.333	10.101.1.201:53216	admin	200		230.76 ms
+09:35:34.307	10.101.1.201:53216	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+09:35:34.637	10.101.1.201:53216	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 367/16: [FODC0002] "" (Line 1): White spaces are required between publicId and systemId.	330.24 ms
+09:36:05.337	SERVER	admin	OK	HTTP Server was stopped (port: 8984)
+09:36:05.337	SERVER	admin	OK	Server was stopped (port: 1984)
+09:36:11.976	SERVER	admin	OK	Server was started (port: 1984)
+09:36:12.007	SERVER	admin	OK	HTTP Server was started (port: 8984)
+09:36:22.801	10.101.1.201:53245	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:36:23.028	10.101.1.201:53245	admin	200		229.51 ms
+09:42:00.613	10.101.1.201:53437	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:42:00.643	10.101.1.201:53437	admin	200		30.16 ms
+09:42:02.157	10.101.1.201:53437	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+09:42:02.184	10.101.1.201:53437	admin	200		27.71 ms
+09:42:02.242	10.101.1.201:53437	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:42:02.261	10.101.1.201:53437	admin	200		19.77 ms
+09:42:04.447	10.101.1.201:53437	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+09:42:04.791	10.101.1.201:53437	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 367/16: [FODC0002] "" (Line 1): White spaces are required between publicId and systemId.	344.49 ms
+09:45:00.328	10.101.1.201:53536	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:45:00.349	10.101.1.201:53536	admin	200		21.0 ms
+09:45:01.617	10.101.1.201:53536	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+09:45:01.628	10.101.1.201:53536	admin	200		11.26 ms
+09:45:01.682	10.101.1.201:53536	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:45:01.694	10.101.1.201:53536	admin	200		11.69 ms
+09:45:03.107	10.101.1.201:53536	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+09:45:03.122	10.101.1.201:53536	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 367/16: [FODC0002] Resource "/home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/practices/content/practices_f.delahaye.xml" does not exist.	15.2 ms
+09:50:57.732	10.101.1.201:53738	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:50:57.750	10.101.1.201:53738	admin	200		18.17 ms
+09:51:00.916	10.101.1.201:53738	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+09:51:00.927	10.101.1.201:53738	admin	200		10.68 ms
+09:51:01.040	10.101.1.201:53738	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+09:51:01.051	10.101.1.201:53738	admin	200		11.25 ms
+09:51:02.571	10.101.1.201:53738	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+09:51:02.707	10.101.1.201:53738	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 389/16: [FODC0002] "" (Line 1): White spaces are required between publicId and systemId.	135.83 ms
+10:05:04.085	10.101.1.201:54392	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+10:05:04.102	10.101.1.201:54392	admin	200		17.5 ms
+10:05:06.156	10.101.1.201:54392	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+10:05:06.172	10.101.1.201:54392	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 391/54: [XPDY0002] No context item defined to evaluate 'false'. Stack Trace: - /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 363/10	16.56 ms
+10:05:50.857	10.101.1.201:54392	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+10:05:50.873	10.101.1.201:54392	admin	200		15.94 ms
+10:05:50.932	10.101.1.201:54392	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+10:05:50.942	10.101.1.201:54392	admin	200		10.01 ms
+10:05:52.917	10.101.1.201:54392	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+10:05:53.035	10.101.1.201:54392	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 389/16: [FODC0002] "" (Line 1): White spaces are required between publicId and systemId.	117.66 ms
+10:18:11.797	SERVER	admin	OK	HTTP Server was stopped (port: 8984)
+10:18:11.799	SERVER	admin	OK	Server was stopped (port: 1984)
+10:18:14.568	SERVER	admin	OK	Server was started (port: 1984)
+10:18:14.599	SERVER	admin	OK	HTTP Server was started (port: 8984)
+10:19:57.845	10.101.1.201:54927	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+10:19:58.205	10.101.1.201:54927	admin	200		363.17 ms
+10:19:59.912	10.101.1.201:54927	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+10:19:59.930	10.101.1.201:54927	admin	200		17.55 ms
+10:19:59.990	10.101.1.201:54927	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+10:20:00.010	10.101.1.201:54927	admin	200		20.39 ms
+10:20:01.424	10.101.1.201:54927	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+10:20:03.934	10.101.1.201:54927	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 389/16: [bxerr:BXSL0001] Recoverable error XTRE0540: Ambiguous rule match for /practices/meta[1]/author[1] Matches both "element(Q{}meta)/element(Q{}author)[attribute::attribute(Q{}email)]" on line 13 of file:/home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/xsl/meta.xsl and "element(Q{}meta)/element(Q{}author)" on line 7 of file:/home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/xsl/meta.xsl Error on line 570 column 33 of practices.xsl: XTDE0410: An attribute node (style) cannot be created after a child of the containing element. Most recent element start tag was output at line 115 of module practices.xsl at xsl:apply-templates (file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/xsl/practices.xsl#132) processing /practices/practice[1]/h[1]/@text-al...	2511.73 ms
+10:23:19.871	10.101.1.201:55040	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+10:23:19.884	10.101.1.201:55040	admin	200		13.25 ms
+10:23:21.294	10.101.1.201:55040	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+10:23:21.460	10.101.1.201:55040	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 389/16: [bxerr:BXSL0001] Recoverable error XTRE0540: Ambiguous rule match for /practices/meta[1]/author[1] Matches both "element(Q{}meta)/element(Q{}author)[attribute::attribute(Q{}email)]" on line 13 of file:/home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/xsl/meta.xsl and "element(Q{}meta)/element(Q{}author)" on line 7 of file:/home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/xsl/meta.xsl Error on line 570 column 33 of practices.xsl: XTDE0410: An attribute node (style) cannot be created after a child of the containing element. Most recent element start tag was output at line 115 of module practices.xsl at xsl:apply-templates (file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/xsl/practices.xsl#132) processing /practices/practice[1]/h[1]/@text-al...	166.36 ms
+10:23:53.657	10.101.1.201:55040	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+10:23:53.670	10.101.1.201:55040	admin	200		12.64 ms
+10:23:54.915	10.101.1.201:55040	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+10:23:55.062	10.101.1.201:55040	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 389/16: [bxerr:BXSL0001] Error on line 570 column 33 of practices.xsl: XTDE0410: An attribute node (style) cannot be created after a child of the containing element. Most recent element start tag was output at line 115 of module practices.xsl at xsl:apply-templates (file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/xsl/practices.xsl#132) processing /practices/practice[1]/h[1]/@text-align at xsl:apply-templates (file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/xsl/practices.xsl#68) processing /practices/practice[1]/h[1] at xsl:apply-templates (file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/xsl/practices.xsl#61) processing /practices/practice[1] at xsl:apply-templates (file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/e...	148.19 ms
+10:31:15.850	10.101.1.201:55306	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+10:31:15.860	10.101.1.201:55306	admin	200		10.04 ms
+10:31:16.687	10.101.1.201:55306	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+10:31:16.696	10.101.1.201:55306	admin	200		9.36 ms
+10:31:16.755	10.101.1.201:55306	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+10:31:16.765	10.101.1.201:55306	admin	200		10.21 ms
+10:31:18.199	10.101.1.201:55306	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+10:31:18.305	10.101.1.201:55306	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 389/16: [bxerr:BXSL0001] Error on line 570 column 33 of practices.xsl: XTDE0410: An attribute node (style) cannot be created after a child of the containing element. Most recent element start tag was output at line 115 of module practices.xsl at xsl:apply-templates (file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/xsl/practices.xsl#132) processing /practices/practice[1]/h[1]/@text-align at xsl:apply-templates (file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/xsl/practices.xsl#68) processing /practices/practice[1]/h[1] at xsl:apply-templates (file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/xsl/practices.xsl#61) processing /practices/practice[1] at xsl:apply-templates (file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/e...	106.76 ms
+10:34:01.247	10.101.1.201:55397	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+10:34:01.257	10.101.1.201:55397	admin	200		10.4 ms
+10:34:02.205	10.101.1.201:55397	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+10:34:02.229	10.101.1.201:55397	admin	200		24.06 ms
+10:34:02.289	10.101.1.201:55397	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+10:34:02.322	10.101.1.201:55397	admin	200		32.99 ms
+10:34:03.862	10.101.1.201:55397	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+10:34:03.985	10.101.1.201:55397	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 389/16: [FODC0002] "" (Line 2): White spaces are required between publicId and systemId.	123.51 ms
+10:34:12.735	10.101.1.201:55405	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/record_xsl_request
+10:34:12.849	10.101.1.201:55405	admin	200		113.29 ms
+10:34:13.182	10.101.1.201:55405	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/favicon.ico
+10:34:13.186	10.101.1.201:55405	admin	404	No function found that matches the request.	4.33 ms
+10:44:13.727	10.101.1.201:55915	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+10:44:13.734	10.101.1.201:55915	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 368/3: [XPST0003] Expecting '-', found 'D'.	7.39 ms
+10:54:35.556	10.101.1.201:56276	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+10:54:35.571	10.101.1.201:56276	admin	200		15.17 ms
+10:54:37.473	10.101.1.201:56276	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+10:54:37.481	10.101.1.201:56276	admin	200		8.59 ms
+10:54:37.538	10.101.1.201:56276	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+10:54:37.546	10.101.1.201:56276	admin	200		8.56 ms
+10:54:38.769	10.101.1.201:56276	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+10:54:38.870	10.101.1.201:56276	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 392/16: [FODC0002] Line 2: Whitespace expected, '>' found.	101.07 ms
+10:56:43.387	10.101.1.201:56347	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+10:56:43.406	10.101.1.201:56347	admin	200		18.75 ms
+10:56:45.571	10.101.1.201:56347	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+10:56:45.579	10.101.1.201:56347	admin	200		8.0 ms
+10:56:45.637	10.101.1.201:56347	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+10:56:45.645	10.101.1.201:56347	admin	200		8.13 ms
+10:56:46.995	10.101.1.201:56347	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+10:56:47.090	10.101.1.201:56347	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 392/16: [FODC0002] "" (Line 2): White spaces are required between publicId and systemId.	94.91 ms
+10:58:32.576	10.101.1.201:56410	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+10:58:32.590	10.101.1.201:56410	admin	200		13.57 ms
+10:58:33.524	10.101.1.201:56410	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+10:58:33.532	10.101.1.201:56410	admin	200		7.81 ms
+10:58:33.590	10.101.1.201:56410	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+10:58:33.598	10.101.1.201:56410	admin	200		7.84 ms
+10:58:34.744	10.101.1.201:56410	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+10:58:34.836	10.101.1.201:56410	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 391/16: [FODC0002] Line 2: Whitespace expected, '>' found.	91.79 ms
+10:59:22.046	10.101.1.201:56410	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+10:59:22.058	10.101.1.201:56410	admin	200		12.61 ms
+10:59:23.724	10.101.1.201:56410	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+10:59:23.732	10.101.1.201:56410	admin	200		7.61 ms
+10:59:23.789	10.101.1.201:56410	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+10:59:23.796	10.101.1.201:56410	admin	200		7.54 ms
+10:59:24.719	10.101.1.201:56410	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+10:59:24.809	10.101.1.201:56410	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 391/16: [FODC0002] Line 2: Whitespace expected, '>' found.	90.25 ms
+11:00:08.428	10.101.1.201:56410	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:00:08.438	10.101.1.201:56410	admin	200		9.64 ms
+11:00:09.868	10.101.1.201:56410	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+11:00:09.876	10.101.1.201:56410	admin	200		7.41 ms
+11:00:09.933	10.101.1.201:56410	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:00:09.940	10.101.1.201:56410	admin	200		7.99 ms
+11:00:10.889	10.101.1.201:56410	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+11:00:10.975	10.101.1.201:56410	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 391/16: [FODC0002] Line 2: Whitespace expected, '>' found.	86.44 ms
+11:00:20.965	10.101.1.201:56410	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:00:20.977	10.101.1.201:56410	admin	200		11.48 ms
+11:00:22.604	10.101.1.201:56410	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+11:00:22.611	10.101.1.201:56410	admin	200		6.96 ms
+11:00:22.705	10.101.1.201:56410	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:00:22.712	10.101.1.201:56410	admin	200		7.08 ms
+11:00:23.836	10.101.1.201:56410	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+11:00:23.931	10.101.1.201:56410	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 391/16: [FODC0002] "" (Line 2): White spaces are required between publicId and systemId.	95.46 ms
+11:27:33.596	10.101.1.201:57740	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:27:33.607	10.101.1.201:57740	admin	200		11.09 ms
+11:27:39.617	10.101.1.201:57740	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+11:27:39.694	10.101.1.201:57740	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 394/16: [bxerr:BXSL0001] Error on line 1 column 2 of file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/bin/: SXXP0003: Error reported by XML parser: Reference is not allowed in prolog.	77.05 ms
+11:30:16.067	SERVER	admin	OK	Server was stopped (port: 1984)
+11:30:16.068	SERVER	admin	OK	HTTP Server was stopped (port: 8984)
+11:30:28.503	SERVER	admin	OK	Server was started (port: 1984)
+11:30:28.534	SERVER	admin	OK	HTTP Server was started (port: 8984)
+11:30:32.279	10.101.1.201:57864	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:30:32.510	10.101.1.201:57864	admin	200		234.01 ms
+11:30:34.195	10.101.1.201:57864	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+11:30:34.213	10.101.1.201:57864	admin	200		18.88 ms
+11:30:34.272	10.101.1.201:57864	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:30:34.289	10.101.1.201:57864	admin	200		17.26 ms
+11:30:35.628	10.101.1.201:57864	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+11:30:35.938	10.101.1.201:57864	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 394/16: [bxerr:BXSL0001] Avertissements de compilation : file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/xsl/practices.xsl: line 411: L'attribut 'class' est à l'extérieur de l'élément. ERREUR : 'Reference is not allowed in prolog.' ERREUR : 'com.sun.org.apache.xml.internal.utils.WrappedRuntimeException: Reference is not allowed in prolog.'	310.24 ms
+11:31:10.117	SERVER	admin	OK	HTTP Server was stopped (port: 8984)
+11:31:10.117	SERVER	admin	OK	Server was stopped (port: 1984)
+11:31:46.096	SERVER	admin	OK	Server was started (port: 1984)
+11:31:46.127	SERVER	admin	OK	HTTP Server was started (port: 8984)
+11:31:50.346	10.101.1.201:57906	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:31:50.708	10.101.1.201:57906	admin	200		364.72 ms
+11:31:52.478	10.101.1.201:57906	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+11:31:53.426	10.101.1.201:57906	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 394/16: [bxerr:BXSL0001] Error on line 1 column 2 of file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/bin/: SXXP0003: Error reported by XML parser: Reference is not allowed in prolog.	948.02 ms
+11:33:28.956	10.101.1.201:57961	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:33:28.981	10.101.1.201:57961	admin	200		25.61 ms
+11:33:30.985	10.101.1.201:57961	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+11:33:31.266	10.101.1.201:57961	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 394/16: [FODC0002] "" (Line 2): White spaces are required between publicId and systemId.	281.0 ms
+11:35:49.161	10.101.1.201:58042	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:35:49.181	10.101.1.201:58042	admin	200		20.06 ms
+11:35:50.320	10.101.1.201:58042	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+11:35:50.463	10.101.1.201:58042	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 394/16: [bxerr:BXSL0001] Error on line 1 column 2 of file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/bin/: SXXP0003: Error reported by XML parser: Reference is not allowed in prolog.	143.45 ms
+11:48:57.867	10.101.1.201:58500	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:48:57.883	10.101.1.201:58500	admin	200		16.36 ms
+11:49:00.057	10.101.1.201:58500	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+11:49:00.163	10.101.1.201:58500	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 394/16: [bxerr:BXSL0001] Error on line 1 column 2 of file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/bin/: SXXP0003: Error reported by XML parser: Reference is not allowed in prolog.	106.73 ms
+11:49:32.083	10.101.1.201:58500	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:49:32.100	10.101.1.201:58500	admin	200		16.79 ms
+11:49:33.242	10.101.1.201:58500	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+11:49:33.339	10.101.1.201:58500	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 394/16: [bxerr:BXSL0001] Error on line 1 column 2 of file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/bin/: SXXP0003: Error reported by XML parser: Reference is not allowed in prolog.	97.63 ms
+11:50:20.030	10.101.1.201:58500	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:50:20.046	10.101.1.201:58500	admin	200		16.84 ms
+11:50:21.816	10.101.1.201:58500	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+11:50:21.918	10.101.1.201:58500	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 392/16: [FODC0002] "" (Line 2): White spaces are required between publicId and systemId.	101.82 ms
+11:50:59.613	10.101.1.201:58500	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:50:59.628	10.101.1.201:58500	admin	200		15.06 ms
+11:51:01.307	10.101.1.201:58500	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+11:51:01.456	10.101.1.201:58500	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 394/16: [bxerr:BXSL0001] Error on line 1 column 2 of file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/bin/: SXXP0003: Error reported by XML parser: Reference is not allowed in prolog.	148.73 ms
+11:51:24.531	10.101.1.201:58500	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:51:24.547	10.101.1.201:58500	admin	200		15.58 ms
+11:51:26.178	10.101.1.201:58500	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+11:51:26.273	10.101.1.201:58500	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 394/16: [bxerr:BXSL0001] Error on line 1 column 2 of file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/bin/: SXXP0003: Error reported by XML parser: Reference is not allowed in prolog.	95.56 ms
+11:52:00.396	10.101.1.201:58500	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:52:00.410	10.101.1.201:58500	admin	200		13.76 ms
+11:52:01.659	10.101.1.201:58500	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+11:52:01.748	10.101.1.201:58500	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 394/16: [bxerr:BXSL0001] Error on line 1 column 2 of file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/bin/: SXXP0003: Error reported by XML parser: Reference is not allowed in prolog.	88.83 ms
+11:55:32.115	10.101.1.201:58727	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:55:32.128	10.101.1.201:58727	admin	200		13.01 ms
+11:55:34.302	10.101.1.201:58727	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+11:55:34.310	10.101.1.201:58727	admin	200		8.41 ms
+11:55:34.369	10.101.1.201:58727	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:55:34.377	10.101.1.201:58727	admin	200		8.28 ms
+11:55:35.383	10.101.1.201:58727	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+11:55:35.472	10.101.1.201:58727	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 394/16: [bxerr:BXSL0001] Error on line 1 column 2 of file:///home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/bin/: SXXP0003: Error reported by XML parser: Reference is not allowed in prolog.	88.42 ms
+11:55:59.650	10.101.1.201:58727	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:55:59.663	10.101.1.201:58727	admin	200		13.02 ms
+11:56:01.025	10.101.1.201:58727	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+11:56:01.032	10.101.1.201:58727	admin	200		7.84 ms
+11:56:01.090	10.101.1.201:58727	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:56:01.099	10.101.1.201:58727	admin	200		8.54 ms
+11:56:02.296	10.101.1.201:58727	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+11:56:02.456	10.101.1.201:58727	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 395/16: [FODC0002] "" (Line 2): White spaces are required between publicId and systemId.	160.15 ms
+11:57:28.417	10.101.1.201:58790	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:57:28.426	10.101.1.201:58790	admin	200		8.48 ms
+11:57:29.809	10.101.1.201:58790	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+11:57:29.890	10.101.1.201:58790	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 395/16: [FODC0002] "" (Line 2): White spaces are required between publicId and systemId.	81.54 ms
+11:58:51.145	10.101.1.201:58839	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:58:51.153	10.101.1.201:58839	admin	200		8.38 ms
+11:58:52.467	10.101.1.201:58839	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+11:58:52.609	10.101.1.201:58839	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 395/16: [FODC0002] "" (Line 2): White spaces are required between publicId and systemId.	141.75 ms
+11:59:20.357	10.101.1.201:58839	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+11:59:20.365	10.101.1.201:58839	admin	200		8.0 ms
+11:59:22.036	10.101.1.201:58839	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+11:59:22.154	10.101.1.201:58839	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 395/16: [FODC0002] "" (Line 2): White spaces are required between publicId and systemId.	119.0 ms
+12:00:02.713	10.101.1.201:58839	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:00:02.727	10.101.1.201:58839	admin	200		14.1 ms
+12:00:04.448	10.101.1.201:58839	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+12:00:04.569	10.101.1.201:58839	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 395/16: [bxerr:BXSL0001] Error on line 8 column 4 of practices.xml: SXXP0003: Error reported by XML parser: The markup in the document following the root element must be well-formed.	121.92 ms
+12:01:20.394	10.101.1.201:58922	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:01:20.406	10.101.1.201:58922	admin	200		11.37 ms
+12:01:22.646	10.101.1.201:58922	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+12:01:22.653	10.101.1.201:58922	admin	200		7.19 ms
+12:01:22.710	10.101.1.201:58922	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:01:22.718	10.101.1.201:58922	admin	200		7.52 ms
+12:01:23.872	10.101.1.201:58922	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+12:01:23.955	10.101.1.201:58922	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 395/16: [FODC0002] Line 2: Whitespace expected, '>' found.	82.62 ms
+12:01:56.384	10.101.1.201:58922	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:01:56.392	10.101.1.201:58922	admin	200		7.66 ms
+12:01:57.782	10.101.1.201:58922	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+12:01:57.851	10.101.1.201:58922	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 395/16: [FODC0002] Line 2: Whitespace expected, '>' found.	68.8 ms
+12:07:16.871	10.101.1.201:59138	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:07:16.883	10.101.1.201:59138	admin	200		11.29 ms
+12:07:18.055	10.101.1.201:59138	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+12:07:18.061	10.101.1.201:59138	admin	200		7.02 ms
+12:07:18.174	10.101.1.201:59138	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:07:18.182	10.101.1.201:59138	admin	200		8.32 ms
+12:07:19.439	10.101.1.201:59138	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+12:07:19.512	10.101.1.201:59138	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 395/16: [FODC0002] Line 2: Whitespace expected, '>' found.	73.02 ms
+12:09:31.589	10.101.1.201:59216	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:09:31.600	10.101.1.201:59216	admin	200		11.34 ms
+12:09:32.907	10.101.1.201:59216	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+12:09:32.973	10.101.1.201:59216	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 395/16: [FODC0002] Line 2: Whitespace expected, '>' found.	66.48 ms
+12:09:39.153	10.101.1.201:59216	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:09:39.160	10.101.1.201:59216	admin	200		7.33 ms
+12:09:40.567	10.101.1.201:59216	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+12:09:40.573	10.101.1.201:59216	admin	200		6.57 ms
+12:09:40.631	10.101.1.201:59216	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:09:40.638	10.101.1.201:59216	admin	200		7.0 ms
+12:10:36.733	10.101.1.201:59216	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+12:10:36.745	10.101.1.201:59216	admin	200		11.77 ms
+12:28:06.155	10.101.1.201:59875	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:28:06.166	10.101.1.201:59875	admin	200		10.94 ms
+12:28:09.840	10.101.1.201:59875	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+12:28:09.854	10.101.1.201:59875	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 404/12: [bxerr:BXDB0006] Database path 'practices/content/practices_f.delahaye.xhtml' yields no documents.	13.72 ms
+12:40:41.424	10.101.1.201:60305	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:40:41.430	10.101.1.201:60305	admin	200		6.84 ms
+12:40:42.742	10.101.1.201:60305	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+12:40:42.750	10.101.1.201:60305	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 404/12: [bxerr:BXDB0006] Database path 'practices/content/practices_f.delahaye.xhtml' yields no documents.	7.56 ms
+12:41:15.780	10.101.1.201:60305	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:41:15.790	10.101.1.201:60305	admin	200		10.28 ms
+12:41:20.226	10.101.1.201:60305	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+12:41:20.233	10.101.1.201:60305	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 404/12: [bxerr:BXDB0006] Database path 'practices/html/content/practices_f.delahaye.xhtml' yields no documents.	7.86 ms
+12:41:33.563	10.101.1.201:60305	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:41:33.569	10.101.1.201:60305	admin	200		6.68 ms
+12:43:18.084	10.101.1.201:60397	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:43:18.091	10.101.1.201:60397	admin	200		6.95 ms
+12:43:18.993	10.101.1.201:60397	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+12:43:18.999	10.101.1.201:60397	admin	200		6.18 ms
+12:43:19.056	10.101.1.201:60397	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:43:19.062	10.101.1.201:60397	admin	200		6.01 ms
+12:43:21.230	10.101.1.201:60397	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+12:43:21.238	10.101.1.201:60397	admin	200		8.15 ms
+12:44:35.503	10.101.1.201:60444	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+12:44:35.509	10.101.1.201:60444	admin	200		6.09 ms
+12:45:47.804	10.101.1.201:60487	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:45:47.813	10.101.1.201:60487	admin	200		9.89 ms
+12:45:48.971	10.101.1.201:60487	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+12:45:48.976	10.101.1.201:60487	admin	200		5.92 ms
+12:45:49.033	10.101.1.201:60487	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:45:49.039	10.101.1.201:60487	admin	200		6.42 ms
+12:45:50.490	10.101.1.201:60487	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+12:45:50.497	10.101.1.201:60487	admin	200		7.26 ms
+12:51:21.891	10.101.1.201:60679	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:51:21.914	10.101.1.201:60679	admin	200		22.31 ms
+12:51:23.873	10.101.1.201:60679	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+12:51:23.880	10.101.1.201:60679	admin	200		7.16 ms
+12:51:23.942	10.101.1.201:60679	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:51:23.949	10.101.1.201:60679	admin	200		6.27 ms
+12:51:25.494	10.101.1.201:60679	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+12:51:25.502	10.101.1.201:60679	admin	200		7.51 ms
+12:57:20.170	10.101.1.201:60911	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:57:20.180	10.101.1.201:60911	admin	200		9.84 ms
+12:57:21.615	10.101.1.201:60911	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+12:57:21.625	10.101.1.201:60911	admin	200		10.01 ms
+12:59:10.715	10.101.1.201:60978	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:59:10.725	10.101.1.201:60978	admin	200		9.77 ms
+12:59:11.614	10.101.1.201:60978	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+12:59:11.620	10.101.1.201:60978	admin	200		5.78 ms
+12:59:11.703	10.101.1.201:60978	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+12:59:11.709	10.101.1.201:60978	admin	200		6.1 ms
+12:59:13.196	10.101.1.201:60978	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+12:59:13.204	10.101.1.201:60978	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 362/10: [XPTY0004] Cannot treat item() sequence as document-node(): ("<?xml-stylesheet type=""text/css"" href=""static/style.css""?>", ...).	8.23 ms
+13:00:44.410	10.101.1.201:61041	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+13:00:44.415	10.101.1.201:61041	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 363/33: [XPST0003] Expecting ')', found '*'.	4.72 ms
+13:00:45.142	10.101.1.201:61041	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+13:00:45.146	10.101.1.201:61041	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 363/33: [XPST0003] Expecting ')', found '*'.	4.59 ms
+13:03:43.673	10.101.1.201:61146	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+13:03:43.682	10.101.1.201:61146	admin	200		9.17 ms
+13:03:43.743	10.101.1.201:61146	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+13:03:43.749	10.101.1.201:61146	admin	200		5.61 ms
+13:03:46.832	10.101.1.201:61146	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+13:03:48.852	10.101.1.201:61146	admin	200		2020.38 ms
+13:03:48.919	10.101.1.201:61146	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+13:03:48.925	10.101.1.201:61146	admin	200		6.58 ms
+13:03:53.399	10.101.1.201:61146	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+13:03:59.570	10.101.1.201:61153	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+13:03:59.577	10.101.1.201:61146	admin	200		6178.52 ms
+13:03:59.579	10.101.1.201:61153	admin	200		1764.53 ms
+13:09:46.523	10.101.1.201:61377	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+13:09:46.532	10.101.1.201:61377	admin	200		9.75 ms
+13:09:47.590	10.101.1.201:61377	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/practices
+13:09:47.595	10.101.1.201:61377	admin	200		5.37 ms
+13:09:47.659	10.101.1.201:61377	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/list_practices_request
+13:09:47.665	10.101.1.201:61377	admin	200		6.22 ms
+13:09:50.211	10.101.1.201:61377	admin	REQUEST	[GET] http://dev1.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+13:09:50.217	10.101.1.201:61377	admin	200		6.56 ms

@@ -1,0 +1,535 @@
+<!DOCTYPE html PUBLIC "html">
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Document d&eacute;scriptif du projet EPAD</title>
+    </head>
+    <body>
+        <div id="page">
+            <div id="fakeNavigation"></div>
+            <div id="articleBody">
+                <div class="article">
+                    <div class="header">
+                        <div class="heading">
+                            <h1>Document d&eacute;scriptif du projet EPAD</h1>
+                            <div class="decoration"></div>
+                        </div>
+                    </div>
+                    <div class="ul list ">
+                        <div class="content">
+                            <ul>
+                                <li>
+                                    <div class="li-content">
+                                        <p>Que veut dire EPAD ? Embeddable Platform Application Documenting.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li-content">
+                                        <p>Qu'est-ce que c'est ? une solution int&eacute;grable &agrave; une platforme d'application et &agrave; ses processus pour en g&eacute;rer la documentation.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li-content">
+                                        <p>Comment s'y int&egrave;gre-t-elle pour g&eacute;rer quels besoins documentaire ?</p>
+                                        <div class="ul list ">
+                                            <div class="content">
+                                                <ul>
+                                                    <li>
+                                                        <div class="li-content">
+                                                            <p>Les deux besoins de base adress&eacute;s en priorit&eacute; sont :</p>
+                                                            <div class="ul list ">
+                                                                <div class="content">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>de pouvoir consulter, des mani&egrave;res les plus efficaces et int&egrave;gres possibles (navigation/search...), cette documentation afin de savoir :</p>
+                                                                                <div class="ul list ">
+                                                                                    <div class="content">
+                                                                                        <ul>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>ce que g&egrave;rent comme donn&eacute;es et font fonctionnellement les applications de la plateformes et les divers bundles qui composent ces applications =&gt; p&eacute;rim&egrave;tres fonctionnel (donn&eacute;es du membre, infos bancaires, sc&eacute;narios d'inscription, rgpd etc...);</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>comment les &eacute;l&eacute;ment de code de ces divers applications et bundles (tables, mod&egrave;les, controleur, vues, services, crons etc...), impl&eacute;mentent ces p&eacute;rim&egrave;tres... et inversement : &agrave; l'impl&eacute;mentation de quels p&eacute;rim&egrave;tres, un (ou plusieurs) &eacute;l&eacute;ment de code donn&eacute;s participe(nt) et comment.</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>de pouvoir maintenir cette efficacit&eacute; au fil des &eacute;volutions de ces applications, avec un coup d'effort de cette maintenance minimis&eacute;, via des sc&eacute;narios de cr&eacute;ation/r&eacute;vision/mise &agrave; jour automatis&eacute;s de cette documentation.</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>un effet corollaire de cette solution est de pouvoir contribuer concr&ecirc;tement &agrave; &ecirc;tre plus "aware" des &eacute;cart de complexit&eacute;s entre les p&eacute;rim&egrave;tre fonctionnel et leur impl&eacute;mentation :</p>
+                                                                                <div class="ul list ">
+                                                                                    <div class="content">
+                                                                                        <ul>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>Soit en se rendant compte &agrave; l'aide de cette doc qu'un p&eacute;rim&egrave;tre fonctionnel suppos&eacute; simple est plus complex qu'il n'y parait;</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>Soit en se rendant compte &agrave; l'aide de cette doc qu'un p&eacute;rim&egrave;tre fonctionnel d'une complexit&eacute; assez "stanard" est impl&eacute;ment&eacute; via une solution d'une comlexit&eacute; "pas standard";</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>... et donc cette solution contribue ainsi &agrave; la r&eacute;solution de ces &eacute;cart lorsqu'ils sont estim&eacute;s injustifi&eacute;s avec des cons&eacute;quences potentielles sur la stabilit&eacute; de la plateforme et/ou cout de sa maintenance &eacute;volutive.</p>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="li-content">
+                                                            <p>Les sc&eacute;narios de base adress&eacute;s en priorit&eacute; sont :</p>
+                                                            <div class="ul list ">
+                                                                <div class="content">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>Initialiser automatiquement la documentation de ces p&eacute;rim&egrave;tres fonctionnel (en lien avec les &eacute;l&eacute;ment de code qui les impl&eacute;mentent), en capturant les &eacute;l&eacute;ment de connaissance existant pour chacun d'eux dans les divers outils de gestion : gitlab =&gt; git log -p sur chaque &eacute;l&eacute;ment de code pour avoir son historique de chgt =&gt; recup des r&eacute;ferences des tkt redmine ds les cmt de commit =&gt; redmine : r&eacute;cup des desc et cmt des tkt =&gt; initilisation des &eacute;l&eacute;ment de contenus de cette documentation en statut draft avec copies des element de connaissance r&eacute;cup&eacute;r&eacute;s;</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>Poste r&eacute;dacteur :</p>
+                                                                                <div class="ul list ">
+                                                                                    <div class="content">
+                                                                                        <ul>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>Param&eacute;trage d'une solution de r&eacute;daction des cette doc permettant de convertir efficacement ces version draft avec l'ensemble des ces &eacute;l&eacute;ment de connaissance, en une premi&egrave;re version de la doc de chaque p&eacute;rim&egrave;tre fonctionnel des apps/bundles pr&eacute;cit&eacute;s (donn&eacute;es membre, inscription, info bancaire, transfert brancaire, rgpd...);</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>R&eacute;daction des &eacute;volutions de feature, et/ou nouvelles features, directement dans cette documentation avec lien vers le tkt redmine; en prio 2 : possibilit&eacute; de scafolder les nouveaux &eacute;l&eacute;ment de code requis (nouvelle classe controleur, mod&egrave;le, view etc...). Scafolder = g&eacute;n&eacute;rer automatiquement le code des squelettes des dites classes.</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>Gestion des &eacute;volution : param&eacute;trage d'une gestion de r&eacute;vision analysant les merges request et leur liens avec les tkt r&eacute;f&eacute;renc&eacute;s, afin d'indiquer au r&eacute;dacteur/v&eacute;rificateur de la doc de tel ou tel l'apps / bundle, les &eacute;l&eacute;ment de contenus documentaires &agrave; v&eacute;rifier, en fonction des chgt des &eacute;l&eacute;ment de code qui sont li&eacute;s &agrave; ces &eacute;l&eacute;ment de contenus documentaires, et pour lesquels un chgt a &eacute;t&eacute; d&eacute;tect&eacute; dans la merge request.</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>Post consulteur : param&eacute;trage d'une solution de publication de la documentation r&eacute;dig&eacute;e (ou d'une r&eacute;vision de celle-ci), dans un (ou plusieurs) format d&eacute;di&eacute;(s) consultation/recherche, et int&eacute;gr&eacute;s dans les divers outils des processus de gestion de la plateforme : en prio un site d&eacute;di&eacute; &agrave; la consultation de cette doc, mais si &ccedil;a s'av&egrave;re utile elle peut aussi &ecirc;tre publi&eacute;e comme wikis gitlab, doc d'aide en ligne our phpstorm, gros doc pdf permettant la consultation de toute la doc en offline, avec une (ou plusieurs) version(s) papier de qualit&eacute; etc... pour illustrer le niveau de fonctionnalit&eacute; de recherche cibl&eacute; : on pourra par exemple rechercher tous les formulaires de tel ou tel app/bundle qui permettent la saisie de telle ou telle champ bdd.</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>En prio 2 : possibilit&eacute; de param&eacute;trer (globalement ou par tkt), des blocages (et ou simple alerte non bloquante), lors des franchissement de step du process dev/review/met/mep, si certaines v&eacute;rif de mise &agrave; jour de la doc induite par le tkt d'&eacute;vol n'ont pas &eacute;t&eacute; faites/v&eacute;rifi&eacute;es.</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>En prio 2 : &eacute;ventuellement envisager de g&eacute;rer aussi la doc d'infra de la plateforme via epad...</p>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li-content">
+                                        <p>Comment EPAD est-elle impl&eacute;ment&eacute;e ? voil&agrave; un r&eacute;sum&eacute; des concept et outils pr&eacute;vus d'&ecirc;tre int&eacute;gr&eacute;s pour impl&eacute;menter une premi&egrave;re version :</p>
+                                        <div class="ul list ">
+                                            <div class="content">
+                                                <ul>
+                                                    <li>
+                                                        <div class="li-content">
+                                                            <p>XML/XSD est choisi comme format pour cette documentation : XML/XSD est au domaine des applications de gestion de contenus documentaires, ce que SGBDR/SQL est au domaine des applications de gestion de donn&eacute;es :</p>
+                                                            <div class="ul list ">
+                                                                <div class="content">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>Les BDD relationelles permettent de d&eacute;finir un sch&eacute;ma SQL "m&eacute;tier" des donn&eacute;es cr&eacute;&eacute;es et lues en bdd, et offrent un langage standard d'acc&egrave;s &agrave; ces donn&eacute;es (SQL/ORM);</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>Idem pour XML : une documentation XML permet de d&eacute;finir un sch&eacute;ma XSD "m&eacute;tier" des contenus cr&eacute;&eacute;s et lus dans les document, et offre un langage standard d'acc&egrave;s &agrave; ces contenus (XQuery/DOM);</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>A partir de ce langage d'acc&egrave;s SQL, on peut batir des application avanc&eacute;es avec un haut niveau d'automtisation de la gestion des donn&eacute;es mod&eacute;lis&eacute;es;</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>Idem pour XML : &agrave; partir de XQuery/DOM, on peut batir des application documentaires avanc&eacute;es avec un haut niveau d'automtisation de la gestion des contenus mod&eacute;lis&eacute;s;</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>Les application web SQL se basent sur des framework HTML/CSS/JS pour impl&eacute;menter les sc&eacute;narios &eacute;crans d'interactions utilisateur avanc&eacute;s, flexibles et &eacute;volutif;</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>Idem pour XML : Les application d'&eacute;dition/consultation et gestion de contenus documentaires xml se base aussi sur HTML/CSS/JS pour les m&ecirc;me raison;</p>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="li-content">
+                                                            <p>... d'autres part j'ai d&eacute;j&agrave; une bonne exp&eacute;rience de telles applis de gestion de contenus xml, donc moins de courbe d'apprentissage...</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="li-content">
+                                                            <p>Le principe de base de conception de ce sch&eacute;ma de contenus (donc du/des xsd d&eacute;finissant le jeu de document/contenus g&eacute;r&eacute; par epad) : </p>
+                                                            <div class="ul list ">
+                                                                <div class="content">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>
+                                                                                    Pr&eacute;ambule/promesse : ce principe est une "tentative de recette gagnante"(*), issue de mes connaissances et exp&eacute;riences sur : les archis XML/XSD de syst&egrave;me de documentation techniques dans divers domaines (software, automotive, telecom, avionique...), les standard de mod&eacute;lisation de plateforme d'apps tels que BPMN et UML (&eacute;ventuellement les diagrammes cisco si on couvre la doc d'infra en prio 2...), le parsing de langages de programation et la cr&eacute;ation d'AST, Databases, Web framework (sf en base). Pour autant rien des aspect potentiellement complexes et abstrait de ces concept ne fait partie de la partie visible de l'iceberg de cette solution, qui doit offrir une logique d'utilisation certe structur&eacute;e et scalable, mais toujours dans un vocabulaire et une logique correspondant aux divers r&ocirc;les des divers acteur utilisant epad (moa, planning, dev, managers). En aucun cas l'un de ces r&ocirc;les ne doit avoir &agrave; comprendre les m&eacute;andres internes de conception d'epad pour parvenir &agrave; faire ce qu'il doit faire avec. <em>(*) attention y a des recettes qui ont bon gout mais qui sont pas si bonne pour toit... ou le contraire ;) : traduction : tu peux avoir une appli qui te plait au quotidien, mais dans les fait t'es moins productif qu'avant avec... ou le contraire.</em>
+                                                                                </p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>Une feature d'une app r&eacute;pond &agrave; un "template fonctionnel" de base : par exemple la saisie des donn&eacute;es personelles d'un membre est une feature fonctionnel de type "sc&eacute;nario &eacute;cran simple" qui se d&eacute;compose en :</p>
+                                                                                <div class="ul list ">
+                                                                                    <div class="content">
+                                                                                        <ul>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>un jeu de donn&eacute;es : "les donn&eacute;es personnelles du membre", avec d'&eacute;ventuelles contraintes sur le format des valeur saisies (num&eacute;rique, date DD/MM/YY ...);</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>le ou les divers uri(s) d&eacute;clenchant ce sc&eacute;nario, invoqu&eacute;(s) soit via le champ de saisie d'uri du navigateur, soit via un bouton, lien ou autre widget d&eacute;clenchant cet uri, avec les diverses donn&eacute;es m&eacute;tier de cette uri ( = les param&egrave;tres m&eacute;tier contenus dans la request cr&eacute;&eacute;e avec cette uri).</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>un &eacute;cran permettant leur saisie, avec d'&eacute;ventuel widget d'aide &agrave; la saisie de certains champ de ce jeu;</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>l'action d'enregistrement des donn&eacute;es saisies, qui doit &eacute;ventuellement appliquer certaines r&eacute;gles de gestion s&eacute;pcifiques en plus de l'enregistrement proprement dit que jeu de donn&eacute;es saisi;</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>optionellement, ces r&egrave;gles de gestion, selon ce qu'elles sont, peuvent &ecirc;tre communes &agrave; d'autres sc&eacute;narios &eacute;crans, auquel cas elles sont plut&ocirc;t caract&eacute;ris&eacute;es comme un "jeu de r&eacute;gle de gestion", que l'on pourrait r&eacute;f&eacute;rencer dans la d&eacute;scription d'autres sc&eacute;narios &eacute;crans qui les ex&eacute;cutent &eacute;galement.</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>on pourra indiquer &eacute;galement les id des r&ocirc;les pouvant ex&eacute;cuter ce sc&eacute;narios, avec par d&eacute;faut les r&ocirc;les de base suivant : "membre" pour un sc&eacute;nario fo comme celui-ci, et "acteur bo" pour unsc&eacute;nario bo et qui regroupe : les acteur moa, les acteur bilendi tech et les acteur bo du client.</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>La d&eacute;scription de cette feature se d&eacute;compose donc en ces diverses d&eacute;scriptions, avec optionellement cette r&eacute;ference &agrave; un "jeu de r&eacute;gle de gestion" int&eacute;gr&eacute; dans d'autres sc&eacute;narios;</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>Pour autant les donn&eacute;es de ce sc&eacute;nario sont des donn&eacute;es de la bdd qui sont potentiellement affich&eacute;es/modifi&eacute;es par d'autres sc&eacute;narios &eacute;crans, et il est donc aussi pr&eacute;f&eacute;rable de d&eacute;crire ces donn&eacute;es de mani&egrave;re &agrave; pouvoir les r&eacute;f&eacute;rencer dans divers sc&eacute;narios. Il en va de m&ecirc;me pour la d&eacute;scription des r&ocirc;les.</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>On peut donc maintenant d&eacute;finir un sch&eacute;ma xsd qui d&eacute;finit une telle structuration de contenu, et utiliser un editeur xml,"xsd aware(voir plus loin/plus tard)", qui guidera le r&eacute;dacteur pour r&eacute;diger la d&eacute;scription de ces contenus via une interface classique d'&eacute;dition de document, mais cette interface &eacute;tant "guid&eacute;e" par ce sch&eacute;ma xsd sous-jacent de "r&egrave;gles de structuration de ces contenus": cf ci-apr&egrave;s la description de l'editeur "online web" Xopus.</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>Par ailleurs la bonne nouvelle (mais en fait c'est pas un hasard), est que cette structuration de contenus se mappe tr&egrave;s bien avec l'architecture MVC du code qui impl&eacute;mente cette feature :</p>
+                                                                                <div class="ul list ">
+                                                                                    <div class="content">
+                                                                                        <ul>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>L'objet ORM Member impl&eacute;mente le jeu de donn&eacute;es m&eacute;tier "membre" =&gt; on peut donc lui faire correspondre un contenu xml dans lequel on d&eacute;crit "niveau m&eacute;tier" ces divers propri&eacute;t&eacute;s et contraintes de cr&eacute;ation/suppression, bref une description niveau m&eacute;tier des contraintes sur cet ORM =&gt; cf annotation @Constraint au niveau de la classe.</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>Et en fait, on peut "g&eacute;n&eacute;raliser", en disant que si on regarde les (principaux) &eacute;l&eacute;ment de code d'une app/un bundle , ils impl&eacute;mentent tous une partie du comportement m&eacute;tier de la feature :</p>
+                                                                                <div class="ul list ">
+                                                                                    <div class="content">
+                                                                                        <ul>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>Un objet orm g&egrave;re les donn&eacute;es d'une table =&gt; on a un &eacute;l&eacute;ment de contenu qui d&eacute;crit (niveau m&eacute;tier) les divers propri&eacute;t&eacute;s et contraintes de cette table;</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>Un objet controleur g&egrave;re l'&eacute;x&eacute;cution d'un ou plusieurs sc&eacute;narios m&eacute;tier tel que d&eacute;crit ci-avant =&gt; on r&eacute;f&eacute;rence ce controleur au niveau de chacun des contenus xml d&eacute;crivant ces sc&eacute;narios m&eacute;tier;</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>Une view twig de type formulaire permet la lecture/modification de d'un jeu de donn&eacute;es =&gt; on r&eacute;f&eacute;rence &eacute;galement cette view au niveau de chacun des contenus xml d&eacute;crivant ces sc&eacute;narios m&eacute;tier, avec les r&eacute;f&eacute;rences du jeu de champ bd g&eacute;r&eacute; par ce formulaire;</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>Un service impl&eacute;mente divers r&eacute;gles de gestion, appel&eacute;es dans divers sc&eacute;narios m&eacute;tier =&gt; on a un &eacute;l&eacute;ment de contenu qui d&eacute;crit les diverses r&eacute;gles de gestion impl&eacute;ment&eacute;es par ce service et qui est r&eacute;f&eacute;renc&eacute; dans la d&eacute;scription des actions des sc&eacute;narios m&eacute;tier qui les invoquent;</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>De la m&ecirc;me fa&ccedil;on, on a un &eacute;l&eacute;ment de contenu pour chaque cron qui d&eacute;crit (niveau m&eacute;tier) son comportement, ainsi que pour chaque "query" des objet ORM Repository qui en g&eacute;n&eacute;ral effectuent de requ&ecirc;tes complexes sur les donn&eacute;es m&eacute;tier r&eacute;pondant &agrave; une description m&eacute;tier de ces requetes dans une feature (par exemple une feature "rapport");</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>Et enfin, &agrave; partir de ces &eacute;l&eacute;ment de contenus d&eacute;crivant chacun soit une feature m&eacute;tier de base comme un sc&eacute;nario simple de saise de donn&eacute;e personnelles, un cron, une query etc... on peut d&eacute;crire des features de type "sc&eacute;nario m&eacute;tier multi acteur", qui combinent ces &eacute;l&eacute;ment de contenus des feature simple , en mode qui/quoi/quand : un exemple : la feature de transfert de credit bancaire mpz combine : </p>
+                                                                                <div class="ul list ">
+                                                                                    <div class="content">
+                                                                                        <ul>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>
+                                                                                                        un sc&eacute;nario "membre" d'&eacute;cran simple de saisi de coodon&eacute;es bancaire (dans lequel sont d&eacute;crit les r&egrave;gles de gestion autorisant leur saisie (cf tkt <a href="https://redmine.bilendi.com/issues/54219">#54219</a>, ou r&eacute;f&eacute;f&eacute;renc&eacute;es si ces r&eacute;gle de gestion sont utilis&eacute;es dans une autre feature et donc cod&eacute;es dans un service plutot que directement le controleur).
+                                                                                                    </p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>puis un sc&eacute;nario "membre" d'&eacute;cran de d&eacute;clenchement du cr&eacute;dit par le user,</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>et un crons "appli mpz" qui pousse les credit dans le r&eacute;seau interbancaire.</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>On a donc bien une structure de d&eacute;scription pour un "sc&eacute;nario m&eacute;tier multi acteur", qui est en base une s&eacute;quence de : Qui ex&eacute;cute Quelle feature &agrave; Quel moment. On se basera sur le dialecte BPMN (qui est un dialecte niveau "expert m&eacute;tier" qui inclut aussi des condition de transitions entres actions, des evennement de d&eacute;but, fin, interm&eacute;diaires etc...).</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>...et encore enfin...: comme notre plateforme fonctionne bcp sur des features de base dans les bundles, qui sont ensuite personnalis&eacute;es dans les apps, ben &agrave; l'image du code, on d&eacute;crit la feature personnalis&eacute;e en r&eacute;f&eacute;ren&ccedil;ant la feature de base et en d&eacute;crivant les diff&eacute;rences de comportement que fait la feature personnalis&eacute;e par rapport &agrave; celle de base.</p>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="li-content">
+                                                            <p>L'API (REST) Gitlab permet d'acc&eacute;der aux repos de sources des apps et bundles, ainsi qu'aux merge requests (en json), avec la liste des commit et donc des sources modifi&eacute;s et les r&eacute;f&eacute;rences aux tkt &agrave; l'origine des chgt dans ces sources. </p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="li-content">
+                                                            <p>L'API (REST) Redmine permet d'acc&eacute;der au tkt, leur description et historique de notes/cmt.</p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="li-content">
+                                                            <p>L'outils php-parser permet de convertir les repos des sources en une arbo d'AST correspondante au format JSON, avec les classes, les m&eacute;thode, les statment des m&eacute;thodes avec les appel d'autres m&eacute;thodes dans les statment etc ... :</p>
+                                                            <div class="ul list ">
+                                                                <div class="content">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>cela permet de g&eacute;n&eacute;rer &agrave; partir de cette arbo, le sch&eacute;ma XSD de la documentation en g&eacute;n&eacute;rant :</p>
+                                                                                <div class="ul list ">
+                                                                                    <div class="content">
+                                                                                        <ul>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>pour chaque m&eacute;thode controleur un &eacute;l&eacute;ment xml contenant sa d&eacute;scription au format "sc&eacute;nario &eacute;cran simple" d&eacute;crit ci-avant,</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>idem pour chaque m&eacute;thode d'un service son &eacute;l&eacute;ment xml d&eacute;scriptif de type "r&eacute;gle de gestion",</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>idem pour chaque view de type formulaire, son &eacute;l&eacute;ment xml d&eacute;sciptif de type "d&eacute;sciprtion de formulaire",</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>idem pour chaque objet ORM, son &eacute;l&eacute;ment xml d&eacute;scriptif de type "d&eacute;scription de jeu de donn&eacute;es",</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>idem pour chaque cron son &eacute;l&eacute;ment xml de type "d&eacute;scription de cron",</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>idem pour chaque query son &eacute;l&eacute;ment xml de type "d&eacute;scription de requ&ecirc;te",</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>etc... on pourra rajouter ainsi, au fil des retour d'exp&eacute;rience, d'autres mapping pour d'autres "&eacute;l&eacute;ment de code" impl&eacute;mentant un comportement m&eacute;tier, en se basant sur leur "design pattern" pour d&eacute;finir la structure de l'&eacute;l&eacute;ment xml qui les d&eacute;crit.</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p>on pourra &eacute;galement rajouter diverses "r&eacute;gle de g&eacute;n&eacute;ration", afin de filtrer divers &eacute;l&eacute;ment pour lesquel on ne veut pas d&eacute;crire de comportement m&eacute;tier, ou d'autres r&egrave;gles de g&eacute;n&eacute;ration qui &eacute;tendent ou modifient la g&eacute;n&eacute;ration par d&eacute;faut de l'&eacute;l&eacute;ment xml d'un tel &eacute;l&eacute;ment de code etc...</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="li-content">
+                                                            <p>
+                                                                Le moteur de transformation <a href="http://www.saxonica.com/download/download_page.xml">XSLT 3 Saxon</a>   supportant la conversion JSON To XML combin&eacute; &agrave; php-parser permet de :
+                                                            </p>
+                                                            <div class="ul list ">
+                                                                <div class="content">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>g&eacute;n&eacute;rer les fichier xsd et xml &agrave; partir des AST en JSON,</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>int&eacute;gr&eacute; aux API REST de merge request Gitlab et de tkt Redmine : flagguer les &eacute;lement xml de la doc potentiellement &agrave; r&eacute;viser selon le code modifi&eacute; dans une merge request,</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>int&eacute;gr&eacute; &agrave; l'outil BaseX ou eXist (cf ci-apr&egrave;s), permet de g&eacute;n&eacute;rer la doc en un html d&eacute;di&eacute; consultation/navigation/search, et/ou (et pas forc&eacute;ment int&eacute;gr&eacute;s aux dit outils), en d'autres format (online help, pdf, mark down, openoffice, ms word etc...), via des outils compl&eacute;mentaires de gestion de ces format (notament les format complexes ou binaire, par exemple fop pour pdf etc...).</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>XSLT 3 (et donc Saxon) supporte la conversion de json dans un format xml &eacute;quivalent, ce qui permet de stocker les AST en JSON directement dans BaseX ou eXist, et de pouvoir &eacute;galement les requ&ecirc;ter afin d'obtenir des possibilit&eacute; de requ&ecirc;tes avanc&eacute;es combinant les les &eacute;l&eacute;ment de code et leur contenus, avec les &eacute;l&eacute;ment xml les d&eacute;crivant et leur contenus. Par exemple pour retrouver tous les &eacute;l&eacute;ment de contenus &agrave; r&eacute;viser suite &agrave; la modification d'une m&eacute;thode dans le code, on pourrait ex&eacute;cuter une requete du genre : "trouver tous les &eacute;l&eacute;ment de code qui appellent cette m&eacute;thode directement ou indirectement, et tous les contenus les d&eacute;crivant".</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p>
+                                                                                    <em>NB : Saxon permet d'&ecirc;tre int&eacute;gr&eacute; dans un script (ou une appli) PHP : il exist une extension php pour Saxon qu'il faut configurer dans php.ini.</em>
+                                                                                </p>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="li-content">
+                                                            <p>
+                                                                L'int&eacute;gration d'une bdd xml gratuite comme <a href="http://basex.org/">BaseX</a> ou <a href="http://exist-db.org/exist/apps/homepage/index.html">eXist</a>  permet d'impl&eacute;menter &agrave; la fois un site de consultation de cette doc, mais aussi un module cms de gestion des contenus xml &eacute;dit&eacute;s (cf ci-apr&egrave;s). En prio 2 &agrave; voir si remplacer cette brique par le tandem Symfony/Postgesql est jouable =&gt; il faut alors d&eacute;velopper un mapping des contenus xml dans un sch&eacute;ma de donn&eacute;e postgres adhoc, avec le m&ecirc;me niveau de requetage que XQuery le permet dans BaseX/eXist =&gt; c 'est pas pour demain...NB : il est possible de d&eacute;velopper ce module cms avec le framework symfonu via "un client php" pour BaseX, ou une API REST pour eXist =&gt; &agrave; voir si d&eacute;perdition fonctionnel probl&eacute;matique par rapport &agrave; un d&eacute;veloppement avec le langage natif de ces deux sgbd qui est java...
+                                                            </p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="li-content">
+                                                            <p>
+                                                                Une personnalisation de l'editeur "online web" <a href="https://docs.sdl.com/LiveContent/content/en-US/SDL%20Xopus%20references-v5/GUID-05A324E6-F7DF-4826-BCC0-4EA892BECCC2#addHistory=true&amp;filename=GUID-24EA4417-88AD-460D-814F-C0AD6DF4BFF2.xml&amp;docid=GUID-8240D97A-6F7A-46A3-98FE-8F3A6825BD96&amp;inner_id=&amp;tid=&amp;query=&amp;scope=&amp;resource=&amp;toc=false&amp;eventType=lcContent.loadDocGUID-8240D97A-6F7A-46A3-98FE-8F3A6825BD96">XML Xopus</a> (via des script xslt-&gt;html/js/css), permet d'impl&eacute;menter le poste r&eacute;dacteur d&eacute;crit ci-avant (m&ecirc;me avec une version "unlicensed"...), int&eacute;gr&eacute; au dit module cms. <em>NB : Xopus est un module pur js et n'est donc pas li&eacute; au langage d'impl&eacute;mentation du cms sous-jacent : il s'int&egrave;gre donc &agrave; celui-ci, qu'il soit en java ou php ou autre.</em>
+                                                            </p>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="li-content">
+                                                            <p>NB : il parait quand m&ecirc;me int&eacute;ressant (et &agrave; priori possible), de pouvoir int&eacute;grer l'ensemble des sc&eacute;narios cibles d&eacute;crit ci-avant, et des outils qui les impl&eacute;mentent (API REST GitLab/Redmine,Saxon, php-parser, BaseX/eXist,Xopus), en un BO "EPAD", avec un dashboard permettant le d&eacute;clenchement des divers fonctionnalit&eacute;s par les divers acteur (g&eacute;n&eacute;ration auto des contenus documentaire d'un repo par un dev et/ou d'une r&eacute;vision des contenus induit par une merge request, et/ou r&eacute;daction from scratch d'un nouveau sc&eacute;narios par un dev ou un non dev, et/ou listage/consultation des contenus &agrave; v&eacute;rifier d'une merge request et lancement de l'&eacute;diteur sur ceux &agrave; modifier, et/ou consultation/recherche dans la release courante de la doc par tout le monde etc...). Le framework sf est un bon candidat pour impl&eacute;menter une telle int&eacute;gration d'outil en un BO d&eacute;di&eacute;.</p>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h2></h2>
+                        <p></p>
+                        <div class="section">
+                            <h3></h3>
+                            <div class="section">
+                                <h4></h4>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="articleFooter">
+            <div class="disclaimer"></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,677 @@
+<journals>
+<issue_66306>
+<issue_url>https://redmine.bilendi.com/issues/66306</issue_url>
+</issue_66306>
+<issue_66304>
+<issue_url>https://redmine.bilendi.com/issues/66304</issue_url>
+</issue_66304>
+<issue_66303>
+<issue_url>https://redmine.bilendi.com/issues/66303</issue_url>
+</issue_66303>
+<issue_66294>
+<issue_url>https://redmine.bilendi.com/issues/66294</issue_url>
+</issue_66294>
+<issue_66158>
+<issue_url>https://redmine.bilendi.com/issues/66158</issue_url>
+</issue_66158>
+<issue_66104>
+<issue_url>https://redmine.bilendi.com/issues/66104</issue_url>
+</issue_66104>
+<issue_66090>
+<issue_url>https://redmine.bilendi.com/issues/66090</issue_url>
+</issue_66090>
+<issue_66083>
+<issue_url>https://redmine.bilendi.com/issues/66083</issue_url>
+</issue_66083>
+<issue_65945>
+<issue_url>https://redmine.bilendi.com/issues/65945</issue_url>
+</issue_65945>
+<issue_65841>
+<issue_url>https://redmine.bilendi.com/issues/65841</issue_url>
+</issue_65841>
+<issue_65830>
+<issue_url>https://redmine.bilendi.com/issues/65830</issue_url>
+</issue_65830>
+<issue_65737>
+<issue_url>https://redmine.bilendi.com/issues/65737</issue_url>
+</issue_65737>
+<issue_65622>
+<issue_url>https://redmine.bilendi.com/issues/65622</issue_url>
+</issue_65622>
+<issue_65609>
+<issue_url>https://redmine.bilendi.com/issues/65609</issue_url>
+</issue_65609>
+<issue_65577>
+<issue_url>https://redmine.bilendi.com/issues/65577</issue_url>
+</issue_65577>
+<issue_65276>
+<issue_url>https://redmine.bilendi.com/issues/65276</issue_url>
+<journal id="640408">
+  <user id="529" name="Franck D."/>
+  <notes>sum-up of our last friday's talk with Robin :
+* first topic discussed : reborn of solution process to solve the "signature key" issue (draft):
+** mains steps (their order and completness is not validated yet):
+*** reset the existing key in Deutche Bank platform, generate and re-send the INI Letter with the new key, and wait for its activation notification from Deutche Bank;
+*** configure the usb key on Exabank side with Adrien (Exalog) and Robin (live call), from the Exabank doc describing it : download and install Sconnect plugin (from swift) in Robin's browser, configure the key in Exabank BO etc... =&gt; Adrien as agreed (a long time ago now) to assist us in this task...;
+* second topic : evolution random thoughts to manage frauders :
+** tools that could assist in identifying fauders : maybe some kind of "knowledge base" of known useful check on member datas (on their email ...), maybe correlation reports on datas between ccc, database datas, xml transfer files ...;
+** possibility of browsing the xml transfer files (integrated with the database), in a dedicated way : filtering on idMembre, name, email, amount ...;
+** tools to cancel credits transfer requests identified as the ones of a frauder :
+** once a credit transfer has been identified as doubtful from the previous frauders identification phase, then clic on the credit to flag it as "to cancel";
+** provide a view of the credits flagged as "to cancel";
+** clic on a "validate" button as a final validation of the credits "to cancel" =&gt; the "to cancel" credits are removed from the xml file and the file is resent to Exabank, the credits are flagged as canceled in db, the credits amounts are re-added to the members site accounts (not bank accounts), sothat these accounts are balanced with the credit cancellations (even if these accounts are "frauders accounts" and so blacklisted);
+** once this "transfer credit check" step is completed, the user can go in Exabank and trigger the sending of the file;
+** Additional features would help identify and solve potential differences when their are technical issues with the automated credit file transfer, leading in manual actions to solve/work around the issue and send the file : "check the diff of number of credits between the xml files and the database" and/or "check the diff of total amount between the xml file and the database", and/or check this amount diff "by credit".</notes>
+  <created_on>2021-06-21T07:35:07Z</created_on>
+  <private_notes>true</private_notes>
+  <details type="array"/>
+</journal>
+<journal id="640750">
+  <user id="529" name="Franck D."/>
+  <notes>ok, so after checking the history, one as to catch-up the process from the step 7 in note #65276#note-33;
+I copy the remaining effective steps below (with the owners of each step) :
+# Reiner, Franck : reset the Exabanque signing and sending certificates configuration;
+# Robin, Pablo(Exalog), Franck : configure Robin's computer's browser with this usb key;
+# Reiner, Franck, Robin : resend to Deutsche Bank the corresponding "INI letter" with the new keys values (by fax to +49 3411202727 and to Martin);
+# Robin : wait (a few days) the notification from Deutsche Bank, of the official activation of the User ID : AD151999 (sending) and AD151807 (signing) and notify Franck of it;
+# Robin, Adrien(Exalog), Franck, Reiner :redo the "send file" test;</notes>
+  <created_on>2021-06-22T13:13:13Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array"/>
+</journal>
+<journal id="641090">
+  <user id="529" name="Franck D."/>
+  <notes>Breakdown and update of #65276#note-45 issue fix global process :
+
+h3. People
+
+* Robin : Bilendi / Meinungplatz business team;
+* Reiner (backup Sacha) : Deutche Bank IT support;
+* Pablo (backup Adrien) : Exalog/Exabanque IT support;
+* Franck : Bilendi IT support;
+
+h3. Concrete process
+
+# -Reiner, Franck : reset the Exabanque signing and sending certificates configuration;-
+** Status : Deutche Bank support confirmed that the key values have been reseted and that the new key values can be initialized first, and the corresponding INI letter sent next;
+# Robin, Pablo, Franck : configure Robin's computer's browser with this usb key;
+## [WIP]Robin, Franck : recall the file sending scenario and get from Robin the target computers OS and browsers of the authorized persons that will execute this scenario (these persons should own a 3SKey signing usb key);
+*** Status : request channed to Robin;
+## Robin, Pablo, Franck : with the answer of previous task : execute the procedure provided by Pablo in the attached screenshot "Capture d’écran 2021-06-23 à 14.13.53.png" for Robin authorized person;
+# Reiner, Franck, Robin : resend to Deutsche Bank the corresponding "INI letter" with the new keys values (by fax to +49 3411202727 and to Martin);
+## Reiner, Franck :  before resending the "INI letter" to Deutsche Bank, check first with Reiner that the calls of the "appel ebics INI" and "ebics HIA", in the step 5 of the previous task, have effectively updated the Deutsche Bank User ID AD151999 (sending) and AD151807 (signing), with the new keys;
+## Reiner, Franck, Robin : if previous check is KO then investigate the issue, if it's OK then Franck makes sure Robin has access to the "INI Letter" and Robin sends these "INI Letter" (only authorized persons send such a letter), by fax to +49 3411202727 and to Martin (or like Robin did it last time);
+# Robin : wait (a few days) the notification from Deutsche Bank, of the official activation of the User ID : AD151999 (sending) and AD151807 (signing) and notify Franck of it;
+# Robin, Pablo, Franck, Reiner :redo the "send file" test;
+** Status : TODO Franck : make a concrete breakdown of this issue fix validation test scenario execution, when the previous tasks are completed.
+# When the previous step is ok, redo the all the previous steps for all others authorized persons (except the ones not mandatory for this person).</notes>
+  <created_on>2021-06-23T14:07:33Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="attachment" name="99144">
+      <old_value/>
+      <new_value>Capture d’écran 2021-06-23 à 14.13.53.png</new_value>
+    </detail>
+  </details>
+</journal></issue_65276>
+<issue_65275>
+<issue_url>https://redmine.bilendi.com/issues/65275</issue_url>
+</issue_65275>
+<issue_65191>
+<issue_url>https://redmine.bilendi.com/issues/65191</issue_url>
+<journal id="638642">
+  <user id="529" name="Franck D."/>
+  <notes>fyi j'ai repassé la card en waiting à la main car elle était resté dans la colonne trello "Done/TESTING" malgrè le move en ToPlan de Gé (cf cmt précédent).</notes>
+  <created_on>2021-06-09T06:30:12Z</created_on>
+  <private_notes>true</private_notes>
+  <details type="array"/>
+</journal>
+<journal id="639131">
+  <user id="529" name="Franck D."/>
+  <notes>je repasse en todo: cf mon cmt ds la mr.</notes>
+  <created_on>2021-06-11T09:29:22Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="attr" name="status_id">
+      <old_value>20</old_value>
+      <new_value>2</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="639150">
+  <user id="529" name="Franck D."/>
+  <notes>attache stp le fichier d'export produit par ton test de ce chgt;
+quand je lis ça : https://www.php.net/manual/fr/function.fputcsv.php
+et que le changement fait est :
+&lt;pre&gt;
+-                 $fileObject-&gt;fputcsv($data, '|');
++                 $fileObject-&gt;fputcsv($data);
+&lt;/pre&gt;
+
+j'ai légitimement un doute ...
+
+NB : la demande ci-dessus est : "+ changer le séparateur en ';' comme les autres epxorts."</notes>
+  <created_on>2021-06-11T10:21:35Z</created_on>
+  <private_notes>true</private_notes>
+  <details type="array"/>
+</journal>
+<journal id="639156">
+  <user id="529" name="Franck D."/>
+  <notes/>
+  <created_on>2021-06-11T10:37:44Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="attr" name="status_id">
+      <old_value>20</old_value>
+      <new_value>2</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="639358">
+  <user id="529" name="Franck D."/>
+  <notes>ce tkt repasse todo pour le run de chgt "sf 4 migration anticipation" statué aujourd'hui avec la team migration sf4.</notes>
+  <created_on>2021-06-14T13:21:24Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="attr" name="status_id">
+      <old_value>20</old_value>
+      <new_value>2</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="640161">
+  <user id="529" name="Franck D."/>
+  <notes>je vois pas de merge de master pour cette branche là, hors c'est ce qui a été convenu dans le meeting sf4.</notes>
+  <created_on>2021-06-17T14:41:58Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="attr" name="status_id">
+      <old_value>20</old_value>
+      <new_value>2</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="640593">
+  <user id="529" name="Franck D."/>
+  <notes/>
+  <created_on>2021-06-21T16:14:55Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="attr" name="description">
+      <old_value>Afin de synchroniser automatiquement le fichier des commandes Master avec SAP chez le client il faudrait évaluer la charge de travail pour créer un fichier additionnel aavec le dessin d'enregistrement suivant.
+
+Dépôt sur le FTP
+Fréquence : Non déterminé (Quotidien ou bi-quotidien)
+Format : CSV
+
+Spec du client en document joint.
+
+
+|_.N°	|_.Champs SPELOG	|_.Champs BO	|_.Données	|_.Remarques	|
+|1	|CDECLIREF	|4	|Numéro de commande	|N° de commande dans BILENDI	|
+|2	|CDLDATCLI	|12	|Date d'échange	|	|
+|3	|CLICODCDE	|1	|N° vip	|N° du compte client VIP	|
+|4	|ETSNUMCDE	|	|DDTH_fre-FR	|Constante (marque De Dietrich)	|
+|5	|CDETYP	|	|ZVP / ZVF	"|Règle à définir pour le type de commande
+Commande point = ZVP
+Commande facturée : ZVF"	|
+|6	|PROREF	|6	|Rèf.	|Reference de l’article	|
+|7	|CDLCUMQTE	|13	|Qté	|	|
+|8	|CDLPXVNET	|	|	|	|
+|9	|COMMENTAIRE	|	|	|Si existe possible	|
+|10	|CLIENTADR1	|3	|Nom société	|	|
+|11	|CLIENTADR2	|9	|Adresse de livraison	|Découpage : n° rue	|
+|12	|CLIENTADR3	|10	|Numéro de telephone	|	|
+|13	|CLIENTADR4	|11	|Numéro de telephone mobile	|	|
+|14	|CLIENTCP	|9	|Adresse de livraison	|Découpage : Code Postal	|
+|15	|CLIENTVILLE	|9	|Adresse de livraison	|Découpage :Ville	|
+|16	|CLIENTEMAIL	|2	|Email	|	|
+|17	|CLIENTPAYS	|9	|Adresse de livraison	|Pays : FR	|
+|18	|CODEGIA	|	|N/A	|	|
+|19	|TYPEXPE	|	|N/A	|	|
+|20	|DOSSIERRETOUR	|	|N/A	|	|
+|21	|SYMPTOME	|	|N/A	|	|
+|22	|NOSERIE	|	|N/A	|	|
+|23	|DATEMES	|	|N/A	|	|
+|24	|CODEPROD	|	|N/A	|	|
+|25	|OBSERVATION	|	|N/A	|	|
+|26	|CLIENTOWNREF	|	|N/A	|	|</old_value>
+      <new_value>{{ToC}}
+
+*@dev,@leads : avant toute action de dev/test/commit/push/review/met sur ce tkt : lire https://redmine.bilendi.com/issues/66685#Proc%C3%A9dure-de-d%C3%A9ploiement*
+
+h1. Demande du demandeur
+
+Afin de synchroniser automatiquement le fichier des commandes Master avec SAP chez le client il faudrait évaluer la charge de travail pour créer un fichier additionnel aavec le dessin d'enregistrement suivant.
+
+Dépôt sur le FTP
+Fréquence : Non déterminé (Quotidien ou bi-quotidien)
+Format : CSV
+
+Spec du client en document joint.
+
+
+|_.N°	|_.Champs SPELOG	|_.Champs BO	|_.Données	|_.Remarques	|
+|1	|CDECLIREF	|4	|Numéro de commande	|N° de commande dans BILENDI	|
+|2	|CDLDATCLI	|12	|Date d'échange	|	|
+|3	|CLICODCDE	|1	|N° vip	|N° du compte client VIP	|
+|4	|ETSNUMCDE	|	|DDTH_fre-FR	|Constante (marque De Dietrich)	|
+|5	|CDETYP	|	|ZVP / ZVF	"|Règle à définir pour le type de commande
+Commande point = ZVP
+Commande facturée : ZVF"	|
+|6	|PROREF	|6	|Rèf.	|Reference de l’article	|
+|7	|CDLCUMQTE	|13	|Qté	|	|
+|8	|CDLPXVNET	|	|	|	|
+|9	|COMMENTAIRE	|	|	|Si existe possible	|
+|10	|CLIENTADR1	|3	|Nom société	|	|
+|11	|CLIENTADR2	|9	|Adresse de livraison	|Découpage : n° rue	|
+|12	|CLIENTADR3	|10	|Numéro de telephone	|	|
+|13	|CLIENTADR4	|11	|Numéro de telephone mobile	|	|
+|14	|CLIENTCP	|9	|Adresse de livraison	|Découpage : Code Postal	|
+|15	|CLIENTVILLE	|9	|Adresse de livraison	|Découpage :Ville	|
+|16	|CLIENTEMAIL	|2	|Email	|	|
+|17	|CLIENTPAYS	|9	|Adresse de livraison	|Pays : FR	|
+|18	|CODEGIA	|	|N/A	|	|
+|19	|TYPEXPE	|	|N/A	|	|
+|20	|DOSSIERRETOUR	|	|N/A	|	|
+|21	|SYMPTOME	|	|N/A	|	|
+|22	|NOSERIE	|	|N/A	|	|
+|23	|DATEMES	|	|N/A	|	|
+|24	|CODEPROD	|	|N/A	|	|
+|25	|OBSERVATION	|	|N/A	|	|
+|26	|CLIENTOWNREF	|	|N/A	|	|
+
+----
+
+h1. Dev notes
+
+*@dev,@leads : avant toute action de dev/test/commit/push/review/met sur ce tkt : lire https://redmine.bilendi.com/issues/66685#Proc%C3%A9dure-de-d%C3%A9ploiement*
+
+h2. Procédure de déploiement
+
+
+Lire https://redmine.bilendi.com/issues/66685#Proc%C3%A9dure-de-d%C3%A9ploiement</new_value>
+    </detail>
+    <detail property="cf" name="16">
+      <old_value>https://gitlab.bilendi.net/dev/ddi/-/merge_requests/830
+php bin/console app:cron:export-orders (a brancher quotidiennement)</old_value>
+      <new_value>LIRE :
+https://redmine.bilendi.com/issues/66685#Proc%C3%A9dure-de-d%C3%A9ploiement
+
+MR :
+ https://gitlab.bilendi.net/dev/ddi/-/merge_requests/845
+
+CRON :
+php bin/console app:cron:export-orders (a brancher quotidiennement)
+
+OBSOLETE :
+https://gitlab.bilendi.net/dev/ddi/-/merge_requests/830</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="640594">
+  <user id="529" name="Franck D."/>
+  <notes>Re-structured branches to get only the code specific to this tkt in the branch of this tkt ans its merge request and referenced the section telling the workflow specifities of these new branch and merge request.</notes>
+  <created_on>2021-06-21T16:14:55Z</created_on>
+  <private_notes>true</private_notes>
+  <details type="array"/>
+</journal>
+<journal id="640600">
+  <user id="529" name="Franck D."/>
+  <notes/>
+  <created_on>2021-06-21T16:19:56Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="relation" name="blocked">
+      <old_value/>
+      <new_value>66686</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="640656">
+  <user id="529" name="Franck D."/>
+  <notes>MET DONE NOW : content : sf4 changes to enable sf4 migration wip (in tkt #68520), and prepare future sf4 migration of the code of this export.</notes>
+  <created_on>2021-06-22T08:58:25Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="attr" name="status_id">
+      <old_value>2</old_value>
+      <new_value>8</new_value>
+    </detail>
+    <detail property="attr" name="assigned_to_id">
+      <old_value>355</old_value>
+      <new_value>441</new_value>
+    </detail>
+  </details>
+</journal></issue_65191>
+<issue_65015>
+<issue_url>https://redmine.bilendi.com/issues/65015</issue_url>
+</issue_65015>
+<issue_64929>
+<issue_url>https://redmine.bilendi.com/issues/64929</issue_url>
+</issue_64929>
+<issue_64927>
+<issue_url>https://redmine.bilendi.com/issues/64927</issue_url>
+</issue_64927>
+<issue_64854>
+<issue_url>https://redmine.bilendi.com/issues/64854</issue_url>
+</issue_64854>
+<issue_64773>
+<issue_url>https://redmine.bilendi.com/issues/64773</issue_url>
+</issue_64773>
+<issue_64720>
+<issue_url>https://redmine.bilendi.com/issues/64720</issue_url>
+</issue_64720>
+<issue_64717>
+<issue_url>https://redmine.bilendi.com/issues/64717</issue_url>
+</issue_64717>
+<issue_64653>
+<issue_url>https://redmine.bilendi.com/issues/64653</issue_url>
+</issue_64653>
+<issue_64634>
+<issue_url>https://redmine.bilendi.com/issues/64634</issue_url>
+</issue_64634>
+<issue_64633>
+<issue_url>https://redmine.bilendi.com/issues/64633</issue_url>
+</issue_64633>
+<issue_64632>
+<issue_url>https://redmine.bilendi.com/issues/64632</issue_url>
+</issue_64632>
+<issue_64630>
+<issue_url>https://redmine.bilendi.com/issues/64630</issue_url>
+</issue_64630>
+<issue_64628>
+<issue_url>https://redmine.bilendi.com/issues/64628</issue_url>
+</issue_64628>
+<issue_64587>
+<issue_url>https://redmine.bilendi.com/issues/64587</issue_url>
+</issue_64587>
+<issue_64509>
+<issue_url>https://redmine.bilendi.com/issues/64509</issue_url>
+</issue_64509>
+<issue_64506>
+<issue_url>https://redmine.bilendi.com/issues/64506</issue_url>
+</issue_64506>
+<issue_64494>
+<issue_url>https://redmine.bilendi.com/issues/64494</issue_url>
+</issue_64494>
+<issue_64477>
+<issue_url>https://redmine.bilendi.com/issues/64477</issue_url>
+</issue_64477>
+<issue_64388>
+<issue_url>https://redmine.bilendi.com/issues/64388</issue_url>
+</issue_64388>
+<issue_64372>
+<issue_url>https://redmine.bilendi.com/issues/64372</issue_url>
+</issue_64372>
+<issue_64309>
+<issue_url>https://redmine.bilendi.com/issues/64309</issue_url>
+</issue_64309>
+<issue_64304>
+<issue_url>https://redmine.bilendi.com/issues/64304</issue_url>
+</issue_64304>
+<issue_64302>
+<issue_url>https://redmine.bilendi.com/issues/64302</issue_url>
+</issue_64302>
+<issue_64292>
+<issue_url>https://redmine.bilendi.com/issues/64292</issue_url>
+</issue_64292>
+<issue_64287>
+<issue_url>https://redmine.bilendi.com/issues/64287</issue_url>
+</issue_64287>
+<issue_64286>
+<issue_url>https://redmine.bilendi.com/issues/64286</issue_url>
+</issue_64286>
+<issue_64273>
+<issue_url>https://redmine.bilendi.com/issues/64273</issue_url>
+</issue_64273>
+<issue_64262>
+<issue_url>https://redmine.bilendi.com/issues/64262</issue_url>
+</issue_64262>
+<issue_64229>
+<issue_url>https://redmine.bilendi.com/issues/64229</issue_url>
+</issue_64229>
+<issue_64216>
+<issue_url>https://redmine.bilendi.com/issues/64216</issue_url>
+</issue_64216>
+<issue_64128>
+<issue_url>https://redmine.bilendi.com/issues/64128</issue_url>
+</issue_64128>
+<issue_64127>
+<issue_url>https://redmine.bilendi.com/issues/64127</issue_url>
+</issue_64127>
+<issue_63977>
+<issue_url>https://redmine.bilendi.com/issues/63977</issue_url>
+</issue_63977>
+<issue_63976>
+<issue_url>https://redmine.bilendi.com/issues/63976</issue_url>
+</issue_63976>
+<issue_63975>
+<issue_url>https://redmine.bilendi.com/issues/63975</issue_url>
+</issue_63975>
+<issue_63974>
+<issue_url>https://redmine.bilendi.com/issues/63974</issue_url>
+</issue_63974>
+<issue_63966>
+<issue_url>https://redmine.bilendi.com/issues/63966</issue_url>
+</issue_63966>
+<issue_63847>
+<issue_url>https://redmine.bilendi.com/issues/63847</issue_url>
+</issue_63847>
+<issue_63782>
+<issue_url>https://redmine.bilendi.com/issues/63782</issue_url>
+<journal id="641117">
+  <user id="529" name="Franck D."/>
+  <notes>Voilà le mail que j'ai convenu avec Serge Adam (au tel ce matin), d'envoyer à son support pour corriger ce bug suite à une nouvelle occurence de celui-ci lors de leur rejet du fichier de prlvt du 19/06 : {{collapse()
+&lt;pre&gt;
+Bonjour,
+ 
+mon Numéro d'abonné ftp-bank : H00030K
+
+lors de deux dernières erreur d'envoi en banque que nous avons eu à traiter j'ai remarqué que le fichier d'erreur produit (ceux que votre script créé dans le repertoire "error"), ne contient plus l'extension .err :
+
+voilà ci-dessous un listing des fichier d'erreur que l'un de nos script recupère de ce repertoire "error".
+il est convenu de longue date que ces fichier soient suffixés avec l'extension .err de sorte qu'ils aient le même nom que le fichier de log de l'erreur que votre script produit également à l'extension près (.xml dans le cas du fichier de log).
+ainsi une tâche cron chez nous récupère les couples de fichier (error/xxx.err , log/xxx.log) et envoi une alerte que le support chez nous peut traiter.
+
+j'avais déjà alerté par tel Serge il y a 9 mois dans le cas du fichier d'erreur UGCFR-2020-09-03-2020-09-10.2.xml.20200903023859.maximiles_20200903_121109
+qui m'avait dit que ce serait corrigé mais suite à la nouvelle alerte de ce week-end  (fichier UGCFR-2021-06-19-2021-06-28.1.xml.20210619005522.maximiles_20210619_211937),je vois que ce n'est tjs pas corrigé.merci de gérer rapidement cette regression
+Franck DelahayeDev leadBilendi technology
+
+f.delahaye@job-1i:~$ ls -ltr /home/shared/ftp-bank/production/storage/errors/error/
+total 298568
+-rw-rw-r-- 1 ftp-bank www-data 31948800 Feb 27  2013 UGCFR-2013-03-05.txt.20130227013609.maximiles_20130227_113319.tosend
+-rw-rw-r-- 1 ftp-bank www-data 32504303 Nov 22  2013 2013-11-20-debit-orders-FR.2.xml.maximiles_20131122_084950
+-rw-rw-r-- 1 ftp-bank www-data 74098327 Nov 22  2013 2013-11-20-debit-orders-FR.xml.maximiles_20131122_084955
+-rw-rw-r-- 1 ftp-bank www-data    58522 Jul 11  2016 UGCFR-2016-07-10-2016-07-19.1.xml.20160710010418.maximiles_20160711_091029
+-rw-r--r-- 1 ftp-bank www-data 36987220 Sep  4  2020 UGCFR-2020-09-03-2020-09-10.3.xml.20200903023859.maximiles_20200903_121108
+-rw-r--r-- 1 ftp-bank www-data 37033970 Sep  4  2020 UGCFR-2020-09-03-2020-09-10.2.xml.20200903023859.maximiles_20200903_121109
+-rw-r--r-- 1 ftp-bank www-data 18244128 Sep  4  2020 UGCFR-2020-09-03-2020-09-10.5.xml.20200903023859.maximiles_20200903_121106
+-rw-r--r-- 1 ftp-bank www-data 36977171 Sep  4  2020 UGCFR-2020-09-03-2020-09-10.4.xml.20200903023859.maximiles_20200903_121106
+-rw-r--r-- 1 ftp-bank www-data 37056091 Sep  4  2020 UGCFR-2020-09-03-2020-09-10.1.xml.20200903023859.maximiles_20200903_121107
+-rw-r--r-- 1 ftp-bank www-data     2969 May 10 14:01 UGCFR-2021-05-08-2021-05-18.1.xml.20210508005900.maximiles_20210508_083736.err
+-rw-r--r-- 1 ftp-bank www-data     2234 May 17 11:01 UGCFR-2021-05-12-2021-05-20.1.xml.20210512010901.maximiles_20210512_083745.err
+-rw-r--r-- 1 ftp-bank www-data     9852 May 17 11:01 UGCFR-2021-05-13-2021-05-21.1.xml.20210513005856.maximiles_20210513_083746.err
+-rw-r--r-- 1 ftp-bank www-data    27628 May 17 11:01 UGCFR-2021-05-15-2021-05-25.1.xml.20210515005836.maximiles_20210515_083742.err
+-rw-r--r-- 1 ftp-bank www-data    15486 May 17 11:01 UGCFR-2021-05-17-2021-05-25.1.xml.20210517005843.maximiles_20210517_083744.err
+-rw-r--r-- 1 ftp-bank www-data   233320 Jun 21 12:01 UGCFR-2021-06-19-2021-06-28.1.xml.20210619005522.maximiles_20210619_211937
+-rw-r--r-- 1 ftp-bank www-data    15640 Jun 22 12:01 UGCFR-2021-05-17-2021-05-25.1.xml.20210622105600.maximiles_20210622_113748.err
+-rw-r--r-- 1 ftp-bank www-data     9937 Jun 22 12:01 UGCFR-2021-05-13-2021-05-21.1.xml.20210622105600.maximiles_20210622_113751.err
+-rw-r--r-- 1 ftp-bank www-data    27905 Jun 22 12:01 UGCFR-2021-05-15-2021-05-25.1.xml.20210622105600.maximiles_20210622_113818.err
+-rw-r--r-- 1 ftp-bank www-data     2987 Jun 22 12:01 UGCFR-2021-05-08-2021-05-18.1.xml.20210622105600.maximiles_20210622_113825.err
+-rw-r--r-- 1 ftp-bank www-data   428047 Jun 22 12:01 UGCFR-2021-05-20-2021-05-28.1.xml.20210622105600.maximiles_20210622_113828.err
+-rw-r--r-- 1 ftp-bank www-data     2244 Jun 22 12:01 UGCFR-2021-05-12-2021-05-20.1.xml.202
+&lt;/pre&gt;
+}}</notes>
+  <created_on>2021-06-23T14:54:52Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array"/>
+</journal>
+<journal id="641238">
+  <user id="529" name="Franck D."/>
+  <notes>... ils ont ouvert un tkt pour ça  : {{collapse()
+&lt;pre&gt;
+BANKX-MC Re: les fichier d'erreur produit par votre script d'envoi en banque ne contiennent pplus l'extension .err
+External
+Inbox
+
+Assistance
+Wed, 23 Jun, 17:26 (18 hours ago)
+to me, Assistance
+
+   
+Translate message
+Turn off for: French
+Bonjour,
+
+Nous ouvrons un ticket auprès de notre service d'exploitation et revenons vers vous.
+
+Cordialement,
+
+Mihai CHITIC
+&lt;/pre&gt;
+}}</notes>
+  <created_on>2021-06-24T09:38:34Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array"/>
+</journal></issue_63782>
+<issue_63760>
+<issue_url>https://redmine.bilendi.com/issues/63760</issue_url>
+</issue_63760>
+<issue_63320>
+<issue_url>https://redmine.bilendi.com/issues/63320</issue_url>
+</issue_63320>
+<issue_63251>
+<issue_url>https://redmine.bilendi.com/issues/63251</issue_url>
+</issue_63251>
+<issue_63190>
+<issue_url>https://redmine.bilendi.com/issues/63190</issue_url>
+</issue_63190>
+<issue_63180>
+<issue_url>https://redmine.bilendi.com/issues/63180</issue_url>
+</issue_63180>
+<issue_62912>
+<issue_url>https://redmine.bilendi.com/issues/62912</issue_url>
+</issue_62912>
+<issue_62910>
+<issue_url>https://redmine.bilendi.com/issues/62910</issue_url>
+</issue_62910>
+<issue_62848>
+<issue_url>https://redmine.bilendi.com/issues/62848</issue_url>
+</issue_62848>
+<issue_62776>
+<issue_url>https://redmine.bilendi.com/issues/62776</issue_url>
+</issue_62776>
+<issue_62773>
+<issue_url>https://redmine.bilendi.com/issues/62773</issue_url>
+</issue_62773>
+<issue_62772>
+<issue_url>https://redmine.bilendi.com/issues/62772</issue_url>
+</issue_62772>
+<issue_62704>
+<issue_url>https://redmine.bilendi.com/issues/62704</issue_url>
+</issue_62704>
+<issue_62531>
+<issue_url>https://redmine.bilendi.com/issues/62531</issue_url>
+</issue_62531>
+<issue_62511>
+<issue_url>https://redmine.bilendi.com/issues/62511</issue_url>
+</issue_62511>
+<issue_62324>
+<issue_url>https://redmine.bilendi.com/issues/62324</issue_url>
+</issue_62324>
+<issue_62323>
+<issue_url>https://redmine.bilendi.com/issues/62323</issue_url>
+</issue_62323>
+<issue_62321>
+<issue_url>https://redmine.bilendi.com/issues/62321</issue_url>
+</issue_62321>
+<issue_62303>
+<issue_url>https://redmine.bilendi.com/issues/62303</issue_url>
+</issue_62303>
+<issue_62279>
+<issue_url>https://redmine.bilendi.com/issues/62279</issue_url>
+</issue_62279>
+<issue_62274>
+<issue_url>https://redmine.bilendi.com/issues/62274</issue_url>
+</issue_62274>
+<issue_62241>
+<issue_url>https://redmine.bilendi.com/issues/62241</issue_url>
+</issue_62241>
+<issue_62209>
+<issue_url>https://redmine.bilendi.com/issues/62209</issue_url>
+</issue_62209>
+<issue_61847>
+<issue_url>https://redmine.bilendi.com/issues/61847</issue_url>
+</issue_61847>
+<issue_61818>
+<issue_url>https://redmine.bilendi.com/issues/61818</issue_url>
+</issue_61818>
+<issue_61805>
+<issue_url>https://redmine.bilendi.com/issues/61805</issue_url>
+</issue_61805>
+<issue_61746>
+<issue_url>https://redmine.bilendi.com/issues/61746</issue_url>
+</issue_61746>
+<issue_61743>
+<issue_url>https://redmine.bilendi.com/issues/61743</issue_url>
+</issue_61743>
+<issue_61740>
+<issue_url>https://redmine.bilendi.com/issues/61740</issue_url>
+</issue_61740>
+<issue_61578>
+<issue_url>https://redmine.bilendi.com/issues/61578</issue_url>
+</issue_61578>
+<issue_61487>
+<issue_url>https://redmine.bilendi.com/issues/61487</issue_url>
+</issue_61487>
+<issue_61451>
+<issue_url>https://redmine.bilendi.com/issues/61451</issue_url>
+</issue_61451>
+<issue_61217>
+<issue_url>https://redmine.bilendi.com/issues/61217</issue_url>
+</issue_61217>
+<issue_60997>
+<issue_url>https://redmine.bilendi.com/issues/60997</issue_url>
+</issue_60997>
+<issue_60955>
+<issue_url>https://redmine.bilendi.com/issues/60955</issue_url>
+</issue_60955>
+<issue_60366>
+<issue_url>https://redmine.bilendi.com/issues/60366</issue_url>
+</issue_60366>
+<issue_59787>
+<issue_url>https://redmine.bilendi.com/issues/59787</issue_url>
+<journal id="640932">
+  <user id="529" name="Franck D."/>
+  <notes>3min15s d'indispo cette nuit sur mxm : première trace : {{collapse()
+&lt;pre&gt;
+[2021-06-23 00:12:50] request.CRITICAL: Uncaught PHP Exception Doctrine\DBAL\Exception\ConnectionException: "An exception occurred in driver: SQLSTATE[08006] [7] timeout expired" at
+&lt;/pre&gt;
+}}</notes>
+  <created_on>2021-06-23T06:07:21Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array"/>
+</journal></issue_59787>
+<issue_59744>
+<issue_url>https://redmine.bilendi.com/issues/59744</issue_url>
+</issue_59744>
+<issue_59518>
+<issue_url>https://redmine.bilendi.com/issues/59518</issue_url>
+</issue_59518>
+<issue_58945>
+<issue_url>https://redmine.bilendi.com/issues/58945</issue_url>
+</issue_58945>
+<issue_58821>
+<issue_url>https://redmine.bilendi.com/issues/58821</issue_url>
+</issue_58821>
+<issue_57902>
+<issue_url>https://redmine.bilendi.com/issues/57902</issue_url>
+</issue_57902>
+<issue_57339>
+<issue_url>https://redmine.bilendi.com/issues/57339</issue_url>
+</issue_57339>
+<issue_57333>
+<issue_url>https://redmine.bilendi.com/issues/57333</issue_url>
+</issue_57333>
+</journals>

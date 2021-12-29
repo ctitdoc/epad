@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple example</title>
+    <style type="text/css">
+    html {
+      background: white;
+      color: black;
+    }
+    </style>
+    <!-- Start Xopus -->
+    <script type="text/javascript" src="../../xopus/xopus.js"></script>
+  </head>
+  <body>
+
+    <!-- The Xopus Canvas -->
+    <div xopus="true" autostart="true">
+      <xml>
+        <x:config version="1.0" xmlns:x="http://www.xopus.com/xmlns/config">
+          <x:pipeline xml="document.xml" xsd="schema.xsd">
+            <x:view name="WYSIWYG View">
+              <x:transform xsl="prepareXIncludes.xsl"/>
+              <x:resolveXIncludes/>
+              <x:transform xsl="stylesheet.xsl"/>
+            </x:view>
+            <x:view name="0:XML">
+              <x:treeTransform/>
+            </x:view>
+            <x:view name="1:prepared">
+              <x:transform xsl="prepareXIncludes.xsl"/>
+              <x:treeTransform/>
+            </x:view>
+            <x:view name="2:resolved">
+              <x:transform xsl="prepareXIncludes.xsl"/>
+              <x:resolveXIncludes/>
+              <x:treeTransform/>
+            </x:view>
+          </x:pipeline>
+
+          <x:import src="config.xml"/>
+
+        </x:config>
+      </xml>
+    </div>
+
+  </body>
+</html>

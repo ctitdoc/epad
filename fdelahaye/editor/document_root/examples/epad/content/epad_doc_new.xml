@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epad xml:lang="fr-FR">
+    <h>??</h>
+    <p>??</p>
+    <dataset_definition behavior="section" view="normal">
+        <h/>
+        <p/>
+        <data_definition behavior="section" view="normal">
+            <h/>
+            <property_definition behavior="section" view="normal">
+                <h/>
+                <p/>
+            </property_definition>
+        </data_definition>
+    </dataset_definition>
+</epad>

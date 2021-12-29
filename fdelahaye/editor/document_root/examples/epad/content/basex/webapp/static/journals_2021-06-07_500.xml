@@ -1,0 +1,62 @@
+<journals>
+<issue_57332>
+<issue_url>https://redmine.bilendi.com/issues/57332</issue_url>
+</issue_57332>
+<issue_57269>
+<issue_url>https://redmine.bilendi.com/issues/57269</issue_url>
+</issue_57269>
+<issue_53798>
+<issue_url>https://redmine.bilendi.com/issues/53798</issue_url>
+</issue_53798>
+<issue_52541>
+<issue_url>https://redmine.bilendi.com/issues/52541</issue_url>
+</issue_52541>
+<issue_49937>
+<issue_url>https://redmine.bilendi.com/issues/49937</issue_url>
+</issue_49937>
+<issue_48172>
+<issue_url>https://redmine.bilendi.com/issues/48172</issue_url>
+</issue_48172>
+<issue_46079>
+<issue_url>https://redmine.bilendi.com/issues/46079</issue_url>
+</issue_46079>
+<issue_33538>
+<issue_url>https://redmine.bilendi.com/issues/33538</issue_url>
+</issue_33538>
+<issue_12667>
+<issue_url>https://redmine.bilendi.com/issues/12667</issue_url>
+<journal id="641367">
+  <user id="529" name="Franck D."/>
+  <notes>CR d'intervention sur le non envoi du fichier de prlvt : UGCFR-2021-06-19-2021-06-28.1.xml.20210619005522.maximiles_20210619_211937 le week-end dernier.
+Les vérif et discussions avec le support ont été denses (la niveau de support de notre partenaire Exalog étant globalement insatisfaisante depuis plusieurs mois).
+Donc ce CR n'en résume que les point principaux :
+* le fichier est poussé régulièrement par la plateforme ugc dans le repertoire 'processing/in' de notre module ftp-bank vers 00:55 (et notamment dans le cas de ce fichier);
+* on est sûr de cette horaire car, le cron de notre module ftp-bank ExportFiles.php archive ce fichier, en conservant sa date, dés lors qu'il a pu le pousser avec succès _(= sans retour d'erreur)_, sur le srv sftp d'Exalog _(code name ftpbank1)_;
+* cf le screenshot attaché qui surligne ce fichier dans ce repertoire "archives";
+* notre script ExportFiles.php tourne tous les jour, toutes les heures, de 08:37 à 19:37, mais ne mentionne pas à date, l'heure précise à laquelle il pousse un fichier =&gt; mais cela peut-être fait en rajoutant l'option --notify_sent_date dans la ligne du cron ExportFiles.php =&gt; faire un tkt pour le demander;
+* le script Exalog tourne lui 4 fois par minute selon le support Exalog =&gt; et donc envoi le fichier vers 08:40 avec le mail "fichier en attente" (cf la date quotidienne de ce mail);
+* ce script produit dans le repertoire "log" du srv, un fichier de log du même nom que le fichier xml, avec les traces d’exécution de l'envoi (et donc le détail de l'erreur lorsque l'envoi échoue)
+* en cas d'eerur, il produit aussi un autre fichier du même nom que le fichier xml, mais avec l'extension .err, dans le repertoire error du srv (ce fichier .err contenant le même contenu que le fichier xml de prlvt);
+* le screenshot du repertoire "log" du srv, surligne un log d'erreur pour le fichier UGCFR-2021-06-19-2021-06-28.1.xml.20210619005522.maximiles_20210619_211937, datant de 19:19;
+* si l'on compare avec les autres fichier de log d'envois précédent, on constate que le fichier de log (et donc l'exécution du script exalog d'envoi du fichier), date toujours d'assez tôt le matin =&gt; ce qui est logique vu qu'il tourne quatre fois par minutre et que notre fichier est poussé vers 08:37;
+* le conclusion est donc que le script d'envois Exalog s'est exécuté avec bcp de retard, et dans ce cas il sort effectivement en erreur, en indiquant dans c e fichier de log que le délais de traitement est dépassé (cf screenshot);
+* mais Exalog ne veut pas poursuivre le diagnostique de son côté s'il n'y a pas de données dispo qui confirment que notre fichier a bien été poussé vers 08:37 comme d'habitude ce matin là;
+* en conclusion il faudrait faire le tkt pour rajouter cette option --notify_sent_date, afin que notre script ExpoprtFile.php produise également cette donnée.</notes>
+  <created_on>2021-06-24T16:40:51Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="attachment" name="99202">
+      <old_value/>
+      <new_value>Capture d’écran 2021-06-21 à 15.01.13.png</new_value>
+    </detail>
+    <detail property="attachment" name="99201">
+      <old_value/>
+      <new_value>Capture d’écran 2021-06-21 à 14.54.30.png</new_value>
+    </detail>
+    <detail property="attachment" name="99200">
+      <old_value/>
+      <new_value>Capture d’écran 2021-06-21 à 14.54.52.png</new_value>
+    </detail>
+  </details>
+</journal></issue_12667>
+</journals>

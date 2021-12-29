@@ -1,0 +1,334 @@
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.splashscreen {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 10000000;
+  top: 0;
+  left: 0;
+  background: transparent;
+  display: none; 
+}
+
+.xopusLoading .splashscreen {
+  display: block; 
+}
+
+.splashscreen-mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background: #F4F6F7; /* compensated, same as transparent mask on white bg */
+}
+
+.splashscreen-box {
+  width: 515px;
+  height: 345px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index:20;
+  font-family: "Calibri", sans-serif;
+  font-size: 11px;
+}
+
+.splashscreen-box a {
+  color: #828486;
+}
+
+.splashscreen-links-block { 
+  display: none; 
+}
+
+.splashscreen-box .gradient {
+  background: -moz-linear-gradient(0deg,  #0096d6 0%, #25bd59 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(0deg,  #0096d6 0%,#25bd59 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(0deg,  #0096d6 0%,#25bd59 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  width: 232px;
+  height: 100%;
+  float: left;
+}
+
+.splashscreen-box .gradient .sdl-xopus-logo {
+  background: url('carbon/xopus_logo.png') no-repeat;
+  background-position-x: 40px;
+  background-position-y: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.splashscreen-box .main {
+  margin-left: 232px;
+  padding: 35px 15px 20px 20px;
+  background-color: #E1E7EB;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.splashscreen-name {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.splash-version {
+  font-size: 11px;
+  display: block;
+}
+
+.splashscreen-copyright {
+  width: 100%;
+  font-size: 10px;
+  margin-top: 25px;
+}
+
+.splashscreen-released {
+  width: 100%;
+}
+
+.splashscreen-legal {
+  font-size: 10px;
+}
+
+.splashscreen-links-block {
+  position: absolute;
+  bottom: 30px;
+}
+
+.splashscreen-loading {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  display: none;
+}
+
+.splashscreen-indicator {
+  display: inline-block;  
+  width: 16px; height: 16px;
+  background: url('xopus/loading.gif') no-repeat;
+  vertical-align: middle;
+}
+
+.splashscreen-indicatorlabel {
+  display: none;
+}
+
+.blank-document { display: none; }
+.blankDocument .splashscreen-loading { display: none; }
+.blankDocument .blank-document { display: block; }
+.blank-document {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+
+.blank-document-indicatorlabel {
+  display: none;
+}
+
+.carbon .splashscreen {
+  // background: #EDEDED;
+}
+
+.carbon .splashscreen-mask {
+  background: #EDEDED;
+}
+
+.carbon.showingAboutXopus .splashscreen-mask {
+  background: #2E3033;
+  opacity:0.5;
+}
+
+.carbon .splashscreen-box {
+  top: -20%;
+  font-size: 12px;
+  color: #FFF;
+  background: #0096d6; /* Old browsers */
+  background: -moz-linear-gradient(45deg,  #0096d6 0%, #25bd59 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,  #0096d6 0%,#25bd59 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg,  #0096d6 0%,#25bd59 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.carbon .splashscreen-box a {
+  color: #FAFAFA;
+}
+
+.carbon .splashscreen-box .gradient {
+  display: block;
+  width: 152px;
+  height: 35px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 30%;
+  background: url('carbon/xopus_logo.png') no-repeat;
+}
+
+.carbon .splashscreen-box .gradient .sdl-xopus-logo {
+  display: none;
+}
+
+.carbon .splashscreen-box .main {
+  background-color: transparent;
+  margin-left: 0;
+  padding-left: 40px;
+}
+
+.carbon .splashscreen-name {
+  font-size: 11px;
+  padding-top: 20px;
+  margin-top: 30%;
+}
+
+.carbon .splash-version {
+  font-size: 11px;
+  display: inline;
+  font-weight: normal;
+}
+
+.carbon .splashscreen-copyright,
+.carbon .splashscreen-legal {
+  font-size: 11px;
+}
+
+.carbon .splashscreen-copyright {
+  position: absolute;
+  bottom: 18px;
+}
+
+.carbon .splashscreen-legal {
+  display: none;
+}
+
+.carbon .splashscreen-links-block {
+  display: block;
+  font-size: 11px;
+  line-height: 14px;
+  bottom: 48px;
+}
+
+.carbon .splashscreen-loading {
+  position: relative;
+  top: 5px;
+  left: 0px;
+  height: 24px;
+  line-height: 24px;
+  display: block;
+}
+
+.carbon .splashscreen-indicator {
+  animation: activityindicator-rotate 2s linear infinite;
+  background: url("data:image/svg+xml;charset=utf8, %3Csvg width='16' height='16' viewBox='0 0 47 48' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EGroup%3C/title%3E%3Cg fill='%23FFFFFF' fill-rule='evenodd'%3E%3Cpath d='M22.936 26.343l1.727-2.056 1.726-2.056c.263-.313.63-.49 1.01-.523a1.48 1.48 0 0 1 1.085.34l8.184 6.86 8.184 6.86c.313.263.49.63.523 1.01.034.378-.077.77-.34 1.083l-1.727 2.056-1.726 2.055c-.263.314-.63.49-1.01.524a1.484 1.484 0 0 1-1.085-.34l-8.184-6.86-8.183-6.86a1.478 1.478 0 0 1-.524-1.009c-.033-.38.077-.772.34-1.084'/%3E%3Cpath d='M13.054 45.827l2.49 1.005 2.491 1.006c.38.153.787.137 1.138-.012.35-.149.645-.43.799-.81l4.001-9.894 4.002-9.896a1.48 1.48 0 0 0-.011-1.136 1.482 1.482 0 0 0-.81-.798l-2.491-1.005-2.49-1.005a1.483 1.483 0 0 0-1.138.011c-.35.15-.645.43-.799.81l-4.002 9.895-4.001 9.895a1.48 1.48 0 0 0 .01 1.137c.15.35.432.644.811.797'/%3E%3Cpath d='M27.269 23.638l-2.607.649-2.606.65a1.484 1.484 0 0 1-1.125-.17 1.48 1.48 0 0 1-.677-.913l-2.585-10.355-2.584-10.356a1.48 1.48 0 0 1 .17-1.123c.196-.327.516-.579.913-.677l2.607-.65L21.38.044a1.484 1.484 0 0 1 1.125.17c.326.196.578.516.677.912l2.585 10.356 2.584 10.355c.1.396.027.797-.17 1.123a1.482 1.482 0 0 1-.913.678'/%3E%3Cpath d='M46.728 13.677l-1.424-2.275-1.45-2.318a1.483 1.483 0 0 0-.926-.66 1.484 1.484 0 0 0-1.123.187l-9.06 5.655-9.06 5.656a1.482 1.482 0 0 0-.658.926c-.086.371-.03.775.186 1.121l1.45 2.318 1.423 2.276c.217.346.556.573.927.658.372.086.776.031 1.122-.186l9.06-5.655 9.06-5.656a1.48 1.48 0 0 0 .659-.926 1.48 1.48 0 0 0-.186-1.12'/%3E%3Cpath d='M24.85 21.61l-.187 2.677-.188 2.677a1.48 1.48 0 0 1-.509 1.016c-.287.25-.67.39-1.078.362l-10.657-.744-10.657-.745a1.482 1.482 0 0 1-1.017-.508 1.48 1.48 0 0 1-.362-1.077l.187-2.677.187-2.677a1.48 1.48 0 0 1 .51-1.016c.287-.25.67-.391 1.077-.363l10.657.745 10.657.744c.408.029.767.222 1.017.509.25.287.392.67.363 1.077'/%3E%3C/g%3E%3C/svg%3E");
+  margin-top: -4px;
+}
+
+.carbon .splashscreen-indicatorlabel {
+  display: inline;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.carbon .blank-document {
+  left: 110px;
+  height: 24px;
+  line-height: 24px;
+}
+
+.carbon .blank-document-indicatorlabel {
+  display: inline;
+  margin-left: 5px;
+}
+
+.standalone .splashscreen {
+  background: #EBEEF2;
+}
+
+.standalone .splashscreen-mask {
+  background: #EBEEF2;
+}
+
+.standalone .splashscreen-box {
+  background: url('carbon/livecontentcreate.gif') 150px 50px no-repeat;
+}
+
+.standalone .splashscreen-loading {
+  left: 158px;
+  top: 100px;
+}
+
+.standalone .splashscreen-indicator {
+  background: url('carbon/activity-16.gif') 4px 4px no-repeat;
+}
+
+.standalone .splashscreen-indicatorlabel {
+  color: #212326;
+}
+
+.standalone .blank-document {
+  left: 110px;
+  top: 100px;
+}
+
+.standalone .blank-document-indicatorlabel {
+  color: #808080;
+}
+
+@keyframes activityindicator-rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.progressView .splashscreen {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.progressView .splashscreen-mask {
+  background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(255,255,255,0.85) 50%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(255,255,255,0.85)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.85) 50%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.85) 50%,rgba(255,255,255,0) 100%); /* Opera 12+ */
+  background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.85) 50%,rgba(255,255,255,0) 100%); /* IE10+ */
+  background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.85) 50%,rgba(255,255,255,0) 100%); /* W3C */
+}
+
+.progressView .splashscreen-box {
+  background: url('carbon/activity-48.gif') 50% 50% no-repeat;  
+}
+
+.progressView .splashscreen-loading {
+  display: none;
+}
+
+.xopus.showingAboutXopus .splashscreen-mask {
+  background: #EAEEF0;
+  opacity:0.5;
+}
+
+.showingAboutXopus .splashscreen-loading .splashscreen-indicator,
+.showingAboutXopus .splashscreen-loading .splashscreen-indicatorlabel {
+  display: none;
+}
+
+.showingAboutXopus .splashscreen-loading {
+  top: 0;
+  visibility: hidden;
+}
+
+.showingAboutXopus .splashscreen-box a { display:inline; }
+
+.showingAboutXopus .splashscreen {
+  display: block;
+}

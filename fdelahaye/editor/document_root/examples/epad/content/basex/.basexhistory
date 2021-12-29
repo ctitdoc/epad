@@ -1,0 +1,226 @@
+CREATE DB practices
+db:create("testFranck")
+HELP
+HELP CREATE
+HELP
+LIST
+LIST practices
+quit
+exit
+help add
+open practices
+add to xsl /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/xsl
+ls xsl
+list xsl
+open practices
+list
+list practices
+list practices/xsl
+add to xsl/ /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/xsl
+list practices/xsl
+add to practices/xsl/ /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/xsl
+list
+list practices
+help add
+ADD TO practices/xsl /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/xsl
+list
+list practices
+open practices
+flush
+list 
+list practices
+ADD /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/xsl
+list practices
+collection
+help
+open practices
+add to xsl/ /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/xsl
+list practices
+exit
+openpractices
+open practices
+list practices
+exit
+open practices
+add to practices/html/content/practices_f.delahaye.xhtml ./content/practices_f.delahaye.xhtml
+exit
+SET INTPARSE true;
+add to practices/html/content/practices_f.delahaye.xhtml ./content/practices_f.delahaye.xhtml
+open practices
+add to practices/html/content/practices_f.delahaye.xhtml ./content/practices_f.delahaye.xhtml
+exit
+open practices
+SET INTPARSE true;
+add to practices/html/content/practices_f.delahaye.xhtml ./content/practices_f.delahaye.xhtml
+exit
+open practices
+SET INTPARSE true;
+add to practices/html/content/practices_f.delahaye.xhtml ./content/practices_f.delahaye.xhtml
+list practices
+delete practices/html/content/practices_f.delahaye.xhtml
+list practices
+add to html/content/practices_f.delahaye.xhtml ./content/practices_f.delahaye.xhtml
+list practices
+quit
+exit
+open practices
+SET INTPARSE true;
+delete html/content/practices_f.delahaye.xhtml
+add to html/content/practices_f.delahaye.xhtml ./content/practices_f.delahaye.xhtml
+exit
+open practices
+SET INTPARSE true;
+add to html/content/practices_f.delahaye.xhtml ./content/practices_f.delahaye.xhtml
+LIST
+QUIT
+EXIT
+OPEN practices
+EXIT
+OPEN practices
+EXIT
+open practices
+XQUERY concat(doc('/tmp/issues_from_2021-06-15.xml')/issues/issue/id/text(),"\n")
+XQUERY concat(doc('tmp/issues_from_2021-06-15.xml')/issues/issue/id/text(),"\n")
+XQUERY concat(doc('/home/httpd/htdocs/epad/fdelahaye/issues/issues_from_2021-06-15.xml')/issues/issue/id/text(),"\n")
+XQUERY doc('/home/httpd/htdocs/epad/fdelahaye/issues/issues_from_2021-06-15.xml')/issues/issue/id
+quit
+exit
+list
+help
+help CREATE
+create database dictionary
+exit
+open dictionary
+list
+cd dictionary
+help
+RETRIEVE /dictionary/dictionary_f.delahaye.xml
+ls
+list
+XQUERY /dictionary
+quit
+exit
+XQURY /dictionary
+XQUERY /dictionary
+open dictionary
+XQUERY /dictionary
+exit
+open dictionary
+XQUERY /dictionary
+exit
+open dictionary
+XQUERY /dictionary
+exit
+XQUERY /dictionary
+open dictionary
+XQUERY /dictionary
+XQUERY /dictionary/content
+XQUERY /document
+quit
+exit
+open dictionary
+XQUERY /document
+quit
+XQUERY /document
+exit
+open dictionary
+XQUERY /document
+exit
+open dictionary
+XQUERY /document
+exit
+open dictionary
+XQUERY /document
+XQUERY count( /document)
+XQUERY /document[.//code[.//br]]
+list content
+cd content
+help
+list /content
+list /content/dictionary
+help
+list dictionary
+help export
+help 
+export /tmp
+help delete
+list dictionary
+help store
+delete content/dictionary_f.delahaye_bpri.xml
+store to content/dictionary_f.delahaye_bpri.xml /tmp/content/dictionary_f.delahaye_bpri.xml
+list dictionary
+list content/dictionary_f.delahaye_bpri.xml
+list dictionary/content/dictionary_f.delahaye_bpri.xml
+list content
+opend dictionary
+open dictionary
+list dictionary/content/dictionary_f.delahaye_bpri.xml
+list content/dictionary_f.delahaye_bpri.xml
+list content
+list /
+list /content
+list /content/dictionary
+help list
+list dictionary 
+list dictionary content/dictionary_f.delahaye_bpri.xml
+XQUEY fn:doc('dictionary/content/dictionary_f.delahaye_bpri.xml')
+XQUERY fn:doc('dictionary/content/dictionary_f.delahaye_bpri.xml')
+XQUERY fn:doc('content/dictionary_f.delahaye_bpri.xml')
+XQUERY fn:doc('/dictionary/content/dictionary_f.delahaye_bpri.xml')
+XQUERY fn:doc('/dictionary/content')
+XQUERY fn:doc('dictionary/content')
+XQUERY fn:doc('dictionary/content/dictionary_f.delahaye.xml')
+XQUERY fn:doc('dictionary/content/dictionary_f.delahaye_bpri.xml')
+XQUERY fn:doc('dictionary/content/dictionary_f.delahaye.xml')
+list dictionary
+help type
+delete content/dictionary_f.delahaye_bpri.xml
+list dictionary
+help store
+help import
+help
+help add
+open dictionary
+add to content/dictionary_f.delahaye_bpri.xml /tmp/content/dictionary_f.delahaye_bpri.xml
+list dictionary
+exit
+open dictionary
+help replace
+replace content/dictionary_f.delahaye_bpri.xml /tmp/content/dictionary_f.delahaye_bpri.xml
+exit
+open dictionary
+replace content/dictionary_f.delahaye_bpri.xml /tmp/content/dictionary_f.delahaye_bpri.xml
+exit
+open dictionary
+replace content/dictionary_f.delahaye_bpri.xml /tmp/content/dictionary_f.delahaye_bpri.xml
+exit
+open dictionary
+replace content/dictionary_f.delahaye_bpri.xml /tmp/content/dictionary_f.delahaye_bpri.xml
+exit
+open dictionary
+replace content/dictionary_f.delahaye_bpri.xml /tmp/content/dictionary_f.delahaye_bpri.xml
+exit
+open dictionary
+replace content/dictionary_f.delahaye_bpri.xml /tmp/content/dictionary_f.delahaye_bpri.xml
+exit
+open dictionary
+replace content/dictionary_f.delahaye_bpri.xml /tmp/content/dictionary_f.delahaye_bpri.xml
+exit
+open dictionary
+xquery fn:doc('content/dictionary_f.delahaye_bpri.xml')
+xquery fn:doc('dictionary/content/dictionary_f.delahaye_bpri.xml')
+exit
+open dictionary
+replace content/dictionary_f.delahaye_bpri.xml /tmp/content/dictionary_f.delahaye_bpri.xml
+exit
+open dictionary
+xquery fn:doc('dictionary/content/dictionary_f.delahaye_bpri.xml')
+list dictionary
+delete content/dictionary_f.delahaye_bpri.xml
+add to content/dictionary_f.delahaye_bpri.xml /tmp/content/dictionary_f.delahaye_bpri.xml
+list dictionary
+exit
+open dictionary
+list dictionary
+exit
+open dictionary

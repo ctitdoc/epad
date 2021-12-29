@@ -1,0 +1,380 @@
+<journals>
+<issue_68536>
+<issue_url>https://redmine.bilendi.com/issues/68536</issue_url>
+</issue_68536>
+<issue_68529>
+<issue_url>https://redmine.bilendi.com/issues/68529</issue_url>
+</issue_68529>
+<issue_68524>
+<issue_url>https://redmine.bilendi.com/issues/68524</issue_url>
+</issue_68524>
+<issue_68523>
+<issue_url>https://redmine.bilendi.com/issues/68523</issue_url>
+</issue_68523>
+<issue_68521>
+<issue_url>https://redmine.bilendi.com/issues/68521</issue_url>
+</issue_68521>
+<issue_68520>
+<issue_url>https://redmine.bilendi.com/issues/68520</issue_url>
+<journal id="640074">
+  <user id="529" name="Franck D."/>
+  <notes/>
+  <created_on>2021-06-17T10:49:54Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="relation" name="blocks">
+      <old_value/>
+      <new_value>66686</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="640671">
+  <user id="529" name="Franck D."/>
+  <notes/>
+  <created_on>2021-06-22T09:44:59Z</created_on>
+  <private_notes>false</private_notes>
+  <details type="array">
+    <detail property="relation" name="blocked">
+      <old_value/>
+      <new_value>66685</new_value>
+    </detail>
+  </details>
+</journal>
+<journal id="640680">
+  <user id="529" name="Franck D."/>
+  <notes>comme discuté lors du meeting streamline vs migration sf4, j'ai rajouté un lien "bloqué par" #66685 (= le meta tkt d'export streamline), car ce tkt doit d'abord gérer la migration de ces export en sf4 avant de pouvoir être poussé en testing, vu que le client test ces export (dans leur version sf3 à date) en testing jusqu'en aout;
+donc deux alternatives possibles dans le futur pour pouvoir pousser ce tkt en testing :
+* soit le client termine la valid de #66685 avant que les dev/test de #68520 soient terminés,
+* =&gt; alors les évol de #66685 sont à migrer en sf4 via un nouveau merge de master à migrer;
+* soit le client ne termine pas la valid de #66685 avant que les dev/test de #68520 soient terminés :
+* =&gt; alors :
+* il faut créer un nouveau tkt "migration #66685 en sf4" et dev/tester cette migration;
+* puis pousser #68520 en testing;
+* puis pousser ce nouveau tkt en testing;
+* et puis :
+* si les test de #68520 sont ok, mais que le client n'a pas fini de valider #66685 =&gt; meper uniquement #68520;
+* si les test de #68520 sont ok, et que le client a fini de valider #66685 =&gt; meper #68520 et le tkt "migration #66685 en sf4";
+* si les test de #68520 sont ko, et que le client a fini de valider #66685 =&gt; ben j'ai pas mieux que : prévenir Géraldine et se dépécher de terminer #68520;</notes>
+  <created_on>2021-06-22T10:07:41Z</created_on>
+  <private_notes>true</private_notes>
+  <details type="array"/>
+</journal>
+<journal id="640712">
+  <user id="529" name="Franck D."/>
+  <notes>#68805 devrait anticiper la correc des return manquant tel que décrit ci-après, mais je laisse qd même cette description à titre de support, des fois que certains soient zappés (et que donc ce tkt de migr ait ce blocage phpstan...) :
+* en sf 3, le fait de mettre un "return &lt;integer_status_code&gt;" dans la méthode "execute" n'est pas indiqué dans la doc, du coup il n'y est pas par défaut dans nos Command, mais maintenant : d'une part phpstan bloque le commit (lors du hook de pré-commit), d'autre part la doc sf 4.4 indique de le mettre;
+* il faudrait donc en rajouter un par défaut à la fin des "execute" de nos Comand, avec un TODO de refacto, genre :
+&lt;pre&gt;
+execute (...) {
+...;
+...;
+...;
+
+
+//default sf4 migration fix of missing return statement in Command :
+return 0;
+//TODO refactor such a return in other execution branches of this method
+// see https://symfony.com/doc/4.4/console.html
+
+}
+&lt;/pre&gt;</notes>
+  <created_on>2021-06-22T11:50:29Z</created_on>
+  <private_notes>true</private_notes>
+  <details type="array"/>
+</journal></issue_68520>
+<issue_68513>
+<issue_url>https://redmine.bilendi.com/issues/68513</issue_url>
+</issue_68513>
+<issue_68512>
+<issue_url>https://redmine.bilendi.com/issues/68512</issue_url>
+</issue_68512>
+<issue_68499>
+<issue_url>https://redmine.bilendi.com/issues/68499</issue_url>
+</issue_68499>
+<issue_68483>
+<issue_url>https://redmine.bilendi.com/issues/68483</issue_url>
+</issue_68483>
+<issue_68481>
+<issue_url>https://redmine.bilendi.com/issues/68481</issue_url>
+</issue_68481>
+<issue_68478>
+<issue_url>https://redmine.bilendi.com/issues/68478</issue_url>
+</issue_68478>
+<issue_68473>
+<issue_url>https://redmine.bilendi.com/issues/68473</issue_url>
+</issue_68473>
+<issue_68471>
+<issue_url>https://redmine.bilendi.com/issues/68471</issue_url>
+</issue_68471>
+<issue_68470>
+<issue_url>https://redmine.bilendi.com/issues/68470</issue_url>
+</issue_68470>
+<issue_68469>
+<issue_url>https://redmine.bilendi.com/issues/68469</issue_url>
+</issue_68469>
+<issue_68460>
+<issue_url>https://redmine.bilendi.com/issues/68460</issue_url>
+</issue_68460>
+<issue_68459>
+<issue_url>https://redmine.bilendi.com/issues/68459</issue_url>
+</issue_68459>
+<issue_68458>
+<issue_url>https://redmine.bilendi.com/issues/68458</issue_url>
+</issue_68458>
+<issue_68456>
+<issue_url>https://redmine.bilendi.com/issues/68456</issue_url>
+</issue_68456>
+<issue_68440>
+<issue_url>https://redmine.bilendi.com/issues/68440</issue_url>
+</issue_68440>
+<issue_68438>
+<issue_url>https://redmine.bilendi.com/issues/68438</issue_url>
+</issue_68438>
+<issue_68432>
+<issue_url>https://redmine.bilendi.com/issues/68432</issue_url>
+</issue_68432>
+<issue_68429>
+<issue_url>https://redmine.bilendi.com/issues/68429</issue_url>
+</issue_68429>
+<issue_68414>
+<issue_url>https://redmine.bilendi.com/issues/68414</issue_url>
+</issue_68414>
+<issue_68411>
+<issue_url>https://redmine.bilendi.com/issues/68411</issue_url>
+</issue_68411>
+<issue_68410>
+<issue_url>https://redmine.bilendi.com/issues/68410</issue_url>
+</issue_68410>
+<issue_68405>
+<issue_url>https://redmine.bilendi.com/issues/68405</issue_url>
+</issue_68405>
+<issue_68404>
+<issue_url>https://redmine.bilendi.com/issues/68404</issue_url>
+</issue_68404>
+<issue_68403>
+<issue_url>https://redmine.bilendi.com/issues/68403</issue_url>
+</issue_68403>
+<issue_68402>
+<issue_url>https://redmine.bilendi.com/issues/68402</issue_url>
+</issue_68402>
+<issue_68391>
+<issue_url>https://redmine.bilendi.com/issues/68391</issue_url>
+</issue_68391>
+<issue_68390>
+<issue_url>https://redmine.bilendi.com/issues/68390</issue_url>
+</issue_68390>
+<issue_68389>
+<issue_url>https://redmine.bilendi.com/issues/68389</issue_url>
+</issue_68389>
+<issue_68388>
+<issue_url>https://redmine.bilendi.com/issues/68388</issue_url>
+</issue_68388>
+<issue_68387>
+<issue_url>https://redmine.bilendi.com/issues/68387</issue_url>
+</issue_68387>
+<issue_68370>
+<issue_url>https://redmine.bilendi.com/issues/68370</issue_url>
+</issue_68370>
+<issue_68366>
+<issue_url>https://redmine.bilendi.com/issues/68366</issue_url>
+</issue_68366>
+<issue_68361>
+<issue_url>https://redmine.bilendi.com/issues/68361</issue_url>
+</issue_68361>
+<issue_68357>
+<issue_url>https://redmine.bilendi.com/issues/68357</issue_url>
+</issue_68357>
+<issue_68353>
+<issue_url>https://redmine.bilendi.com/issues/68353</issue_url>
+</issue_68353>
+<issue_68341>
+<issue_url>https://redmine.bilendi.com/issues/68341</issue_url>
+</issue_68341>
+<issue_68314>
+<issue_url>https://redmine.bilendi.com/issues/68314</issue_url>
+</issue_68314>
+<issue_68313>
+<issue_url>https://redmine.bilendi.com/issues/68313</issue_url>
+</issue_68313>
+<issue_68307>
+<issue_url>https://redmine.bilendi.com/issues/68307</issue_url>
+</issue_68307>
+<issue_68301>
+<issue_url>https://redmine.bilendi.com/issues/68301</issue_url>
+</issue_68301>
+<issue_68298>
+<issue_url>https://redmine.bilendi.com/issues/68298</issue_url>
+</issue_68298>
+<issue_68297>
+<issue_url>https://redmine.bilendi.com/issues/68297</issue_url>
+</issue_68297>
+<issue_68294>
+<issue_url>https://redmine.bilendi.com/issues/68294</issue_url>
+</issue_68294>
+<issue_68287>
+<issue_url>https://redmine.bilendi.com/issues/68287</issue_url>
+</issue_68287>
+<issue_68286>
+<issue_url>https://redmine.bilendi.com/issues/68286</issue_url>
+</issue_68286>
+<issue_68285>
+<issue_url>https://redmine.bilendi.com/issues/68285</issue_url>
+</issue_68285>
+<issue_68284>
+<issue_url>https://redmine.bilendi.com/issues/68284</issue_url>
+</issue_68284>
+<issue_68283>
+<issue_url>https://redmine.bilendi.com/issues/68283</issue_url>
+</issue_68283>
+<issue_68280>
+<issue_url>https://redmine.bilendi.com/issues/68280</issue_url>
+</issue_68280>
+<issue_68276>
+<issue_url>https://redmine.bilendi.com/issues/68276</issue_url>
+</issue_68276>
+<issue_68262>
+<issue_url>https://redmine.bilendi.com/issues/68262</issue_url>
+</issue_68262>
+<issue_68259>
+<issue_url>https://redmine.bilendi.com/issues/68259</issue_url>
+</issue_68259>
+<issue_68252>
+<issue_url>https://redmine.bilendi.com/issues/68252</issue_url>
+</issue_68252>
+<issue_68246>
+<issue_url>https://redmine.bilendi.com/issues/68246</issue_url>
+</issue_68246>
+<issue_68242>
+<issue_url>https://redmine.bilendi.com/issues/68242</issue_url>
+</issue_68242>
+<issue_68232>
+<issue_url>https://redmine.bilendi.com/issues/68232</issue_url>
+</issue_68232>
+<issue_68226>
+<issue_url>https://redmine.bilendi.com/issues/68226</issue_url>
+</issue_68226>
+<issue_68222>
+<issue_url>https://redmine.bilendi.com/issues/68222</issue_url>
+</issue_68222>
+<issue_68210>
+<issue_url>https://redmine.bilendi.com/issues/68210</issue_url>
+</issue_68210>
+<issue_68208>
+<issue_url>https://redmine.bilendi.com/issues/68208</issue_url>
+</issue_68208>
+<issue_68206>
+<issue_url>https://redmine.bilendi.com/issues/68206</issue_url>
+</issue_68206>
+<issue_68184>
+<issue_url>https://redmine.bilendi.com/issues/68184</issue_url>
+</issue_68184>
+<issue_68152>
+<issue_url>https://redmine.bilendi.com/issues/68152</issue_url>
+</issue_68152>
+<issue_68145>
+<issue_url>https://redmine.bilendi.com/issues/68145</issue_url>
+</issue_68145>
+<issue_68136>
+<issue_url>https://redmine.bilendi.com/issues/68136</issue_url>
+</issue_68136>
+<issue_68127>
+<issue_url>https://redmine.bilendi.com/issues/68127</issue_url>
+</issue_68127>
+<issue_68117>
+<issue_url>https://redmine.bilendi.com/issues/68117</issue_url>
+</issue_68117>
+<issue_68112>
+<issue_url>https://redmine.bilendi.com/issues/68112</issue_url>
+</issue_68112>
+<issue_68106>
+<issue_url>https://redmine.bilendi.com/issues/68106</issue_url>
+</issue_68106>
+<issue_68104>
+<issue_url>https://redmine.bilendi.com/issues/68104</issue_url>
+</issue_68104>
+<issue_68087>
+<issue_url>https://redmine.bilendi.com/issues/68087</issue_url>
+</issue_68087>
+<issue_68080>
+<issue_url>https://redmine.bilendi.com/issues/68080</issue_url>
+</issue_68080>
+<issue_68074>
+<issue_url>https://redmine.bilendi.com/issues/68074</issue_url>
+</issue_68074>
+<issue_68072>
+<issue_url>https://redmine.bilendi.com/issues/68072</issue_url>
+</issue_68072>
+<issue_68057>
+<issue_url>https://redmine.bilendi.com/issues/68057</issue_url>
+</issue_68057>
+<issue_68056>
+<issue_url>https://redmine.bilendi.com/issues/68056</issue_url>
+</issue_68056>
+<issue_68055>
+<issue_url>https://redmine.bilendi.com/issues/68055</issue_url>
+</issue_68055>
+<issue_68046>
+<issue_url>https://redmine.bilendi.com/issues/68046</issue_url>
+</issue_68046>
+<issue_67996>
+<issue_url>https://redmine.bilendi.com/issues/67996</issue_url>
+<journal id="639294">
+  <user id="529" name="Franck D."/>
+  <notes>After a leads/admins talk, decision is to reject this request as the italian email tispam@libero.it can be translated (in english or french) as antispam@libero.it (see regulatory italian text below using this italian term "tispam" as "antispam" signification).
+So such an email can typically be a case of "spam trap":https://fr.mailjet.com/blog/news/spam-traps/  scenario.
+If one is sure this member is a "good person", it's a good thing for him/her to change his/her email for a less "hacking firendly" email.
+
+Regulatory italian text using the term "tispam" for "antispam" signification :
+* "Il Promotore non si assume alcuna responsabilità in caso di mancata consegna e/o recapito del premio e/o di eventuali comunicazioni effettuate ai De-stinatari, dovuta all’indicazione da parte dei Destinatari di dati errati e/o non aggiornati, a indirizzi e-mail inesistenti/errati, non disponibili o inseriti in una black-list, a mailbox piene o disabilitate, a server irraggiungibili, a filtri a tispam oppure a recapiti inesistenti, errati e/o non aggiornati".
+* french translation :
+* "Le promoteur n’assume aucune responsabilité en cas de non-livraison et/ou de livraison du prix et/ou de toute communication faite aux bénéficiaires, en raison de l’indication par les bénéficiaires de données incorrectes et/ou périmées, d’adresses électroniques inexistantes/erronées, indisponibles ou figurant sur une liste noire, de boîtes aux lettres pleines ou désactivées, de serveurs inaccessibles, de filtres anti-spam ou d’adresses inexistantes, incorrectes et/ou périmées."</notes>
+  <created_on>2021-06-14T09:11:32Z</created_on>
+  <private_notes>true</private_notes>
+  <details type="array"/>
+</journal></issue_67996>
+<issue_67973>
+<issue_url>https://redmine.bilendi.com/issues/67973</issue_url>
+</issue_67973>
+<issue_67961>
+<issue_url>https://redmine.bilendi.com/issues/67961</issue_url>
+</issue_67961>
+<issue_67902>
+<issue_url>https://redmine.bilendi.com/issues/67902</issue_url>
+</issue_67902>
+<issue_67872>
+<issue_url>https://redmine.bilendi.com/issues/67872</issue_url>
+</issue_67872>
+<issue_67838>
+<issue_url>https://redmine.bilendi.com/issues/67838</issue_url>
+</issue_67838>
+<issue_67813>
+<issue_url>https://redmine.bilendi.com/issues/67813</issue_url>
+</issue_67813>
+<issue_67806>
+<issue_url>https://redmine.bilendi.com/issues/67806</issue_url>
+</issue_67806>
+<issue_67777>
+<issue_url>https://redmine.bilendi.com/issues/67777</issue_url>
+</issue_67777>
+<issue_67771>
+<issue_url>https://redmine.bilendi.com/issues/67771</issue_url>
+</issue_67771>
+<issue_67760>
+<issue_url>https://redmine.bilendi.com/issues/67760</issue_url>
+</issue_67760>
+<issue_67737>
+<issue_url>https://redmine.bilendi.com/issues/67737</issue_url>
+</issue_67737>
+<issue_67709>
+<issue_url>https://redmine.bilendi.com/issues/67709</issue_url>
+</issue_67709>
+<issue_67706>
+<issue_url>https://redmine.bilendi.com/issues/67706</issue_url>
+</issue_67706>
+<issue_67701>
+<issue_url>https://redmine.bilendi.com/issues/67701</issue_url>
+</issue_67701>
+<issue_67700>
+<issue_url>https://redmine.bilendi.com/issues/67700</issue_url>
+</issue_67700>
+</journals>

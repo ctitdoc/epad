@@ -1,0 +1,52 @@
+09:00:49.312	127.0.0.1:62071	admin	REQUEST	[GET] http://localhost:8984/edit_dict_file_request?file=content/dictionary_f.delahaye_bpri.xml
+09:00:49.391	127.0.0.1:62071	admin	200		79.61 ms
+09:00:49.409	127.0.0.1:62071	admin	REQUEST	[GET] http://localhost:8984/edit_dict_file_request?file=content/dictionary_f.delahaye_bpri.xml
+09:00:49.427	127.0.0.1:62071	admin	200		18.4 ms
+09:00:49.487	127.0.0.1:62071	admin	REQUEST	[GET] http://localhost:8984/get_dict_file_xml_content_request?file=content/dictionary_f.delahaye_bpri.xml
+09:00:49.513	127.0.0.1:62071	admin	200		26.92 ms
+14:56:52.680	SERVER	admin	OK	Server was stopped (port: 1984)
+14:56:52.683	SERVER	admin	OK	HTTP Server was stopped (port: 8984)
+14:59:28.259	SERVER	admin	OK	Server was started (port: 1984)
+14:59:28.345	SERVER	admin	OK	HTTP Server was started (port: 8984)
+14:59:38.181	127.0.0.1:52000	admin	REQUEST	[POST] http://localhost:8984/save_dict_file_request?uri=http://localhost:8984/get_dict_file_xml_content_request?file=content/dictionary_f.delahaye.xml
+14:59:38.778	127.0.0.1:52000	admin	200		601.69 ms
+14:59:50.227	SERVER	admin	OK	HTTP Server was stopped (port: 8984)
+14:59:50.229	SERVER	admin	OK	Server was stopped (port: 1984)
+15:02:40.030	SERVER	admin	OK	Server was started (port: 1984)
+15:02:40.137	SERVER	admin	OK	HTTP Server was started (port: 8984)
+15:02:46.872	127.0.0.1:52097	admin	REQUEST	[POST] http://localhost:8984/save_dict_file_request?uri=http://localhost:8984/get_dict_file_xml_content_request?file=content/dictionary_f.delahaye.xml
+15:02:47.451	127.0.0.1:52097	admin	200		583.29 ms
+15:02:55.914	127.0.0.1:52097	admin	REQUEST	[GET] http://localhost:8984/dictionary
+15:02:55.993	127.0.0.1:52097	admin	200		79.44 ms
+15:02:56.008	127.0.0.1:52097	admin	REQUEST	[GET] http://localhost:8984/list_dictionary_request
+15:02:56.112	127.0.0.1:52097	admin	200		104.35 ms
+15:02:59.959	127.0.0.1:52097	admin	REQUEST	[GET] http://localhost:8984/get_dict_file_content_request?file=content/dictionary_f.delahaye_bpri.xml
+15:03:01.388	127.0.0.1:52097	admin	200		1429.73 ms
+15:03:17.281	127.0.0.1:52097	admin	REQUEST	[GET] http://localhost:8984/get_dict_file_content_request?file=content/dictionary_f.delahaye.xml
+15:03:17.990	127.0.0.1:52097	admin	200		711.2 ms
+15:04:05.524	127.0.0.1:52097	admin	REQUEST	[POST] http://localhost:8984/save_dict_file_request?uri=http://localhost:8984/get_dict_file_xml_content_request?file=content/dictionary_f.delahaye.xml
+15:04:05.656	127.0.0.1:52097	admin	200		132.89 ms
+15:04:22.665	127.0.0.1:52097	admin	REQUEST	[GET] http://localhost:8984/dictionary
+15:04:22.714	127.0.0.1:52097	admin	200		49.41 ms
+15:04:22.726	127.0.0.1:52097	admin	REQUEST	[GET] http://localhost:8984/list_dictionary_request
+15:04:22.752	127.0.0.1:52097	admin	200		25.93 ms
+15:04:42.454	127.0.0.1:52097	admin	REQUEST	[GET] http://localhost:8984/dictionary
+15:04:42.501	127.0.0.1:52097	admin	200		47.89 ms
+15:04:42.521	127.0.0.1:52097	admin	REQUEST	[GET] http://localhost:8984/list_dictionary_request
+15:04:42.565	127.0.0.1:52097	admin	200		43.91 ms
+15:26:15.364	127.0.0.1:52596	admin	REQUEST	[GET] http://localhost:8984/dictionary
+15:26:15.438	127.0.0.1:52596	admin	200		75.38 ms
+15:26:15.469	127.0.0.1:52596	admin	REQUEST	[GET] http://localhost:8984/list_dictionary_request
+15:26:15.521	127.0.0.1:52596	admin	200		53.02 ms
+15:26:20.886	127.0.0.1:52599	admin	REQUEST	[GET] http://localhost:8984/edit_dict_file_request?file=content/dictionary_f.delahaye.xml
+15:26:20.951	127.0.0.1:52599	admin	200		65.51 ms
+15:26:20.977	127.0.0.1:52599	admin	REQUEST	[GET] http://localhost:8984/edit_dict_file_request?file=content/dictionary_f.delahaye.xml
+15:26:21.017	127.0.0.1:52599	admin	200		45.26 ms
+15:26:21.094	127.0.0.1:52599	admin	REQUEST	[GET] http://localhost:8984/get_dict_file_xml_content_request?file=content/dictionary_f.delahaye.xml
+15:26:21.136	127.0.0.1:52599	admin	200		42.61 ms
+15:35:04.083	127.0.0.1:52716	admin	REQUEST	[GET] http://localhost:8984/edit_dict_file_request?file=content/dictionary_f.delahaye.xml
+15:35:04.142	127.0.0.1:52716	admin	200		60.69 ms
+15:35:04.158	127.0.0.1:52716	admin	REQUEST	[GET] http://localhost:8984/edit_dict_file_request?file=content/dictionary_f.delahaye.xml
+15:35:04.204	127.0.0.1:52716	admin	200		46.63 ms
+15:35:04.258	127.0.0.1:52716	admin	REQUEST	[GET] http://localhost:8984/get_dict_file_xml_content_request?file=content/dictionary_f.delahaye.xml
+15:35:04.288	127.0.0.1:52716	admin	200		30.53 ms

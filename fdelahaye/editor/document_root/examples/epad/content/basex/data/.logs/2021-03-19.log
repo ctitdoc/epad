@@ -1,0 +1,576 @@
+07:58:11.999	SERVER	admin	OK	Server was started (port: 1984)
+07:58:12.113	SERVER	admin	OK	HTTP Server was started (port: 8984)
+07:58:43.889	SERVER	admin	OK	Server was stopped (port: 1984)
+07:58:43.889	SERVER	admin	OK	HTTP Server was stopped (port: 8984)
+07:59:10.054	SERVER	admin	OK	Server was started (port: 1984)
+07:59:10.085	SERVER	admin	OK	HTTP Server was started (port: 8984)
+08:00:08.969	10.101.1.201:50480	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+08:00:09.959	10.101.1.201:50480	admin	200		995.49 ms
+08:00:10.026	10.101.1.201:50480	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:00:10.174	10.101.1.201:50480	admin	200		149.05 ms
+08:00:10.212	10.101.1.201:50484	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+08:00:10.246	10.101.1.201:50484	admin	404	No function found that matches the request.	34.41 ms
+08:00:54.454	10.101.1.201:50486	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+08:00:55.393	10.101.1.201:50486	admin	200		939.49 ms
+08:01:03.592	10.101.1.201:50486	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:01:03.613	10.101.1.201:50486	admin	200		20.75 ms
+08:01:17.685	10.101.1.201:50486	admin	REQUEST	[GET] http://dev.dmz.loc:8984/window.open('/static/editor/xopus/xopus.html
+08:01:17.700	10.101.1.201:50486	admin	404	No function found that matches the request.	15.65 ms
+08:01:23.779	10.101.1.201:50486	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:01:23.799	10.101.1.201:50486	admin	200		20.12 ms
+08:02:10.157	10.101.1.201:50486	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+08:02:10.213	10.101.1.201:50486	admin	200		55.99 ms
+08:02:10.317	10.101.1.201:50486	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:02:10.469	10.101.1.201:50486	admin	200		152.47 ms
+08:02:10.558	10.101.1.201:50486	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+08:02:10.575	10.101.1.201:50486	admin	404	No function found that matches the request.	16.85 ms
+08:02:18.941	10.101.1.201:50551	admin	REQUEST	[GET] http://dev.dmz.loc:8984/window.open('/static/editor/xopus/xopus.html
+08:02:18.962	10.101.1.201:50551	admin	404	No function found that matches the request.	21.15 ms
+08:02:26.843	10.101.1.201:50486	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:02:26.860	10.101.1.201:50486	admin	200		16.72 ms
+08:02:45.450	10.101.1.201:50486	admin	REQUEST	[GET] http://dev.dmz.loc:8984/window.open('/static/editor/xopus/xopus.html
+08:02:45.460	10.101.1.201:50486	admin	404	No function found that matches the request.	9.78 ms
+08:02:47.761	10.101.1.201:50551	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:02:47.777	10.101.1.201:50551	admin	200		16.69 ms
+08:02:50.426	10.101.1.201:50551	admin	REQUEST	[GET] http://dev.dmz.loc:8984/window.open('/static/editor/xopus/xopus.html
+08:02:50.436	10.101.1.201:50551	admin	404	No function found that matches the request.	9.87 ms
+08:02:52.671	10.101.1.201:50486	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:02:52.688	10.101.1.201:50486	admin	200		16.93 ms
+08:02:56.444	10.101.1.201:50486	admin	REQUEST	[GET] http://dev.dmz.loc:8984/window.open('/static/editor/xopus/xopus.html
+08:02:56.453	10.101.1.201:50486	admin	404	No function found that matches the request.	9.71 ms
+08:02:58.078	10.101.1.201:50551	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:02:58.094	10.101.1.201:50551	admin	200		15.36 ms
+08:03:00.357	10.101.1.201:50551	admin	REQUEST	[GET] http://dev.dmz.loc:8984/window.open('/static/editor/xopus/xopus.html
+08:03:00.366	10.101.1.201:50551	admin	404	No function found that matches the request.	8.92 ms
+08:03:01.794	10.101.1.201:50486	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:03:01.810	10.101.1.201:50486	admin	200		16.28 ms
+08:03:21.088	10.101.1.201:50486	admin	REQUEST	[GET] http://dev.dmz.loc:8984/window.open('/static/editor/xopus/xopus.html
+08:03:21.095	10.101.1.201:50486	admin	404	No function found that matches the request.	7.12 ms
+08:03:34.074	10.101.1.201:50551	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:03:34.088	10.101.1.201:50551	admin	200		13.62 ms
+08:06:08.154	10.101.1.201:50704	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+08:06:08.189	10.101.1.201:50704	admin	200		35.78 ms
+08:06:08.242	10.101.1.201:50704	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:06:08.276	10.101.1.201:50704	admin	200		34.58 ms
+08:06:08.392	10.101.1.201:50704	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+08:06:08.401	10.101.1.201:50704	admin	404	No function found that matches the request.	9.89 ms
+08:06:21.322	10.101.1.201:50711	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+08:06:21.335	10.101.1.201:50711	admin	200		12.77 ms
+08:06:21.666	10.101.1.201:50711	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+08:06:21.679	10.101.1.201:50711	admin	200		12.91 ms
+08:06:22.088	10.101.1.201:50711	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+08:06:22.100	10.101.1.201:50711	admin	200		12.35 ms
+08:06:32.815	10.101.1.201:50711	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:06:32.827	10.101.1.201:50711	admin	200		12.29 ms
+08:08:17.732	10.101.1.201:50776	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+08:08:17.769	10.101.1.201:50776	admin	200		36.84 ms
+08:08:17.822	10.101.1.201:50776	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:08:17.877	10.101.1.201:50776	admin	200		55.4 ms
+08:08:17.966	10.101.1.201:50776	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+08:08:17.976	10.101.1.201:50776	admin	404	No function found that matches the request.	10.14 ms
+08:08:23.710	10.101.1.201:50777	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+08:08:23.722	10.101.1.201:50777	admin	200		11.95 ms
+08:08:23.773	10.101.1.201:50777	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+08:08:23.784	10.101.1.201:50777	admin	200		11.68 ms
+08:08:23.859	10.101.1.201:50777	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+08:08:23.870	10.101.1.201:50777	admin	200		11.24 ms
+08:08:33.822	10.101.1.201:50777	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+08:08:33.974	10.101.1.201:50777	admin	200		152.29 ms
+08:08:44.088	10.101.1.201:50777	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:08:44.100	10.101.1.201:50777	admin	200		11.53 ms
+08:08:51.699	10.101.1.201:50777	admin	REQUEST	[GET] http://dev.dmz.loc:8984/delete_file_request?file=content/practices_f.delahaye.xml
+08:08:51.717	10.101.1.201:50777	admin	200		18.57 ms
+08:08:53.922	10.101.1.201:50777	admin	REQUEST	[GET] http://dev.dmz.loc:8984/record_practices_file_of_author_form
+08:08:53.932	10.101.1.201:50777	admin	200		10.33 ms
+08:08:59.109	10.101.1.201:50777	admin	REQUEST	[POST] http://dev.dmz.loc:8984/record_practices_file_of_author_request
+08:08:59.125	10.101.1.201:50777	admin	200		16.74 ms
+08:12:34.108	10.101.1.201:50902	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+08:12:34.124	10.101.1.201:50902	admin	200		15.81 ms
+08:12:34.176	10.101.1.201:50902	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:12:34.187	10.101.1.201:50902	admin	200		10.98 ms
+08:12:34.315	10.101.1.201:50902	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+08:12:34.320	10.101.1.201:50902	admin	404	No function found that matches the request.	5.55 ms
+08:12:39.349	10.101.1.201:50903	admin	REQUEST	[GET] http://dev.dmz.loc:8984/record_practices_file_of_author_form
+08:12:39.368	10.101.1.201:50903	admin	200		18.67 ms
+08:12:44.983	10.101.1.201:50903	admin	REQUEST	[POST] http://dev.dmz.loc:8984/record_practices_file_of_author_request
+08:12:44.996	10.101.1.201:50903	admin	200		13.12 ms
+08:14:25.391	10.101.1.201:50961	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+08:14:25.405	10.101.1.201:50961	admin	200		14.03 ms
+08:14:25.457	10.101.1.201:50961	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:14:25.467	10.101.1.201:50961	admin	200		10.15 ms
+08:14:25.601	10.101.1.201:50961	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+08:14:25.605	10.101.1.201:50961	admin	404	No function found that matches the request.	4.83 ms
+08:14:28.800	10.101.1.201:50962	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+08:14:28.919	10.101.1.201:50962	admin	200		119.3 ms
+08:14:30.458	10.101.1.201:50962	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:14:30.468	10.101.1.201:50962	admin	200		10.37 ms
+08:14:32.065	10.101.1.201:50962	admin	REQUEST	[GET] http://dev.dmz.loc:8984/delete_file_request?file=content/practices_f.delahaye.xml
+08:14:32.075	10.101.1.201:50962	admin	200		10.37 ms
+08:15:09.865	10.101.1.201:50962	admin	REQUEST	[GET] http://dev.dmz.loc:8984/record_practices_file_of_author_form
+08:15:09.875	10.101.1.201:50962	admin	200		9.28 ms
+08:15:13.900	10.101.1.201:50962	admin	REQUEST	[POST] http://dev.dmz.loc:8984/record_practices_file_of_author_request
+08:15:13.913	10.101.1.201:50962	admin	200		12.68 ms
+08:15:30.747	10.101.1.201:50962	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:15:30.758	10.101.1.201:50962	admin	200		10.4 ms
+08:15:39.341	10.101.1.201:50962	admin	REQUEST	[GET] http://dev.dmz.loc:8984/delete_file_request?file=content/practices_f.delahaye.xml
+08:15:39.352	10.101.1.201:50962	admin	200		10.91 ms
+08:15:41.960	10.101.1.201:50962	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:15:41.969	10.101.1.201:50962	admin	200		10.01 ms
+08:16:11.642	10.101.1.201:50962	admin	REQUEST	[GET] http://dev.dmz.loc:8984/record_practices_file_of_author_form
+08:16:11.668	10.101.1.201:50962	admin	200		26.48 ms
+08:16:15.085	10.101.1.201:50962	admin	REQUEST	[POST] http://dev.dmz.loc:8984/record_practices_file_of_author_request
+08:16:15.113	10.101.1.201:50962	admin	200		27.6 ms
+08:16:16.614	10.101.1.201:50962	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:16:16.633	10.101.1.201:50962	admin	200		18.89 ms
+08:16:19.090	10.101.1.201:50962	admin	REQUEST	[GET] http://dev.dmz.loc:8984/delete_file_request?file=content/practices_f.delahaye.xml
+08:16:19.111	10.101.1.201:50962	admin	200		20.86 ms
+08:16:30.550	10.101.1.201:50962	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:16:30.560	10.101.1.201:50962	admin	200		9.87 ms
+08:16:33.130	10.101.1.201:50962	admin	REQUEST	[GET] http://dev.dmz.loc:8984/record_practices_file_of_author_form
+08:16:33.138	10.101.1.201:50962	admin	200		8.92 ms
+08:16:36.156	10.101.1.201:50962	admin	REQUEST	[POST] http://dev.dmz.loc:8984/record_practices_file_of_author_request
+08:16:36.169	10.101.1.201:50962	admin	200		12.2 ms
+08:16:38.470	10.101.1.201:50962	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:16:38.480	10.101.1.201:50962	admin	200		10.11 ms
+08:16:40.407	10.101.1.201:50962	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+08:16:40.512	10.101.1.201:50962	admin	200		104.61 ms
+08:16:44.727	10.101.1.201:50962	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:16:44.738	10.101.1.201:50962	admin	200		10.56 ms
+08:16:48.229	10.101.1.201:51035	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+08:16:48.239	10.101.1.201:51035	admin	200		10.03 ms
+08:16:48.289	10.101.1.201:51035	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+08:16:48.299	10.101.1.201:51035	admin	200		9.68 ms
+08:16:48.372	10.101.1.201:51035	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+08:16:48.381	10.101.1.201:51035	admin	200		9.07 ms
+08:20:14.121	10.101.1.201:51139	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+08:20:14.149	10.101.1.201:51139	admin	200		28.52 ms
+08:20:14.204	10.101.1.201:51139	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:20:14.228	10.101.1.201:51139	admin	200		23.66 ms
+08:20:14.349	10.101.1.201:51139	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+08:20:14.357	10.101.1.201:51139	admin	404	No function found that matches the request.	8.6 ms
+08:21:22.730	10.101.1.201:51176	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:21:22.744	10.101.1.201:51176	admin	200		13.77 ms
+08:21:25.265	10.101.1.201:51176	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+08:21:25.274	10.101.1.201:51176	admin	200		9.47 ms
+08:21:25.330	10.101.1.201:51176	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:21:25.340	10.101.1.201:51176	admin	200		9.29 ms
+08:21:25.477	10.101.1.201:51176	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+08:21:25.482	10.101.1.201:51176	admin	404	No function found that matches the request.	4.93 ms
+08:21:28.664	10.101.1.201:51178	admin	REQUEST	[GET] http://dev.dmz.loc:8984/delete_file_request?file=content/practices_f.delahaye.xml
+08:21:28.683	10.101.1.201:51178	admin	200		18.99 ms
+08:21:42.308	10.101.1.201:51176	admin	REQUEST	[GET] http://dev.dmz.loc:8984/record_practices_file_of_author_form
+08:21:42.317	10.101.1.201:51176	admin	200		9.06 ms
+08:21:45.162	10.101.1.201:51178	admin	REQUEST	[POST] http://dev.dmz.loc:8984/record_practices_file_of_author_request
+08:21:45.174	10.101.1.201:51178	admin	200		11.9 ms
+08:21:56.763	10.101.1.201:51178	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:21:56.772	10.101.1.201:51178	admin	200		9.93 ms
+08:22:00.361	10.101.1.201:51176	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+08:22:00.370	10.101.1.201:51176	admin	200		9.77 ms
+08:22:00.443	10.101.1.201:51178	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+08:22:00.452	10.101.1.201:51178	admin	200		9.38 ms
+08:22:00.531	10.101.1.201:51176	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+08:22:00.540	10.101.1.201:51176	admin	200		9.3 ms
+08:42:36.972	10.101.1.201:51797	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+08:42:36.985	10.101.1.201:51797	admin	200		12.87 ms
+08:42:37.040	10.101.1.201:51797	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:42:37.049	10.101.1.201:51797	admin	200		9.2 ms
+08:42:37.184	10.101.1.201:51797	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+08:42:37.189	10.101.1.201:51797	admin	404	No function found that matches the request.	4.88 ms
+08:42:44.303	10.101.1.201:51798	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+08:42:44.313	10.101.1.201:51798	admin	200		9.6 ms
+08:42:44.367	10.101.1.201:51798	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+08:42:44.376	10.101.1.201:51798	admin	200		9.17 ms
+08:42:44.451	10.101.1.201:51798	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+08:42:44.460	10.101.1.201:51798	admin	200		9.01 ms
+08:44:32.662	10.101.1.201:51861	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+08:44:32.671	10.101.1.201:51861	admin	200		9.84 ms
+08:44:32.755	10.101.1.201:51862	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+08:44:32.764	10.101.1.201:51862	admin	200		9.92 ms
+08:44:33.053	10.101.1.201:51862	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+08:44:33.062	10.101.1.201:51862	admin	200		9.39 ms
+08:48:09.674	10.101.1.201:51978	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+08:48:09.692	10.101.1.201:51978	admin	200		17.53 ms
+08:48:09.754	10.101.1.201:51978	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+08:48:09.771	10.101.1.201:51978	admin	200		16.6 ms
+08:48:09.890	10.101.1.201:51978	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+08:48:09.898	10.101.1.201:51978	admin	404	No function found that matches the request.	8.11 ms
+08:48:19.825	10.101.1.201:51978	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+08:48:19.839	10.101.1.201:51978	admin	200		13.88 ms
+08:48:19.892	10.101.1.201:51978	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+08:48:19.901	10.101.1.201:51978	admin	200		9.97 ms
+08:48:19.978	10.101.1.201:51978	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+08:48:19.991	10.101.1.201:51978	admin	200		13.35 ms
+08:48:45.972	10.101.1.201:51999	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+08:48:45.981	10.101.1.201:51999	admin	200		9.35 ms
+08:48:46.185	10.101.1.201:51999	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+08:48:46.194	10.101.1.201:51999	admin	200		8.57 ms
+08:48:46.610	10.101.1.201:51999	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+08:48:46.619	10.101.1.201:51999	admin	200		9.65 ms
+08:54:51.795	10.101.1.201:52188	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+08:54:51.805	10.101.1.201:52188	admin	200		9.25 ms
+08:55:00.866	10.101.1.201:52193	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+08:55:00.875	10.101.1.201:52193	admin	200		9.14 ms
+08:55:01.081	10.101.1.201:52193	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+08:55:01.089	10.101.1.201:52193	admin	200		8.49 ms
+08:55:01.412	10.101.1.201:52193	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+08:55:01.423	10.101.1.201:52193	admin	200		10.71 ms
+17:41:32.477	10.101.1.204:53290	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+17:41:32.486	10.101.1.204:53290	admin	200		8.87 ms
+17:41:32.543	10.101.1.204:53290	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+17:41:32.552	10.101.1.204:53290	admin	200		9.25 ms
+17:41:32.684	10.101.1.204:53290	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+17:41:32.689	10.101.1.204:53290	admin	404	No function found that matches the request.	5.02 ms
+17:41:37.783	10.101.1.204:53291	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+17:41:37.881	10.101.1.204:53291	admin	200		98.27 ms
+17:41:43.788	10.101.1.204:53291	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+17:41:43.797	10.101.1.204:53291	admin	200		9.26 ms
+17:41:46.979	10.101.1.204:53291	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+17:41:46.988	10.101.1.204:53291	admin	200		8.96 ms
+17:41:47.093	10.101.1.204:53291	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+17:41:47.102	10.101.1.204:53291	admin	200		8.75 ms
+17:41:47.179	10.101.1.204:53291	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+17:41:47.187	10.101.1.204:53291	admin	200		8.3 ms
+18:34:37.292	10.101.1.204:54955	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+18:34:37.311	10.101.1.204:54955	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 502/29: [XPST0003] Expecting '}', found ';'.	19.96 ms
+18:34:37.379	10.101.1.204:54955	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+18:34:37.386	10.101.1.204:54955	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 502/29: [XPST0003] Expecting '}', found ';'.	7.63 ms
+18:37:34.828	10.101.1.204:55058	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+18:37:34.836	10.101.1.204:55058	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 502/30: [XPST0003] Expecting '}', found ';'.	7.89 ms
+18:37:34.893	10.101.1.204:55058	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+18:37:34.901	10.101.1.204:55058	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 502/30: [XPST0003] Expecting '}', found ';'.	7.65 ms
+18:44:39.991	10.101.1.204:55294	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+18:44:39.999	10.101.1.204:55294	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 503/30: [XPST0003] Expecting '}', found ';'.	7.95 ms
+18:44:40.074	10.101.1.204:55294	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+18:44:40.082	10.101.1.204:55294	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 503/30: [XPST0003] Expecting '}', found ';'.	7.64 ms
+18:45:25.023	10.101.1.204:55294	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+18:45:25.031	10.101.1.204:55294	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 500/10: [XUST0028] No return type allowed in updating functions.	7.96 ms
+18:45:25.104	10.101.1.204:55294	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+18:45:25.111	10.101.1.204:55294	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 500/10: [XUST0028] No return type allowed in updating functions.	7.44 ms
+18:48:50.098	10.101.1.204:55425	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+18:48:50.107	10.101.1.204:55425	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 503/11: [XPST0017] db:output(result): 2 arguments supplied.	8.77 ms
+18:48:50.162	10.101.1.204:55425	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+18:48:50.169	10.101.1.204:55425	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 503/11: [XPST0017] db:output(result): 2 arguments supplied.	7.6 ms
+18:50:45.880	10.101.1.204:55494	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+18:50:45.888	10.101.1.204:55494	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 504/13: [XPST0003] Expecting '}', found ';'.	7.85 ms
+18:50:45.940	10.101.1.204:55494	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+18:50:45.947	10.101.1.204:55494	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 504/13: [XPST0003] Expecting '}', found ';'.	7.26 ms
+18:51:23.774	10.101.1.204:55494	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+18:51:23.782	10.101.1.204:55494	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 508/1: [XUST0001] List expression: all expressions must be updating or return an empty sequence.	8.23 ms
+18:51:23.844	10.101.1.204:55494	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+18:51:23.851	10.101.1.204:55494	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 508/1: [XUST0001] List expression: all expressions must be updating or return an empty sequence.	7.71 ms
+18:53:11.396	10.101.1.204:55582	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+18:53:11.404	10.101.1.204:55582	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 500/10: [XUST0028] No return type allowed in updating functions.	7.92 ms
+18:53:11.457	10.101.1.204:55582	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+18:53:11.464	10.101.1.204:55582	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 500/10: [XUST0028] No return type allowed in updating functions.	7.91 ms
+18:54:08.534	10.101.1.204:55582	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+18:54:08.561	10.101.1.204:55582	admin	200		27.77 ms
+18:54:08.665	10.101.1.204:55582	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+18:54:08.681	10.101.1.204:55582	admin	200		16.94 ms
+18:54:08.827	10.101.1.204:55582	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+18:54:08.834	10.101.1.204:55582	admin	404	No function found that matches the request.	7.95 ms
+18:54:13.582	10.101.1.204:55614	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+18:54:13.605	10.101.1.204:55614	admin	200		22.75 ms
+18:54:13.660	10.101.1.204:55614	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+18:54:13.687	10.101.1.204:55614	admin	200		27.56 ms
+18:54:13.768	10.101.1.204:55614	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+18:54:13.790	10.101.1.204:55614	admin	200		21.42 ms
+18:59:35.354	10.101.1.204:55781	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+18:59:35.363	10.101.1.204:55781	admin	200		8.98 ms
+18:59:35.563	10.101.1.204:55781	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+18:59:35.571	10.101.1.204:55781	admin	200		8.27 ms
+18:59:35.900	10.101.1.204:55781	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+18:59:35.919	10.101.1.204:55781	admin	200		19.34 ms
+18:59:43.759	10.101.1.204:55781	admin	REQUEST	[POST] http://dev.dmz.loc:8984/save_file_request?uri=http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+18:59:43.794	10.101.1.204:55781	admin	200		35.36 ms
+19:01:58.869	10.101.1.204:55860	admin	REQUEST	[GET] http://dev.dmz.loc:8984/record_xsl_request
+19:01:59.007	10.101.1.204:55860	admin	200		138.71 ms
+19:02:01.875	10.101.1.204:55860	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_logs_request
+19:02:02.342	10.101.1.204:55860	admin	200		466.9 ms
+19:02:50.906	10.101.1.204:55860	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+19:02:50.914	10.101.1.204:55860	admin	200		8.45 ms
+19:08:06.884	10.101.1.204:56031	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+19:08:06.914	10.101.1.204:56031	admin	200		30.46 ms
+19:08:07.089	10.101.1.204:56031	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+19:08:07.103	10.101.1.204:56031	admin	200		13.77 ms
+19:08:07.485	10.101.1.204:56031	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+19:08:07.498	10.101.1.204:56031	admin	200		13.27 ms
+19:08:15.001	10.101.1.204:56031	admin	REQUEST	[POST] http://dev.dmz.loc:8984/save_file_request?uri=http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+19:08:15.033	10.101.1.204:56031	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 501/10: [XPTY0004] Cannot treat xs:string as node(): "Replace with author name and set my email attribute1970-01-01Bug analysisOptional document (set of practices) titlePractice titleeEvolution analysisPractice first para : remove me or replace me...Practice section title : replace me or remove the whole section...Practice section : remove me or replace me...".	33.08 ms
+19:15:24.651	10.101.1.204:56302	admin	REQUEST	[POST] http://dev.dmz.loc:8984/save_file_request?uri=http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+19:15:24.664	10.101.1.204:56302	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 501/10: [XPTY0004] Cannot treat xs:string as node(): "Replace with author name and set my email attribute1970-01-01Bug analysisOptional document (set of practices) titlePractice titleEvolution analysisPractice first para : remove me or replace me...Practice section title : replace me or remove the whole section...Practice section : remove me or replace me...".	13.87 ms
+19:17:58.438	10.101.1.204:56379	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+19:17:58.448	10.101.1.204:56379	admin	200		10.46 ms
+19:17:58.683	10.101.1.204:56379	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+19:17:58.690	10.101.1.204:56379	admin	200		7.45 ms
+19:17:59.022	10.101.1.204:56379	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+19:17:59.029	10.101.1.204:56379	admin	200		7.34 ms
+19:18:06.395	10.101.1.204:56379	admin	REQUEST	[POST] http://dev.dmz.loc:8984/save_file_request?uri=http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+19:18:06.419	10.101.1.204:56379	admin	200		24.5 ms
+19:20:43.631	10.101.1.204:56471	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+19:20:43.642	10.101.1.204:56471	admin	200		10.51 ms
+19:20:43.845	10.101.1.204:56471	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+19:20:43.852	10.101.1.204:56471	admin	200		7.34 ms
+19:20:44.191	10.101.1.204:56471	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+19:20:44.199	10.101.1.204:56471	admin	200		8.21 ms
+19:20:50.920	10.101.1.204:56471	admin	REQUEST	[POST] http://dev.dmz.loc:8984/save_file_request?uri=http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+19:20:50.930	10.101.1.204:56471	admin	200		9.73 ms
+19:21:43.050	10.101.1.204:56471	admin	REQUEST	[POST] http://dev.dmz.loc:8984/save_file_request?uri=http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+19:21:43.060	10.101.1.204:56471	admin	200		9.63 ms
+19:27:45.740	10.101.1.204:56706	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+19:27:45.752	10.101.1.204:56706	admin	200		12.77 ms
+19:27:45.952	10.101.1.204:56706	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+19:27:45.959	10.101.1.204:56706	admin	200		7.43 ms
+19:27:46.296	10.101.1.204:56706	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+19:27:46.303	10.101.1.204:56706	admin	200		7.64 ms
+19:27:52.921	10.101.1.204:56706	admin	REQUEST	[POST] http://dev.dmz.loc:8984/save_file_request?uri=http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+19:27:52.941	10.101.1.204:56706	admin	200		19.46 ms
+19:29:53.036	10.101.1.204:56777	admin	REQUEST	[POST] http://dev.dmz.loc:8984/save_file_request?uri=http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+19:29:53.048	10.101.1.204:56777	admin	200		12.28 ms
+19:37:32.163	10.101.1.204:57011	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+19:37:32.171	10.101.1.204:57011	admin	200		8.31 ms
+19:37:32.387	10.101.1.204:57011	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+19:37:32.394	10.101.1.204:57011	admin	200		7.34 ms
+19:37:32.793	10.101.1.204:57011	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+19:37:32.801	10.101.1.204:57011	admin	200		7.67 ms
+19:38:06.253	10.101.1.204:57011	admin	REQUEST	[POST] http://dev.dmz.loc:8984/save_file_request?uri=http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+19:38:06.276	10.101.1.204:57011	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 507/16: [XPST0008] Undefined variable $file.	22.99 ms
+19:43:24.923	10.101.1.204:57194	admin	REQUEST	[POST] http://dev.dmz.loc:8984/save_file_request?uri=http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+19:43:24.929	10.101.1.204:57194	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 508/20: [XPST0003] Expecting '}', found ';'.	6.95 ms
+19:44:05.968	10.101.1.204:57194	admin	REQUEST	[POST] http://dev.dmz.loc:8984/save_file_request?uri=http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+19:44:05.980	10.101.1.204:57194	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 504/102: [XUST0001] Let expression: no updating expression allowed.	12.73 ms
+20:01:46.323	10.101.1.204:58423	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+20:01:46.347	10.101.1.204:58423	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 503/61: [XPST0017] Unknown function 'file_from_uri'; similar: 'page:file_from_uri'.	24.53 ms
+20:01:46.450	10.101.1.204:58423	admin	REQUEST	[HEAD] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+20:01:46.457	10.101.1.204:58423	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 503/61: [XPST0017] Unknown function 'file_from_uri'; similar: 'page:file_from_uri'.	7.57 ms
+20:02:52.902	10.101.1.204:58459	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+20:02:52.914	10.101.1.204:58459	admin	200		11.38 ms
+20:02:53.119	10.101.1.204:58459	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+20:02:53.127	10.101.1.204:58459	admin	200		8.17 ms
+20:02:53.935	10.101.1.204:58459	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+20:02:53.943	10.101.1.204:58459	admin	200		8.84 ms
+20:03:01.490	10.101.1.204:58459	admin	REQUEST	[POST] http://dev.dmz.loc:8984/save_file_request?uri=http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+20:03:01.503	10.101.1.204:58459	admin	200		13.12 ms
+20:03:16.111	10.101.1.204:58459	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+20:03:16.207	10.101.1.204:58459	admin	200		95.79 ms
+20:03:20.359	10.101.1.204:58459	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+20:03:20.368	10.101.1.204:58459	admin	200		8.97 ms
+20:03:23.126	10.101.1.204:58459	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+20:03:23.135	10.101.1.204:58459	admin	200		8.4 ms
+20:03:23.205	10.101.1.204:58459	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+20:03:23.213	10.101.1.204:58459	admin	200		8.17 ms
+20:03:23.311	10.101.1.204:58459	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+20:03:23.319	10.101.1.204:58459	admin	200		7.88 ms
+20:03:29.122	10.101.1.204:58459	admin	REQUEST	[POST] http://dev.dmz.loc:8984/save_file_request?uri=http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+20:03:29.134	10.101.1.204:58459	admin	200		12.3 ms
+20:03:34.548	10.101.1.204:58459	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+20:03:34.647	10.101.1.204:58459	admin	200		99.63 ms
+20:03:39.430	10.101.1.204:58459	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+20:03:39.439	10.101.1.204:58459	admin	200		8.8 ms
+20:03:43.855	10.101.1.204:58459	admin	REQUEST	[GET] http://dev.dmz.loc:8984/record_practices_file_of_author_form
+20:03:43.862	10.101.1.204:58459	admin	200		8.03 ms
+20:03:55.692	10.101.1.204:58459	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+20:03:55.700	10.101.1.204:58459	admin	200		8.87 ms
+20:17:58.521	10.101.1.204:58937	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+20:17:58.533	10.101.1.204:58937	admin	200		11.66 ms
+20:17:58.590	10.101.1.204:58937	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+20:17:58.598	10.101.1.204:58937	admin	200		8.37 ms
+20:17:58.731	10.101.1.204:58937	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+20:17:58.736	10.101.1.204:58937	admin	404	No function found that matches the request.	4.66 ms
+20:18:06.072	10.101.1.204:58938	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+20:18:06.464	10.101.1.204:58938	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 387/16: [FODC0002] Line 1: No text allowed before root element.	391.41 ms
+20:19:18.501	10.101.1.204:58977	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+20:19:18.617	10.101.1.204:58977	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 387/16: [FODC0002] Line 1: No text allowed before root element.	115.98 ms
+20:20:36.283	10.101.1.204:59016	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+20:20:36.294	10.101.1.204:59016	admin	200		11.74 ms
+20:20:36.350	10.101.1.204:59016	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+20:20:36.359	10.101.1.204:59016	admin	200		8.94 ms
+20:20:36.509	10.101.1.204:59016	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+20:20:36.524	10.101.1.204:59016	admin	404	No function found that matches the request.	15.58 ms
+20:20:40.426	10.101.1.204:59019	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+20:20:40.538	10.101.1.204:59019	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 387/16: [FODC0002] Line 1: No text allowed before root element.	112.51 ms
+20:21:18.491	10.101.1.204:59019	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+20:21:18.596	10.101.1.204:59019	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 387/16: [FODC0002] Line 1: No text allowed before root element.	105.32 ms
+20:25:37.314	10.101.1.204:59188	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+20:25:37.413	10.101.1.204:59188	admin	200		99.46 ms
+20:28:46.825	10.101.1.204:59292	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+20:28:46.833	10.101.1.204:59292	admin	200		8.22 ms
+20:28:46.894	10.101.1.204:59292	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+20:28:46.902	10.101.1.204:59292	admin	200		8.23 ms
+20:28:47.037	10.101.1.204:59292	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+20:28:47.041	10.101.1.204:59292	admin	404	No function found that matches the request.	4.55 ms
+20:28:49.024	10.101.1.204:59293	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+20:28:49.118	10.101.1.204:59293	admin	200		94.8 ms
+20:29:09.837	10.101.1.204:59293	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+20:29:09.846	10.101.1.204:59293	admin	200		9.06 ms
+20:29:09.926	10.101.1.204:59293	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+20:29:09.934	10.101.1.204:59293	admin	200		8.09 ms
+20:29:10.086	10.101.1.204:59293	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+20:29:10.094	10.101.1.204:59293	admin	200		8.28 ms
+20:35:26.098	10.101.1.204:59515	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+20:35:26.110	10.101.1.204:59515	admin	200		11.63 ms
+20:35:26.164	10.101.1.204:59515	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+20:35:26.172	10.101.1.204:59515	admin	200		8.33 ms
+20:35:26.313	10.101.1.204:59515	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+20:35:26.318	10.101.1.204:59515	admin	404	No function found that matches the request.	4.51 ms
+20:35:29.135	10.101.1.204:59516	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+20:35:29.226	10.101.1.204:59516	admin	200		90.69 ms
+20:35:46.572	10.101.1.204:59516	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+20:35:46.581	10.101.1.204:59516	admin	200		8.39 ms
+20:35:46.637	10.101.1.204:59516	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+20:35:46.646	10.101.1.204:59516	admin	200		8.91 ms
+20:35:46.739	10.101.1.204:59516	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+20:35:46.743	10.101.1.204:59516	admin	404	No function found that matches the request.	4.56 ms
+20:35:53.294	10.101.1.204:59515	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+20:35:53.384	10.101.1.204:59515	admin	200		90.66 ms
+20:36:30.598	10.101.1.204:59516	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+20:36:30.693	10.101.1.204:59516	admin	200		94.94 ms
+20:42:13.011	10.101.1.204:59756	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+20:42:13.025	10.101.1.204:59756	admin	200		14.02 ms
+20:42:13.087	10.101.1.204:59756	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+20:42:13.115	10.101.1.204:59756	admin	200		28.96 ms
+20:42:13.249	10.101.1.204:59756	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+20:42:13.257	10.101.1.204:59756	admin	404	No function found that matches the request.	8.52 ms
+20:42:14.507	10.101.1.204:59757	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+20:42:14.823	10.101.1.204:59757	admin	200		315.52 ms
+20:42:21.487	10.101.1.204:59757	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+20:42:21.570	10.101.1.204:59757	admin	200		83.1 ms
+20:46:32.900	10.101.1.204:59891	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+20:46:32.908	10.101.1.204:59891	admin	200		8.12 ms
+20:46:32.962	10.101.1.204:59891	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+20:46:32.970	10.101.1.204:59891	admin	200		8.14 ms
+20:46:33.108	10.101.1.204:59891	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+20:46:33.113	10.101.1.204:59891	admin	404	No function found that matches the request.	4.47 ms
+20:46:34.865	10.101.1.204:59892	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+20:46:34.948	10.101.1.204:59892	admin	200		82.61 ms
+20:51:01.340	10.101.1.204:60026	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+20:51:01.420	10.101.1.204:60026	admin	200		80.15 ms
+20:51:10.441	10.101.1.204:60026	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+20:51:10.518	10.101.1.204:60026	admin	200		77.48 ms
+20:51:10.573	10.101.1.204:60026	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+20:51:10.578	10.101.1.204:60026	admin	404	No function found that matches the request.	4.82 ms
+20:52:24.182	10.101.1.204:60065	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+20:52:24.190	10.101.1.204:60065	admin	200		8.06 ms
+20:52:24.263	10.101.1.204:60065	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+20:52:24.271	10.101.1.204:60065	admin	200		8.09 ms
+20:52:24.424	10.101.1.204:60065	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+20:52:24.429	10.101.1.204:60065	admin	404	No function found that matches the request.	4.71 ms
+20:52:26.083	10.101.1.204:60066	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+20:52:26.161	10.101.1.204:60066	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 387/21: [FODC0002] Resource "/home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/xhtml2markdown.xsl" does not exist.	78.22 ms
+20:52:53.074	10.101.1.204:60066	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+20:52:53.083	10.101.1.204:60066	admin	200		8.34 ms
+20:52:53.141	10.101.1.204:60066	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+20:52:53.149	10.101.1.204:60066	admin	200		8.18 ms
+20:52:53.243	10.101.1.204:60066	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+20:52:53.247	10.101.1.204:60066	admin	404	No function found that matches the request.	4.44 ms
+20:52:57.243	10.101.1.204:60065	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+20:52:57.316	10.101.1.204:60065	admin	200		72.41 ms
+20:55:30.860	10.101.1.204:60161	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+20:55:30.869	10.101.1.204:60161	admin	200		8.18 ms
+20:55:30.934	10.101.1.204:60161	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+20:55:30.942	10.101.1.204:60161	admin	200		8.13 ms
+20:55:31.077	10.101.1.204:60161	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+20:55:31.082	10.101.1.204:60161	admin	404	No function found that matches the request.	4.68 ms
+20:55:33.254	10.101.1.204:60162	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+20:55:33.324	10.101.1.204:60162	admin	200		69.89 ms
+20:58:42.723	10.101.1.204:60259	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+20:58:42.731	10.101.1.204:60259	admin	200		8.13 ms
+20:58:42.785	10.101.1.204:60259	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+20:58:42.793	10.101.1.204:60259	admin	200		8.12 ms
+20:58:42.929	10.101.1.204:60259	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+20:58:42.934	10.101.1.204:60259	admin	404	No function found that matches the request.	4.52 ms
+20:58:46.880	10.101.1.204:60260	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+20:58:46.946	10.101.1.204:60260	admin	200		65.82 ms
+21:05:34.830	10.101.1.204:60481	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+21:05:34.838	10.101.1.204:60481	admin	200		8.11 ms
+21:05:34.961	10.101.1.204:60481	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+21:05:34.969	10.101.1.204:60481	admin	200		8.11 ms
+21:05:35.258	10.101.1.204:60481	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+21:05:35.263	10.101.1.204:60481	admin	404	No function found that matches the request.	4.5 ms
+21:05:36.381	10.101.1.204:60482	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+21:05:36.445	10.101.1.204:60482	admin	200		64.48 ms
+21:17:12.145	10.101.1.204:60825	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+21:17:12.153	10.101.1.204:60825	admin	200		8.13 ms
+21:17:12.289	10.101.1.204:60825	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+21:17:12.297	10.101.1.204:60825	admin	200		8.1 ms
+21:17:12.527	10.101.1.204:60825	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+21:17:12.532	10.101.1.204:60825	admin	404	No function found that matches the request.	4.48 ms
+21:17:14.177	10.101.1.204:60826	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+21:17:14.241	10.101.1.204:60826	admin	200		63.79 ms
+21:23:41.152	10.101.1.204:61019	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+21:23:41.160	10.101.1.204:61019	admin	200		8.12 ms
+21:23:41.231	10.101.1.204:61019	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+21:23:41.249	10.101.1.204:61019	admin	200		17.39 ms
+21:23:41.373	10.101.1.204:61019	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+21:23:41.377	10.101.1.204:61019	admin	404	No function found that matches the request.	4.46 ms
+21:23:42.847	10.101.1.204:61020	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+21:23:42.906	10.101.1.204:61020	admin	200		59.3 ms
+21:27:23.617	10.101.1.204:61164	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+21:27:23.625	10.101.1.204:61164	admin	200		7.98 ms
+21:27:23.685	10.101.1.204:61164	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+21:27:23.693	10.101.1.204:61164	admin	200		8.53 ms
+21:27:23.856	10.101.1.204:61164	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+21:27:23.861	10.101.1.204:61164	admin	404	No function found that matches the request.	4.69 ms
+21:27:25.493	10.101.1.204:61165	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+21:27:25.551	10.101.1.204:61165	admin	200		58.53 ms
+21:38:24.944	10.101.1.204:61516	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+21:38:24.952	10.101.1.204:61516	admin	200		8.16 ms
+21:38:25.015	10.101.1.204:61516	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+21:38:25.023	10.101.1.204:61516	admin	200		8.6 ms
+21:38:25.157	10.101.1.204:61516	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+21:38:25.161	10.101.1.204:61516	admin	404	No function found that matches the request.	4.48 ms
+21:38:26.996	10.101.1.204:61517	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+21:38:27.061	10.101.1.204:61517	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 387/21: [bxerr:BXSL0001] Static error in {functx:trim(.)} in expression in xsl:value-of/@select on line 44 column 97 of xhtml2markdown.xsl: XPST0017: Cannot find a matching 1-argument function named {http://www.functx.com}trim() Static error in {functx:trim(.)} in expression in xsl:value-of/@select on line 45 column 68 of xhtml2markdown.xsl: XPST0017: Cannot find a matching 1-argument function named {http://www.functx.com}trim()	65.26 ms
+21:41:30.978	10.101.1.204:61612	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+21:41:30.986	10.101.1.204:61612	admin	200		8.16 ms
+21:41:31.052	10.101.1.204:61612	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+21:41:31.060	10.101.1.204:61612	admin	200		8.24 ms
+21:41:31.205	10.101.1.204:61612	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+21:41:31.210	10.101.1.204:61612	admin	404	No function found that matches the request.	4.93 ms
+21:41:32.677	10.101.1.204:61613	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+21:41:32.735	10.101.1.204:61613	admin	400	Stopped at /home/httpd/htdocs/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/restxq.xqm, 387/21: [bxerr:BXSL0001] Static error in {functx:trim(string(.))} in expression in xsl:value-of/@select on line 44 column 76 of xhtml2markdown.xsl: XPST0017: Cannot find a matching 1-argument function named {http://www.functx.com}trim() Static error in {functx:trim(string(.))} in expression in xsl:value-of/@select on line 46 column 105 of xhtml2markdown.xsl: XPST0017: Cannot find a matching 1-argument function named {http://www.functx.com}trim() Static error in {functx:trim(string(.))} in expression in xsl:value-of/@select on line 48 column 79 of xhtml2markdown.xsl: XPST0017: Cannot find a matching 1-argument function named {http://www.functx.com}trim()	58.45 ms
+21:45:16.027	10.101.1.204:61736	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+21:45:16.034	10.101.1.204:61736	admin	200		7.57 ms
+21:45:16.090	10.101.1.204:61736	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+21:45:16.098	10.101.1.204:61736	admin	200		7.85 ms
+21:45:16.230	10.101.1.204:61736	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+21:45:16.235	10.101.1.204:61736	admin	404	No function found that matches the request.	4.59 ms
+21:45:22.111	10.101.1.204:61737	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+21:45:22.168	10.101.1.204:61737	admin	200		56.49 ms
+21:49:23.513	10.101.1.204:61859	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+21:49:23.520	10.101.1.204:61859	admin	200		7.6 ms
+21:49:23.637	10.101.1.204:61859	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+21:49:23.654	10.101.1.204:61859	admin	200		16.84 ms
+21:49:23.784	10.101.1.204:61859	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+21:49:23.788	10.101.1.204:61859	admin	404	No function found that matches the request.	4.81 ms
+21:49:25.772	10.101.1.204:61860	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+21:49:25.828	10.101.1.204:61860	admin	200		55.84 ms
+22:00:47.123	10.101.1.204:62356	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+22:00:47.130	10.101.1.204:62356	admin	200		7.47 ms
+22:00:47.190	10.101.1.204:62356	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+22:00:47.198	10.101.1.204:62356	admin	200		7.53 ms
+22:00:47.335	10.101.1.204:62356	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+22:00:47.339	10.101.1.204:62356	admin	404	No function found that matches the request.	4.43 ms
+22:00:48.850	10.101.1.204:62357	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+22:00:48.907	10.101.1.204:62357	admin	200		56.99 ms
+22:03:04.506	10.101.1.204:62427	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+22:03:04.514	10.101.1.204:62427	admin	200		7.49 ms
+22:03:04.576	10.101.1.204:62427	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+22:03:04.584	10.101.1.204:62427	admin	200		7.77 ms
+22:03:04.717	10.101.1.204:62427	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+22:03:04.722	10.101.1.204:62427	admin	404	No function found that matches the request.	4.87 ms
+22:03:06.127	10.101.1.204:62428	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+22:03:06.193	10.101.1.204:62428	admin	200		66.07 ms
+22:03:47.591	10.101.1.204:62428	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+22:03:47.599	10.101.1.204:62428	admin	200		8.03 ms
+22:03:47.661	10.101.1.204:62428	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+22:03:47.669	10.101.1.204:62428	admin	200		8.02 ms
+22:03:47.792	10.101.1.204:62428	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+22:03:47.799	10.101.1.204:62428	admin	200		7.63 ms
+22:09:17.362	10.101.1.204:62613	admin	REQUEST	[POST] http://dev.dmz.loc:8984/save_file_request?uri=http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+22:09:17.374	10.101.1.204:62613	admin	200		12.39 ms
+22:09:25.540	10.101.1.204:62613	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+22:09:25.591	10.101.1.204:62613	admin	200		51.39 ms
+22:09:36.025	10.101.1.204:62613	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+22:09:36.033	10.101.1.204:62613	admin	200		8.36 ms
+22:09:41.156	10.101.1.204:62613	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+22:09:41.219	10.101.1.204:62613	admin	200		62.79 ms

@@ -1,0 +1,25 @@
+14:25:43.907	SERVER	admin	OK	Server was started (port: 1984)
+14:25:44.019	SERVER	admin	OK	HTTP Server was started (port: 8984)
+14:25:53.475	10.101.1.202:63218	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+14:25:53.850	10.101.1.202:63218	admin	404	No function found that matches the request.	377.64 ms
+14:27:56.818	10.101.1.202:63249	admin	REQUEST	[GET] http://dev.dmz.loc:8984/practices
+14:27:56.860	10.101.1.202:63249	admin	200		41.86 ms
+14:27:56.941	10.101.1.202:63249	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+14:27:56.990	10.101.1.202:63249	admin	200		49.1 ms
+14:28:10.541	10.101.1.202:63251	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+14:28:11.557	10.101.1.202:63251	admin	200		1015.77 ms
+14:28:42.884	10.101.1.202:63251	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+14:28:42.906	10.101.1.202:63251	admin	200		22.49 ms
+14:28:43.015	10.101.1.202:63251	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+14:28:43.036	10.101.1.202:63251	admin	200		21.34 ms
+14:28:43.370	10.101.1.202:63251	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+14:28:43.389	10.101.1.202:63251	admin	200		19.11 ms
+14:34:54.427	10.101.1.202:63355	admin	REQUEST	[GET] http://dev.dmz.loc:8984/record_practices_file_of_author_form
+14:34:54.457	10.101.1.202:63355	admin	200		30.56 ms
+14:35:08.406	10.101.1.202:63355	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_logs_request
+14:35:09.121	10.101.1.202:63355	admin	200		715.58 ms
+14:35:20.492	10.101.1.202:63355	admin	REQUEST	[GET] http://dev.dmz.loc:8984/record_practices_file_of_author_form
+14:35:20.508	10.101.1.202:63355	admin	200		16.33 ms
+14:35:28.578	10.101.1.202:63355	admin	REQUEST	[GET] http://dev.dmz.loc:8984/record_practices_file_of_author_form
+14:35:28.593	10.101.1.202:63355	admin	200		15.57 ms
+16:55:40.620	SERVER	admin	ERROR	Server is running or permission was denied.

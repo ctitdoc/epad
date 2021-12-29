@@ -1,0 +1,2 @@
+08:35:09.440	0:0:0:0:0:0:0:1:64336	admin	REQUEST	[GET] http://localhost:8984/edit_dict_file_request?file=content/dictionary_f.delahaye_bpri.xml
+08:35:09.543	0:0:0:0:0:0:0:1:64336	admin	200		104.01 ms

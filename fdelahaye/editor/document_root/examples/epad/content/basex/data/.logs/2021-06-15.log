@@ -1,0 +1,24 @@
+09:04:35.269	SERVER	admin	OK	Server was started (port: 1984)
+09:04:35.355	SERVER	admin	OK	HTTP Server was started (port: 8984)
+09:05:06.338	10.101.1.200:58064	admin	REQUEST	[GET] http://dev.dmz.loc:8984/
+09:05:06.729	10.101.1.200:58064	admin	200		394.19 ms
+09:05:07.108	10.101.1.200:58066	admin	REQUEST	[GET] http://dev.dmz.loc:8984/favicon.ico
+09:05:07.123	10.101.1.200:58066	admin	404	No function found that matches the request.	15.38 ms
+09:05:15.915	10.101.1.200:58064	admin	REQUEST	[GET] http://dev.dmz.loc:8984/epad
+09:05:15.926	10.101.1.200:58064	admin	404	No function found that matches the request.	11.31 ms
+09:05:49.115	10.101.1.200:58064	admin	REQUEST	[GET] http://dev.dmz.loc:8984/
+09:05:49.138	10.101.1.200:58064	admin	200		23.48 ms
+09:08:34.954	10.101.1.200:58120	admin	REQUEST	[GET] http://dev.dmz.loc:8984/list_practices_request
+09:08:34.998	10.101.1.200:58120	admin	200		44.83 ms
+09:08:40.935	10.101.1.200:58120	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_request?file=content/practices_f.delahaye.xml
+09:08:41.859	10.101.1.200:58120	admin	200		924.11 ms
+09:08:51.459	10.101.1.200:58120	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_content_as_markdown_request?file=content/practices_f.delahaye.xml
+09:08:51.680	10.101.1.200:58120	admin	200		220.38 ms
+09:09:05.171	10.101.1.200:58126	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+09:09:05.190	10.101.1.200:58126	admin	200		18.9 ms
+09:09:05.355	10.101.1.200:58127	admin	REQUEST	[GET] http://dev.dmz.loc:8984/edit_file_request?file=content/practices_f.delahaye.xml
+09:09:05.373	10.101.1.200:58127	admin	200		18.54 ms
+09:09:05.854	10.101.1.200:58126	admin	REQUEST	[GET] http://dev.dmz.loc:8984/get_file_xml_content_request?file=content/practices_f.delahaye.xml
+09:09:05.873	10.101.1.200:58126	admin	200		19.09 ms
+09:18:49.157	SERVER	admin	OK	Server was stopped (port: 1984)
+09:18:49.158	SERVER	admin	OK	HTTP Server was stopped (port: 8984)

@@ -1,0 +1,14 @@
+16:53:29.449	0:0:0:0:0:0:0:1:61292	admin	REQUEST	[POST] http://localhost:8984/save_dict_file_request?uri=http://localhost:8984/get_dict_file_xml_content_request?file=content/dictionary_f.delahaye_bpri.xml
+16:53:29.623	0:0:0:0:0:0:0:1:61292	admin	200		177.12 ms
+18:30:00.867	0:0:0:0:0:0:0:1:64556	admin	REQUEST	[POST] http://localhost:8984/save_dict_file_request?uri=http://localhost:8984/get_dict_file_xml_content_request?file=content/dictionary_f.delahaye_bpri.xml
+18:30:00.996	0:0:0:0:0:0:0:1:64556	admin	200		135.26 ms
+18:30:08.384	0:0:0:0:0:0:0:1:64556	admin	REQUEST	[GET] http://localhost:8984/get_dict_file_content_as_textile_request?file=content/dictionary_f.delahaye_bpri.xml
+18:30:09.547	0:0:0:0:0:0:0:1:64556	admin	200		1169.93 ms
+18:30:48.384	0:0:0:0:0:0:0:1:64556	admin	REQUEST	[POST] http://localhost:8984/save_dict_file_request?uri=http://localhost:8984/get_dict_file_xml_content_request?file=content/dictionary_f.delahaye_bpri.xml
+18:30:48.637	0:0:0:0:0:0:0:1:64556	admin	200		263.24 ms
+18:30:53.104	0:0:0:0:0:0:0:1:64556	admin	REQUEST	[GET] http://localhost:8984/get_dict_file_content_as_textile_request?file=content/dictionary_f.delahaye_bpri.xml
+18:30:54.147	0:0:0:0:0:0:0:1:64556	admin	200		1046.52 ms
+18:36:51.352	0:0:0:0:0:0:0:1:64766	admin	REQUEST	[POST] http://localhost:8984/save_dict_file_request?uri=http://localhost:8984/get_dict_file_xml_content_request?file=content/dictionary_f.delahaye_bpri.xml
+18:36:51.516	0:0:0:0:0:0:0:1:64766	admin	200		165.24 ms
+18:36:56.804	0:0:0:0:0:0:0:1:64766	admin	REQUEST	[GET] http://localhost:8984/get_dict_file_content_as_textile_request?file=content/dictionary_f.delahaye_bpri.xml
+18:36:57.811	0:0:0:0:0:0:0:1:64766	admin	200		1007.4 ms

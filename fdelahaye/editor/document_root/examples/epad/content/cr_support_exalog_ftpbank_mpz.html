@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "html">
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Compte Rendu de conf call avec support ftp-bank pour le param&eacute;trage MPZ</title>
+    </head>
+    <body>
+        <div id="page">
+            <div id="fakeNavigation"></div>
+            <div id="articleBody">
+                <div class="article">
+                    <div class="header">
+                        <div class="date" onclick="node.openAttributesEditor();">
+                            <span>Tuesday&nbsp;March&nbsp;31<sup>st</sup> 2020</span>
+                        </div>
+                        <div class="heading">
+                            <h1>Compte Rendu de conf call avec support ftp-bank pour le param&eacute;trage MPZ</h1>
+                            <div class="author">     
+      by Franck Delahaye</div>
+                            <div class="decoration"></div>
+                        </div>
+                    </div>
+                    <p>Pr&eacute;ambule</p>
+                    <p> Le contenu de cette section de pr&eacute;ambule est une synth&egrave;se du 31/03/2020 concernant la nouvelle version process de transfert d'ordre de cr&eacute;dit (ou virement) du programme Meinungsplatz. Les section qui suivent ne sont potentiellement pas &agrave; jour par rapport &agrave; cette nouvelle version du process (TODO : faire cette mise &agrave; jour). </p>
+                    <p> Voil&agrave; les retour du support ftp-bank concernant le setup des transfert de virement pour mpz: </p>
+                    <p></p>
+                    <div class="ul list ">
+                        <div class="content">
+                            <ul>
+                                <li>
+                                    <div class="li-content">
+                                        <p> on a deux comptes client diff&eacute;rent chez eux :</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li-content">
+                                        <p> &ldquo;Maximiles&rdquo; : c'est le compte historique qui g&egrave;re les transfert bancaires de Ugc et Fabuleous via le service Ftp-bank;</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li-content">
+                                        <p> &ldquo;Bilendi Gmbh&rdquo; : c'est le nouveau compte qui g&egrave;re les transfert bancaires de MPZ via le nouveau service Exabank;</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li-content">
+                                        <p> dans le principe comment s'utilisent ces services :</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li-content">
+                                        <p> Pour Ftp-Bank :</p>
+                                        <div class="ul list ">
+                                            <div class="content">
+                                                <ul>
+                                                    <li>
+                                                        <div class="li-content">
+                                                            <p> Un BO permet de :</p>
+                                                            <div class="ul list ">
+                                                                <div class="content">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p> Param&eacute;trer des flux :</p>
+                                                                                <div class="ul list ">
+                                                                                    <div class="content">
+                                                                                        <ul>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p> emeteur : nom, raison social, infos bancaire : IBAN, BIC, &hellip;</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p> type/format de fichier &eacute;mis : pr&eacute;l&egrave;vement/SEPA et/ou Pr&eacute;l&egrave;vement/EBCDIC&hellip; virment/SEPA, virment/EBCDIC &hellip;</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                            <li>
+                                                                                                <div class="li-content">
+                                                                                                    <p> nomenclature des fichier (horodatage&hellip;), repertoires (fichiers &eacute;mis, re&ccedil;us&hellip;), p&eacute;riodicit&eacute;s &hellip;</p>
+                                                                                                </div>
+                                                                                            </li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p> Transf&eacute;rer manuellement de tel fichier depuis/vers le r&eacute;seau inter-bancaire;</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p> Switcher sur une &ldquo;mise en attente&rdquo; des fichier &agrave; transf&eacute;rer vers le r&eacute;seau inter-bancaire, plut&ocirc;t que les transf&eacute;rer directement;</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p> Acc&eacute;der au logs pour monitoring : fichier transf&eacute;r&eacute;s, fichier en erreur &hellip;;</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p> Et faire plus de choses encore&hellip;</p>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="li-content">
+                                                            <p> Un service sftp effectue automatiquement les transfert de fichier selon les param&eacute;trages de ce BO (sauf si switch sur &ldquo;mise en attente&rdquo; dans le BO donc):</p>
+                                                            <div class="ul list ">
+                                                                <div class="content">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p> depuis le r&eacute;seau inter-bancaire vers les repertoires d'un serveur sftp ftp-bank accessibles en pull par notre plateforme;</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p> vers le r&eacute;seau inter-bancaire depuis d'autres repertoires de ce serveur accessibles en push par notre plateforme;</p>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li-content">
+                                        <p> Pour Exabanque : c'est le m&ecirc;me princpe de BO, mais Exabanque utilise en sous-marin le service sftp de ftp-banque pour les transfert automatique :</p>
+                                        <div class="ul list ">
+                                            <div class="content">
+                                                <ul>
+                                                    <li>
+                                                        <div class="li-content">
+                                                            <p> Reco du support ftp-bank/Serge Adam : IL FAUT DONC VERIFIER (OU CONFIRMER) QUE CE TRANSFERT AUTO DEPUIS FTP-BANK A BIEN ETE CONFIGURE DANS LES PARAMETRAGES MPZ FAIT DANS LE BO EXABANQUE;</p>
+                                                            <div class="ul list ">
+                                                                <div class="content">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p> Attention : les interlocuteur Exabanque ne le v&eacute;rifient pas par d&eacute;faut, et peuvent faire un retour &ldquo;test ok&rdquo;, ne concernant que le param&eacute;trage de base d'un compte dans le BO Exabanque;</p>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="li-content">
+                                        <p> Autres recos :</p>
+                                        <div class="ul list ">
+                                            <div class="content">
+                                                <ul>
+                                                    <li>
+                                                        <div class="li-content">
+                                                            <p> Acc&eacute;s aux BO par les techos :</p>
+                                                            <div class="ul list ">
+                                                                <div class="content">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p> Afin de permettre l'acc&egrave;s &agrave; ces BO Ftp-bank et Exabanque par les interlocuteur techniques pour v&eacute;rifier la coh&eacute;rence des param&eacute;trages techniques fait avec leur propres script de push/pull sur/depuis le serveur ftp-bank, il faut leur cr&eacute;er un login de connexion &agrave; ces BO, si possible avec un profil sans l'acc&egrave;s aux donn&eacute;es confidentielles (IBAN des comptes &eacute;meteur&hellip;);</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p> Un login sur ces BO avec le profil &ldquo;Administrateur&rdquo; &agrave; la possibilit&eacute; de le faire (cf la doc en ligne sinon pdf : TODO : r&eacute;f&eacute;rencer cette doc dans ce wiki);</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p> Un tel login &ldquo;Administrateur&rdquo; a &eacute;t&eacute; fournit &agrave; Herv&eacute; Piedvache pour Ftp-bank, un autre a forc&eacute;ment &eacute;t&eacute; fournit &agrave; quelqu'un de chez nous aussi pour Exabanque;</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p> La v&eacute;rif pr&eacute;conis&eacute;e ci-avant, du param&eacute;trage de Ftp-bank dans Exabanque pour l'automatisation des transfert MPZ, ne peut se faire qu'en tant qu'Administrateur;</p>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="li-content">
+                                                            <p> Sc&eacute;nario recommand&eacute; pour tester les transfert automatiques avant de les activer compl&egrave;tement en production :</p>
+                                                            <div class="ul list ">
+                                                                <div class="content">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p> 1 : Switcher le param&eacute;trage MPZ dans les BO Exabanque sur &ldquo;mode : TEST&rdquo; et &ldquo;mise en attente&rdquo; (voir dans le guide utilisateur : de souvenir : &eacute;cran &ldquo;param&eacute;trage du compte&rdquo; pour la liste d&eacute;roulante mode TEST ou PRODUCTION, et &eacute;cran &ldquo;Pr&eacute;f&eacute;rences / FTP-Bank&rdquo; pour la coche de mise en attente;</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p> 2 : Faire le push via nos script de quelques fichier &ldquo;samples&rdquo; depuis la testing;</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p> 3 : V&eacute;rifier qu'ils sont bien mis en attente dans le BO Exabanque : le fait que les fichier soient pass&eacute;s dans l'&eacute;tat &ldquo;mis en attente&rdquo; par ftp-banque et Exabanque est une premi&egrave;re validation que la structure et le contenus de ces fichiers sont ok pour ces deux services, sinon ils seront mis en erreur.</p>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="li-content">
+                                                                                <p> 4 : D&eacute;clencher le transfert de ces fichier dans le r&eacute;seau inter-bancaire depuis le BO Exabanque : dans ce mode TEST, les fichier seront v&eacute;rifi&eacute;s par les banques mais les cr&eacute;dit bancaire ne seront pas ex&eacute;cut&eacute;s&hellip; pour autant pour permettre ces v&eacute;rif, il faut pousser des fichiers avec de vraies valeur.</p>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h2></h2>
+                        <p></p>
+                        <div class="section">
+                            <h3></h3>
+                            <div class="section">
+                                <h4></h4>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="articleFooter">
+            <div class="disclaimer"></div>
+        </div>
+    </body>
+</html>
