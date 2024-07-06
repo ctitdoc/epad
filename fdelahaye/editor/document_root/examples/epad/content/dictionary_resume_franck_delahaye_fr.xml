@@ -1,0 +1,8 @@
+<document section-numbering="true" figure-numbering="true"
+><h text-align="justify">Franck's document</h
+><p>Document first para : remove me or replace me...</p>
+    <section view="list" behavior="section">
+        <h text-align="justify">Document section title : replace me or remove the whole section...</h>
+        <p>Document section paragraph: remove me or replace me...</p>
+    </section>
+</document>

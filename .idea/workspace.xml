@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e5419d1d-3628-49fc-a25a-7ee737c6320f" name="Default Changelist" comment="This big evol adds resume pages and job letters, pdf, ignore applicability, skateboard page, music page, db backups ...">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/epad.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/html2pdf.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/clean_backups.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/dictionary_resume_franck_delahaye_fr.xml.html.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/IMG_20221130_155755.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/IMG_20221130_155755_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/IMG_20221130_155817_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/IMG_20221130_155833_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/IMG_20221130_155858_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/IMG_20221130_155923_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/IMG_20221130_155947_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/a.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/buttons.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/buttons_data/buttons.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/buttons_data/fb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/buttons_data/i.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/e-skate-marqueterie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/l10n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/modernizr-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/page-to-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/pptm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/x5cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/x5cartengine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/x5engine.deferrable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/x5engine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/E-skate marqueterie - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_fichiers/x5settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/20221228_162419.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/20221230_110154.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/IMG_20220427_122634.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/l10n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/modernizr-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/mtb-aero-.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/mtb-aero-1_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/mtb-aero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/mtb-aero2_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/mtb-aero3_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/mtb-aero4_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/mtb-aero5_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/mtb-aero6_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/mtb-aero7_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/mtb-aero_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/muuri.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/page-to-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/portfolio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/portfolio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/x5cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/x5cartengine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/x5engine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/x5engine_002.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/work/skatelectric.fr/MTB AERO - Skate Electrique Arcachon-Cap-Ferret- POWERSKATE_files/x5settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/.experience.xsl.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._2100981640152117.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._537532369685964.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._79-8c9e22.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._79-95870c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._ANR-2016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._ANR-2017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._Award_BestValue_2017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._Award_BestValue_2019.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._EM_EdChoice2017_1-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._MT-ChoiceAward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._aax.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._analytics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._app-060908.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._app-5acbdb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._app_style-3234a8.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._app_style-b961da.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._artists.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._audio_units.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._aw1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._aw122.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._aw2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._aw3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._background-screen-instrument.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._banner-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._bb669fbd8a.es" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._box-54d18b2ccd1c7fa42c71f18525ba4ad0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._cm-perf-award.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._cm-value-award.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._components-UI-942e64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._components-banners-a5cd90.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._components-buttons-9677cc.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._components-cards-d8c09d.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._components-carousels-dae908.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._components-collections-b71e2a.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._components-example-62452c.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._components-forms-938912.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._components-inline-svg-006202.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._components-layouts-2b1fc4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._components-lists-012bde.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._components-media-10811d.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._components-menus-0161d2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._components-modals-bfea88.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._components-utilities-a4555f.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._de.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._ec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._es.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._fbevents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._fr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._gb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._gearofdecade_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._hotjar-1434725.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_019.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_020.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_022.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_025.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_026.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_027.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_028.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_029.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_030.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_031.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_032.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._icon_033.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._iframe_api.es" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._jp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._ld.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._legacy-61deec.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._lodash.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._logo-black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._logo-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._menu1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._menu2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._menu3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._menu4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._menu5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._mipa-2018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._modules.5d050be37fa3fcc28f90.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._n46hnnvQ2t8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._n46hnnvQ2t8_data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._night.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._nks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._npm-0f395e.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._nr-spa-1216.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._overview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._overview_data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._runtime-eed183.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._sentry-5624b2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._tiktok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._vst.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._vst3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._www-widgetapi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/._youtube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/2100981640152117.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/537532369685964.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/79-8c9e22.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/79-95870c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/ANR-2016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/ANR-2017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/Award_BestValue_2017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/Award_BestValue_2019.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/EM_EdChoice2017_1-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/MT-ChoiceAward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/aax.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/analytics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/app-060908.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/app-5acbdb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/app_style-3234a8.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/app_style-b961da.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/artists.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/audio_units.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/aw1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/aw122.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/aw2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/aw3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/background-screen-instrument.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/banner-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/bb669fbd8a.es" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/box-54d18b2ccd1c7fa42c71f18525ba4ad0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/cm-perf-award.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/cm-value-award.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/components-UI-942e64.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/components-banners-a5cd90.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/components-buttons-9677cc.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/components-cards-d8c09d.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/components-carousels-dae908.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/components-collections-b71e2a.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/components-example-62452c.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/components-forms-938912.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/components-inline-svg-006202.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/components-layouts-2b1fc4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/components-lists-012bde.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/components-media-10811d.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/components-menus-0161d2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/components-modals-bfea88.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/components-utilities-a4555f.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/de.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/ec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/es.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/fbevents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/fr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/gb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/gearofdecade_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/hotjar-1434725.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_019.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_020.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_022.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_025.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_026.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_027.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_028.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_029.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_030.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_031.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_032.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/icon_033.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/iframe_api.es" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/jp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/ld.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/legacy-61deec.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/lodash.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/logo-black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/logo-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/menu1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/menu2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/menu3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/menu4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/menu5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/mipa-2018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/modules.5d050be37fa3fcc28f90.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/n46hnnvQ2t8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/n46hnnvQ2t8_data/._base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/n46hnnvQ2t8_data/._captions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/n46hnnvQ2t8_data/._embed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/n46hnnvQ2t8_data/._endscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/n46hnnvQ2t8_data/._f2rKiNYtp5mcnE6SIkgPJqBXFZM4eH8COPZoJ440RtI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/n46hnnvQ2t8_data/._fetch-polyfill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/n46hnnvQ2t8_data/._www-embed-player.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/n46hnnvQ2t8_data/._www-player.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/n46hnnvQ2t8_data/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/n46hnnvQ2t8_data/captions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/n46hnnvQ2t8_data/embed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/n46hnnvQ2t8_data/endscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/n46hnnvQ2t8_data/f2rKiNYtp5mcnE6SIkgPJqBXFZM4eH8COPZoJ440RtI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/n46hnnvQ2t8_data/fetch-polyfill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/n46hnnvQ2t8_data/www-embed-player.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/n46hnnvQ2t8_data/www-player.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/night.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/nks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/npm-0f395e.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/nr-spa-1216.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/overview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/overview_data/._a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/overview_data/a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/runtime-eed183.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/sentry-5624b2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/tiktok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/vst.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/vst3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/www-widgetapi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/Arturia-V-Collection-V-Collection_9_files/youtube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/demo.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/dictionary_no_collapse.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/experience.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/resume.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/IMG_20221022_142710.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/IMG_20221130_155755.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/IMG_20221130_155755_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/IMG_20221130_155817_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/IMG_20221130_155833_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/IMG_20221130_155858_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/IMG_20221130_155923_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/IMG_20221130_155947_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/a.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/buttons.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/buttons_data/buttons.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/buttons_data/fb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/buttons_data/i.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/e-skate-marqueterie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/l10n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/modernizr-custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/page-to-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/pptm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/x5cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/x5cartengine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/x5engine.deferrable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/x5engine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/skatelectrique/x5settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_demo_site_arturia.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_holy_eboard_build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_letter_franck_delahaye_fr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_resume_franck_delahaye.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_resume_franck_delahaye_fr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_scms_letter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_scms_resume.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_tech_talks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_training_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_training_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_training_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_training_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_training_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/tmp/ignore.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/markdown2textile.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/markdown2textile.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/.basex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/.basexhistory" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/.basexhistory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/atv.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/atv.basex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/inf.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/inf.basex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/tbl.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/tbl.basex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/tbli.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/tbli.basex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/txt.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/txt.basex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/bilendi_dictionary.xqm" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/bilendi_dictionary.xqm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/conf.xqm" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/conf.xqm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsd/coaching.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsd/coaching.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/practices.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/practices.xsl" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="xrualncs" />
+  </component>
+  <component name="ProjectId" id="2KfwhPwDPurE0Eqcu8OMnqUZQwK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content" />
+      <recent name="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl" />
+      <recent name="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fdelahaye/tmp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5419d1d-3628-49fc-a25a-7ee737c6320f" name="Default Changelist" comment="" />
+      <created>1674379072632</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674379072632</updated>
+      <workItem from="1674379084023" duration="19530000" />
+      <workItem from="1674979175265" duration="78000" />
+      <workItem from="1674979292701" duration="95000" />
+      <workItem from="1674979426307" duration="10005000" />
+      <workItem from="1714541572724" duration="17656000" />
+      <workItem from="1714568250991" duration="5585000" />
+      <workItem from="1714712725963" duration="2048000" />
+      <workItem from="1714714814931" duration="397000" />
+      <workItem from="1714746190650" duration="1285000" />
+      <workItem from="1714757768412" duration="970000" />
+      <workItem from="1714822538828" duration="45219000" />
+      <workItem from="1715793080442" duration="56000" />
+      <workItem from="1715833468230" duration="1809000" />
+      <workItem from="1715878030037" duration="5780000" />
+      <workItem from="1715917700737" duration="3991000" />
+      <workItem from="1716008423686" duration="6040000" />
+      <workItem from="1716024847594" duration="1539000" />
+      <workItem from="1716038839947" duration="3183000" />
+      <workItem from="1716097416968" duration="12934000" />
+      <workItem from="1717928490287" duration="2284000" />
+      <workItem from="1720109594840" duration="234000" />
+      <workItem from="1720250289897" duration="5067000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="This big evol adds resume pages and job letters, pdf, ignore applicability, skateboard page, music page, db backups ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="This big evol adds resume pages and job letters, pdf, ignore applicability, skateboard page, music page, db backups ..." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="626" y="279" width="580" height="406" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1720253895749">
+      <screen x="0" y="27" width="1841" height="904" />
+    </state>
+    <state x="626" y="279" width="580" height="406" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1841.904@0.27.1841.904" timestamp="1720253895749" />
+    <state x="169" y="60" width="914" height="753" key="RollbackChangesDialog" timestamp="1720252017925">
+      <screen x="0" y="27" width="1841" height="904" />
+    </state>
+    <state x="169" y="60" width="914" height="753" key="RollbackChangesDialog/0.27.1841.904@0.27.1841.904" timestamp="1720252017925" />
+    <state x="409" y="114" width="1022" height="737" key="SettingsEditor" timestamp="1720255363032">
+      <screen x="0" y="27" width="1841" height="904" />
+    </state>
+    <state x="409" y="114" width="1022" height="737" key="SettingsEditor/0.27.1841.904@0.27.1841.904" timestamp="1720255363032" />
+    <state width="885" height="446" key="SwitcherDM" timestamp="1715522620392">
+      <screen x="0" y="27" width="1632" height="780" />
+    </state>
+    <state width="885" height="446" key="SwitcherDM/0.27.1632.780@0.27.1632.780" timestamp="1715522620392" />
+    <state x="764" y="392" width="302" height="181" key="VCS.ChangelistChooser" timestamp="1720252007637">
+      <screen x="0" y="27" width="1841" height="904" />
+    </state>
+    <state x="764" y="392" width="302" height="181" key="VCS.ChangelistChooser/0.27.1841.904@0.27.1841.904" timestamp="1720252007637" />
+    <state x="515" y="215" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1720255125351">
+      <screen x="0" y="27" width="1841" height="904" />
+    </state>
+    <state x="515" y="215" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1841.904@0.27.1841.904" timestamp="1720255125351" />
+    <state x="625" y="70" width="825" height="819" key="find.popup" timestamp="1716098876658">
+      <screen x="0" y="27" width="1864" height="904" />
+    </state>
+    <state x="547" y="64" width="722" height="706" key="find.popup/0.27.1632.780@0.27.1632.780" timestamp="1715545193726" />
+    <state x="625" y="70" width="825" height="819" key="find.popup/0.27.1864.904@0.27.1864.904" timestamp="1716098876658" />
+    <state x="630" y="69" width="831" height="804" key="find.popup/0.27.1880.889@0.27.1880.889" timestamp="1714713473526" />
+    <state x="547" y="144" width="1027" height="786" key="search.everywhere.popup" timestamp="1717434583925">
+      <screen x="0" y="27" width="1864" height="904" />
+    </state>
+    <state x="479" y="128" width="672" height="678" key="search.everywhere.popup/0.27.1632.780@0.27.1632.780" timestamp="1715521776925" />
+    <state x="547" y="144" width="1027" height="786" key="search.everywhere.popup/0.27.1864.904@0.27.1864.904" timestamp="1717434583925" />
+  </component>
+</project>

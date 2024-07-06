@@ -224,3 +224,69 @@ open dictionary
 list dictionary
 exit
 open dictionary
+list
+open dictionary
+ls
+list
+help
+list content
+list dictionary
+get content/dictionary_resume_franck_delahaye.xml
+query content/dictionary_resume_franck_delahaye.xml
+xquery content/dictionary_resume_franck_delahaye.xml
+xquery content/dictionary_resume_franck_delahaye.xml/section
+xquery content//scetion[@id='Work']
+xquery content//section[@id='Work']
+xquery content//section
+xquery //section
+xquery //section[@id='Work']
+xquery fn:doc(content/dictionary_f.delahaye\bpri.xml)//section
+xquery fn:doc('content/dictionary_f.delahaye\bpri.xml')//section
+xquery fn:doc('dictionary_f.delahaye\bpri.xml')//section
+xquery //code
+xquery count(//code)
+xquery //code > /tmp/tt
+xquery file:write('/tmp/tt', //code)
+exit
+xquery file:write('/tmp/ttt', //code)
+open dictionary
+xquery file:write('/tmp/ttt', //code)
+exit
+open dictionary
+xquery file:write('/tmp/ttt', //code/text())
+exit
+open dictionary
+db:add('dictionary','/tmp/'
+let $elem = doc ('/tmp/ttt');
+let $elem = doc ('/tmp/ttt')
+xquery let $elem = fn:doc('/tmp/ttt')
+xquery let $elem := fn:doc('/tmp/ttt')
+xquery let $elem := return fn:doc('/tmp/ttt')
+xquery fn:doc('/tmp/ttt')
+xquery doc('/tmp/ttt')
+db:put('/tmp/ttt','content/resume.html')
+let $text = file:read-text('/tmp/ttt');
+xquery let $text = file:read-text('/tmp/ttt');
+xquery let $text := file:read-text('/tmp/ttt');
+xquery let $text := return file:read-text('/tmp/ttt');
+xquery db:put('dictionary', fn:parse(file:read-text('/tmp/ttt')), '/content/resume.html');
+xquery db:put('dictionary', parse(file:read-text('/tmp/ttt')), '/content/resume.html');
+xquery db:put('dictionary', xml:parse(file:read-text('/tmp/ttt')), '/content/resume.html');
+xquery db:put('dictionary', '/tmp/ttt', '/content/resume.html');
+xquery db:put('dictionary', '/tmp/ttt', 'content/resume.html');
+xquery db:put('dictionary', '/tmp/ttt', '/content/resume.html')
+db:put('dictionary', '/tmp/ttt', '/content/resume.html')
+replace content/resume.html file:read-text('/tmp/ttt)
+replace content/resume.html file:read-text('/tmp/ttt')
+quit
+exit
+replace content/resume.html /tmp/ttt
+open dictionary
+replace content/resume.html /tmp/ttt
+exit
+open dictionary
+replace content/resume.html /tmp/ttt
+exit
+open dictionary
+replace content/resume.html /tmp/vvv
+exit

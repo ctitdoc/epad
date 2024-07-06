@@ -28,7 +28,7 @@
     <html>
       <head>
         <title><xsl:value-of select="practices/h|dictionary/h|document/h"/></title>
-        <script langauge="javascript">
+        <script language="javascript">
           function collapse_or_expand(id) {
           elem = document.getElementById(id);
           if (elem.style.display=='block')

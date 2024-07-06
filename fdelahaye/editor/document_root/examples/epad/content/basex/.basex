@@ -1,7 +1,7 @@
 # General Options
 DEBUG = false
-DBPATH = /Volumes/Samsung_T5/dev/epad/fdelahaye/editor/document_root/examples/epad/content/basex/data
-REPOPATH = /Volumes/Samsung_T5/dev/epad/fdelahaye/editor/document_root/examples/epad/content/basex/repo
+DBPATH = /home/itdoc/dev/epad/fdelahaye/editor/document_root/examples/epad/content/basex/data
+REPOPATH = /home/itdoc/dev/epad/fdelahaye/editor/document_root/examples/epad/content/basex/repo
 LANG = English
 LANGKEYS = false
 GLOBALLOCK = false
@@ -24,7 +24,7 @@ LOG = true
 LOGMSGMAXLEN = 1000
 
 # HTTP Services
-WEBPATH = /Volumes/Samsung_T5/dev/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp
+WEBPATH = /home/itdoc/dev/epad/fdelahaye/editor/document_root/examples/epad/content/basex/webapp
 RESTXQPATH = 
 HTTPLOCAL = false
 STOPPORT = 8985

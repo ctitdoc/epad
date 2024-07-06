@@ -1,0 +1,9 @@
+* to run the epad server, create and run this alias (replacing <EPAD_CLONE_DIR> by your epad clone directory):
+```
+alias cms='pushd <EPAD_CLONE_DIR>/fdelahaye/editor/document_root/examples/epad/content/basex;bin/basexhttp -U admin -P admin '
+
+```
+
+* to access epad from your browser:
+  * main demo: http://localhost:8984/dictionary
+  * WIP (Work In Progress) demo: http://localhost:8984/practices
