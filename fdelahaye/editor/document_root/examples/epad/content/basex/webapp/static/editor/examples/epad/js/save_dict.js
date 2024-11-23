@@ -1,7 +1,7 @@
 IO.setSaveXMLFunction(function(uri, doc) {
   //alert(uri);
   response = HTTPTools.postXML(
-      '/save_dict_file_request?uri=' + uri,
+      '/cms/save_dict_file_request?uri=' + uri,
       doc,
       "UTF-8"
   );
