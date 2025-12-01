@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document section-numbering="true" figure-numbering="true">
+    <h text-align="justify">Curriculum Vitae – Franck Delahaye</h>
+    <p/>
+    <section id="Contact" coex="Contact">
+        <h>Contact</h>
+        <p>
+            Franck Delahaye<br/>
+            email :
+            <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a><br/>
+            tel : +33 7 67 38 28 95
+        </p>
+    </section>
+
+    <section id="Objectives" coex="Résumé professionnel">
+        <h>Résumé professionnel</h>
+        <p>
+            Chef de projet / développeur senior spécialisé en GED, contenus structurés et intégration de données,
+            avec plus de 25 ans d'expérience sur des projets documentaires et métiers à forts enjeux.
+            Solide pratique de XML/XSLT &amp; WebServices (REST/SOAP), des bases de données (SQL Server, bases
+            XML-native) et des chaînes de publication. Habitué à prendre en charge des projets de bout en bout :
+            avant-vente, cadrage, conception, intégration, formation et support expert, en lien direct avec les
+            équipes métiers et les directions.
+        </p>
+    </section>
+
+    <section id="skills" coex="Compétences clés">
+        <h>Compétences clés</h>
+        <ul>
+            <li>
+                <p>
+                    <strong>Gestion de projet GED &amp; traçabilité</strong> :
+                    recueil du besoin, spécifications fonctionnelles, planification, coordination d'équipes
+                    internes/externes, animation de comités de pilotage, suivi des charges et de la rentabilité.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Technologies documentaires</strong> :
+                    XML, XSLT, XPath, XQuery, schémas XML ; expérience des chaînes éditoriales SGML → XML et
+                    de la publication multi-format (HTML, PDF/print).
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Intégration &amp; WebServices</strong> :
+                    conception et mise en œuvre de flux d'échanges via WebServices (REST/SOAP, XML/JSON),
+                    intégration avec ERP/CRM, moteurs de recherche, plateformes métiers et solutions GED.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Base de données &amp; reporting</strong> :
+                    modélisation et interrogation SQL (SQL Server), extraction et transformation de données,
+                    préparation de jeux de données pour le reporting (BI, tableaux de bord, exports Excel).
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Infrastructures &amp; systèmes</strong> :
+                    pratique des environnements Windows Server, collaboration avec les équipes systèmes/réseaux
+                    pour le déploiement d'applications, la sécurité et les sauvegardes.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Support &amp; accompagnement utilisateurs</strong> :
+                    formation, assistance à la recette, diagnostic d'incidents (fonctionnels et techniques),
+                    prise en main à distance et rédaction de guides utilisateurs.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Méthodes &amp; collaboration</strong> :
+                    travail en mode Agile/Scrum, pratiques inspirées de TDD &amp; CMMI, forte culture de la qualité,
+                    du partage de connaissances et de l'amélioration continue.
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="Employment" coex="Expérience professionnelle">
+        <h>Expérience professionnelle</h>
+        <ul>
+            <li>
+                <p>
+                    <strong>Chef de projet / architecte solutions documentaires &amp; intégration</strong><br/>
+                    Entreprises e-commerce, services &amp; industrie (Cosmobilis, Bilendi, Made In Design, Arturia...) – Région de Grenoble<br/>
+                    2011 – aujourd'hui
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Pilotage de projets de refonte de back-offices, de plateformes e-commerce et de flux
+                            documentaires, en intégrant ERP, CRM, PIM, moteur de recherche et systèmes de facturation.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Conception et mise en œuvre de flux d'échange via WebServices (REST/SOAP) :
+                            synchronisation de catalogues, échanges de commandes et de documents, interfaçage avec
+                            des partenaires bancaires et logistiques.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Mise en place de modules de génération de documents (factures, bons de livraison,
+                            rapports) à partir de données en base et de modèles, puis publication au format PDF.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Participation à l'avant-vente technique sur certains projets : analyse de besoin,
+                            propositions de solution, chiffrage et argumentaires orientés ROI et qualité de service.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Encadrement technique de développeurs, accompagnement des équipes métiers et
+                            animation de revues régulières pour assurer l'adéquation entre besoins, planning
+                            et livrables.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <p>
+                    <strong>Chef de projet GED / intégration de solutions documentaires</strong><br/>
+                    ESN &amp; éditeurs de logiciels (Schneider Electric, Cap Gemini, Akazi, Xerox Services...)<br/>
+                    2000 – 2010
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Intégration d'un progiciel de GED (Documentum) comme système de gestion électronique
+                            de documents : paramétrage des modèles documentaires, des workflows de validation,
+                            des cycles de vie et des règles d'archivage.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Mise en place de flux d'alimentation de la GED à partir d'applications métier via XML,
+                            XSLT &amp; WebServices ; extraction de métadonnées et classification automatique ou assistée.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Rédaction de dossiers de spécifications fonctionnelles &amp; techniques, plans de tests,
+                            supports de formation et guides utilisateurs.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Conduite de comités projet avec les métiers (qualité, production, juridique, R&amp;D),
+                            suivi budgétaire et reporting à la direction de projet.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Support expert de niveau 2/3 : analyse d'incidents, reproduction, diagnostic
+                            (données, scripts, WebServices, droits), définition des correctifs et accompagnement
+                            des équipes d'exploitation.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <p>
+                    <strong>Ingénieur développement systèmes documentaires &amp; publication</strong><br/>
+                    Airbus, STMicroelectronics, CS Group, AIS Technologies<br/>
+                    1991 – 2000
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Développement de chaînes de publication documentaire pour des corpus techniques
+                            volumineux (automobile, aéronautique, électronique) : SGML/XML, outils de
+                            transformation et format MIF/Framemaker.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Exploitation de bases de données documentaires et de moteurs de recherche
+                            « tags aware » pour permettre des requêtes structurées (par section, champ,
+                            balise) et plein texte.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Collaboration étroite avec les équipes d'édition et de documentation pour définir
+                            des structures de documents adaptées à leurs contraintes de production et de
+                            diffusion.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="Education" coex="Formation">
+        <h>Formation</h>
+        <ul>
+            <li>
+                <p>
+                    Ingénieur – Polytech Grenoble, option informatique &amp; automatique
+                </p>
+            </li>
+            <li>
+                <p>
+                    DEUG A – Université Joseph Fourier, Grenoble
+                </p>
+            </li>
+            <li>
+                <p>
+                    Baccalauréat scientifique – Grenoble
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="Languages" coex="Langues">
+        <h>Langues</h>
+        <p>
+            Français (langue maternelle), anglais (professionnel).
+        </p>
+    </section>
+
+    <section id="Interest" coex="Centres d'intérêt">
+        <h>Centres d'intérêt</h>
+        <p>
+            Systèmes de gestion documentaire, qualité logicielle, amélioration continue des processus,
+            ainsi que nature et activités de plein air.
+        </p>
+    </section>
+</document>

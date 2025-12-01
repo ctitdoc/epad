@@ -1,0 +1,258 @@
+<document section-numbering="true" figure-numbering="true">
+    <h text-align="justify">Curriculum Vitae – Franck Delahaye</h>
+    <p/>
+    <section id="Contact" coex="Contact">
+        <h>Contact</h>
+        <p>Franck Delahaye<br/>email:
+            <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a>
+            <br/>tel: +33 7 67 38 28 95
+        </p>
+    </section>
+    <section id="Objectives" coex="Professional summary">
+        <h>Professional summary</h>
+        <p>Senior software engineer specializing in data integration, XML based publishing chains, structured corpora
+            and schema driven CMS systems. Over 25 years designing pipelines that extract, transform and load complex
+            structured or semi structured data into search engines, XML or NoSQL databases and downstream applications.
+            Practical ETL experience (Talend, custom pipelines, in house ESB), strong background in SGML/XML publishing
+            chains, and working knowledge of semantic technologies (RDF, SKOS, DCAT &amp; DCAT AP). Motivated to apply
+            this background to open data and knowledge graph projects.
+        </p>
+    </section>
+    <section id="skills" coex="Key skills">
+        <h>Key skills</h>
+        <ul>
+            <li>
+                <p>
+                    <strong>Data integration and ETL</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>Design and implementation of XML centric processing chains: parsing, validation, enrichment,
+                            XSLT based transformations, loading into XML or NoSQL stores and search indexes.
+                        </p>
+                    </li>
+                    <li>
+                        <p>ETL style workflows using Talend Open Studio and custom integration scripts for extraction,
+                            transformation, quality checks and loading into databases.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Architecture of an internal ESB style orchestration layer connecting ERP, CMS, payment
+                            systems and external partners through XML/JSON APIs and file based exchanges.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Use of Ballerina language for microservice proofs of concept, API gateways, orchestration
+                            flows and data transformation services.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Semantic and open data understanding</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>Working knowledge of RDF, RDFS, OWL, SKOS; understanding of modeling vocabularies and entity
+                            relationships.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Familiarity with DCAT and DCAT AP for dataset cataloging in open data platforms.</p>
+                    </li>
+                    <li>
+                        <p>Conceptual knowledge of CKAN, EntryScape and Virtuoso; fast learner thanks to long experience
+                            with structured data and APIs.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Search engines and corpora</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>Design of indexing strategies and search schemas for large textual and bibliographic
+                            corpora.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Practical experience with Lucene (basis of Solr) and Vespa for full text search, filtering
+                            and faceting.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Building structured corpora from SGML, XML or relational sources and exposing them via search
+                            and API layers.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>CMS and structured content systems</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>Schema driven design of document types (articles, dictionaries, resumes, technical
+                            documentation) using XML/XSD.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Design and maintenance of a schema driven CMS demonstrator with multi version XML documents,
+                            applicability based filtering, XSD driven WYSIWYG editing (Xopus) and multi channel
+                            publishing (HTML, markdown, PDF). Demo:
+                            <a href="http://www.sitems.org:16386/cms/dictionary">
+                                http://www.sitems.org:16386/cms/dictionary
+                            </a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Integration of XML publishing pipelines within enterprise information systems.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Programming and tools</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>Languages: Java, C/C++, PHP, Python, Ballerina; intensive use of XSLT, XPath, XQuery.</p>
+                    </li>
+                    <li>
+                        <p>Datastores: BaseX, Berkeley DB, dbXML, relational databases, file based repositories.</p>
+                    </li>
+                    <li>
+                        <p>APIs: REST/JSON/XML services for internal and external integration.</p>
+                    </li>
+                    <li>
+                        <p>DevOps: Git, GitLab/GitHub, Linux deployment, Docker, CI/CD.</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="Employment" coex="Professional experience">
+        <h>Professional experience</h>
+        <ul>
+
+            <li>
+                <p><strong>Data integration and pipelines (Cosmobilis, Bilendi, Arturia, Made In Design, Kelkoo)</strong></p>
+                <ul>
+                    <li>
+                        <p>Design and implementation of end-to-end XML / text processing workflows for technical documentation, e-commerce catalogs, bibliographic datasets and clinical data across several companies.</p>
+                    </li>
+                    <li>
+                        <p>Extraction of records from relational databases or legacy SGML/XML sources, transformation to XML via XSLT or custom scripts, and loading into XML databases, NoSQL stores or search engines.</p>
+                    </li>
+                    <li>
+                        <p>ETL-style processing using Talend Open Studio and custom integration scripts for data import/export, quality checks and consolidation used by ERP, CRM and BI systems.</p>
+                    </li>
+                    <li>
+                        <p>Architecture and maintenance of an in-house ESB-like orchestration layer connecting ERP, CMS, payment platforms and partners using XML/JSON APIs and scheduled file exchanges.</p>
+                    </li>
+                    <li>
+                        <p>Proof-of-concept microservices and integration flows built with Ballerina (service orchestration, data transformation, API gateway patterns) including deployment of production-grade Ballerina jobs and services.</p>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Semantic and corpus-oriented work (Airbus, STMicroelectronics, Electre, HCForum)</strong></p>
+                <ul>
+                    <li>
+                        <p>Construction of structured corpora from heterogeneous sources (SGML, XML, relational DBs) for documentation systems, historical dictionaries and bibliographic platforms.</p>
+                    </li>
+                    <li>
+                        <p>Fine-grained entity tagging (persons, places, dates, amounts, units) enabling downstream analysis, navigation, data extraction and reporting.</p>
+                    </li>
+                    <li>
+                        <p>Design of controlled vocabularies and lookup structures to ensure consistency of labels, categories and identifiers across entire document collections.</p>
+                    </li>
+                    <li>
+                        <p>Preparation of data for later mapping into RDF / SKOS and knowledge graph models, laying the foundation for semantic enrichment workflows.</p>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Search engines and access to data (Kelkoo, Bilendi, Electre)</strong></p>
+                <ul>
+                    <li>
+                        <p>Integration and configuration of Lucene-based search engines (including Solr-like stacks) and Vespa for high-volume catalog, product and document search.</p>
+                    </li>
+                    <li>
+                        <p>Design of indexing schemas, analyzers and compound query models enabling faceted navigation, multi-field filtering and scalable full-text retrieval.</p>
+                    </li>
+                    <li>
+                        <p>Exposure of search and retrieval capabilities through REST-style APIs consumed by B2B and B2C applications.</p>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Schema-driven CMS demonstrator (personal R&amp;D project)</strong></p>
+                <ul>
+                    <li>
+                        <p>Design and maintenance of a schema-driven XML CMS proof of concept storing structured documents (data dictionaries, resumes, product sheets) in a native XML backend.</p>
+                    </li>
+                    <li>
+                        <p>Advanced query engine enabling retrieval of content using schema-defined element types and structural rules.</p>
+                    </li>
+                    <li>
+                        <p>Multi-version document management using &quot;applicability&quot; attributes to maintain multiple CV variants in a single XML file.</p>
+                    </li>
+                    <li>
+                        <p>Integration of an XSD-driven WYSIWYG editor (Xopus) enforcing valid structures and automating authoring workflows.</p>
+                    </li>
+                    <li>
+                        <p>Multi-channel publishing pipelines generating HTML, Markdown wiki output and PDF from the same XML source. Demo: <a href="http://www.sitems.org:16386/cms/dictionary">http://www.sitems.org:16386/cms/dictionary</a>.</p>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Document publishing and reporting (Airbus, STMicroelectronics, AIS Berger-Levrault)</strong></p>
+                <ul>
+                    <li>
+                        <p>Implementation of XML / XSLT publishing chains for large technical manuals and structured editorial content.</p>
+                    </li>
+                    <li>
+                        <p>Transformation of marked-up sources into structured reports and documents used by business teams and regulatory bodies.</p>
+                    </li>
+                    <li>
+                        <p>Experience with MIF (FrameMaker Interchange Format), PostScript and PDF generation pipelines ensuring consistency and high-quality layout.</p>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+    </section>
+    <section id="Education" coex="Education">
+        <h>Education</h>
+        <ul>
+            <li>
+                <p>Engineering degree, Polytech Grenoble (computer science and automation).</p>
+            </li>
+            <li>
+                <p>DEUG A, Université Joseph Fourier, Grenoble.</p>
+            </li>
+            <li>
+                <p>Scientific Baccalaureate, Grenoble.</p>
+            </li>
+        </ul>
+    </section>
+    <section id="Languages" coex="Languages">
+        <h>Languages</h>
+        <p>French (native), English (professional working proficiency).</p>
+    </section>
+    <section id="Interest" coex="Interests">
+        <h>Interests</h>
+        <p>Structured content systems, data processing pipelines, open/semantic data, search engines, and outdoor
+            activities.
+        </p>
+    </section>
+</document>

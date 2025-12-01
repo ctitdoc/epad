@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-<!-- 
+<!--
   Note for developers taking this stylesheet
   as starting point: Use a treeTransform on the
-  generated HTML to see the resulting tags inside 
-  Xopus: 
+  generated HTML to see the resulting tags inside
+  Xopus:
 
     <x:view name="skatelectrique.fr View">
       <x:transform xsl="xsl/skatelectrique.xsl"/>
@@ -43,41 +43,41 @@
   }
 
 /**/
-body {   //Scolor: #6d5858;  //background-color: #f9f8ea;  font-family: Arial, Helvetica, sans-serif;  font-size: 14pt; }
+body {   //Scolor: #6d5858;  //background-color: #f9f8ea;  font-family: Arial, Helvetica, sans-serif;  font-size: 10pt; }
 
 span { display: inline; }
 
-/************** Top ***************/ 
-.info  {   text-align: left; } 
-.name {   font-weight: bold;  font-size: 140%; } 
+/************** Top ***************/
+.info  {   text-align: left; }
+.name {   font-weight: bold;  font-size: 140%; }
 .address {   text-align:left; }
 
-/***************** Body *****************/ 
+/***************** Body *****************/
 .body{   width: 95%;  }
-.field {   padding: 10px;  margin: 10px;  border-style: solid;  
-border-color: #353175;  border-width: 1px 4px 4px 1px;  
-} 
-.label {   font-weight: bold;  display:block;  } 
-.comment:after {   content: ", "  } 
+.field {   padding: 5px;  margin: 5px;  border-style: solid;
+border-color: #353175;  border-width: 1px 4px 4px 1px;
+}
+.label {   font-weight: bold;  display:block;  }
+.comment:after {   content: ", "  }
 .location:after {   content: ". "  }
 
-/***************** Menu ******************/ 
-.menu {   top: 0;  right: 4px;  position: absolute;  
-margin-top: 10px;  text-align: left;  color: #6d5858;  
-padding: 10px;  width: 20%;  
-} 
-.entry {   display: block;  
-color: #353175;  font-weight:normal;  
-font-size : 130%;  text-decoration: none;  
-text-align: center;  background-color: #f8ebc4;  
-margin: 4px;  border-style: solid;  border-color: #353175;  
-border-width: 1px 4px 4px 1px; 
+/***************** Menu ******************/
+.menu {   top: 0;  right: 4px;  position: absolute;
+margin-top: 10px;  text-align: left;  color: #6d5858;
+padding: 10px;  width: 20%;
+}
+.entry {   display: block;
+color: #353175;  font-weight:normal;
+font-size : 130%;  text-decoration: none;
+text-align: center;  background-color: #f8ebc4;
+margin: 4px;  border-style: solid;  border-color: #353175;
+border-width: 1px 4px 4px 1px;
 }
 
-/**************** Page foot **********/ 
+/**************** Page foot **********/
 .footer{   clear:both;}
 
-h1 {  padding: 2px;  border-style: solid;  border-color: #353175;  border-width: thin;  
+h1 {  padding: 2px;  border-style: solid;  border-color: #353175;  border-width: thin;
 font-size : 130%;  font-family: Arial, Helvetica, sans-serif;  }
 
 h2{   padding-left: 17px;  font-size : 120%;  font-family: Arial, Helvetica, sans-serif; }
@@ -99,12 +99,21 @@ img{   border: none;  }
 
 <script type="text/javascript">
 //<![CDATA[
-          function collapse_or_expand(id) {          
+          function collapse_or_expand(id) {
 elem = document.getElementById(id);
-          if (elem.style.display=='block')
-          elem.style.display='none';
-          else
-          elem.style.display='block';          }  
+            if (!elem) return;
+
+            const scrollTopBefore = window.pageYOffset;
+
+          if (elem.style.display=='block') {
+            elem.style.display='none';
+          } else {
+            elem.style.display='block';
+          }
+            window.scrollTo({
+              top: scrollTopBefore,
+              behavior: 'auto'
+            });}
 //]]>
 </script>
 </head>
@@ -128,14 +137,18 @@ elem = document.getElementById(id);
 </div>
 </div>
 </div>
+<xsl:if test="//section[@id='Employment']">
 <div class="field">
 <h1 id="Employment"><xsl:apply-templates select="//section[@id='Employment']/h/(*|text())"/></h1>
 <xsl:apply-templates select="//section[@id='Employment']/*[name()!='h']"/>
 </div>
+</xsl:if>
+<xsl:if test="//section[@id='Education']">
 <div class="field">
 <h1 id="Education"><xsl:apply-templates select="//section[@id='Education']/h/(*|text())"/></h1>
 <xsl:apply-templates select="//section[@id='Education']/*[name()!='h']"/>
 </div>
+</xsl:if>
 <div class="field">
 <h1 id="Languages"><xsl:apply-templates select="//section[@id='Languages']/h/(*|text())"/></h1>
 <xsl:apply-templates select="//section[@id='Languages']/*[name()!='h']"/>
@@ -144,9 +157,15 @@ elem = document.getElementById(id);
 <h1 id="Interest"><xsl:apply-templates select="//section[@id='Interest']/h/(*|text())"/></h1>
 <xsl:apply-templates select="//section[@id='Interest']/*[name()!='h']"/>
 </div>
+<xsl:if test="//section[@id='NOTES']">
+<div class="field">
+<h1 id="NOTES"><xsl:apply-templates select="//section[@id='NOTES']/h/(*|text())"/></h1>
+<xsl:apply-templates select="//section[@id='NOTES']/*[name()!='h']"/>
+</div>
+</xsl:if>
 <!-- Fin du Corps -->
 <script type="text/javascript">
-<xsl:for-each select="//section[@id='skills']/section[@id]">
+<xsl:for-each select="//section[@id='skills' or @id='Employment']/section[@id]">
   document.getElementById("<xsl:value-of select="@id"/>_section_content_expand").addEventListener("click", function(event){  event.preventDefault()});
   document.getElementById("<xsl:value-of select="@id"/>_section_content_collapse").addEventListener("click", function(event){  event.preventDefault()});
 </xsl:for-each>
@@ -309,7 +328,7 @@ elem = document.getElementById(id);
     </div>
     <xsl:apply-templates select="." mode="notes"/>
   </xsl:template>
-  
+
   <xsl:template match="body">
     <div class="body">
       <xsl:apply-templates select="@*|node()"/>
@@ -349,7 +368,7 @@ elem = document.getElementById(id);
 
   <xsl:template match="legend">
     <span class="legend">
-      <xsl:if test="   ancestor::*/@figure-numbering='true' 
+      <xsl:if test="   ancestor::*/@figure-numbering='true'
                     or ancestor::*/@figure-numbering=1 ">
           <xsl:apply-templates select="../*" mode="legend-numbering"/>
       </xsl:if>
@@ -386,7 +405,7 @@ elem = document.getElementById(id);
     <xsl:text>Fig.&#160;</xsl:text>
   </xsl:template>
 
-  
+
   <xsl:template match="orgchart">
     <span class="figureItem">
       <span class="orgchart {@border-type}">
@@ -456,8 +475,8 @@ elem = document.getElementById(id);
       </div>
     </td>
   </xsl:template>
-  
-  
+
+
   <!-- table -->
   <xsl:template match="include">
     <div>
@@ -551,7 +570,7 @@ elem = document.getElementById(id);
       <xsl:apply-templates />
     </u>
   </xsl:template>
-  
+
   <xsl:template match="sup">
     <sup>
       <xsl:apply-templates />
@@ -675,20 +694,20 @@ elem = document.getElementById(id);
 
     <xsl:element name="iframe">
       <xsl:attribute name="src">//player.vimeo.com/video/<xsl:value-of select="$id"/></xsl:attribute>
-      <xsl:attribute name="frameborder">0</xsl:attribute>      
+      <xsl:attribute name="frameborder">0</xsl:attribute>
         <xsl:call-template name="size">
           <xsl:with-param name="width" select="@width"/>
           <xsl:with-param name="height" select="@height"/>
           <xsl:with-param name="defaultWidth" select="500"/>
           <xsl:with-param name="defaultHeight" select="281"/>
-        </xsl:call-template>         
+        </xsl:call-template>
     </xsl:element>
 
   </xsl:template>
-  
+
   <xsl:template match="video[contains(@src, 'youtube.com')]" mode="embedded-video">
     <xsl:param name="id" select="substring-after(@src, 'youtube.com/v/')"/>
-    
+
     <xsl:element name="iframe">
       <xsl:attribute name="src">//www.youtube.com/embed/<xsl:value-of select="$id"/>?rel=0</xsl:attribute>
       <xsl:attribute name="frameborder">0</xsl:attribute>
@@ -697,11 +716,11 @@ elem = document.getElementById(id);
           <xsl:with-param name="height" select="@height"/>
           <xsl:with-param name="defaultWidth" select="400"/>
           <xsl:with-param name="defaultHeight" select="225"/>
-        </xsl:call-template>      
+        </xsl:call-template>
       </xsl:element>
 
   </xsl:template>
-  
+
   <xsl:template match="video" mode="embedded-video">
     <video src="{@src}">
       <xsl:call-template name="size">
@@ -761,7 +780,7 @@ elem = document.getElementById(id);
         </xsl:when>
       </xsl:choose>
   </xsl:template>
-  
+
   <xsl:template match="video">
     <span class="figureItem">
       <span>
@@ -776,7 +795,7 @@ elem = document.getElementById(id);
       </span>
     </span>
   </xsl:template>
-  
+
   <xsl:template match="img">
     <span class="figureItem">
       <span>
@@ -894,8 +913,7 @@ elem = document.getElementById(id);
   <xsl:template match="*[(@behavior='section' or not(@behavior)) and @id and @coex]"><xsl:call-template name="section_behavior"/></xsl:template>
 
   <xsl:template name="section_behavior">
-    <a role="section_collapse_expand_expand" id="{@id}_section_content_expand" style="color:green;display:block;font-style:italic" href="#" onclick="collapse_or_expand('{@id}_section_content');collapse_or_expand('{@id}_section_content_expand');"><i><xsl:value-of select="@coex"/></i></a><div class="section" id="{@id}_section_content"  style="display:none"
-  ><a role="section_collapse_expand_collapse" id="{@id}_section_content_collapse" style="font-style:italic;color:green" href="#" onclick="collapse_or_expand('{@id}_section_content');collapse_or_expand('{@id}_section_content_expand');"><i>Collapse section</i></a><br
+    <a role="section_collapse_expand_expand" id="{@id}_section_content_expand" style="display:block;color:green;font-style:italic" href="#" onclick="collapse_or_expand('{@id}_section_content_expand');collapse_or_expand('{@id}_section_content')"><i><xsl:value-of select="@coex"/></i></a><div class="section" id="{@id}_section_content" style="display:none"><a role="section_collapse_expand_collapse" id="{@id}_section_content_collapse" style="font-style:italic;color:green" href="#" onclick="collapse_or_expand('{@id}_section_content');collapse_or_expand('{@id}_section_content_expand');"><i>Collapse section</i></a><br
   /><xsl:apply-templates/></div
   ></xsl:template>
 

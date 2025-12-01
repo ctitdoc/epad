@@ -16,7 +16,13 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:version_pc" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -25,26 +31,92 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5419d1d-3628-49fc-a25a-7ee737c6320f" name="Default Changelist" comment="This big evol adds resume pages and job letters, pdf, ignore applicability, basic access rights, skateboard page, music page, db backups ...">
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_cv_cdp_ged.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_cv_franck_delahaye_cnrs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_cv_franck_delahaye_contentside.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_cv_franck_delahaye_en.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_cv_franck_delahaye_fr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_letter_franck_delahaye_en.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_lettre_motivation_cnrs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_resume_franck_delahaye_archi_solus_en.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_resume_franck_delahaye_dsierp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_semantic_data_engineer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basex.bat" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basex.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexclient" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexclient" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexclient.bat" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexclient.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexgui" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexgui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexgui.bat" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexgui.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexhttp" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexhttp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexhttp.bat" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexhttp.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexhttpstop" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexhttpstop" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexhttpstop.bat" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexhttpstop.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexserver" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexserver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexserver.bat" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexserver.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexserverstop" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexserverstop" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexserverstop.bat" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/bin/basexserverstop.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/.basexhistory" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/.basexhistory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/.basexhome" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-03-05.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-03-06.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-03-07.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-03-09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-03-11.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-03-17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-03-18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-03-19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-03-20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-06-15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-06-24.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-06-26.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-07-13.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-07-14.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-07-15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-07-16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-07-19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-07-20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-07-21.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-07-22.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-07-27.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-07-28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-07-29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-07-30.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-08-02.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-08-03.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-08-04.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-08-05.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-08-10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-08-11.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-08-12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-08-16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-08-17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-08-18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-08-19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-08-20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-09-01.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-09-02.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-09-06.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-09-09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-11-03.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-11-23.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-11-29.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-11-30.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-12-03.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-12-04.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-12-06.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-12-07.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-12-08.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-12-09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-12-10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-12-13.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-12-17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-12-18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-12-20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-12-21.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-12-22.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/.logs/2021-12-23.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/atv.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/atv.basex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/atvl.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/atvl.basex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/atvr.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/atvr.basex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/inf.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/inf.basex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/tbl.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/tbl.basex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/tbli.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/tbli.basex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/txt.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/txt.basex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/txtl.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/txtl.basex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/txtr.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/txtr.basex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/bilendi_dictionary.xqm" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/bilendi_dictionary.xqm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/js/save_dict.js" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/js/save_dict.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsd/coaching.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsd/coaching.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/demo.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/demo.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/practices.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/practices.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/resume.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsl/resume.xsl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +208,11 @@
       <workItem from="1720274021977" duration="10000" />
       <workItem from="1720850373034" duration="241000" />
       <workItem from="1724732197123" duration="718000" />
+      <workItem from="1732352905808" duration="2811000" />
+      <workItem from="1740298333592" duration="4000" />
+      <workItem from="1740321892541" duration="701000" />
+      <workItem from="1747488374120" duration="2665000" />
+      <workItem from="1763277842305" duration="63130000" />
     </task>
     <servers />
   </component>
@@ -147,7 +224,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="version_pc" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -159,38 +248,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="This big evol adds resume pages and job letters, pdf, ignore applicability, skateboard page, music page, db backups ..." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="626" y="279" width="580" height="406" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1720253895749">
-      <screen x="0" y="27" width="1841" height="904" />
+    <state x="873" y="264" width="424" height="491" key="FileChooserDialogImpl" timestamp="1764320741898">
+      <screen x="0" y="32" width="1920" height="1048" />
     </state>
-    <state x="626" y="279" width="580" height="406" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1841.904@0.27.1841.904" timestamp="1720253895749" />
-    <state x="169" y="60" width="914" height="753" key="RollbackChangesDialog" timestamp="1720252017925">
-      <screen x="0" y="27" width="1841" height="904" />
+    <state x="873" y="264" width="424" height="491" key="FileChooserDialogImpl/0.32.1920.1048@0.32.1920.1048" timestamp="1764320741898" />
+    <state x="722" y="198" width="523" height="593" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1764619524314">
+      <screen x="0" y="32" width="1821" height="918" />
     </state>
-    <state x="169" y="60" width="914" height="753" key="RollbackChangesDialog/0.27.1841.904@0.27.1841.904" timestamp="1720252017925" />
-    <state x="409" y="114" width="1022" height="737" key="SettingsEditor" timestamp="1720255405084">
-      <screen x="0" y="27" width="1841" height="904" />
+    <state x="722" y="198" width="523" height="593" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.32.1821.918@0.32.1821.918" timestamp="1764619524314" />
+    <state x="293" y="82" width="1126" height="804" key="find.popup" timestamp="1764322274000">
+      <screen x="0" y="32" width="1920" height="1048" />
     </state>
-    <state x="409" y="114" width="1022" height="737" key="SettingsEditor/0.27.1841.904@0.27.1841.904" timestamp="1720255405084" />
-    <state width="885" height="446" key="SwitcherDM" timestamp="1724732240682">
-      <screen x="0" y="27" width="1841" height="904" />
+    <state x="293" y="82" width="1126" height="804" key="find.popup/0.32.1920.1048@0.32.1920.1048" timestamp="1764322274000" />
+    <state x="610" y="198" width="672" height="534" key="search.everywhere.popup" timestamp="1764619948120">
+      <screen x="0" y="32" width="1821" height="918" />
     </state>
-    <state width="885" height="446" key="SwitcherDM/0.27.1841.904@0.27.1841.904" timestamp="1724732240682" />
-    <state x="764" y="392" width="302" height="181" key="VCS.ChangelistChooser" timestamp="1720252007637">
-      <screen x="0" y="27" width="1841" height="904" />
-    </state>
-    <state x="764" y="392" width="302" height="181" key="VCS.ChangelistChooser/0.27.1841.904@0.27.1841.904" timestamp="1720252007637" />
-    <state x="515" y="215" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1720255550099">
-      <screen x="0" y="27" width="1841" height="904" />
-    </state>
-    <state x="515" y="215" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1841.904@0.27.1841.904" timestamp="1720255550099" />
-    <state x="625" y="70" width="825" height="819" key="find.popup" timestamp="1716098876658">
-      <screen x="0" y="27" width="1864" height="904" />
-    </state>
-    <state x="625" y="70" width="825" height="819" key="find.popup/0.27.1864.904@0.27.1864.904" timestamp="1716098876658" />
-    <state x="540" y="144" width="1015" height="786" key="search.everywhere.popup" timestamp="1724732263423">
-      <screen x="0" y="27" width="1841" height="904" />
-    </state>
-    <state x="540" y="144" width="1015" height="786" key="search.everywhere.popup/0.27.1841.904@0.27.1841.904" timestamp="1724732263423" />
-    <state x="547" y="144" width="1027" height="786" key="search.everywhere.popup/0.27.1864.904@0.27.1864.904" timestamp="1717434583925" />
+    <state x="610" y="198" width="672" height="534" key="search.everywhere.popup/0.32.1821.918@0.32.1821.918" timestamp="1764619948120" />
+    <state x="643" y="221" width="672" height="609" key="search.everywhere.popup/0.32.1920.1048@0.32.1920.1048" timestamp="1764310851613" />
+    <state x="643" y="243" width="672" height="678" key="search.everywhere.popup/0.32.1920.1168@0.32.1920.1168" timestamp="1763984183308" />
   </component>
 </project>

@@ -1,0 +1,83 @@
+<document section-numbering="true" figure-numbering="true" features="PDF">
+    <h text-align="justify"> </h>
+    <section>
+        <h> </h>
+        <p>Madame, Monsieur,</p>
+        <section view="normal" ignore_for="">
+            <h> </h>
+            <p ignore_for="lead_tech_content standard cdp_it dev_verdland" text-align="justify">
+                Le poste de Développeur PHP / Symfony que vous proposez me motive à plusieurs titres:
+            </p>
+            <ul ignore_for="lead_tech_content standard cdp_it dev_verdland">
+                <li>
+                    <p>
+                        parce que le profil et l'esprit d'équipe exprimés dans l'annonce me semble correspondre pas si mal aux miens (bien que n'ayant qu'une expérience cyber sécurité commune oAuth2/JWT, gestion de certificat...),
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        parce que j'ai de bons retour d'anciens collègues ayant travaillé chez Corys et que l'activité technique de simulateur me motive,
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        parce qu'actuellement sur le bassin chambérien, je souhaite me recentrer sur le bassin grenoblois.
+                    </p>
+                </li>
+            </ul>
+            <p ignore_for="lead_tech_content standard cdp_it dev_corys" text-align="justify">
+                Le poste de développeur IA que vous proposez me motive à plusieurs titres:
+            </p>
+            <ul ignore_for="lead_tech_content standard cdp_it dev_corys">
+                <li>
+                    <p>
+                        parce qu'ayant intégrer l'IA dans mon activité quotidienne d'informaticien, j'ai prix conscience de son potentiel pour chacun de nous,
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        parce que poursuivre dans ce domaine s'inscrit dans la continuité de mon expérience des systèmes de gestion et partage de contenus/conaissances,
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        parce qu'étant crollois, travailler plus proche de chez moi m'apporterait plus de qualité de vie.
+                    </p>
+                </li>
+            </ul>
+            <p ignore_for="lead_tech_content standard cdp_it">
+                Mon CV joint est un peu long (comme mon parcours), mais espérant qu'il contribuera à pouvoir discuter avec vous de mon adéquation à ce poste,
+            </p>
+            <p ignore_for="lead_tech_content standard cdp_it dev_verdland dev_corys" text-align="justify">
+                Le positionement de vos produit dans le domaine des document/contenus structurés et standardisés faisant echo à mon expérience en la matière, je prend l'initiative de postuler à votre poste de lead technique JAVA/JEE, pour lequel je pense cocher des cases.
+            </p>
+            <p ignore_for="lead_tech_content cdp_it dev_verdland dev_corys" text-align="justify">
+                Désireux de poursuivre ma carrière sur des solutions métier à valeur ajoutée technologique, et séduit par la présentation de l'entreprise et du poste, je prend l'initiative de postuler à votre offre de Tech Lead.
+            </p>
+            <p ignore_for="standard lead_tech_content dev_verdland dev_corys" text-align="justify">
+                Désireux de poursuivre ma carrière sur des solutions métier à valeur ajoutée technologique, et séduit par la présentation de l'entreprise et du poste, je prend l'initiative de postuler à votre offre de Chef de projets IT.
+            </p>
+            <p ignore_for="standard cdp_it dev_verdland dev_corys" text-align="justify">
+                Désireux de poursuivre ma carrière dans la gestion de contenu et les processus documentaires, je postule à votre offre de tech lead parlant de ces domaines.
+                <br/>
+                Bien que ne cochant pas toutes les expériences indiquées, cette ambition d'acteur majeur de l'édition à la fois digitale et papier me parle vraiment, tout comme le profil d'expérience et les activités exprimées.
+            </p>
+            <p ignore_for="standard cdp_it dev_verdland dev_corys" text-align="justify">En espérant donc avoir l'occasion d'échanger,</p>
+            <p ignore_for="lead_tech_content dev_verdland dev_corys" text-align="justify">
+                En espérant donc que les expériences à la fois techniques et de leadership, décrites dans mon CV joint, nous donneront l'occasion d'en discuter,
+            </p>
+        </section>
+    </section>
+    <section>
+        <h> </h>
+        <p>
+            je vous prie Madame, Monsieur, d'agréer l'expression de mes sentiment les meilleur,
+            <br/>
+            Franck Delahaye
+            <br/>
+            e-mail:
+            <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a>
+            tel : 07 67 38 28 95
+        </p>
+    </section>
+</document>

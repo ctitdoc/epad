@@ -6001,7 +6001,7 @@
                                                  class="d-none"/>
                                             <div data-v-033f0be0=""
                                                  class="image-ratio__container product-banner__image">
-                                                <xsl:variable name="img_url" select="concat('background-image: url','(','&quot;https://medias.arturia.net/cdn-cgi/image/quality=60,width=null/images/products/v-collection/banner-image.png&quot;','); padding-bottom: 65%;')"/>
+                                                <xsl:variable name="img_url" select="concat('background-image: url','(','&quot;https://medias.arturia.net/images/products/v-collection-pro/banner-image.png&quot;','); padding-bottom: 65%;')"/>
                                                 <div class="image-ratio image-ratio--contain"
                                                      style="{$img_url}"></div>
                                             </div> <!----> <!----> <!---->

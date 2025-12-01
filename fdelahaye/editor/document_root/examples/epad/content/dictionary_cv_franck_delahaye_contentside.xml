@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document section-numbering="true" figure-numbering="true">
+    <h text-align="justify">Curriculum Vitae – Franck Delahaye</h>
+    <p/>
+    <section id="Contact" coex="Contact">
+        <h>Contact</h>
+        <p>
+            Franck Delahaye<br/>
+            email: <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a><br/>
+            tel: +33 7 67 38 28 95
+        </p>
+    </section>
+    <section id="Objectives" coex="Résumé professionnel">
+        <h>Résumé professionnel</h>
+        <p>
+            Développeur senior spécialisé XML / XSLT / NoSQL avec plus de 25 ans d&apos;expérience dans les systèmes de contenus structurés, la publication documentaire et l&apos;intégration de données à grande échelle. Pratique intensive des chaînes éditoriales SGML &rarr; XML, des transformations XSLT, des bases XML-native et NoSQL (BaseX, Berkeley DB, dbXML) et des moteurs de recherche plein texte (Lucene, Vespa). À l&apos;aise dans les environnements où les documents, les métadonnées et les flux de données sont au cœur de l&apos;activité.
+        </p>
+    </section>
+    <section id="skills" coex="Compétences techniques clés">
+        <h>Compétences techniques clés</h>
+        <ul>
+            <li>
+                <p>Technologies XML: XSLT, XQuery, XPath, schémas XML, SGML &rarr; XML, gestion de corpus multi-langues.</p>
+            </li>
+            <li>
+                <p>
+                    Bases XML-native &amp; NoSQL: BaseX, Berkeley DB, dbXML; conception de modèles de données documentaires et d&apos;APIs de consultation.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Moteurs de recherche: conception de schémas d&apos;indexation, recherche plein texte et par champs avec Lucene et Vespa sur de gros volumes de données.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Chaînes de publication: pipelines de transformation XML/XSLT, génération HTML et PDF/print (XSL-FO, PostScript), gestion des encodages (ISO &rarr; UTF-8).
+                </p>
+            </li>
+            <li>
+                <p>
+                    Systèmes de gestion de contenus: conception de CMS et de dictionnaires métiers structurés, édition guidée par schémas XML/XSD, intégration d&apos;éditeurs XML (Xopus, XmlMind).
+                </p>
+            </li>
+            <li>
+                <p>
+                    Intégration de données: import/export XML, flux inter-applications, transformation et normalisation de données métier (ERP, bibliographiques, santé, techniques).
+                </p>
+            </li>
+            <li>
+                <p>Langages &amp; environnements: Java, C/C++, PHP, Python, outils XSLT/XQuery (Saxon, libs XML).</p>
+            </li>
+        </ul>
+    </section>
+    <section id="Employment" coex="Expérience professionnelle">
+        <h>Expérience professionnelle</h>
+        <ul>
+            <li>
+                <p>
+                    <strong>Architecte contenus structurés &amp; développeur XML</strong> – Projets multi-secteurs (automobile, aéronautique, édition, énergie, santé) – 1991–aujourd&apos;hui
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Systèmes de documentation technique automobile (Fiat, Renault, autres constructeurs)</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Conception et développement de systèmes de publication multi-langues: transformation de corpus SGML vers des contenus XML structurés, gérés dans des bases XML-aware.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Mise en place de pipelines XSLT pour générer des vues HTML et des documents imprimables, avec gestion d&apos;applications d&apos;applicabilité (par modèle de véhicule, type de moteur, etc.).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Gestion des encodages (ISO &rarr; UTF-8), support d&apos;alphabets non latins (arabe, turc…), et maintien de la cohérence des métadonnées.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Systèmes de gestion de processus &amp; référentiels XML (BPM / GED)</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Développement d&apos;un référentiel XML pour un moteur de Business Process Management: stockage des définitions de processus en XML, requêtage XQuery, validation par schémas.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Génération automatique de documentation de processus en PDF via des feuilles XSL-FO et des moteurs de rendu, à partir des définitions XML.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Bases bibliographiques &amp; moteurs de recherche (Electre, portails documentaires)</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Intégration d&apos;un SGBD relationnel (Ingres) avec un moteur de recherche &quot;tags aware&quot; (XPAT) pour des recherches avancées dans un corpus bibliographique structuré.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Conception de requêtes combinant structure XML (balises, champs) et plein texte pour des cas d&apos;usage métier (recherche par titre, collection, auteur, ISBN, etc.).
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Portails et CMS structurés (Kelkoo, Ositech, HCForum, Bilendi)</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Conception et évolution de modèles de contenus structurés (articles, notices, catalogues, dictionnaires métiers) et de leurs métadonnées.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Stockage de contenus dans BaseX ou Berkeley DB, mise en place d&apos;APIs de consultation et de mise à jour, indexation par Lucene ou Vespa.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Développement de scripts d&apos;import/export XML (flux entrants/sortants) vers d&apos;autres systèmes (ERP, CRM, partenaires) et normalisation des données.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Chaînes de publication &amp; impression (Airbus, STMicroelectronics, projets internes)</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Développement d&apos;algorithmes de comparaison de versions de documents structurés (SGML/XML) pour publier uniquement les pages modifiées dans de grandes documentations.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Génération de documents PostScript à partir de contenus structurés; développement d&apos;un interpréteur PostScript en C pour produire des sorties au format HP-GL et PCL.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="Education" coex="Formation">
+        <h>Formation</h>
+        <ul>
+            <li>
+                <p>Ingénieur – Polytech Grenoble, option informatique &amp; automatique</p>
+            </li>
+            <li>
+                <p>DEUG A – Université Joseph Fourier, Grenoble</p>
+            </li>
+            <li>
+                <p>Baccalauréat scientifique – Grenoble</p>
+            </li>
+        </ul>
+    </section>
+    <section id="Languages" coex="Langues">
+        <h>Langues</h>
+        <p>
+            Français (langue maternelle), anglais (professionnel).
+        </p>
+    </section>
+    <section id="Interest" coex="Centres d&apos;intérêt">
+        <h>Centres d&apos;intérêt</h>
+        <p>
+            Systèmes de contenus structurés, publication documentaire, moteurs de recherche, veille technologique, ainsi que nature et activités de plein air.
+        </p>
+    </section>
+</document>

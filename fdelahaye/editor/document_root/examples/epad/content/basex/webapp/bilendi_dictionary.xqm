@@ -27,7 +27,7 @@ names abbreviations used in the code of this module :
  : @return HTML page
  :)
 declare
-  %rest:path("/record_dict_file_of_author_form")
+  %rest:path("/cms/record_dict_file_of_author_form")
   %output:method("xhtml")
   %output:omit-xml-declaration("no")
   %output:doctype-public("-//W3C//DTD XHTML 1.1//EN")
@@ -56,7 +56,7 @@ declare
 
 declare
 %updating
-%rest:path('/record_dictionary_file_of_author_request')
+%rest:path('/cms/record_dictionary_file_of_author_request')
 %rest:POST
 %rest:form-param("author_sso_pseudo","{$author_sso_pseudo}", "")
 %output:method("xhtml")
@@ -106,7 +106,7 @@ db:output(<html xmlns="http://www.w3.org/1999/xhtml">
  : @return HTML page
  :)
 declare
-  %rest:path("/list_dictionary_request")
+  %rest:path("/cms/list_dictionary_request")
   %output:method("xhtml")
   %output:omit-xml-declaration("no")
   %output:doctype-public("-//W3C//DTD XHTML 1.1//EN")
@@ -128,54 +128,80 @@ declare
     <p style="width:80%">The target audience is more technologists, as they can evaluate the benefits (or not) of such a solution for their target document authors and users, and less for the latters as... well, it's just a PoC, so it's more difficult for them to see how it could evolve in a complete CMS, yet an <a href="https://en.wikipedia.org/wiki/Minimum_viable_product">MVP</a> solution can be completed in a few weeks.</p>
     <p style="width:80%">The documents below are of various types: application dictionary, skate site page, music software page, resume, work document...</p>
     <p style="width:80%">Their edition is governed by schemas: it defines common element types like paragraph, table, image etc... but also more semantic types, derived from these ones or not, like task descriptions with their status, or even an application's data definition with its validtion constaints and implementation for a software documentation, etc...</p>
-    <p style="width:80%">From these types, document struture rules are also defined and the editor is driven by these rules, sothat the author cannot create contents and structures not defined by these types and rules.</p>
+    <p style="width:80%">From these types, document structure rules are also defined and the editor is driven by these rules, sothat the author cannot create contents and structures not defined by these types and rules.</p>
     <p style="width:80%">One or more authoring (css) stylesheets can also be defined for these element types, and also (javascript) menus and callbacks (up on element insertion, removal ...), leading to more automatized and productive authoring sessions, as the author does not have to manage styling and makes less repetitive manual tasks while editing the contents of the document:</p>
     <ul style='width:80%'>
         <li>one can click the EDIT links of the documents below to display such a schema driven editor, yet to see the real potential of this editor, a live demo is needed,</li>
-        <li>just <a href="mailto://ctitdoc@gmail.com">send an email</a> if you're interested, and we'll organize it.</li>
+        <li>just <a href="mailto:ctitdoc@gmail.com">send an email</a> if you're interested, and we'll organize it.</li>
     </ul>
     <p style="width:80%">Stylesheets can also be defined to format the document for various targets: web site pages (with SEO stuff generated automatically), wikis, PDF/print etc...</p>
     <ul style='width:80%'>
-      <li><a href="/static/editor/xopus/xopus.html#/edit_dict_file_request?file=content/dictionary_holy_eboard_build.xml">this electric skateboard document</a>,
-           is published as <a href="/get_dict_file_content_request_as_skatelectrique?file=content/dictionary_holy_eboard_build.xml">this web page</a>,</li>
-      <li><a href="/static/editor/xopus/xopus.html#/edit_dict_file_request?file=content/dictionary_demo_site_arturia.xml">this music software product</a>,
-           is published in <a href="/get_dict_file_demo_request?file=content/dictionary_demo_site_arturia.xml">this web page</a>,</li>
-      <li><a href="/static/editor/xopus/xopus.html#/edit_dict_file_request?file=content/dictionary_f.delahaye.xml">this application data dictionary</a>,
-           can be published as <a href="/get_dict_file_content_as_markdown_request?file=content/dictionary_f.delahaye.xml">this markdown wiki</a> and can be checked with <a href="https://markdownlivepreview.com/">this online markdown viewer</a>,</li>
-      <li><a href="/static/editor/xopus/xopus.html#/edit_dict_file_request?file=content/dictionary_resume_franck_delahaye_fr.xml">this resume</a>,
-           can be published as <a href="/get_dict_file_content_as_resume_request?file=content/dictionary_resume_franck_delahaye_fr.xml&amp;ignore=standard">this web page</a> or as <a href="/get_dict_file_content_as_pdf_resume_request?file=content/dictionary_resume_franck_delahaye_fr.xml&amp;ignore=standard">this PDF document</a>.</li>
+      <li><a href="/static/editor/xopus/xopus.html#/cms/edit_dict_file_request?file=content/dictionary_holy_eboard_build.xml">this electric skateboard document</a>,
+           is published as <a href="/cms/get_dict_file_content_request_as_skatelectrique?file=content/dictionary_holy_eboard_build.xml">this web page</a>,</li>
+      <li><a href="/static/editor/xopus/xopus.html#/cms/edit_dict_file_request?file=content/dictionary_demo_site_arturia.xml">this music software product</a>,
+           is published in <a href="/cms/get_dict_file_demo_request?file=content/dictionary_demo_site_arturia.xml">this web page</a>,</li>
+      <li><a href="/static/editor/xopus/xopus.html#/cms/edit_dict_file_request?file=content/dictionary_f.delahaye.xml">this application data dictionary</a>,
+           can be published as <a href="/cms/get_dict_file_content_as_markdown_request?file=content/dictionary_f.delahaye.xml">this markdown wiki</a> and can be checked with <a href="https://markdownlivepreview.com/">this online markdown viewer</a>,</li>
+      <li><a href="/static/editor/xopus/xopus.html#/cms/edit_dict_file_request?file=content/dictionary_resume_franck_delahaye_fr.xml">this resume</a>,
+           can be published as <a href="/cms/get_dict_file_content_as_resume_request?file=content/dictionary_resume_franck_delahaye_fr.xml&amp;ignore=standard">this web page</a> or as <a href="/cms/get_dict_file_content_as_pdf_resume_request?file=content/dictionary_resume_franck_delahaye_fr.xml&amp;ignore=standard">this PDF document</a>.</li>
     </ul>
-    <p style="width:80%">The documents are stored in a dedicated database and one can query them using an accurate query language using the element types and struture rules defined to find the exact type of content one is looking for, example : searching "email" returns most of the time poor results, as "email" is so common in documents, but searching for a data definition "email" within an application data dictionary return the exact matches one is looking for:</p>
+    <p style="width:80%">The documents are stored in a dedicated database and one can query them using an accurate query language using the element types and structure rules defined to find the exact type of content one is looking for, example : searching "email" returns most of the time poor results, as "email" is so common in documents, but searching for a data definition "email" within an application data dictionary return the exact matches one is looking for:</p>
     <ul style='width:80%'>
-      <li>a click on the button "Envoyer" of <a href="/eval_dict_xquery_request_form">this Document query form</a> demonstrates it.</li>
+      <li>a click on the button "Envoyer" of <a href="/cms/eval_dict_xquery_request_form">this Document query form</a> demonstrates it.</li>
     </ul>
     <p style="width:80%">Another value added feature of such a solution is the ability to manage "applicabilities" to contents of document:</p>
-    <ul style='width:80%'><li>click on <a href="/get_dict_file_content_as_pdf_resume_request?file=content/dictionary_resume_franck_delahaye_fr.xml&amp;ignore=standard">the "standard" version of this resume</a>:</li>
-        <li>it contains a section "Les technos",</li>
-        <li>now click on <a href="/get_dict_file_content_as_pdf_resume_request?file=content/dictionary_resume_franck_delahaye_fr.xml&amp;ignore=alma_lead_web">a specific version of this resume for a given position type or job offer</a>:</li>
-        <li>it does not contain the section "Les technos" and its section "Les projet" is different from the standard version,</li>
+    <ul style='width:80%'><li>click on <a href="/cms/get_dict_file_content_as_pdf_resume_request?file=content/dictionary_resume_franck_delahaye_fr.xml&amp;ignore=standard">the "standard" version of this resume</a>:</li>
+        <li>it does not contain a section "Les technos",</li>
+        <li>now click on <a href="/cms/get_dict_file_content_as_pdf_resume_request?file=content/dictionary_resume_franck_delahaye_fr.xml&amp;ignore=alma_lead_web">a specific version of this resume for a given position type or job offer</a>:</li>
+        <li>it does contain a section "Les technos" and its section "Lead Développement dans divers domaines:" starts with two sub-sections instead of a text bloc in the standard version,</li>
         <li>the author can edit several versions in a single "multi-versions" document, setting "applicability" attributes to the contents that are applicable only to some versions and should be ignored for others,</li>
-        <li>this avoids to have to manage one document for each version and the tedious work of manually copying in each of them, the changes of the contents common to these versions.</li>
+        <li>thus, one avoids having to manage one document for each version and the tedious work of manually copying the common parts in each of them, each time they change.</li>
     </ul>
-    <p style='width:80%;margin-bottom:2em'>... more to come : IA, modular contents, translations, workflows/annotations/releases, access control, word processors integrations, enterprise application integrations, legacy document solutions and formats migrations, paper documents digitization and re-structuring ... => stay tuned !</p>
+    <p style='width:80%;margin-bottom:2em'>... more to come : IA (for automatically tagging and structuring unstructured text and more), modular contents, translations, workflows/annotations/releases, access control, word processors integrations, enterprise application integrations, legacy document solutions and formats migrations, paper documents digitization and re-structuring ... => stay tuned !</p>
   </div>
-{ for $file in db:list-details('dictionary','content')[text() != 'content/resume.html']  return
+{ for $file in db:list-details('dictionary','content')[text() != 'content/resume.html']
+  let $doc := fn:doc(fn:concat("dictionary/", $file))/node()
+  return
 <p style="margin-bottom:0.5em">
- {$file/text()} (last modified : {string($file/@modified-date)}) : <a href="{concat('/get_dict_file_content_request?file=', $file/text())}">VIEW</a>,
- <a href="{concat('/static/editor/xopus/xopus.html#/edit_dict_file_request?file=', $file/text())}" target="_blank">EDIT</a>,
- <a href="{concat('/delete_dict_file_request?file=', $file/text())}">DELETE</a>,<br/>
- OR <a href="{concat('/get_dict_file_content_as_markdown_request?file=', $file/text())}" target="_blank">MARKDOWN</a>
- OR <a href="{concat('/get_dict_file_content_as_pdf_request?file=', $file/text())}" target="_blank">PDF</a>
- OR <a href="{concat('/get_dict_file_content_as_resume_request?file=', $file/text())}" target="_blank">RESUME</a>
- OR <a href="{concat('/get_dict_file_content_as_pdf_resume_request?file=', $file/text())}">RESUME PDF</a>,
- OR <a href="{concat('/get_dict_file_content_request_as_skatelectrique?file=', $file/text())}">SKATELECTRIQUE</a>,
- OR <a href="{concat('/get_dict_file_demo_request?file=', $file/text())}" target="_blank">ARTURIA</a>
- OR <a href="{concat('/get_dict_file_content_as_textile_request?file=', $file/text())}" target="_blank">TEXTILE</a>
- OR <a href="{concat('/get_dict_file_content_as_textile_v2_request?file=', $file/text())}" target="_blank">TEXTILE V2</a>
- OR <a href="{concat('/get_dict_file_content_as_html_file_request?file=', $file/text())}" target="_blank">HTML FILE</a>
- OR <a href="{concat('/get_dict_file_xml_content_request?file=', $file/text())}" target="_blank">XML</a>
+ {$file/text()} (last modified : {string($file/@modified-date)}) : <a href="{concat('/cms/get_dict_file_content_request?file=', $file/text())}">VIEW</a>,
+<span><a href="{concat('/static/editor/xopus/xopus.html#/cms/edit_dict_file_request?file=', $file/ text())}" target="_blank">EDIT</a>, </span>
+<span><a href="{concat('/cms/delete_dict_file_request?file=', $file/text())}">DELETE</a></span>,<br/>
+  {
+  if (contains($doc/@features, 'MARKDOWN')) then
+ <span> OR <a href="{concat('/cms/get_dict_file_content_as_markdown_request?file=', $file/ text())}" target="_blank">MARKDOWN</a></span>
+  else ()
+  }
+{
+if (contains($doc/@features, 'PDF')) then
+<span> OR <a href="{concat('/cms/get_dict_file_content_as_pdf_request?file=', $file/text())}" target="_blank">PDF</a></span>
+else ()
+}
+{
+if (contains($doc/@features, 'RESUME')) then
+<span> OR <a href="{concat('/cms/get_dict_file_content_as_resume_request?file=', $file/text())}" target="_blank">RESUME</a> OR <a href="{concat('/cms/get_dict_file_content_as_pdf_resume_request?file=', $file/text())}">RESUME PDF</a></span>
+else ()
+}
+{
+if (contains($doc/@features, 'SKATELECTRIQUE')) then
+<span> OR <a href="{concat('/cms/get_dict_file_content_request_as_skatelectrique?file=', $file/text())}">SKATELECTRIQUE</a></span>
+else ()
+}
+{
+if (contains($doc/@features, 'ARTURIA')) then
+<span> OR <a href="{concat('/cms/get_dict_file_demo_request?file=', $file/text())}" target="_blank">ARTURIA</a></span>
+else ()
+}
+{
+if (contains($doc/@features, 'TEXTILE')) then
+<span> OR <a href="{concat('/cms/get_dict_file_content_as_textile_request?file=', $file/text())}" target="_blank">TEXTILE</a> OR <a href="{concat('/cms/get_dict_file_content_as_textile_v2_request?file=', $file/text())}" target="_blank">TEXTILE V2</a></span>
+else ()
+}
+<span> OR <a href="{concat('/cms/get_dict_file_content_as_html_file_request?file=', $file/text())}" target="_blank">HTML FILE</a></span>
+<span> OR <a href="{concat('/cms/get_dict_file_xml_content_request?file=', $file/text())}" target="_blank">XML</a></span>
 </p>
 }
+<p><pre> </pre></p>
+<p><pre> </pre></p>
   </body>
 </html>
 };
@@ -185,7 +211,7 @@ declare
  : @return HTML page
  :)
 declare
-  %rest:path("/dictionary")
+  %rest:path("/cms/dictionary")
   %output:method("xhtml")
   %output:omit-xml-declaration("no")
   %output:doctype-public("-//W3C//DTD XHTML 1.1//EN")
@@ -204,31 +230,31 @@ declare
   </head>
 
   <body><nav> <ul>
-      <li><a href="/list_dictionary_request"
+      <li><a href="/cms/list_dictionary_request"
       style="color:white" target="product_iframe">list documents</a></li>
 
       <li><a
-      href="/record_dict_file_of_author_form"
+      href="/cms/record_dict_file_of_author_form"
       style="color:white" target="product_iframe">record document file of
       author</a></li>
 
       <li><a
-      href='/eval_dict_xquery_request_form'
+      href='/cms/eval_dict_xquery_request_form'
       style="color:white" target="product_iframe">eval document query</a></li>
 
       <li><a
-      href='/get_logs_request'
+      href='/cms/get_logs_request'
       style="color:white" target="product_iframe">get logs</a></li>
 
     </ul> </nav><iframe id="main_iframe" name="product_iframe"
-  src="/list_dictionary_request"
+  src="/cms/list_dictionary_request"
   style="border:0" scrolling="auto"></iframe></body>
 </html>
 };
 
 declare
 %updating
-%rest:path('/delete_dict_file_request')
+%rest:path('/cms/delete_dict_file_request')
 %rest:GET
 %rest:query-param("file","{$file}", "")
 %output:method("xhtml")
@@ -267,7 +293,7 @@ db:output(<html xmlns="http://www.w3.org/1999/xhtml">
 };
 
 declare
-%rest:path('/get_dict_file_content_request')
+%rest:path('/cms/get_dict_file_content_request')
 %rest:GET
 %rest:query-param("file","{$file}", "")
 %rest:query-param("ignore","{$ignore}", "")
@@ -282,7 +308,7 @@ fn:concat(conf:xsl_path(),"/practices.xsl")
 };
 
 declare
-%rest:path('/get_dict_file_content_as_markdown_request')
+%rest:path('/cms/get_dict_file_content_as_markdown_request')
 %rest:GET
 %rest:query-param("file","{$file}", "")
 %output:method("text")
@@ -297,7 +323,7 @@ fn:concat(conf:xsl_path(),"/xhtml2markdown.xsl"))
 };
 
 declare
-%rest:path('/get_dict_file_content_as_resume_request')
+%rest:path('/cms/get_dict_file_content_as_resume_request')
 %rest:GET
 %rest:query-param("file","{$file}", "")
 %rest:query-param("ignore","{$ignore}", "")
@@ -330,7 +356,7 @@ declare function page:match_one_of($match_values as xs:string, $match_list as xs
 
 
 declare
-%rest:path('/get_dict_file_content_request_as_skatelectrique')
+%rest:path('/cms/get_dict_file_content_request_as_skatelectrique')
 %rest:GET
 %rest:query-param("file","{$file}", "")
 %output:method("xhtml")
@@ -343,7 +369,7 @@ fn:concat(conf:xsl_path(),"/skatelectrique.xsl")
 };
 
 declare
-%rest:path('/get_dict_file_demo_request')
+%rest:path('/cms/get_dict_file_demo_request')
 %rest:GET
 %rest:query-param("file","{$file}", "")
 %output:method("xhtml")
@@ -356,7 +382,7 @@ fn:concat(conf:xsl_path(),"/demo.xsl")
 };
 
 declare
-%rest:path('/get_dict_file_content_as_textile_v2_request')
+%rest:path('/cms/get_dict_file_content_as_textile_v2_request')
 %rest:GET
 %rest:query-param("file","{$file}", "")
 %output:method("text")
@@ -371,7 +397,7 @@ fn:concat(conf:xsl_path(),"/xhtml2markdown.xsl"),map { "format": "textile" })
 };
 
 declare
-%rest:path('/get_dict_file_content_as_textile_request')
+%rest:path('/cms/get_dict_file_content_as_textile_request')
 %rest:GET
 %rest:query-param("file","{$file}", "")
 %output:method("text")
@@ -394,7 +420,7 @@ let $markdownContent := xslt:transform-text(
 };
 
 declare
-%rest:path('/get_dict_file_content_as_html_file_request')
+%rest:path('/cms/get_dict_file_content_as_html_file_request')
 %rest:GET
 %rest:query-param("file","{$file}", "")
 %output:method("text")
@@ -416,7 +442,7 @@ let $htmlContent := xslt:transform(fn:doc(fn:concat("dictionary/", $file))/node(
 
 
 declare
-%rest:path('/get_resume_content_as_html_file_request')
+%rest:path('/cms/get_resume_content_as_html_file_request')
 %rest:GET
 %rest:query-param("file","{$file}", "")
 %rest:query-param("ignore","{$ignore}", "")
@@ -462,7 +488,7 @@ element {node-name($element)}
 
 
 declare
-%rest:path('/get_dict_file_content_as_pdf_resume_request')
+%rest:path('/cms/get_dict_file_content_as_pdf_resume_request')
 %rest:GET
 %rest:query-param("file","{$file}", "")
 %rest:query-param("ignore","{$ignore}", "")
@@ -481,7 +507,7 @@ $file as xs:string, $ignore as xs:string?) as xs:base64Binary
 
 
 declare
-%rest:path('/get_dict_file_xml_content_request')
+%rest:path('/cms/get_dict_file_xml_content_request')
 %rest:GET
 %rest:query-param("file","{$file}", "")
 %output:method("xml")
@@ -492,7 +518,7 @@ fn:doc(fn:concat("dictionary/", $file))/node()
 };
 
 declare
-%rest:path('/get_dict_file_filtered_content_request')
+%rest:path('/cms/get_dict_file_filtered_content_request')
 %rest:GET
 %rest:query-param("file","{$file}", "")
 %rest:query-param("ignore","{$ignore}", "")
@@ -507,7 +533,7 @@ fn:concat(conf:xsl_path(),"/practices.xsl")
 };
 
 declare
-%rest:path('/get_content_as_html_file_request')
+%rest:path('/cms/get_content_as_html_file_request')
 %rest:GET
 %rest:query-param("file","{$file}", "")
 %rest:query-param("ignore","{$ignore}", "")
@@ -529,7 +555,7 @@ return $filePath
 };
 
 declare
-%rest:path('/get_dict_file_content_as_pdf_request')
+%rest:path('/cms/get_dict_file_content_as_pdf_request')
 %rest:GET
 %rest:query-param("file","{$file}", "")
 %rest:query-param("ignore","{$ignore}", "")
@@ -547,7 +573,7 @@ return file:read-binary(proc:system( 'html2pdf.sh', ($filePath)))
 };
 
 declare
-%rest:path('/get_dict_file_xml_content_request_debug')
+%rest:path('/cms/get_dict_file_xml_content_request_debug')
 %rest:GET
 %rest:query-param("file","{$file}", "")
 %output:method("text")
@@ -559,7 +585,7 @@ string(fn:doc(fn:concat("dictionary/", $file))/node())
 
 
 declare
-%rest:path('/edit_dict_file_request')
+%rest:path('/cms/edit_dict_file_request')
 %rest:GET
 %rest:query-param("file","{$file}", "")
 %output:method("xhtml")
@@ -586,7 +612,7 @@ return
     <div xopus="true" autostart="true">
       <xml>
         <x:config version="1.0" xmlns:x="http://www.xopus.com/xmlns/config">
-          <x:pipeline xml="/get_dict_file_xml_content_request?file={$file}" xsd="{$practices_editor_config_path}/xsd/coaching.xsd">
+          <x:pipeline xml="/cms/get_dict_file_xml_content_request?file={$file}" xsd="{$practices_editor_config_path}/xsd/coaching.xsd">
             <x:view name="WYSIWYG View">
               <x:transform xsl="{$practices_editor_config_path}/xsl/prepareXIncludes.xsl"/>
               <x:resolveXIncludes/>
@@ -623,7 +649,7 @@ return
 
 declare
 %updating
-%rest:path('/save_dict_file_request')
+%rest:path('/cms/save_dict_file_request')
 %rest:POST("{$body}")
 %rest:query-param("uri","{$uri}", "")
 %output:method("text")
@@ -667,7 +693,7 @@ declare function page:file_from_uri($uri as xs:string) as xs:string
 {fn:replace($uri,".*\?file=","")};
 
 declare
-%rest:path('/eval_dict_xquery_request')
+%rest:path('/cms/eval_dict_xquery_request')
 %rest:POST
 %rest:query-param("xquery","{$xquery}", "")
 %rest:query-param("result_format","{$result_format}", "")
@@ -680,12 +706,12 @@ xslt:transform(xquery:eval($xquery),
 fn:concat(conf:xsl_path(),"/practices.xsl")
 )/node()
 ) else (
-<rest:forward>/eval_dict_xquery_as_xml_request</rest:forward>
+<rest:forward>/cms/eval_dict_xquery_as_xml_request</rest:forward>
 )
 };
 
 declare
-%rest:path('/eval_dict_xquery_as_xml_request')
+%rest:path('/cms/eval_dict_xquery_as_xml_request')
 %rest:POST
 %rest:query-param("xquery","{$xquery}", "")
 %output:method("xml")
@@ -697,7 +723,7 @@ xquery:eval($xquery)
 
 
 declare
-%rest:path("/eval_dict_xquery_request_form")
+%rest:path("/cms/eval_dict_xquery_request_form")
 %output:method("xhtml")
 %output:omit-xml-declaration("no")
 %output:doctype-public("-//W3C//DTD XHTML 1.1//EN")
@@ -713,7 +739,7 @@ as element(Q{http://www.w3.org/1999/xhtml}html)
 <body>
 <p>Write below your query on document collection and click on submit to evaluate it.</p>
 
-<form action="eval_dict_xquery_request" method="post">
+<form action="/cms/eval_dict_xquery_request" method="post">
 
 <p>Result format : <select name="result_format">
 <option value="html" checked="checked">HTML</option>
@@ -722,16 +748,25 @@ as element(Q{http://www.w3.org/1999/xhtml}html)
 
 <p><textarea rows="50" cols="200" name="xquery"
 title="Query on document collection">
-(: example xquery to get "data_definition" elements of "dictionary" documents containing 'email',
+(: the example below is a xquery to get "data_definition" elements of "dictionary" documents containing 'email',
 replace "/dictionary/data_definition" by "/document/section" to get main "section" elements of "document" documents containing 'email',
+
+you can even retrieve all the features of an application that depends on a given implementation class like that (try it):
+
+for $x in collection('dictionary')/dictionary//*[ @implementation_class = '\Bilendi\MemberBundle\Validator\Constraints\Email' ]
+return $x
+
 learn XQuery to find whatever can be found with more/less precise/complex x queries :
 https://www.w3schools.com/xml/xquery_intro.asp
 :)
+
 &lt;document&gt;
 &lt;h&gt;Query results :&lt;/h&gt;
 &#123;
+
 for $x in collection('dictionary')/dictionary/data_definition[ . contains text 'email']
 return $x
+
 &#125;
 &lt;/document&gt;
 </textarea></p>

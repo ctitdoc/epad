@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document section-numbering="true" figure-numbering="true">
+    <h text-align="justify">Curriculum Vitae – Franck Delahaye</h>
+    <p/>
+    <section id="Contact" coex="Contact">
+        <h>Contact</h>
+        <p>
+            Franck Delahaye<br/>
+            email: <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a><br/>
+            tel: +33 7 67 38 28 95
+        </p>
+    </section>
+    <section id="Objectives" coex="Résumé professionnel">
+        <h>Résumé professionnel</h>
+        <p>
+            Informaticien senior avec plus de 25 ans d&apos;expérience dans l&apos;intégration de systèmes d&apos;information, les plateformes web à forte volumétrie et les systèmes de contenus structurés. Expertise solide en XML / XSLT / XQuery, moteurs de recherche, bases de données SQL et NoSQL, intégration ERP/CRM/PIM, ainsi qu&apos;en architectures microservices et data-centric. Habitué à travailler au contact des équipes métier, à piloter des migrations de plateformes, et à accompagner les équipes techniques (coaching, revues de code, bonnes pratiques).
+        </p>
+    </section>
+    <section id="skills" coex="Compétences principales">
+        <h>Compétences principales</h>
+        <ul>
+            <li>
+                <p>XML, XSLT, XQuery, SGML, systèmes de documents structurés, CMS et GED.</p>
+            </li>
+            <li>
+                <p>Bases NoSQL et bases XML-aware (BaseX, Berkeley DB, dbXML), moteurs de recherche plein texte (Lucene, Vespa).</p>
+            </li>
+            <li>
+                <p>
+                    Intégration de solutions d&apos;entreprise: ERP (Odoo), PIM, CRM, BI, flux de paiement, protocoles bancaires EBICS/SEPA, données de santé et HL7.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Frameworks web &amp; backend: Java/J2EE/Spring, PHP/Symfony &amp; Yii, Python/Odoo, Rust/WASM (PoC).
+                </p>
+            </li>
+            <li>
+                <p>DevOps &amp; CI/CD: GitLab, GitHub, environnements virtualisés et conteneurisés (Docker, AWS).</p>
+            </li>
+            <li>
+                <p>
+                    Conception d&apos;architectures, migrations de plateformes legacy, multi-sites, multi-pays, plateformes mutualisées et personnalisables.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Encadrement technique, mentoring, pratiques agiles (Scrum, TDD, approche inspirée CMMI), participation aux réponses à appels d&apos;offres.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Chaînes éditoriales multi-langues: contenus pilotés par schémas, génération Web &amp; PDF (XSL-FO/PostScript), internationalisation.
+                </p>
+            </li>
+        </ul>
+    </section>
+    <section id="Employment" coex="Expérience professionnelle">
+        <h>Expérience professionnelle</h>
+        <ul>
+            <li>
+                <p>
+                    <strong>Senior développeur / architecte solutions</strong> – Cosmobilis / Bilendi / Arturia / Made In Design – Grenoble, France – 2011–2025
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Développement et maintenance de plateformes e-commerce, fidélité et paneling multi-pays basées sur PHP/Symfony, intégrant des back-offices riches, des catalogues produits complexes et des flux partenaires.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Intégration de solutions tierces: ERP (Odoo), PIM, CRM, plateformes de campagnes marketing, marketplaces, solutions de paiement, outils BI et ETL.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Mise en place d&apos;architectures microservices et d&apos;API REST, gestion de migrations progressives de plateformes (versions PHP/Symfony, refonte fonctionnelle et technique).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Collaboration étroite avec les équipes métier (marketing, logistique, finance, support) pour analyser les besoins, définir les backlogs et planifier les itérations.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Encadrement technique et coaching de développeurs (revues de code, partage de bonnes pratiques, accompagnement sur les frameworks et outils).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Participation à la définition d&apos;architectures cibles et à la roadmap SI (ESB maison, Talend, intégrations marketplaces, schémas d&apos;applications).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Expérimentations et PoC sur de nouvelles technologies (Rust/WASM, web components, Ballerina pour l&apos;orchestration d&apos;API, etc.).
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Architecte solutions &amp; lead technique</strong> – Kelkoo, Ositech, HCForum, Schneider Electric, Cap Gemini – 2000–2010
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Projets GED/CMS/BPM et publication technique multi-langues (automobile, énergie, aéronautique, santé, industrie), de la conception à la mise en production.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Mise en place de moteurs de recherche plein texte (Lucene, Vespa) et de bases documentaires XML-aware pour des volumes importants de données.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Intégration d&apos;ERP/CRM/PIM et d&apos;outils de gestion documentaire (Documentum, solutions santé, solutions énergie), gestion de projets et pilotage d&apos;équipes.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Rédaction de réponses à appels d&apos;offres, conception d&apos;architectures techniques et accompagnement des clients sur leurs choix de solutions.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Ingénieur logiciel – systèmes de documentation et de contenus</strong> – Airbus, STMicroelectronics, CS Group, AIS Technologies – 1991–2000
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Développement C/C++ et SGML/XML sur des systèmes de documentation technique à grande échelle (jusqu&apos;à plusieurs dizaines de milliers de pages).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Conception et implémentation de chaînes de traitement: import, validation, transformation, publication (Web &amp; impression).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Travaux sur les formats d&apos;impression (PostScript, HP-GL, PCL), les parseurs SGML/XML et les bases de données documentaires.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="Education" coex="Formation">
+        <h>Formation</h>
+        <ul>
+            <li>
+                <p>Ingénieur – Polytech Grenoble, option informatique &amp; automatique</p>
+            </li>
+            <li>
+                <p>DEUG A – Université Joseph Fourier, Grenoble</p>
+            </li>
+            <li>
+                <p>Baccalauréat scientifique – Grenoble</p>
+            </li>
+        </ul>
+    </section>
+    <section id="Languages" coex="Langues">
+        <h>Langues</h>
+        <p>
+            Français (langue maternelle), anglais (professionnel), bases en allemand, russe et népalais.
+        </p>
+    </section>
+    <section id="Interest" coex="Centres d&apos;intérêt">
+        <h>Centres d&apos;intérêt</h>
+        <p>
+            Nature, découverte d&apos;autres cultures, sports et activités de plein air (trekking, longboard de descente, snowboard).
+        </p>
+    </section>
+</document>

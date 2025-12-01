@@ -290,3 +290,37 @@ exit
 open dictionary
 replace content/resume.html /tmp/vvv
 exit
+db:paths('dictionary', 'data_definition')
+OPTIMIZE ALL
+exit
+open dictionary
+OPTIMIZE ALL
+XQUERY
+db:paths('dictionary')
+declare namespace db="http://basex.org/modules/db";
+XQUERY db:paths('dictionary')
+SHOW PATHS dictionary
+INFO
+XQUERY
+index:elements()
+.
+exit
+XQUERY HELP
+open dictionary
+XQUERY
+XQUERY index:elements()
+xquery count(collection('dictionary')//data_definition)
+xquery count(collection('dictionary')/*[name()='data_definition']
+xquery count(collection('dictionary')/*[name()='data_definition'])
+xquery count(collection('dictionary')//*[name()='data_definition']
+xquery count(collection('dictionary')//*[name()='data_definition'])
+xquery count(collection('dictionary')//data_definition)
+xquery count(collection('dictionary')//*[name()='data_definition'])
+OPEN dictionary
+OPTIMIZE ALL
+xquery count(collection('dictionary')//data_definition)
+EXPORT /tmp/dict
+DROP DB dictionary
+CREATE DB dictionary /tmp/dict
+xquery count(collection('dictionary')//data_definition)
+exit

@@ -1,0 +1,261 @@
+<document section-numbering="true" figure-numbering="true">
+    <h text-align="justify">Curriculum Vitae – Franck Delahaye</h>
+    <p/>
+    <section id="Contact" coex="Contact">
+        <h>Contact</h>
+        <p>
+            Franck Delahaye<br/>
+            email:
+            <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a>
+            <br/>
+            tel: +33 7 67 38 28 95
+        </p>
+    </section>
+    <section id="Objectives" coex="Résumé professionnel">
+        <h>Résumé professionnel</h>
+        <p>
+            Développeur senior spécialisé dans les technologies XML, XSLT, XQuery et les bases de données documentaires avec plus de 25 ans d&apos;expérience dans les systèmes de contenus structurés, la publication documentaire et l&apos;intégration de données textuelles à grande échelle. Pratique intensive des chaînes éditoriales SGML → XML, des transformations XSLT, des bases XML-native et NoSQL (BaseX, Berkeley DB, dbXML, eXist-db) et des moteurs de recherche plein texte (Lucene, Vespa, XPAT). À l&apos;aise dans les environnements de recherche où les textes, les métadonnées et les données chiffrées sont au cœur de l&apos;activité, en interaction avec des chercheurs et des équipes pluridisciplinaires.
+        </p>
+    </section>
+    <section id="skills" coex="Compétences techniques clés">
+        <h>Compétences techniques clés</h>
+        <ul>
+            <li>
+                <p>
+                    XML pour les humanités numériques&nbsp;: modélisation de documents structurés, schémas XML, corpus textuels multi-langues, marquage fin d&apos;entités (personnes, lieux, dates, montants, unités, etc.).
+                </p>
+            </li>
+            <li>
+                <p>
+                    Transformations &quot;texte balisé → données&quot;&nbsp;: XSLT, XPath et XQuery pour l&apos;extraction, la normalisation et la réorganisation de contenus textuels et de données chiffrées à partir de documents XML complexes.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Bases de données XML-native et NoSQL&nbsp;: BaseX, Berkeley DB, dbXML, eXist-db&nbsp;; conception de modèles de données documentaires, indexation, requêtes complexes, APIs de collecte et d&apos;exploitation des données.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Moteurs de recherche &quot;structure-aware&quot;&nbsp;: intégration et paramétrage de moteurs prenant en compte les balises et la structure (XPAT, Lucene, Vespa) pour interroger de grands corpus textuels.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Chaînes de publication et d&apos;édition&nbsp;: pipelines de transformation SGML/XML/XSLT, génération HTML et PDF/print (XSL-FO, PostScript), gestion d&apos;encodages (ISO → UTF-8) et de contenus multi-écriture.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Systèmes de gestion de contenus structurés&nbsp;: conception de dictionnaires métiers et de CMS XML, édition guidée par schémas XSD, intégration d&apos;éditeurs XML (Xopus, XmlMind), publication vers des wikis ou aides en ligne.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Intégration de données et outillage&nbsp;: scripts d&apos;import/export XML, génération de tableaux de données (CSV, ODF) à partir de corpus XML, mise en place de structures proches de tableurs avec variables et formules pour l&apos;exploitation des données chiffrées.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Environnements de développement et outillage collaboratif&nbsp;: Java, C/C++, PHP, Python, outils XSLT/XQuery (Saxon, libXML, libXSLT), Git, GitHub, GitLab, travail en interaction étroite avec des experts métier et des équipes de recherche.
+                </p>
+            </li>
+        </ul>
+    </section>
+    <section id="Employment" coex="Expérience professionnelle">
+        <h>Expérience professionnelle</h>
+        <ul>
+            <li>
+                <p>
+                    <strong>Systèmes de documentation technique automobile (Fiat, Renault, autres constructeurs)</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Conception et développement de systèmes de publication multi-langues pour la documentation technique de véhicules&nbsp;: transformation de corpus SGML vers des contenus XML structurés stockés dans des bases XML-aware (eXist-db, solutions internes).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Mise en place de chaînes XSLT pour générer des vues HTML et des documents imprimables à partir des documents XML, avec gestion d&apos;un mécanisme d&apos;applicabilité (filtrage par modèle de véhicule, type de moteur, carburant, etc.).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Gestion des encodages (ISO → UTF-8), prise en charge d&apos;alphabets non latins (arabe, turc, etc.) et maintien de la cohérence des métadonnées et des identifiants de sections.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Systèmes de gestion de processus et référentiels XML (BPM et GED)</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Développement d&apos;un référentiel XML pour un moteur de Business Process Management&nbsp;: stockage des définitions de processus en XML, requêtage avec des expressions proches de XQuery, validation par schémas, historisation des versions.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Génération automatique de la documentation des processus en PDF à partir des définitions XML via XSLT/XSL-FO&nbsp;: transformation de contenus balisés en rapports structurés et lisibles par les équipes métier et les autorités de contrôle.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Utilisation de modèles de documents et de chaînes de traitement qui préfigurent des approches d&apos;extraction d&apos;entités nommées (acteurs, tâches, états, délais) pour l&apos;analyse des processus.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Bases bibliographiques et moteurs de recherche (Electre, dictionnaires, portails documentaires)</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Intégration d&apos;une base relationnelle (Ingres) avec un moteur de recherche &quot;tags aware&quot; (XPAT) pour des recherches avancées dans une base bibliographique de très grande taille&nbsp;: requêtes combinant structure des balises et plein texte.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Modélisation et extraction de métadonnées (auteurs, collections, titres, identifiants, dates, thèmes) à partir de documents structurés, avec génération de vues tabulaires pour l&apos;analyse et la révision par les documentalistes.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Participation à la mise en place de workflows d&apos;édition et de contrôle qualité des données textuelles et chiffrées (tirages, prix, dates, codes).
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Dictionnaires historiques et corpus textuels structurés</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Développement d&apos;un module de publication pour le Dictionnaire historique suisse&nbsp;: extraction d&apos;entrées stockées en base de données, projection en arbres proches de DOM puis génération de documents MIF (Framemaker) à partir de structures balisées.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Conception de scripts de transformation pour convertir des structures internes en formats éditoriaux, en conservant la hiérarchie des sections, les références croisées, les notes et les entités nommées.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Expérience du travail avec des équipes éditoriales, d&apos;historiens et de linguistes, et de leurs contraintes spécifiques (cohérence terminologique, variantes de graphie, normalisation des noms propres et des dates).
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Portails, CMS structurés et démonstrateurs XML</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Conception et maintien d&apos;un démonstrateur de CMS XML pour documents structurés&nbsp;: dictionnaire de données métier géré en XML, édité via un éditeur WYSIWYG (Xopus) piloté par un schéma XSD, publié en ligne sous forme de wiki ou d&apos;aide intégrée aux applications.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Mise en place de pipelines où les modifications de code (Git) déclenchent l&apos;identification des entrées de dictionnaire impactées (via XSLT et XPath) et proposent leur relecture&nbsp;: exemple de couplage fort entre code, documentation structurée et processus de révision.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Production de contenus dérivés (listes, tableaux, rapports) à partir des documents XML, afin d&apos;alimenter des analyses, des tableaux de bord ou des supports de communication.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Chaînes de publication et outils de transformation SGML/XML</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Étude approfondie du standard SGML afin d&apos;améliorer le niveau de conformité d&apos;un parseur développé en Eiffel et d&apos;intégrer divers outils SGML&nbsp;: parseur, éditeur, navigateur, compositeur.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Développement d&apos;algorithmes de comparaison de versions de documents structurés (SGML/XML) permettant de ne publier que les pages modifiées dans des corpus volumineux (par exemple, documentation aéronautique de l&apos;ordre de plusieurs dizaines de milliers de pages).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Utilisation intensive de l&apos;outil de transformation &quot;Balise&quot; (prédécesseur des processeurs XSLT) pour transformer des contenus balisés (SGML, XML, autres formats marqués) en documents de publication ou en flux de données.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Développement d&apos;un &quot;composer&quot; PostScript pour SGML&nbsp;: association de fonctions PostScript à chaque type d&apos;élément du DTD pour générer des documents imprimables, puis développement d&apos;un interpréteur PostScript en C produisant des sorties HP-GL et PCL.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Intégration de données et applications métiers récentes</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>
+                            Intégration de données métier complexes (e-commerce, santé, énergie, finance) à l&apos;aide de formats XML standardisés et de transformations XSLT/XQuery, avec contrôle de cohérence et normalisation des valeurs.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Mise en place de scripts d&apos;extraction vers des tableurs (CSV, ODF) pour permettre aux équipes métier d&apos;analyser des jeux de données chiffrées, de construire leurs propres agrégations et de préparer des visualisations.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Travail quotidien avec Git/GitLab/GitHub, revue de code, documentation technique et échanges réguliers avec les métiers (product owners, chercheurs, responsables de service).
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="Education" coex="Formation">
+        <h>Formation</h>
+        <ul>
+            <li>
+                <p>
+                    Ingénieur – Polytech Grenoble, option informatique et automatique
+                </p>
+            </li>
+            <li>
+                <p>
+                    DEUG A – Université Joseph Fourier, Grenoble
+                </p>
+            </li>
+            <li>
+                <p>
+                    Baccalauréat scientifique – Grenoble
+                </p>
+            </li>
+        </ul>
+    </section>
+    <section id="Languages" coex="Langues">
+        <h>Langues</h>
+        <p>
+            Français (langue maternelle)&nbsp;; anglais (utilisation professionnelle régulière)&nbsp;; notions anciennes en allemand, russe et népalais.
+        </p>
+    </section>
+    <section id="Interest" coex="Centres d&apos;intérêt">
+        <h>Centres d&apos;intérêt</h>
+        <p>
+            Systèmes de contenus structurés, publication documentaire, moteurs de recherche, humanités numériques, veille technologique, ainsi que nature et activités de plein air.
+        </p>
+    </section>
+</document>

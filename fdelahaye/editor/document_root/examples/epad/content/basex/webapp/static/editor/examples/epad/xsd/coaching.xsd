@@ -209,6 +209,7 @@
     <xs:attribute ref="section-numbering" use="optional" />
     <xs:attribute ref="figure-numbering" use="optional" />
     <xs:attribute ref="ignore_for"/>
+    <xs:attribute ref="features"/>
   </xs:complexType>
 
   <xs:complexType name="dictionary.type" mixed="false">
@@ -221,6 +222,7 @@
     <xs:attribute ref="section-numbering" use="optional" />
     <xs:attribute ref="figure-numbering" use="optional" />
     <xs:attribute ref="ignore_for"/>
+    <xs:attribute ref="features"/>
   </xs:complexType>
 
   <xs:complexType name="document.type" mixed="false">
@@ -236,6 +238,7 @@
     <xs:attribute ref="section-numbering" use="optional" />
     <xs:attribute ref="figure-numbering" use="optional" />
     <xs:attribute ref="ignore_for"/>
+    <xs:attribute ref="features"/>
   </xs:complexType>
 
   <!-- section.type -->
@@ -657,4 +660,5 @@
   -->
 
   <xs:attribute name="ignore_for" type="xs:string"/>
+  <xs:attribute name="features" type="xs:string"/>
 </xs:schema>

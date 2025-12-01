@@ -28,6 +28,66 @@
     <html>
       <head>
         <title><xsl:value-of select="practices/h|dictionary/h|document/h"/></title>
+        <style type="text/css">
+          @page {
+          size: A4; /* Change from the default size of A4 */
+          margin: 2mm; /* Set margin on each page */
+          }
+
+          /**/
+          body {   //Scolor: #6d5858;  //background-color: #f9f8ea;  font-family: Arial, Helvetica, sans-serif;  font-size: 10pt; }
+
+          span { display: inline; }
+
+          /************** Top ***************/
+          .info  {   text-align: left; }
+          .name {   font-weight: bold;  font-size: 140%; }
+          .address {   text-align:left; }
+
+          /***************** Body *****************/
+          .body{   width: 95%;  }
+          .field {   padding: 5px;  margin: 5px;  border-style: solid;
+          border-color: #353175;  border-width: 1px 4px 4px 1px;
+          }
+          .label {   font-weight: bold;  display:block;  }
+          .comment:after {   content: ", "  }
+          .location:after {   content: ". "  }
+
+          /***************** Menu ******************/
+          .menu {   top: 0;  right: 4px;  position: absolute;
+          margin-top: 10px;  text-align: left;  color: #6d5858;
+          padding: 10px;  width: 20%;
+          }
+          .entry {   display: block;
+          color: #353175;  font-weight:normal;
+          font-size : 130%;  text-decoration: none;
+          text-align: center;  background-color: #f8ebc4;
+          margin: 4px;  border-style: solid;  border-color: #353175;
+          border-width: 1px 4px 4px 1px;
+          }
+
+          /**************** Page foot **********/
+          .footer{   clear:both;}
+
+          h1 {  padding: 2px;  border-style: solid;  border-color: #353175;  border-width: thin;
+          font-size : 130%;  font-family: Arial, Helvetica, sans-serif;  }
+
+          h2{   padding-left: 17px;  font-size : 120%;  font-family: Arial, Helvetica, sans-serif; }
+
+          p { margin-left: 1% }
+          dd.content &gt;
+
+          ul { margin-left: 4% }
+          div.field &gt;
+
+          dt { margin-left: 0px }
+
+          dd { margin-left: 30px}
+
+          img{   border: none;  }
+          /**/
+
+        </style>
         <script language="javascript">
           function collapse_or_expand(id) {
           elem = document.getElementById(id);
