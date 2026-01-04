@@ -1,0 +1,47 @@
+module namespace retro = "http://www.sitems.org/retro";
+import module namespace http='http://expath.org/ns/http-client';
+
+declare
+%rest:POST("retroconvert")
+%rest:consumes("application/json")
+%rest:produces("application/xml")
+function retro:convert($input as map(*)) {
+
+(: 1) Extraction des paramètres :)
+    let $prePromptFile := $input?prePromptFile
+    let $cvText        := $input?cvText
+
+    (: 2) Construction du JSON à envoyer au service Ballerina :)
+    let $payload :=
+        [
+        map {
+        "type": "OARequest",
+        "prePromptFile": $prePromptFile,
+        "prompt": $cvText
+        }
+        ]
+
+    (: 3) Appel HTTP POST vers ton service ballerina :)
+    let $response :=
+        http:send-request(
+                <http:request method='post'>
+                    <http:header name='Content-Type' value='application/json'/>
+                    <http:header name='accept' value='application/json'/>
+                </http:request>,
+                xs:anyURI("http://www.sitems.org:16387/schemed_talks"),
+                serialize($payload, map {'method':'json'})
+        )
+
+    (: 4) Le corps JSON de la réponse :)
+    let $json := $response[2]
+
+    (: 5) Extraction de la valeur du champ "oaResponse" :)
+    let $cvXmlString := $json?*[2]?oaResponse
+
+    (: 6) Retourne le CV XML tel quel :)
+    return (
+        text {
+            $cvXmlString
+        }
+    )
+};

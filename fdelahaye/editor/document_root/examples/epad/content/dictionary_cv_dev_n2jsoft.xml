@@ -1,0 +1,135 @@
+<document section-numbering="true" figure-numbering="true" features="RESUME">
+    <h text-align="justify">Curriculum Vitae – Développeur logiciel IA / Python – Franck Delahaye</h>
+    <p/>
+
+    <section id="Contact" coex="CONTACT">
+        <h>CONTACT</h>
+        <p>Franck Delahaye<br/>
+            Grenoble, France<br/>
+            franck_delahaye@yahoo.fr – +33 7 67 38 28 95</p>
+    </section>
+
+    <section id="Objectives" coex="PROJET PROFESSIONNEL">
+        <h>PROJET PROFESSIONNEL</h>
+        <p>
+            Ingénieur logiciel senior avec plus de 25 ans d’expérience en développement et intégration de plateformes logicielles, dont des travaux récents autour de l’intelligence artificielle appliquée (LLM, automatisation, orchestration d’APIs). Je souhaite rejoindre N2JSoft pour concevoir, intégrer et industrialiser des fonctionnalités IA pragmatiques au cœur de produits SaaS B2B, dans un contexte cloud et orienté production.
+        </p>
+    </section>
+
+    <section id="skills" coex="COMPÉTENCES">
+        <h>COMPÉTENCES</h>
+
+        <section id="Skills-Tech" coex="Compétences techniques">
+            <h>Compétences techniques</h>
+            <ul>
+                <li><p><strong>Langages</strong> : Python (intégration, automatisation, services), Java/J2EE, PHP (Symfony), Rust (PoC), C/C++.</p></li>
+                <li><p><strong>IA &amp; LLM</strong> : intégration d’APIs OpenAI, conception de services d’orchestration IA, prompt engineering, génération et transformation de contenus structurés, premiers usages de pipelines de type RAG.</p></li>
+                <li><p><strong>Cloud &amp; intégration</strong> : AWS (environnements applicatifs, CI/CD), services REST, orchestration de flux applicatifs, APIs sécurisées.</p></li>
+                <li><p><strong>Données</strong> : PostgreSQL, MySQL, bases XML (BaseX, eXist-db), structuration et exploitation de données métier.</p></li>
+                <li><p><strong>Outillage</strong> : GitHub / GitLab CI/CD, Docker, supervision et diagnostic applicatif.</p></li>
+            </ul>
+        </section>
+
+        <section id="Skills-Methods" coex="Méthodes &amp; travail en équipe">
+            <h>Méthodes &amp; travail en équipe</h>
+            <ul>
+                <li><p>Développement orienté produit et mise en production.</p></li>
+                <li><p>Travail collaboratif avec équipes produit, data et développement.</p></li>
+                <li><p>Autonomie, rigueur, documentation technique et qualité logicielle.</p></li>
+                <li><p>Capacité à vulgariser des concepts techniques et IA.</p></li>
+            </ul>
+        </section>
+    </section>
+
+    <section id="Employment" coex="EXPÉRIENCE PROFESSIONNELLE">
+        <h>EXPÉRIENCE PROFESSIONNELLE</h>
+        <ul>
+
+            <li>
+                <p><strong>Architecte solutions &amp; développeur senior – Plateformes SaaS, intégration &amp; IA</strong></p>
+                <p>Made In Design / Bilendi / Arturia / Cosmobilis – Grenoble</p>
+                <p>2011 – 2025</p>
+                <ul>
+                    <li><p>Conception et développement de plateformes SaaS B2B/B2C à fort trafic.</p></li>
+                    <li><p>Développement de services d’orchestration intégrant des APIs IA (OpenAI) pour la génération automatique de contenus XML et de CV ciblés.</p></li>
+                    <li><p>Implémentation de workflows d’automatisation et d’intégration applicative (ERP, CRM, moteurs de recherche).</p></li>
+                    <li><p>Mise en production, supervision, CI/CD et exploitation cloud.</p></li>
+                    <li><p>Veille technologique et PoC autour de Rust, WebAssembly et architectures modernes.</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Responsable technique – Solutions énergie &amp; santé</strong></p>
+                <p>HC Forum / Open Énergie – Grenoble</p>
+                <p>2007 – 2010</p>
+                <ul>
+                    <li><p>Développement Java et Python de plateformes critiques orientées données.</p></li>
+                    <li><p>Gestion et transformation de flux XML complexes (HL7, données métier).</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Développeur Java senior – Moteur de recherche</strong></p>
+                <p>Kelkoo (Yahoo) – Grenoble</p>
+                <p>2005 – 2006</p>
+                <ul>
+                    <li><p>APIs de recherche haute performance basées sur Lucene et Vespa.</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Chef d’équipe – Gestion de contenu &amp; systèmes documentaires</strong></p>
+                <p>Cap Gemini / Akazi Technologies / Xerox – Grenoble</p>
+                <p>1999 – 2004</p>
+                <ul>
+                    <li><p>CMS, workflows documentaires et chaînes de publication XML.</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Développeur – Systèmes SGML/XML &amp; publication</strong></p>
+                <p>AIS Technologies / Synlog / CS Group – Paris, Grenoble, Toulouse</p>
+                <p>1993 – 1999</p>
+                <ul>
+                    <li><p>Outils C/C++ et chaînes de publication structurées.</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Ingénieur de terrain – Projet de coopération scientifique</strong></p>
+                <p>Réseau sismologique national du Népal</p>
+                <p>1991 – 1993</p>
+                <ul>
+                    <li><p>Installation et exploitation de systèmes techniques sur le terrain.</p></li>
+                </ul>
+            </li>
+
+        </ul>
+    </section>
+
+    <section id="Education" coex="FORMATION">
+        <h>FORMATION</h>
+        <ul>
+            <li><p><strong>1989–1991 – Polytech Grenoble – Diplôme d’ingénieur en informatique et automatique</strong></p></li>
+            <li><p><strong>1985–1988 – DEUG A – Sciences générales – Université Joseph Fourier, Grenoble</strong></p></li>
+            <li><p><strong>1984 – Baccalauréat scientifique – Grenoble</strong></p></li>
+        </ul>
+    </section>
+
+    <section id="Languages" coex="LANGUES">
+        <h>LANGUES</h>
+        <ul>
+            <li><p><strong>Français</strong> – langue maternelle</p></li>
+            <li><p><strong>Anglais</strong> – professionnel</p></li>
+            <li><p><strong>Allemand, russe, népalais</strong> – notions scolaires</p></li>
+        </ul>
+    </section>
+
+    <section id="Interest" coex="CENTRES D’INTÉRÊT">
+        <h>CENTRES D’INTÉRÊT</h>
+        <p>
+            Nature et activités de plein air, découverte d’autres cultures, intérêt marqué pour les systèmes complexes et l’évolution des architectures logicielles.
+        </p>
+    </section>
+
+</document>

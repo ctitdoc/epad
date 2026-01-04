@@ -19,7 +19,8 @@
 
   <xs:element name="dictionary" type="dictionary.type"/>
 
-  <xs:element name="document" type="document.type"/>
+  <xs:element name="document" type="document.type">
+  </xs:element>
 
   <xs:element name="meta" type="meta.type"/>
 
@@ -122,7 +123,6 @@
           </xs:sequence>
         </xs:extension>
       </xs:complexContent>
-        <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
   </xs:element>
 
@@ -251,7 +251,7 @@
     <xs:attribute ref="figure-numbering" use="optional" />
     <xs:attribute ref="ignore_for"/>
     <xs:attribute ref="features"/>
-      <xs:attributeGroup ref="rdfaLite"/>
+    <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <xs:complexType name="document.type" mixed="false">
@@ -268,7 +268,13 @@
     <xs:attribute ref="figure-numbering" use="optional" />
     <xs:attribute ref="ignore_for"/>
     <xs:attribute ref="features"/>
-      <xs:attributeGroup ref="rdfaLite"/>
+    <xs:attribute name="vocab" type="xs:anyURI" use="optional"/>
+    <xs:attribute name="typeof" type="xs:string" use="optional"/>
+    <xs:attribute name="property" type="xs:string" use="optional"/>
+    <xs:attribute name="resource" type="xs:anyURI" use="optional"/>
+    <xs:attribute name="about" type="xs:anyURI" use="optional"/>
+    <xs:attribute name="content" type="xs:string" use="optional"/>
+    <xs:attribute name="datatype" type="xs:anyURI" use="optional"/>
   </xs:complexType>
 
   <!-- section.type -->
@@ -504,13 +510,10 @@
   </xs:complexType>
 
   <xs:complexType name="li.type" mixed="false">
-    <xs:sequence>
-      <xs:choice>
+    <xs:sequence minOccurs="0">
+      <xs:choice minOccurs="0">
         <xs:element ref="p"/>
         <xs:element ref="technical_restriction"/>
-      </xs:choice>
-      <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element ref="p"/>
         <xs:element ref="ul" />
         <xs:element ref="ol" />
       </xs:choice>

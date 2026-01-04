@@ -1,0 +1,278 @@
+<document section-numbering="true" figure-numbering="true" features="RESUME">
+    <h text-align="justify">Curriculum Vitae - Franck Delahaye - Microservices Engineer (Canonical)</h>
+    <p/>
+    <section id="Contact" coex="CONTACT">
+        <h>CONTACT</h>
+        <p>Franck Delahaye</p>
+        <p>Grenoble, France (Remote - Worldwide)</p>
+        <p>e-mail:
+            <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr
+            </a>
+        </p>
+        <p>tel: +33 7 67 38 28 95</p>
+        <p>Headline: Senior software engineer &amp; solutions architect - API integration, microservices, CI/CD, Linux,
+            high-traffic platforms.
+        </p>
+    </section>
+    <section id="Objectives" coex="PROFESSIONAL SUMMARY">
+        <h>PROFESSIONAL SUMMARY</h>
+        <p text-align="justify">Senior software engineer and solutions architect with 25+ years of experience building
+            and evolving backend services, REST APIs, and integration platforms for high-traffic Internet systems.
+            Strong focus on API design and documentation (OpenAPI/Swagger), microservice-oriented refactoring of legacy
+            platforms, relational and non-relational data stores (MySQL, PostgreSQL, XML DB), and pragmatic DevOps
+            practices (CI/CD, Docker, AWS, Ubuntu). Experienced technical lead in distributed collaboration contexts:
+            architecture reviews, incident debugging, test strategy, and mentoring engineers.
+        </p>
+    </section>
+    <section id="skills" coex="KEY SKILLS">
+        <h>KEY SKILLS</h>
+        <ul>
+            <li>
+                <p>
+                    <strong>Backend &amp; APIs:</strong>
+                    REST API design, OpenAPI/Swagger, API governance basics, Webhooks, OAuth2 flows, integration
+                    patterns (request/response mapping, idempotency considerations, async orchestration).
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Microservices &amp; distributed systems:</strong>
+                    service-oriented refactoring of legacy platforms, workflow orchestration, message-oriented designs,
+                    resilience-minded delivery (retries, timeouts, observability-driven debugging).
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Languages &amp; frameworks:</strong>
+                    Python (ERP integrations and automation), PHP/Symfony (service backends and APIs), Ballerina (API
+                    orchestration tooling), Java/J2EE (large-scale platforms).
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Datastores:</strong>
+                    MySQL, PostgreSQL, XML databases (BaseX, eXist-db), search backends (Lucene, Vespa, Algolia) with
+                    performance tuning experience.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>DevOps &amp; operations:</strong>
+                    CI/CD (GitHub Actions, GitLab CI/CD), Docker-based environments, AWS VM/container deployments,
+                    Linux/Ubuntu, production monitoring with logs and dashboards (Kibana).
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Engineering quality:</strong>
+                    automated testing (end-to-end browser tests), regression prevention, code reviews, mentoring,
+                    estimation and delivery planning with stakeholders.
+                </p>
+            </li>
+        </ul>
+    </section>
+    <section id="Employment" coex="PROFESSIONAL EXPERIENCE">
+        <h>PROFESSIONAL EXPERIENCE</h>
+        <ul>
+            <li>
+                <p>
+                    <strong>Cosmobilis (Chambery, France) - Senior Lead Developer &amp; Architect - Internet platforms
+                        and integration services
+                    </strong>
+                </p>
+                <p>Jan 2023 - Present</p>
+                <ul>
+                    <li>
+                        <p>
+                            <strong>API integration &amp; microservices on high-traffic, multi-country marketplaces
+                            </strong>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Designed, implemented, and evolved REST APIs and partner integrations across critical
+                                    domains: vehicle offers, financing, master data, trade-in valuation, CRM
+                                    (Salesforce), search (Algolia), marketplaces, mailing, and legal workflows
+                                    (registration, eco tax).
+                                </p>
+                            </li>
+                            <li>
+                                <p>Led architecture evolution toward service-oriented and workflow-based orchestration:
+                                    OpenAPI-driven contracts, mapping between systems, multi-country flows, and
+                                    reliability improvements through scenario testing and regression detection.
+                                </p>
+                            </li>
+                            <li>
+                                <p>Built and maintained CI/CD pipelines and deployment workflows (GitHub), coordinated
+                                    Docker/AWS infrastructure setup with DevOps, and contributed to operational
+                                    stability on Ubuntu-based environments.
+                                </p>
+                            </li>
+                            <li>
+                                <p>Technical leadership: managed and mentored developers (up to 8), ran architecture
+                                    discussions and reviews, produced estimates, and drove iterative delivery with
+                                    distributed stakeholders.
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>
+                            <strong>Enterprise Application Integration Service (Salesforce to dealership ERP
+                                workflows)
+                            </strong>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Developed an API-based integration service between Salesforce and OpenFlex dealership
+                                    ERP: opportunity creation, status synchronization, mapping rules, and multi-country
+                                    handling.
+                                </p>
+                            </li>
+                            <li>
+                                <p>Introduced observable, message-oriented orchestration direction and automated
+                                    end-to-end scenarios to reduce production incidents and improve turnaround time for
+                                    fixes.
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Ballerina - API Orchestration &amp; Microservices Tooling (internal productized PoCs)
+                    </strong>
+                </p>
+                <p>Oct 2024 - Present</p>
+                <ul>
+                    <li>
+                        <p>Developed a Ballerina-based workflow runner that executes typed JSON-defined API sequences
+                            ("SchemedTalks"), enabling repeatable orchestration and interactive execution via Swagger
+                            UI/OpenAPI.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Implemented secure REST integrations using OAuth2 request types, response re-use through
+                            JSONPath extraction, and memory-based variable injection for dynamic workflows.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Created componentized Ballerina service architecture (monorepo modules/connectors) and CI/CD
+                            for incremental migration toward reusable integration packages.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Made In Design / Bilendi / Arturia (Grenoble, France) - Senior Solutions Architect &amp;
+                        Developer
+                    </strong>
+                </p>
+                <p>2011 - 2022</p>
+                <ul>
+                    <li>
+                        <p>Designed and evolved service-oriented e-commerce and loyalty platforms with extensive
+                            third-party integrations (payments, marketplaces, marketing tooling, ERP/PIM/CRM), including
+                            Talend-based data pipelines and API-driven interoperability.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Implemented and maintained CI/CD pipelines (GitLab), Dockerized environments, and production
+                            monitoring practices; contributed to multiple major migrations (Symfony/PHP versions,
+                            platform refactoring, service separation).
+                        </p>
+                    </li>
+                    <li>
+                        <p>Python work on Odoo ERP integrations and customizations (sales, purchases, warehouse,
+                            helpdesk, accounting), including data synchronization between systems backed by PostgreSQL.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Kelkoo (later Yahoo) (Grenoble, France) - Senior Java Developer - Search APIs at scale
+                    </strong>
+                </p>
+                <p>2005 - 2006</p>
+                <ul>
+                    <li>
+                        <p>Maintained and evolved Lucene-based search APIs within a large component-based J2EE platform;
+                            performance-oriented improvements for high-traffic query workloads.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Contributed to migration toward a distributed REST/XML search backend (Yahoo Vespa) to
+                            improve scalability and result delivery.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="Education" coex="EDUCATION">
+        <h>EDUCATION</h>
+        <ul>
+            <li>
+                <p>
+                    <strong>1989-1991 - Polytech Grenoble - Engineering degree, IT &amp; automation</strong>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>1985-1988 - DEUG A - General science diploma - Universite Joseph Fourier, Grenoble</strong>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>1984 - Scientific high school diploma - Grenoble</strong>
+                </p>
+            </li>
+        </ul>
+    </section>
+    <section id="Languages" coex="LANGUAGES">
+        <h>LANGUAGES</h>
+        <ul>
+            <li>
+                <p>
+                    <strong>French</strong>
+                    - native
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>English</strong>
+                    - professional working proficiency
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>German, Russian, Nepali</strong>
+                    - school learning, not practiced recently
+                </p>
+            </li>
+        </ul>
+    </section>
+    <section id="Interest" coex="INTERESTS">
+        <h>INTERESTS</h>
+        <p text-align="justify">Nature and outdoor activities (trekking, snowboarding), discovering other cultures, and
+            understanding how complex systems (technical, social, organizational) behave and evolve.
+        </p>
+    </section>
+    <section id="NOTES" coex="NOTES">
+        <h>NOTES</h>
+        <ul>
+            <li>
+                <p>Linux/Ubuntu daily user; comfortable in globally distributed teams; available for twice-yearly travel
+                    for company events.
+                </p>
+            </li>
+            <li>
+                <p>Open source mindset and long-term experience integrating heterogeneous systems via stable contracts
+                    and automation.
+                </p>
+            </li>
+        </ul>
+    </section>
+</document>

@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-  <!-- RDFa Lite attribute group -->
-  <xs:attributeGroup name="rdfaLite">
-    <xs:attribute name="vocab" type="xs:anyURI" use="optional"/>
-    <xs:attribute name="typeof" type="xs:string" use="optional"/>
-    <xs:attribute name="property" type="xs:string" use="optional"/>
-    <xs:attribute name="resource" type="xs:anyURI" use="optional"/>
-    <xs:attribute name="about" type="xs:anyURI" use="optional"/>
-    <xs:attribute name="content" type="xs:string" use="optional"/>
-    <xs:attribute name="datatype" type="xs:anyURI" use="optional"/>
-  </xs:attributeGroup>
-
-
-
   <!-- elements -->
   <xs:element name="practices" type="practices.type"/>
 
@@ -68,8 +55,6 @@
 
   <xs:element name="sup" substitutionGroup="abstract-plaintextelement" type="plaintext.type"/>
 
-  <xs:element name="span" substitutionGroup="abstract-plaintextelement" type="plaintext.type"/>
-
   <xs:element name="table" substitutionGroup="abstract-block" type="tableType" />
 
   <xs:element name="ul" substitutionGroup="abstract-block" type="list.type"/>
@@ -96,8 +81,7 @@
       <xs:attribute ref="width" use="optional" />
       <xs:attribute ref="border-type" use="optional" />
       <xs:attribute ref="ignore_for"/>
-        <xs:attributeGroup ref="rdfaLite"/>
-  </xs:complexType>
+    </xs:complexType>
   </xs:element>
 
   <xs:element name="person">
@@ -109,8 +93,7 @@
       <xs:attribute ref="email" use="optional"/>
       <xs:attribute name="division" use="optional" type="xs:string"/>
       <xs:attribute ref="ignore_for"/>
-        <xs:attributeGroup ref="rdfaLite"/>
-  </xs:complexType>
+    </xs:complexType>
   </xs:element>
 
 
@@ -122,8 +105,7 @@
           </xs:sequence>
         </xs:extension>
       </xs:complexContent>
-        <xs:attributeGroup ref="rdfaLite"/>
-  </xs:complexType>
+    </xs:complexType>
   </xs:element>
 
   <!-- types and abstracts -->
@@ -137,7 +119,6 @@
   <xs:complexType name="empty.type" mixed="false">
     <xs:choice minOccurs="0"/>
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <!-- plaintext.type -->
@@ -147,7 +128,6 @@
     </xs:choice>
     <xs:attribute name="view" use="optional" default="default" type="noteview.type"/>
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
   
   <xs:complexType name="plaintext.type" mixed="true">
@@ -156,7 +136,6 @@
     </xs:choice>
     <xs:attribute ref="text-align" use="optional" />
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <!-- richtext.type -->
@@ -166,7 +145,6 @@
       <xs:element ref="abstract-richtextelement"/>
     </xs:choice>
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <!-- hyperlink.type -->
@@ -176,7 +154,6 @@
     </xs:choice>
     <xs:attribute ref="href" use="required"/>
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <!-- paragraph.type -->
@@ -189,7 +166,6 @@
     <!--    <xs:attribute ref="left-indent"  use="optional" default="0" /> -->
     <!--    <xs:attribute ref="right-indent" use="optional" default="0" /> -->
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <!-- code.type -->
@@ -199,7 +175,6 @@
     </xs:choice>
     <xs:attribute ref="text-align"   use="optional" />
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <!-- figure.type -->
@@ -212,7 +187,6 @@
     <!--    <xs:attribute ref="left-indent"  use="optional" default="0" /> -->
     <!--    <xs:attribute ref="right-indent" use="optional" default="0" /> -->
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <!-- media.type -->
@@ -221,7 +195,6 @@
     <xs:attribute ref="src" use="required" />
     <xs:attribute ref="width" use="optional" />
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <!-- epad.type -->
@@ -237,7 +210,6 @@
     <xs:attribute ref="figure-numbering" use="optional" />
     <xs:attribute ref="ignore_for"/>
     <xs:attribute ref="features"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <xs:complexType name="dictionary.type" mixed="false">
@@ -251,7 +223,6 @@
     <xs:attribute ref="figure-numbering" use="optional" />
     <xs:attribute ref="ignore_for"/>
     <xs:attribute ref="features"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <xs:complexType name="document.type" mixed="false">
@@ -268,7 +239,6 @@
     <xs:attribute ref="figure-numbering" use="optional" />
     <xs:attribute ref="ignore_for"/>
     <xs:attribute ref="features"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <!-- section.type -->
@@ -288,7 +258,6 @@
     <xs:attribute ref="id" use="optional"/>
     <xs:attribute ref="coex" use="optional"/>
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <!-- dataset_definition.type -->
@@ -307,7 +276,6 @@
     <xs:attribute ref="view" use="optional" default="normal"/>
     <xs:attribute ref="behavior" use="optional" default="section"/>
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <xs:complexType name="data_definition.type" mixed="false">
@@ -329,7 +297,6 @@
     <xs:attribute ref="symfony_service_id" use="optional"/>
     <xs:attribute ref="gitlab_repository" use="optional"/>
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <xs:complexType name="data_constraints_definition.type" mixed="false">
@@ -353,7 +320,6 @@
     <xs:attribute ref="symfony_service_id" use="optional"/>
     <xs:attribute ref="gitlab_repository" use="optional"/>
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <xs:complexType name="data_constraint_definition.type" mixed="false">
@@ -375,7 +341,6 @@
     <xs:attribute ref="symfony_service_id" use="optional"/>
     <xs:attribute ref="gitlab_repository" use="optional"/>
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <xs:complexType name="property_definition.type" mixed="false">
@@ -391,7 +356,6 @@
     <xs:attribute ref="view" use="optional" default="normal"/>
     <xs:attribute ref="behavior" use="optional" default="section"/>
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <xs:complexType name="property_constraints_definition.type" mixed="false">
@@ -406,7 +370,6 @@
     <xs:attribute ref="view" use="optional" default="normal"/>
     <xs:attribute ref="behavior" use="optional" default="section"/>
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <!-- meta.type -->
@@ -417,7 +380,6 @@
       <xs:element ref="categories" minOccurs="0" maxOccurs="1" />
     </xs:sequence>
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <!-- categories.type -->
@@ -426,7 +388,6 @@
       <xs:element ref="category" maxOccurs="unbounded"/>
     </xs:sequence>
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <!-- category.type -->
@@ -449,7 +410,6 @@
     </xs:choice>
     <xs:attribute ref="email" use="optional" />
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <!-- attribute type -->
@@ -500,7 +460,6 @@
     <!--xs:attribute ref="column-count" use="optional" /-->
     <xs:attribute ref="border-type" use="optional" />
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <xs:complexType name="li.type" mixed="false">
@@ -509,8 +468,7 @@
         <xs:element ref="p"/>
         <xs:element ref="technical_restriction"/>
       </xs:choice>
-      <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element ref="p"/>
+      <xs:choice minOccurs="0">
         <xs:element ref="ul" />
         <xs:element ref="ol" />
       </xs:choice>
@@ -519,7 +477,6 @@
     <xs:attribute ref="crossed" use="optional" />
     <xs:attribute ref="status" use="optional" />
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <!-- quote.type -->
@@ -529,7 +486,6 @@
       <xs:element ref="source" minOccurs="0"/>
     </xs:sequence>
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
   
   <xs:simpleType name="text-align.type">
@@ -570,14 +526,12 @@
     </xs:attribute>
     <xs:attribute name="align" type="align.type" default="center" />
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <xs:complexType name="tbodyType">
     <xs:sequence>
       <xs:element name="tr" type="trType" maxOccurs="unbounded" />
     </xs:sequence>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <xs:complexType name="trType">
@@ -586,7 +540,6 @@
       <xs:element name="th" type="tdType" />
     </xs:choice>
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <xs:complexType name="tdType">
@@ -596,7 +549,6 @@
     <xs:attribute name="colspan" type="xs:positiveInteger" />
     <xs:attribute name="rowspan" type="xs:positiveInteger" />
     <xs:attribute ref="ignore_for"/>
-      <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <xs:simpleType name="borderType">
@@ -710,4 +662,3 @@
   <xs:attribute name="ignore_for" type="xs:string"/>
   <xs:attribute name="features" type="xs:string"/>
 </xs:schema>
-

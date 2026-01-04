@@ -43,7 +43,7 @@
   }
 
 /**/
-body {   //Scolor: #6d5858;  //background-color: #f9f8ea;  font-family: Arial, Helvetica, sans-serif;  font-size: 10pt; }
+body {   //color: #6d5858;  //background-color: #f9f8ea;  font-family: Arial, Helvetica, sans-serif;  font-size: 10pt; }
 
 span { display: inline; }
 
@@ -913,8 +913,7 @@ elem = document.getElementById(id);
   <xsl:template match="*[(@behavior='section' or not(@behavior)) and @id and @coex]"><xsl:call-template name="section_behavior"/></xsl:template>
 
   <xsl:template name="section_behavior">
-    <a role="section_collapse_expand_expand" id="{@id}_section_content_expand" style="display:block;color:green;font-style:italic" href="#" onclick="collapse_or_expand('{@id}_section_content_expand');collapse_or_expand('{@id}_section_content')"><i><xsl:value-of select="@coex"/></i></a><div class="section" id="{@id}_section_content" style="display:none"><a role="section_collapse_expand_collapse" id="{@id}_section_content_collapse" style="font-style:italic;color:green" href="#" onclick="collapse_or_expand('{@id}_section_content');collapse_or_expand('{@id}_section_content_expand');"><i>Collapse section</i></a><br
-  /><xsl:apply-templates/></div
+    <a role="section_collapse_expand_expand" id="{@id}_section_content_expand" style="display:block;color:green;font-style:italic" href="#" onclick="collapse_or_expand('{@id}_section_content_expand');collapse_or_expand('{@id}_section_content')"><i><xsl:value-of select="@coex"/></i></a><div class="section" id="{@id}_section_content" style="display:none"><a role="section_collapse_expand_collapse" id="{@id}_section_content_collapse" style="font-style:italic;color:green" href="#" onclick="collapse_or_expand('{@id}_section_content');collapse_or_expand('{@id}_section_content_expand');"><i>Collapse section</i></a><xsl:apply-templates/></div
   ></xsl:template>
 
 </xsl:stylesheet>

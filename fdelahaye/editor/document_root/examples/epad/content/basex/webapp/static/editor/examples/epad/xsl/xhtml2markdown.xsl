@@ -20,6 +20,8 @@
         <xsl:apply-templates select="*" />
     </xsl:template>
 
+    <xsl:template match="/html/head"/>
+
     <xsl:template match="li">
         <xsl:value-of select="functx:repeat-string('    ', count(ancestor::li))"/>
         <xsl:choose>

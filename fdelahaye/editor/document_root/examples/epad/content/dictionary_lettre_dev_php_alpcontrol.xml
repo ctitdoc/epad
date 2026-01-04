@@ -1,0 +1,32 @@
+<document section-numbering="true" figure-numbering="true" features="PDF">
+    <h text-align="justify">Lettre de motivation – Développeur Backend PHP – Alpes Contrôles</h>
+    <section>
+        <h> </h>
+        <p>Madame, Monsieur,</p>
+        <section view="normal">
+            <h> </h>
+            <p text-align="justify">
+                Développeur back-end PHP senior, j’interviens depuis plusieurs années sur la modernisation et la maintenance d’applications métier, avec un fort accent sur la qualité du code, la réduction de la dette technique et la fiabilité en production. Habitué à travailler sur des environnements legacy, j’y apporte des évolutions durables et mets en place des tests automatisés pour sécuriser les changements.
+            </p>
+            <p text-align="justify">
+                Votre offre a retenu mon attention par son ancrage dans des outils internes à forte utilité métier, ainsi que par l’importance accordée aux bonnes pratiques, à la transmission et à l’amélioration continue. Ces dimensions correspondent pleinement à ma manière de travailler au quotidien.
+            </p>
+            <p text-align="justify">
+                Je serais heureux de pouvoir contribuer à la modernisation de vos applications PHP au sein de la DSI d’Alpes Contrôles, tout en partageant mon expérience avec l’équipe et en restant attentif aux apports concrets des outils d’IA pour améliorer l’efficacité et la qualité du développement.
+            </p>
+        </section>
+    </section>
+    <section>
+        <h> </h>
+        <p>
+            Cordialement,
+            <br/>
+            Franck Delahaye
+            <br/>
+            e-mail:
+            <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a>
+            <br/>
+            tel: +33 7 67 38 28 95
+        </p>
+    </section>
+</document>

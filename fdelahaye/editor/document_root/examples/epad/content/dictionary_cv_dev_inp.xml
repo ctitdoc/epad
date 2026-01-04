@@ -1,0 +1,309 @@
+<document section-numbering="true" figure-numbering="true" features="RESUME">
+    <h text-align="justify">Curriculum Vitae – Franck Delahaye</h>
+    <p/>
+    <section id="Contact" coex="Contact">
+        <h>Contact</h>
+        <p>
+            Franck Delahaye
+            <br/>
+            email:
+            <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a>
+            <br/>
+            tel: +33 7 67 38 28 95
+        </p>
+    </section>
+
+    <section id="Objectives" coex="Résumé professionnel">
+        <h>Résumé professionnel</h>
+        <p>
+            Développeur senior avec plus de 25 ans d'expérience dont une dizaine d'années significatives en PHP/Symfony
+            et développement web full-stack. Habitué aux environnements académiques et métiers exigeants (plateformes
+            web multi-utilisateurs, intégration de services, données structurées), je souhaite mettre mes compétences
+            au service des plateformes pédagogiques grenobloises (LMS, ESUP-POD, Moodle). À l’aise avec les
+            architectures web, les bases de données, les environnements Linux et la collaboration avec des équipes
+            fonctionnelles, je suis motivé par la conception, l’évolution et l’industrialisation de services numériques
+            pour la formation, en intégrant les nouveaux usages (multimédia, IA, outils collaboratifs).
+        </p>
+    </section>
+
+    <section id="skills" coex="Compétences clés">
+        <h>Compétences clés</h>
+        <ul>
+            <li>
+                <p><strong>Développement web &amp; frameworks</strong></p>
+                <ul>
+                    <li>
+                        <p>
+                            10+ ans d’expérience en PHP/Symfony (Symfony 2 → 6) : développement d’applications web et d’APIs REST,
+                            organisation du code (services, événements, middlewares), sécurité, formulaires, sérialisation.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Front-end : JavaScript, AJAX, jQuery, Vue.js, Angular, composants Web, intégration HTML/XHTML/CSS
+                            respectant les standards.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Bonnes pratiques de développement : revues de code, factorisation, documentation technique, tests
+                            automatisés (PHPUnit, outils de tests navigateur).
+                        </p>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Plateformes pédagogiques, contenus &amp; multimédia</strong></p>
+                <ul>
+                    <li>
+                        <p>
+                            Conception de systèmes de gestion de contenus (CMS) et de dictionnaires métiers structurés pour la
+                            publication de ressources web et documentaires.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Expérience des contenus structurés XML/XHTML, des gabarits de pages, des workflows de validation
+                            et de publication multi-canal (web, PDF).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Intérêt fort pour les plateformes LMS (Moodle) et les solutions multimédia type ESUP-POD ; capacité
+                            à monter en compétence rapidement sur ces écosystèmes et à dialoguer avec les usagers (enseignants,
+                            équipes pédagogiques).
+                        </p>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Bases de données &amp; intégration</strong></p>
+                <ul>
+                    <li>
+                        <p>
+                            Maîtrise des SGBD relationnels (MySQL, PostgreSQL) : conception de schémas, requêtes SQL, vues,
+                            optimisation de requêtes et intégration dans les applications web.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Expérience des bases documentaires et XML-native (BaseX, Berkeley DB, eXist-db) pour la gestion
+                            de corpus textuels et de métadonnées.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Intégration d’applications via APIs REST/JSON/XML, imports/exports de données, scripts d’alimentation
+                            et de synchronisation.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Systèmes, exploitation &amp; DevOps</strong></p>
+                <ul>
+                    <li>
+                        <p>
+                            Pratique avancée des environnements Linux (déploiement d’applications web, scripts shell, supervision
+                            de services) et bonne connaissance des environnements Windows serveur.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Git, GitLab/GitHub, intégration continue, Docker et environnements virtualisés pour le développement,
+                            les tests et la mise en production.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Sensibilité aux contraintes d’exploitation : robustesse, supervision, mises à jour, gestion des
+                            priorités et communication avec les utilisateurs.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Gestion de projet &amp; collaboration</strong></p>
+                <ul>
+                    <li>
+                        <p>
+                            Pratique des méthodes de gestion de projet itératives / Agile : découpage des demandes, priorisation,
+                            suivi des évolutions, communication régulière avec les métiers.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Expérience de la relation avec des équipes non techniques (marketing, métiers, direction), capacité
+                            à vulgariser les enjeux techniques et à co-construire les solutions.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Gestion de prestataires externes et coordination avec des équipes multiples sur des projets de
+                            refonte applicative ou de migration de plateformes.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Innovation &amp; IA appliquée</strong></p>
+                <ul>
+                    <li>
+                        <p>
+                            Utilisation avancée d’outils d’IA générative (dont ChatGPT) pour le prototypage de fonctionnalités,
+                            l’aide à la rédaction de documentation, l’analyse de code et la préparation d’ateliers d’idéation.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Veille technologique régulière sur les usages de l’IA dans les plateformes web, l’e-learning,
+                            l’assistance aux utilisateurs et l’automatisation de tâches.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="Employment" coex="Expérience professionnelle">
+        <h>Expérience professionnelle</h>
+        <ul>
+            <li>
+                <p><strong>Développement d’applications web &amp; back-office (Cosmobilis, Made In Design, Bilendi, Arturia)</strong></p>
+                <ul>
+                    <li>
+                        <p>
+                            Développement et maintenance d’applications PHP/Symfony pour des plateformes e-commerce, CRM
+                            et back-offices utilisés par des équipes internes (support, marketing, gestion de contenus),
+                            avec des contraintes de performance et de disponibilité proches des besoins d’un SI académique.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Conception et exposition d’APIs REST, intégration de services tiers (paiement, logistique,
+                            outils marketing, moteurs de recherche) et gestion des échanges de données entre systèmes.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Mise en place et amélioration de pipelines CI/CD, revue de code, documentation technique,
+                            accompagnement des équipes dans les bonnes pratiques de développement.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Réflexion et recommandations sur les architectures applicatives (séparation des couches, services,
+                            évolutivité) dans des contextes multi-projets et multi-équipes.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Contenus structurés, CMS &amp; plateformes documentaires (projets internes, démonstrateur CMS XML)</strong></p>
+                <ul>
+                    <li>
+                        <p>
+                            Conception et maintien d’un démonstrateur de CMS XML piloté par schémas, avec édition WYSIWYG
+                            XSD-driven, gestion de documents multi-versions et publication en ligne (pages web, wiki, PDF).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Modélisation de contenus pédagogiques ou documentaires sous forme de données structurées (XML/XHTML),
+                            facilitant la réutilisation, la recherche, le filtrage et la production de vues adaptées aux
+                            utilisateurs finaux.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Mise en place de pipelines de transformation (XSLT, scripts) pour générer des supports de formation,
+                            des vues web et des documents imprimables à partir de sources communes.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Intégration de données &amp; interopérabilité (Made In Design, Cosmobilis, Bilendi)</strong></p>
+                <ul>
+                    <li>
+                        <p>
+                            Conception d’un mini ESB interne pour orchestrer flux et synchronisations entre ERP, PIM, CRM,
+                            sites web et outils partenaires (imports/exports, webservices, traitements planifiés).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Utilisation de Talend et de scripts personnalisés pour synchroniser les données entre plusieurs
+                            systèmes, avec contrôle de cohérence, suivi des erreurs et reporting.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Travail quotidien avec Git, GitLab/GitHub, tickets de support et échanges réguliers avec les
+                            utilisateurs pour prioriser les corrections et les évolutions.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Publication documentaire &amp; systèmes techniques (Airbus, STMicroelectronics, autres)</strong></p>
+                <ul>
+                    <li>
+                        <p>
+                            Développement de systèmes de documentation technique basés sur SGML/XML pour de grands industriels,
+                            avec génération de manuels, gestion de corpus volumineux et contraintes de qualité fortes.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Mise en place de chaînes de publication pour produire des documents structurés (HTML, PDF) à
+                            partir de sources balisées, expérience réutilisable pour des ressources pédagogiques.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Collaboration avec des experts métier et des équipes pluridisciplinaires, respect de règles
+                            éditoriales strictes et de calendriers de production.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="Education" coex="Formation">
+        <h>Formation</h>
+        <ul>
+            <li>
+                <p>Ingénieur – Polytech Grenoble (informatique &amp; automatique).</p>
+            </li>
+            <li>
+                <p>DEUG A – Université Joseph Fourier, Grenoble.</p>
+            </li>
+            <li>
+                <p>Baccalauréat scientifique – Grenoble.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="Languages" coex="Langues">
+        <h>Langues</h>
+        <p>Français (natif), anglais (professionnel).</p>
+    </section>
+
+    <section id="Interest" coex="Centres d'intérêt">
+        <h>Centres d'intérêt</h>
+        <p>
+            Développement web, plateformes pédagogiques &amp; contenus structurés, innovation numérique,
+            IA appliquée, veille technologique, montagne &amp; activités de plein air.
+        </p>
+    </section>
+</document>

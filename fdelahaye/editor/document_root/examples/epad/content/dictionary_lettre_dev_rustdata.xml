@@ -1,0 +1,41 @@
+<document section-numbering="true" figure-numbering="true" features="PDF">
+    <h text-align="justify">Cover Letter – Rust Engineer, Data Interoperability – Ikerian (RetinAI Medical)</h>
+    <section>
+        <h> </h>
+        <p>Madam, Sir,</p>
+        <section view="normal">
+            <h> </h>
+            <p text-align="justify">
+                I am writing to apply for the position of Rust Engineer – Data Interoperability at Ikerian (formerly RetinAI Medical). Your mission to enable better and earlier decision-making in healthcare through robust AI and data management solutions strongly aligns with my professional background and technical focus.
+            </p>
+            <p text-align="justify">
+                I am a senior software engineer and solutions architect with more than twenty years of experience designing and implementing data-centric backend systems, with a strong emphasis on structured data, interoperability, and production robustness. Throughout my career, I have built schema-driven pipelines based on XML/XSD and JSON Schema, focusing on deterministic processing, explicit validation, and reliable data exchange between heterogeneous systems.
+            </p>
+            <p text-align="justify">
+                More recently, I have been developing a Rust-based backend service dedicated to data processing and validation workflows. This work focuses on building robust and performant services that parse, validate, and transform structured data, expose clean REST APIs, and clearly separate execution, orchestration, and communication concerns. Rust plays a central role in this architecture for its guarantees in safety, concurrency, and predictable behavior in production environments.
+            </p>
+            <p text-align="justify">
+                Earlier in my career, I worked on healthcare-related data exchange workflows involving structured HL7 XML messages, validation, and interoperability between applications. While I do not claim direct production experience with DICOM or FHIR, I have a solid and practical understanding of medical data interoperability challenges and am comfortable transferring this expertise to new standards and domains.
+            </p>
+            <p text-align="justify">
+                In addition to hands-on development, I have regularly contributed to establishing best practices, mentoring engineers, and fostering a culture of knowledge sharing within teams. I value collaborative environments, clear communication, and high standards of quality, particularly in distributed and international contexts.
+            </p>
+            <p text-align="justify">
+                I would be pleased to discuss how my experience in Rust, data interoperability, and schema-driven engineering could contribute to Ikerian’s products and long-term vision.
+            </p>
+        </section>
+    </section>
+    <section>
+        <h> </h>
+        <p>
+            Yours sincerely,
+            <br/>
+            Franck Delahaye
+            <br/>
+            e-mail:
+            <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a>
+            <br/>
+            tel: +33 7 67 38 28 95
+        </p>
+    </section>
+</document>

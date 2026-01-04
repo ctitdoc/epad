@@ -1,0 +1,132 @@
+<document section-numbering="true" figure-numbering="true" features="RESUME">
+    <h text-align="justify">Curriculum Vitae – Franck Delahaye</h>
+    <p/>
+    <section id="Contact" coex="Contact">
+        <h>Contact</h>
+        <p>
+            Franck Delahaye<br/>
+            email: <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a><br/>
+            tel: +33 7 67 38 28 95
+        </p>
+    </section>
+
+    <section id="Objectives" coex="Résumé professionnel">
+        <h>Résumé professionnel</h>
+        <p>
+            Développeur senior avec plus de 25 ans d'expérience dont 10 années significatives en PHP/Symfony et développement web full-stack. Expertise en conception d’architectures applicatives, structuration de projets, documentation technique, CI/CD, qualité de code et bonnes pratiques. Expérience confirmée avec Symfony, PHP 8+, Vue.js, JavaScript/TypeScript, APIs REST et intégration de services tiers. Habitué à accompagner les équipes dans la montée en compétences, l'amélioration continue et les méthodes Agile. Capacité à intervenir sur des projets à forte dimension métier (e-commerce, ERP, BI, PIM, gestion documentaire, comptabilité/finance).
+        </p>
+    </section>
+
+    <section id="skills" coex="Compétences clés">
+        <h>Compétences clés</h>
+        <ul>
+
+            <li>
+                <p><strong>Développement web &amp; frameworks</strong></p>
+                <ul>
+                    <li><p>10+ ans d’expérience PHP/Symfony (Symfony 2 → 6) : API REST, services, events/listeners, sécurité, formulaires, sérialisation, Doctrine ORM.</p></li>
+                    <li><p>Développement front-end : Vue.js, Vue Router, Vuex/Pinia, intégration TypeScript, composants réactifs.</p></li>
+                    <li><p>Intégration de webservices REST/JSON, APIs tierces, authentification OAuth2/JWT.</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Architecture &amp; bonnes pratiques</strong></p>
+                <ul>
+                    <li><p>Structuration et cadrage de projets : modélisation, organisation du code, définition de conventions et guidelines.</p></li>
+                    <li><p>Revue de code, documentation technique, mise en place de tests unitaires/fonctionnels (PHPUnit).</p></li>
+                    <li><p>Performance, sécurité, gestion des erreurs, monitoring applicatif.</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>CI/CD &amp; outils DevOps</strong></p>
+                <ul>
+                    <li><p>Git, GitLab/GitHub, pipelines CI/CD, intégration continue, automatisation des déploiements.</p></li>
+                    <li><p>Docker et environnements virtualisés pour le développement et la production.</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Gestion de projet &amp; accompagnement d’équipe</strong></p>
+                <ul>
+                    <li><p>Pratique des méthodes Agile/itératives, priorisation, communication efficace.</p></li>
+                    <li><p>Transmission de bonnes pratiques : qualité logicielle, design patterns, tests, documentation.</p></li>
+                    <li><p>Rôle de référent technique sur plusieurs projets multi-équipes.</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Expérience métier</strong></p>
+                <ul>
+                    <li><p>E-commerce, CRM, ERP, données comptables &amp; financières, workflows d’entreprise.</p></li>
+                    <li><p>Intégration avec systèmes métier, APIs financières, catalogues produits, données multi-pays.</p></li>
+                </ul>
+            </li>
+
+        </ul>
+    </section>
+
+    <section id="Employment" coex="Expérience professionnelle">
+        <h>Expérience professionnelle</h>
+        <ul>
+
+            <li>
+                <p><strong>Développement web &amp; projets applicatifs (Made In Design, Bilendi, Arturia, Cosmobilis)</strong></p>
+                <ul>
+                    <li><p>Développement PHP/Symfony pour plateformes e-commerce, CRM, APIs métier et back-offices multilingues.</p></li>
+                    <li><p>Conception d’APIs REST, intégration d’APIs tierces, gestion des flux produits, comptes clients, commandes, paiements.</p></li>
+                    <li><p>Mise en place et maintenance de pipelines CI/CD, audit de code, amélioration continue, revue de code.</p></li>
+                    <li><p>Encadrement technique ponctuel d'équipes front/back, structuration de projets, transmission des bonnes pratiques.</p></li>
+                    <li><p>Développement Vue.js pour interfaces utilisateurs avancées (tableaux de bord, back-office, composants dynamiques).</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Développement front-end &amp; évaluation technologique (Arturia)</strong></p>
+                <ul>
+                    <li><p>Formation intensive à Vue.js et prototypage avancé.</p></li>
+                    <li><p>Évaluation de la solution <a href="https://github.com/vuestorefront/vue-storefront">vue-storefront</a> pour refonte du site e-commerce.</p></li>
+                    <li><p>Recommandations d’architecture front-end pour industrialisation.</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Intégration applicative &amp; APIs (Cosmobilis, Bilendi)</strong></p>
+                <ul>
+                    <li><p>Intégration de services internes/externes (ERP, PIM, CRM, paiement, logistique) via APIs REST/XML/JSON.</p></li>
+                    <li><p>Conception d’un mini-ESB interne pour orchestrer flux et synchronisations inter-systèmes.</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Systèmes de contenus &amp; CMS personnalisés</strong></p>
+                <ul>
+                    <li><p>Conception d’un démonstrateur CMS XML/XSD piloté par schémas, édition WYSIWYG, publication multi-canal.</p></li>
+                    <li><p>Adaptation de pipelines front/back pour publier des contenus structurés via services web.</p></li>
+                </ul>
+            </li>
+
+        </ul>
+    </section>
+
+    <section id="Education" coex="Formation">
+        <h>Formation</h>
+        <ul>
+            <li><p>Ingénieur – Polytech Grenoble (informatique &amp; automatique).</p></li>
+            <li><p>DEUG A – Université Joseph Fourier, Grenoble.</p></li>
+            <li><p>Baccalauréat scientifique – Grenoble.</p></li>
+        </ul>
+    </section>
+
+    <section id="Languages" coex="Langues">
+        <h>Langues</h>
+        <p>Français (natif), anglais (professionnel).</p>
+    </section>
+
+    <section id="Interest" coex="Centres d'intérêt">
+        <h>Centres d'intérêt</h>
+        <p>Développement web, architectures front/back, qualité logicielle, projets open-source, montagne &amp; outdoor.</p>
+    </section>
+
+</document>

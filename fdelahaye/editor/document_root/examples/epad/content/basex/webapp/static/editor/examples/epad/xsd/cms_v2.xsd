@@ -68,8 +68,6 @@
 
   <xs:element name="sup" substitutionGroup="abstract-plaintextelement" type="plaintext.type"/>
 
-  <xs:element name="span" substitutionGroup="abstract-plaintextelement" type="plaintext.type"/>
-
   <xs:element name="table" substitutionGroup="abstract-block" type="tableType" />
 
   <xs:element name="ul" substitutionGroup="abstract-block" type="list.type"/>
@@ -509,8 +507,7 @@
         <xs:element ref="p"/>
         <xs:element ref="technical_restriction"/>
       </xs:choice>
-      <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element ref="p"/>
+      <xs:choice minOccurs="0">
         <xs:element ref="ul" />
         <xs:element ref="ol" />
       </xs:choice>

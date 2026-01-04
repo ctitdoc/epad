@@ -1,0 +1,136 @@
+<document section-numbering="true" figure-numbering="true" features="RESUME">
+    <h text-align="justify">Curriculum Vitae – Franck Delahaye</h>
+    <p/>
+
+    <section id="Contact" coex="Contact">
+        <h>Contact</h>
+        <p>Franck Delahaye<br/>email:<a href="mailto:franck_delahaye@yahoo.fr"> franck_delahaye@yahoo.fr</a><br/>tel: +33 7 67 38 28 95</p>
+    </section>
+
+    <section id="Objectives" coex="Résumé professionnel">
+        <h>Résumé professionnel</h>
+        <p>Développeur senior spécialisé dans les technologies XML, XSLT, XQuery, les bases de données documentaires, l’extraction automatique d’informations et l’analyse de corpus textuels. Plus de 25 ans d’expérience dans les systèmes de contenus structurés, la publication documentaire, la transformation de textes en données exploitables et l’intégration de moteurs de recherche structure-aware. Forte capacité à concevoir des pipelines d’extraction (XML, XQuery, XSLT, NER), à structurer des données chiffrées, et à travailler avec des chercheurs en humanités numériques pour analyser et exploiter des corpus textuels complexes.</p>
+    </section>
+
+    <section id="skills" coex="Compétences techniques clés">
+        <h>Compétences techniques clés</h>
+        <ul>
+            <li><p>XML pour les humanités numériques : modélisation de documents structurés, TEI/XML, schémas XSD, corpus textuels multi-langues, marquage fin d’entités (personnes, lieux, dates, montants, unités).</p></li>
+            <li><p>Extraction de données : XSLT, XPath et XQuery pour transformer des textes balisés en données tabulaires ou analytiques ; structuration de données chiffrées dans des modèles proches de tableurs.</p></li>
+            <li><p>Bases XML-native : BaseX, Berkeley DB, dbXML, eXist-db ; optimisation, indexation, requêtes complexes, APIs d’accès aux données.</p></li>
+            <li><p>Moteurs de recherche structure-aware : XPAT, Lucene, Vespa.</p></li>
+            <li><p>Chaînes de publication : SGML/XML, XSL-FO, génération HTML/PDF, structuration éditoriale.</p></li>
+            <li><p>Systèmes de gestion de contenus structurés et CMS XML : XSD, édition WYSIWYG, validation, pipelines de transformation.</p></li>
+            <li><p>Extraction automatique (NER) et IA : conception de services d’identification d’entités (montants, dates, unités) via OpenAI, transformation texte → XML structurel, traitement automatique de CV et corpus textuels.</p></li>
+            <li><p>Développement et intégration : Java, C/C++, PHP, Python, Ballerina, Git/GitLab/GitHub, outils XSLT/XQuery (Saxon, libXML, libXSLT).</p></li>
+        </ul>
+    </section>
+
+    <section id="Employment" coex="Expérience professionnelle">
+        <h>Expérience professionnelle</h>
+        <ul>
+
+            <!-- Automobile/XML -->
+            <li>
+                <p><strong>Systèmes de documentation technique automobile (Fiat, Renault, autres constructeurs)</strong></p>
+                <ul>
+                    <li><p>Développement de systèmes de publication multi-langues : transformation SGML → XML, structuration de documents, intégration dans des bases XML-native (eXist-db et équivalents).</p></li>
+                    <li><p>Conception de chaînes XSLT pour la génération HTML et PDF, filtrage par applicabilité (modèle, motorisation, variantes).</p></li>
+                    <li><p>Gestion des encodages (ISO → UTF-8) et prise en charge de plusieurs alphabets (dont non latins).</p></li>
+                </ul>
+            </li>
+
+            <!-- BPM/GED -->
+            <li>
+                <p><strong>Systèmes de gestion de processus et référentiels XML (BPM et GED)</strong></p>
+                <ul>
+                    <li><p>Développement d’un référentiel XML pour un moteur de BPM : stockage, validation, requêtage et historisation de modèles de processus.</p></li>
+                    <li><p>Génération automatique de documentation PDF via XSLT/XSL-FO.</p></li>
+                    <li><p>Préfiguration d’approches d’extraction d’entités (acteurs, délais, tâches).</p></li>
+                </ul>
+            </li>
+
+            <!-- Bibliographic search -->
+            <li>
+                <p><strong>Bases bibliographiques et moteurs de recherche (Electre, dictionnaires, portails documentaires)</strong></p>
+                <ul>
+                    <li><p>Intégration d’Ingres avec XPAT pour des recherches combinant structure XML et plein texte.</p></li>
+                    <li><p>Extraction et normalisation de métadonnées (auteurs, dates, identifiants, catégories).</p></li>
+                    <li><p>Participation aux workflows d’édition et de contrôle qualité des données textuelles et chiffrées.</p></li>
+                </ul>
+            </li>
+
+            <!-- Dictionnaires historiques -->
+            <li>
+                <p><strong>Dictionnaires historiques et corpus textuels structurés</strong></p>
+                <ul>
+                    <li><p>Développement d’un module de publication pour le Dictionnaire historique suisse : extraction XML, génération MIF (Framemaker).</p></li>
+                    <li><p>Scripts de transformation et normalisation structurelle.</p></li>
+                    <li><p>Gestion de contraintes éditoriales strictes, cohérence typographique et hiérarchique.</p></li>
+                </ul>
+            </li>
+
+            <!-- CMS structurés and IA demos -->
+            <li>
+                <p><strong>Portails, CMS structurés, extraction automatique et démonstrateurs XML/IA</strong></p>
+                <ul>
+                    <li><p>Conception et maintien d’un démonstrateur de CMS XML : dictionnaire métier en XML, édition WYSIWYG guidée par schéma XSD, publication web.</p></li>
+
+                    <!-- NEW EXPERIENCE: AI demos -->
+                    <li><p><strong>Développement de deux démonstrateurs IA basés sur OpenAI et Ballerina :</strong></p>
+                        <ul>
+                            <li><p><strong>Conversion automatique texte libre → XML structuré</strong> : un service Ballerina orchestrant l’API OpenAI pour reconnaître automatiquement la structure d’un texte non balisé (sections, dates, entités, listes, expériences, chiffres) et produire un XML conforme à un schéma.</p></li>
+                            <li><p><strong>Génération automatique d’un nouveau document XML à partir d’un corpus existant</strong> : extraction, classification et réorganisation de contenus pour produire une version ciblée (par ex. un CV adapté à une offre), avec validation XSD et stockage en BaseX.</p></li>
+                            <li><p><strong>Pipeline complet XML + IA</strong> : analyse automatique, NER (montants, dates, unités), structuration fine, édition WYSIWYG optionnelle, génération PDF/HTML automatisée.</p></li>
+                            <li><p>Ces travaux démontrent une capacité directe à mettre en place des outils d’identification, d’extraction et de traitement semi-automatique de données chiffrées et textuelles, en cohérence forte avec les besoins du projet Biblissima+.</p></li>
+                        </ul>
+                    </li>
+
+                    <li><p>Production de rapports, tableaux, listes et vues analytiques à partir de corpus XML pour des besoins de recherche.</p></li>
+
+                </ul>
+            </li>
+
+            <!-- SGML/XML pipelines -->
+            <li>
+                <p><strong>Chaînes de publication et outils de transformation SGML/XML</strong></p>
+                <ul>
+                    <li><p>Étude détaillée de SGML, intégration d’outils SGML (parseur, éditeur, navigateur, composeur).</p></li>
+                    <li><p>Algorithmes de comparaison de versions pour documents massifs (Airbus, 80 000 pages).</p></li>
+                    <li><p>Développement d’un composeur PostScript pour SGML / interpréteur PostScript → HPGL/PCL.</p></li>
+                </ul>
+            </li>
+
+            <!-- Recent business integration -->
+            <li>
+                <p><strong>Intégration de données et applications métiers récentes</strong></p>
+                <ul>
+                    <li><p>Structuration et transformation de données complexes à l’aide de pipelines XML/XSLT/XQuery.</p></li>
+                    <li><p>Extraction automatique vers tableurs (CSV, ODF) pour analyses chiffrées.</p></li>
+                    <li><p>Travail quotidien avec Git/GitLab/GitHub, documentation, revue de code.</p></li>
+                </ul>
+            </li>
+
+        </ul>
+    </section>
+
+    <section id="Education" coex="Formation">
+        <h>Formation</h>
+        <ul>
+            <li><p>Ingénieur – Polytech Grenoble, option informatique et automatique</p></li>
+            <li><p>DEUG A – Université Joseph Fourier, Grenoble</p></li>
+            <li><p>Baccalauréat scientifique – Grenoble</p></li>
+        </ul>
+    </section>
+
+    <section id="Languages" coex="Langues">
+        <h>Langues</h>
+        <p>Français (langue maternelle) ; anglais (utilisation professionnelle régulière) ; notions anciennes en allemand, russe et népalais.</p>
+    </section>
+
+    <section id="Interest" coex="Centres d'intérêt">
+        <h>Centres d'intérêt</h>
+        <p>Systèmes de contenus structurés, humanités numériques, extraction de données textuelles, moteurs de recherche, IA appliquée aux corpus, ainsi que nature et activités de plein air.</p>
+    </section>
+
+</document>

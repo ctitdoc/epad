@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<document section-numbering="true" figure-numbering="true" features="RESUME" vocab="http://example.org/cv#" typeof="Person" about="#franck">
+    <h property="label">Curriculum Vitae – Front-End (Angular) / Healthcare &amp; Data</h>
+
+    <section id="Contact" coex="CONTACT" typeof="ContactPoint">
+        <h>CONTACT</h>
+        <p property="name">Franck Delahaye</p>
+        <p property="email">franck_delahaye@yahoo.fr</p>
+        <p property="addressLocality">Grenoble, France</p>
+        <p property="headline">
+            Front-end (Angular) and full-stack engineer with strong experience in data-centric systems, API integration and LLM-assisted data processing, motivated by healthcare impact.
+        </p>
+    </section>
+
+    <section id="Objectives" coex="PROFESSIONAL SUMMARY" typeof="Summary">
+        <h>PROFESSIONAL SUMMARY</h>
+        <p property="description">
+            Front-end developer with a strong full-stack and integration background, experienced in building Angular-based interfaces connected to complex, data-intensive back-ends. Hands-on Angular 15 in production, TypeScript and REST APIs. Proven experience integrating LLM-based services into structured data workflows, collaborating with product and technical stakeholders to deliver reliable systems. Strong interest in healthcare solutions and in supporting ML and LLM products through robust server-side and integration layers.
+        </p>
+    </section>
+
+    <section id="skills" coex="SKILLS" typeof="SkillSet">
+        <h>SKILLS</h>
+        <ul>
+            <li><p>Angular 15 (production). Upgrade to Angular ≥16 identified and planned in technical backlog.</p></li>
+            <li><p>TypeScript, HTML, CSS; maintainable front-end architecture and component design.</p></li>
+            <li><p>API integration: REST-based services, event-driven data synchronization.</p></li>
+            <li><p>LLM &amp; data integration: API-based integration of LLM services for structured data generation and transformation under schema constraints.</p></li>
+            <li><p>Back-end &amp; integration: PHP/Symfony, Python, Ballerina; API-first and service-oriented architectures.</p></li>
+            <li><p>Data-centric systems: relational databases, data modelling, XML processing, validation and interoperability.</p></li>
+            <li><p>Cross-functional collaboration: product, UX/UI, data and technical teams; Agile-inspired workflows.</p></li>
+        </ul>
+    </section>
+
+    <section id="Employment" coex="PROFESSIONAL EXPERIENCE" typeof="ExperienceSet">
+        <h>PROFESSIONAL EXPERIENCE</h>
+        <ul>
+
+            <li typeof="Experience">
+                <p><strong property="role">Senior Lead Developer &amp; Architect – Web &amp; Data Platforms</strong></p>
+                <p><strong>Cosmobilis</strong> – <span property="addressLocality">Chambéry, France</span></p>
+                <p><span property="startDate">2023</span> – present</p>
+                <ul>
+                    <li><p>Design, maintenance and evolution of high-traffic web platforms with strong business and data constraints.</p></li>
+                    <li><p>Front-end and integration work involving Angular-based user interfaces connected to API-driven back-ends.</p></li>
+                    <li><p>Participation in data synchronization, ETL and interoperability workflows supporting complex enterprise systems.</p></li>
+                    <li><p>Close collaboration with product owners and technical teams, ownership of technical choices and backlog-driven improvements.</p></li>
+                </ul>
+            </li>
+
+            <li typeof="Experience">
+                <p><strong property="role">Senior Developer / Integration Engineer</strong></p>
+                <p><span property="addressLocality">France</span></p>
+                <p><span property="startDate">2010</span> – <span property="endDate">2023</span></p>
+                <ul>
+                    <li><p>Continuous activity on web, data and integration projects across multiple domains.</p></li>
+                    <li><p>Implementation of API-based enterprise application integration services, synchronizing complex business workflows between heterogeneous systems (CRM / ERP).</p></li>
+                    <li><p>Strong focus on data modelling, validation and consistency across distributed systems.</p></li>
+                    <li><p>Regular collaboration with functional experts and stakeholders to translate complex requirements into scalable technical solutions.</p></li>
+                </ul>
+            </li>
+
+            <li typeof="Experience">
+                <p><strong property="role">Product &amp; API Engineer – LLM-assisted Data Processing</strong></p>
+                <p><strong>CMS-integrated CV generation &amp; tchatapi</strong></p>
+                <p><span property="startDate">2019</span> – present</p>
+                <ul>
+                    <li><p>Design and implementation of API-driven services integrating LLMs to transform unstructured inputs into structured, schema-constrained outputs.</p></li>
+                    <li><p>Use of Ballerina and OpenAI APIs to orchestrate prompts, validate generated data and integrate results into a production CMS.</p></li>
+                    <li><p>Experience closely aligned with RAG-like architectures, where LLMs are used as controlled data transformation components.</p></li>
+                    <li><p>Relevant experience for collaboration with Data Scientists and ML teams by providing robust, production-ready integration layers.</p></li>
+                </ul>
+            </li>
+
+            <li typeof="Experience">
+                <p><strong property="role">Technical Lead – Energy &amp; Healthcare Data Platforms</strong></p>
+                <p><strong>HC Forum / Open ENERGIE</strong> – <span property="addressLocality">Grenoble, France</span></p>
+                <p><span property="startDate">2007</span> – <span property="endDate">2010</span></p>
+                <ul>
+                    <li><p>Design and development of data-intensive platforms in energy monitoring and healthcare genetics.</p></li>
+                    <li><p>Implementation of XML-based interoperability workflows and healthcare data exchanges.</p></li>
+                    <li><p>Close collaboration with domain experts, including healthcare specialists.</p></li>
+                </ul>
+            </li>
+
+        </ul>
+    </section>
+
+    <section id="Education" coex="EDUCATION" typeof="Education">
+        <h>EDUCATION</h>
+        <ul>
+            <li>
+                <p><strong>M.Sc. in Computer Science</strong></p>
+                <p>Université Joseph Fourier – Grenoble, France</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="Languages" coex="LANGUAGES" typeof="LanguageSkillSet">
+        <h>LANGUAGES</h>
+        <ul>
+            <li><p>French – native</p></li>
+            <li><p>English – professional working proficiency</p></li>
+        </ul>
+    </section>
+
+    <section id="Interest" coex="INTERESTS" typeof="Interests">
+        <h>INTERESTS</h>
+        <ul>
+            <li><p>Healthcare and data-driven digital solutions</p></li>
+            <li><p>ML and LLM product integration in real-world systems</p></li>
+            <li><p>Web architecture, APIs and interoperability</p></li>
+        </ul>
+    </section>
+
+</document>

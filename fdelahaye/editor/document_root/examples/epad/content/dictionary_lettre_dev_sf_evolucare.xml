@@ -1,0 +1,38 @@
+<document section-numbering="true" figure-numbering="true" features="PDF">
+    <h text-align="justify">Lettre de motivation – Développeur Full-Stack Angular/Symfony – Evolucare</h>
+    <section>
+        <h> </h>
+        <p>Madame, Monsieur,</p>
+        <section view="normal">
+            <h> </h>
+            <p text-align="justify">
+                Je souhaite rejoindre Evolucare en tant que développeur senior PHP/Symfony afin de contribuer à la conception, au développement et à l’évolution d’applications web utilisées dans des contextes métiers exigeants, notamment en milieu hospitalier et clinique.
+            </p>
+            <p text-align="justify">
+                Mon parcours m’a conduit à intervenir sur des plateformes applicatives long-lived, où la maintenance évolutive et corrective, la qualité logicielle, la performance et la stabilité en production sont des enjeux centraux. J’ai une solide expérience en PHP/Symfony, en intégration d’APIs REST, en SQL, ainsi qu’en collaboration quotidienne avec les équipes produit, support et DevOps.
+            </p>
+            <p text-align="justify">
+                J’interviens également sur des applications Angular existantes, dans une logique de cohérence front-end / back-end, de fiabilité globale et d’amélioration continue des fonctionnalités et des performances.
+            </p>
+            <p text-align="justify">
+                Ayant déjà travaillé sur des systèmes applicatifs liés au domaine de la santé, je suis particulièrement sensible aux exigences de robustesse, de sécurité et de continuité de service. Je souhaite m’inscrire dans une équipe produit/R&amp;D applicative et apporter une contribution concrète, durable et directement opérationnelle.
+            </p>
+            <p text-align="justify">
+                Je serais ravi d’échanger avec vous sur vos projets et sur la manière dont mon expérience pourrait contribuer aux évolutions de vos solutions.
+            </p>
+        </section>
+    </section>
+    <section>
+        <h> </h>
+        <p>
+            Je vous prie d’agréer, Madame, Monsieur, l’expression de mes salutations distinguées.
+            <br/>
+            Franck Delahaye
+            <br/>
+            e-mail:
+            <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a>
+            <br/>
+            tel: +33 7 67 38 28 95
+        </p>
+    </section>
+</document>

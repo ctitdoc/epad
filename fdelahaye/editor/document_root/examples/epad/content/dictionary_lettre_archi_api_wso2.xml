@@ -1,0 +1,41 @@
+<document section-numbering="true" figure-numbering="true" features="PDF">
+    <h text-align="justify">Lettre de motivation - Architecte WSO2 - Gravitee - Smile</h>
+    <section>
+        <h> </h>
+        <p>Madame, Monsieur,</p>
+        <section view="normal">
+            <h> </h>
+            <p text-align="justify">
+                Passionné par l’architecture logicielle, l’intégration open source et la gouvernance des échanges inter-systèmes, je souhaite vous proposer ma candidature au poste d’Architecte WSO2 - Gravitee au sein de Smile.
+            </p>
+            <p text-align="justify">
+                Avec plus de 25 années d’expérience dans la conception et l’industrialisation de plateformes logicielles complexes, j’ai construit une expertise solide en architecture d’API, intégration applicative et orchestration de flux, au service de systèmes critiques et fortement interconnectés. Mon parcours m’a conduit à intervenir aussi bien sur la définition d’architectures cibles que sur leur mise en œuvre concrète, dans des contextes multi-équipes et orientés clients.
+            </p>
+            <p text-align="justify">
+                Ces dernières années, j’ai occupé des rôles de Lead Developer et d’Architecte API, notamment autour de la conception d’intégrations REST sécurisées, de la définition de contrats OpenAPI, de l’orchestration de workflows asynchrones et de l’industrialisation via Docker, CI/CD et environnements Linux. Mon travail récent avec Ballerina, langage étroitement lié à l’écosystème WSO2, m’a permis de renforcer une approche orientée intégration, lisibilité des flux et observabilité, en cohérence avec les enjeux portés par des plateformes de gestion d’API telles que WSO2 API Manager ou Gravitee.io.
+            </p>
+            <p text-align="justify">
+                Au-delà des aspects purement techniques, j’accorde une importance particulière à la transmission et à l’accompagnement des équipes. J’ai régulièrement encadré et fait monter en compétence des développeurs et intégrateurs, en les aidant à structurer leurs choix techniques, à appliquer des bonnes pratiques d’architecture et à comprendre les enjeux de sécurité, de performance et de gouvernance des API. Cette dimension de mentorat et de conseil correspond pleinement à l’esprit collaboratif et au modèle de management par les pairs que vous mettez en avant chez Smile.
+            </p>
+            <p text-align="justify">
+                Rejoindre Smile représente pour moi l’opportunité de m’inscrire dans un environnement où l’open source, le partage de connaissances et l’excellence technique ne sont pas des slogans mais des pratiques quotidiennes. La diversité des projets, l’importance accordée à la formation continue et la proximité avec les équipes et les clients font écho à ma manière de concevoir le métier d’architecte : pragmatique, exigeante et orientée valeur.
+            </p>
+            <p text-align="justify">
+                Je serais ravi de pouvoir échanger avec vous afin de détailler ma motivation et la manière dont mon expérience pourrait contribuer aux projets de Smile et à la réussite de vos clients.
+            </p>
+        </section>
+    </section>
+    <section>
+        <h> </h>
+        <p>
+            Je vous prie d’agréer, Madame, Monsieur, l’expression de mes salutations distinguées.
+            <br/>
+            Franck Delahaye
+            <br/>
+            e-mail:
+            <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a>
+            <br/>
+            tel: +33 7 67 38 28 95
+        </p>
+    </section>
+</document>

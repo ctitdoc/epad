@@ -1,0 +1,35 @@
+<document section-numbering="true" figure-numbering="true" features="PDF">
+    <h text-align="justify"> </h>
+    <section>
+        <h> </h>
+        <p>Madame, Monsieur,</p>
+        <section view="normal">
+            <h> </h>
+            <p text-align="justify">
+                Ingénieur logiciel senior avec plus de vingt-cinq ans d’expérience en développement et intégration de plateformes logicielles, je souhaite rejoindre N2JSoft pour contribuer à la conception et à l’industrialisation de fonctionnalités d’intelligence artificielle au cœur de vos solutions SaaS B2B.
+            </p>
+            <p text-align="justify">
+                Mon parcours m’a conduit à travailler sur des systèmes complexes orientés production : intégration d’APIs, automatisation de processus, gestion de données structurées et mise en œuvre de services cloud. Ces dernières années, j’ai développé et mis en production des services intégrant des APIs LLM (OpenAI), du prompt engineering et des pipelines de génération de contenus structurés, avec une approche pragmatique et orientée produit.
+            </p>
+            <p text-align="justify">
+                Je suis particulièrement sensible à votre positionnement : un rôle de développeur logiciel IA, centré sur l’intégration fiable, la qualité et la valeur métier, en collaboration étroite avec les équipes produit, data et développement. Cet équilibre entre innovation, exigence technique et impact utilisateur correspond pleinement à ma manière de travailler.
+            </p>
+            <p text-align="justify">
+                Autonome, rigoureux et à l’aise dans le travail collaboratif, je serais heureux de mettre mon expérience au service de N2JSoft et de participer à l’évolution de vos produits dans un environnement humain et stimulant.
+            </p>
+        </section>
+    </section>
+    <section>
+        <h> </h>
+        <p>
+            Cordialement,
+            <br/>
+            Franck Delahaye
+            <br/>
+            e-mail:
+            <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a>
+            <br/>
+            tel : +33 7 67 38 28 95
+        </p>
+    </section>
+</document>

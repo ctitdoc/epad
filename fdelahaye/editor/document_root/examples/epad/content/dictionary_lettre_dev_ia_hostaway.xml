@@ -1,0 +1,38 @@
+<document section-numbering="true" figure-numbering="true" features="PDF">
+    <h text-align="justify">Cover Letter – Senior Backend Engineer, AI Integrations – Hostaway</h>
+    <section>
+        <h> </h>
+        <p>Dear Hiring Team,</p>
+        <section view="normal">
+            <h> </h>
+            <p text-align="justify">
+                I am writing to apply for the Senior Backend Engineer, AI Integrations role at Hostaway. I am a senior backend engineer and solutions architect with 25+ years of experience building production services for integration-heavy SaaS and enterprise platforms, and I have recently focused on applied generative AI: integrating LLM APIs into products, orchestrating multi-step workflows, and making AI outputs reliable through schema-constrained generation, validation, and explicit error handling.
+            </p>
+            <p text-align="justify">
+                In my current work, I designed and implemented an LLM-enabled API workflow orchestration engine (tchatAPI) that executes complex multi-step scenarios defined as schema-driven JSON, with response memory, conditional execution, delays, and reusable sub-workflows. I integrated the OpenAI API as a managed request type to support AI-assisted steps inside operational workflows, and exposed the system via both CLI and OpenAPI/Swagger UI for reproducible execution and debugging.
+            </p>
+            <p text-align="justify">
+                A core theme of my approach is production readiness: contract-first APIs, deterministic validation (JSON Schema, XML/XSD), observability via dashboards and log analysis (including Kibana), and CI/CD with Docker-based environments. I have built and maintained robust integrations across heterogeneous systems (CRM/ERP/partners/search), and I am comfortable bridging stacks to connect AI outputs to customer-facing features with clear interfaces and maintainable operational practices.
+            </p>
+            <p text-align="justify">
+                While my primary backend experience is in PHP/Symfony, Ballerina, and Java, I have collaborated extensively across front-end and integration boundaries (including Angular/TypeScript consumption of REST APIs and WebSocket-based real-time features), and I am confident ramping up quickly on TypeScript/Node.js or Python to deliver AI integrations within your SaaS ecosystem.
+            </p>
+            <p text-align="justify">
+                I would welcome the opportunity to discuss how my experience in applied LLM integration, workflow orchestration, and production-grade backend engineering can help Hostaway embed stable, observable, and valuable AI features into your product.
+            </p>
+        </section>
+    </section>
+    <section>
+        <h> </h>
+        <p>
+            Yours sincerely,
+            <br/>
+            Franck Delahaye
+            <br/>
+            e-mail:
+            <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a>
+            <br/>
+            tel: +33 7 67 38 28 95
+        </p>
+    </section>
+</document>

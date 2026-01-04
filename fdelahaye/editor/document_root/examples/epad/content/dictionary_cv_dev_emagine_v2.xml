@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<document section-numbering="true" figure-numbering="true" features="RESUME" vocab="http://example.org/cv#" typeof="Person" about="#franck">
+    <h text-align="justify" property="label">Curriculum Vitae – Front End Developer (Angular) – Healthcare / ML &amp; LLM Integration Target</h>
+    <p/>
+    <section id="Contact" coex="CONTACT" typeof="ContactPoint">
+        <h>CONTACT</h>
+        <p property="name">Franck Delahaye</p>
+        <p property="email">franck_delahaye@yahoo.fr</p>
+        <p property="telephone">+33 7 67 38 28 95</p>
+        <p property="addressLocality">Grenoble, France</p>
+        <p property="headline">Front-end (Angular) and full-stack engineer – data-centric web applications, APIs, interoperability and AI/LLM integrations; motivated by healthcare impact.</p>
+    </section>
+    <section id="Objectives" coex="PROFESSIONAL SUMMARY" typeof="Summary">
+        <h>PROFESSIONAL SUMMARY</h>
+        <p property="description">Front-end developer with strong full-stack and integration background, used to delivering data-intensive web applications and API-first systems in cross-functional contexts (Product, UX/UI, engineering). Hands-on Angular in production (Angular 15); upgrade to Angular ≥16 identified and tracked in backlog (not yet executed). Proven experience integrating AI/LLM services via APIs to produce schema-constrained outputs and to operationalize data transformations, relevant to building server-side foundations for ML/LLM products in healthcare environments (interoperability, validation, traceability, performance).</p>
+    </section>
+    <section id="skills" coex="KEY SKILLS" typeof="SkillSet">
+        <h>TRANSVERSAL EXPERIENCE AXES</h>
+        <ul>
+            <li typeof="ExperienceAxis" resource="#axis_eai_data_sync">
+                <p><strong property="label">Enterprise Application Integration (EAI) &amp; Data Synchronization</strong></p>
+                <p property="description">API-based synchronization services between heterogeneous enterprise systems (e.g., CRM &lt;-&gt; ERP), with strong attention to data consistency, workflow orchestration, error handling, and incremental rollout in production contexts.</p>
+                <p property="derivedFrom">Derived from: enterprise integration work described across prior engagements, including API/ETL and system integration responsibilities (Cosmobilis, multi-client integration period, and related integration projects).</p>
+            </li>
+            <li typeof="ExperienceAxis" resource="#axis_llm_data_model">
+                <p><strong property="label">LLM-assisted Data Transformation &amp; Schema-constrained Generation</strong></p>
+                <p property="description">Integration of LLM services via APIs to transform unstructured or semi-structured inputs into structured outputs constrained by a data model (e.g., XML schema/XSD), including prompt design, orchestration, validation, and downstream integration into an enterprise CMS.</p>
+                <p property="derivedFrom">Derived from: “CMS-integrated CV retro-conversion and generation using Ballerina &amp;amp; OpenAI” (XML CMS demo, Ballerina orchestration, OpenAI API calls) and tchatapi-based prompt integration and testing workflows.</p>
+            </li>
+            <li typeof="ExperienceAxis" resource="#axis_data_xml_pipelines">
+                <p><strong property="label">Data-centric Platforms, XML Processing &amp; Publication Pipelines</strong></p>
+                <p property="description">Design and delivery of data-centric platforms relying on structured data models, interoperability and XML processing, including validation, transformation, and publication/formatting chains.</p>
+                <p property="derivedFrom">Derived from: XML/HL7 interoperability and BaseX/XQuery workflows in healthcare contexts (HC Forum), XML CMS and publication pipelines, and integration-centric platform work.</p>
+            </li>
+        </ul>
+        <h>FRONT END</h>
+        <ul>
+            <li><p>Angular 15 (production); TypeScript; HTML; CSS. Upgrade path toward Angular ≥16 tracked in backlog (not yet executed).</p></li>
+            <li><p>UI integration with data-heavy back-ends; performance-conscious, maintainable component and feature delivery; collaboration with Product &amp;amp; UX/UI.</p></li>
+        </ul>
+        <h>BACK END, DATA &amp;amp; INTEGRATION</h>
+        <ul>
+            <li><p>API-first architectures (REST, websocket event broadcasting); service integration and orchestration.</p></li>
+            <li><p>Ballerina services &amp;amp; jobs in production; PHP/Symfony; Python; ETL (Talend); relational databases (MySQL, PostgreSQL); Elasticsearch/Kibana.</p></li>
+            <li><p>OpenAI API integration for structured generation and transformation workflows (schema-constrained XML outputs), including prompt orchestration and system integration via APIs.</p></li>
+        </ul>
+        <h>DELIVERY</h>
+        <ul>
+            <li><p>Agile/Scrum-inspired workflows; Jira/Confluence; GitHub CI/CD; Docker/AWS; operational ownership mindset.</p></li>
+        </ul>
+    </section>
+    <section id="Employment" coex="PROFESSIONAL EXPERIENCE" typeof="ExperienceSet">
+        <h>PROFESSIONAL EXPERIENCE</h>
+        <ul>
+            <li typeof="Experience">
+                <p><strong property="role">Senior Lead Developer &amp; Architect – Internet &amp; e-commerce platforms</strong></p>
+                <p><strong property="label"><span>Cosmobilis</span> – Chambéry<span property="addressLocality">, France</span></strong></p>
+                <p><span property="startDate" content="2023-01-01" datatype="http://www.w3.org/2001/XMLSchema#date">2023</span> – present</p>
+                <ul>
+                    <li><p>Migration and ongoing enhancement of a legacy high-traffic website; strong constraints on performance, data flows and operational robustness.</p></li>
+                    <li><p>Front-end integration with Angular-based interfaces consuming data-heavy REST APIs; collaboration with Product and stakeholders to translate requirements into scalable implementation.</p></li>
+                    <li><p>Built and operated integration components (Ballerina jobs/services) and event broadcasting (websocket) to support real-time user-facing workflows.</p></li>
+                    <li><p>Technologies and tools: PHP/Symfony 2 &amp;amp; 6, <a href="https://ballerina.io/" property="externalReference">Ballerina</a>, Elasticsearch, REST APIs, websocket, MySQL, PostgreSQL, ETL (Talend), GitHub CI/CD, Docker/AWS.</p></li>
+                    <li><p>Quality practices: Jira/Confluence; backlog-driven delivery with ownership and continuous improvement.</p></li>
+                </ul>
+            </li>
+            <li typeof="Experience" resource="#exp_cosmobilis_bilendi_arturia_mid">
+                <p><strong property="label">Senior developer / architect – web platforms, integration and data-centric systems</strong></p>
+                <p><span property="startDate" content="2011-01-01" datatype="http://www.w3.org/2001/XMLSchema#date">2011</span> – <span property="endDate" content="2025-01-01" datatype="http://www.w3.org/2001/XMLSchema#date">2025</span></p>
+                <ul>
+                    <li typeof="Project">
+                        <p><strong property="label">CMS-integrated CV retro-conversion and generation using Ballerina &amp;amp; OpenAI</strong></p>
+                        <p>Implemented an end-to-end workflow to generate schema-constrained XML outputs from natural-language inputs, integrating OpenAI via API and orchestrating processing with Ballerina within an XML CMS context. Focus on data modelling constraints (XSD), validation, and robust integration for production-like usage.</p>
+                    </li>
+                    <li typeof="Project">
+                        <p><strong property="label">Enterprise integration service (EAI) – API-based synchronization of heavy data workflows</strong></p>
+                        <p>Designed and implemented API-driven synchronization between heterogeneous enterprise solutions (CRM &amp;amp; ERP) for complex business workflows (opportunities), using systematic API exploration, testing and partial integration through tchatapi-driven prompt and automation support. Emphasis on data consistency, workflow orchestration and incremental integration.</p>
+                    </li>
+                </ul>
+            </li>
+            <li typeof="Experience" resource="#exp_energy_health">
+                <p><strong property="label">Technical lead – Energy &amp; health-care solutions</strong></p>
+                <p><strong><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC29821/" property="externalReference">HC Forum</a></strong><span property="label"> / Open ENERGIE</span> – <span property="addressLocality">Grenoble, France</span></p>
+                <p><span property="startDate" content="2007-01-01" datatype="http://www.w3.org/2001/XMLSchema#date">2007</span> – <span property="endDate" content="2010-11-30" datatype="http://www.w3.org/2001/XMLSchema#date">2010</span></p>
+                <ul>
+                    <li><p>Healthcare platform: patient record workflows, pedigrees and genetics-oriented modules, with interoperability constraints and XML-based message exchanges (HL7).</p></li>
+                    <li><p>Implemented BaseX/XQuery components to manage HL7 XML interchange workflows between healthcare applications; collaborated closely with domain experts and cross-functional teams.</p></li>
+                    <li><p>Agile team delivery (5–10 developers) with accountability for technical choices and end-to-end reliability.</p></li>
+                </ul>
+            </li>
+            <li typeof="Project">
+                <p><strong property="label">Product/API demo – tchatapi.org</strong></p>
+                <p>Designed and implemented an API-focused product demonstrator to showcase integration scenarios and developer experience, including general-purpose prompt integration and structured output generation pipelines, relevant for ML/LLM product enablement and server-side integration consumed by modern front-end applications.</p>
+            </li>
+        </ul>
+    </section>
+    <section id="Education" coex="EDUCATION" typeof="Education">
+        <h>EDUCATION</h>
+        <ul>
+            <li>
+                <p><strong>Master degree (M.Sc.) in Computer Science</strong></p>
+                <p>Université Joseph Fourier – Grenoble, France</p>
+            </li>
+        </ul>
+    </section>
+    <section id="Languages" coex="LANGUAGES" typeof="LanguageSkillSet">
+        <h>LANGUAGES</h>
+        <ul>
+            <li><p>French – native</p></li>
+            <li><p>English – professional working proficiency</p></li>
+        </ul>
+    </section>
+    <section id="Interest" coex="INTERESTS" typeof="Interests">
+        <h>INTERESTS</h>
+        <ul>
+            <li><p>Healthcare &amp;amp; data-centric information systems</p></li>
+            <li><p>ML/LLM product enablement through robust API integration, data modelling constraints and validation</p></li>
+            <li><p>Web architecture, interoperability and integration patterns</p></li>
+        </ul>
+    </section>
+</document>

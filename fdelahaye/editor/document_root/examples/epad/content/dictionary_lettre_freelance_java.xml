@@ -1,0 +1,28 @@
+<document section-numbering="true" figure-numbering="true" features="PDF">
+    <h text-align="justify"> </h>
+    <section>
+        <h> </h>
+        <p>Madame, Monsieur,</p>
+        <section view="normal" ignore_for="">
+            <h> </h>
+            <p ignore_for="lead_tech_content standard cdp_it dev_verdland" text-align="justify">
+                Développeur full-stack Java / Angular avec plus de 20 ans d’expérience sur des plateformes web B2B à fort enjeu, je souhaite intervenir sur votre mission de gestion du risque. Habitué à concevoir des architectures applicatives, développer des front-ends SPA et des back-ends Java, et à travailler avec des équipes pluridisciplinaires, je peux contribuer rapidement et efficacement à vos projets.
+            </p>
+            <p ignore_for="lead_tech_content standard cdp_it dev_verdland" text-align="justify">
+                Disponible pour une mission freelance longue durée, avec télétravail partiel et déplacements ponctuels à Bordeaux, je serais heureux d’échanger sur votre besoin.
+            </p>
+        </section>
+            <section>
+                <h> </h>
+                <p>
+                    Cordialement,
+                    <br/>
+                    Franck Delahaye
+                    <br/>
+                    e-mail:
+                    <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a>
+                    tel : 07 67 38 28 95
+                </p>
+            </section>
+    </section>
+</document>

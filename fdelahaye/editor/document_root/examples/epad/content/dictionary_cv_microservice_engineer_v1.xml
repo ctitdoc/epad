@@ -1,0 +1,193 @@
+<document section-numbering="true" figure-numbering="true" features="RESUME" vocab="http://example.org/cv#" typeof="Person" about="#franck">
+    <h text-align="justify" property="label">Curriculum Vitae – Franck Delahaye</h>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="Contact" coex="CONTACT" typeof="ContactPoint">
+        <h>CONTACT</h>
+        <p property="name">Franck Delahaye</p>
+        <p property="email">franck_delahaye@yahoo.fr</p>
+        <p property="telephone">+33 7 67 38 28 95</p>
+        <p property="addressLocality">Grenoble, France</p>
+        <p property="headline">
+            Senior Software Engineer – API, microservices, integration platforms, and workflow orchestration.
+        </p>
+    </section>
+
+    <!-- ===================== OBJECTIVES ===================== -->
+    <section id="Objectives" coex="PROFESSIONAL SUMMARY" typeof="Summary">
+        <h>PROFESSIONAL SUMMARY</h>
+        <p property="description">
+            Senior software engineer with 25+ years of experience designing and operating backend systems, REST APIs, and integration platforms at scale. Strong focus on API design, microservice-oriented architectures, workflow orchestration, and DevOps practices. Author of an internal API workflow orchestration engine built in Ballerina, exposing schema-driven API scenarios via OpenAPI/Swagger UI, with dynamic response reuse and JSONPath-based execution. Live demo: http://www.tchatapi.org — Source code: https://github.com/sitedesc/bal_apps/tree/main/apps/chatapi.
+        </p>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <section id="skills" coex="KEY SKILLS" typeof="SkillSet">
+        <h>KEY SKILLS</h>
+        <ul>
+            <li>
+                <p>
+                    <strong>API &amp; Microservices</strong> – REST API design, OpenAPI/Swagger, contract-first approaches, API Platform, service-oriented and microservice architectures.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Workflow &amp; API Orchestration</strong> – API workflow orchestration, message-oriented integrations, BPM/ESB-inspired patterns, schema-driven execution (SchemedTalks).
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Backend Development</strong> – Ballerina, Java/J2EE, PHP/Symfony, Python; strong focus on maintainability, observability, and robustness.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Data &amp; Storage</strong> – PostgreSQL, MySQL, XML databases (BaseX, eXist-db), search engines (Lucene, Vespa), data transformation pipelines.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Cloud &amp; DevOps</strong> – Docker, AWS, Linux (Ubuntu, Alpine), CI/CD with GitHub Actions and GitLab CI, environment automation.
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>Quality &amp; Reliability</strong> – automated testing (API and browser-based), production monitoring, incident analysis, refactoring of legacy systems.
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section id="Employment" coex="PROFESSIONAL EXPERIENCE" typeof="EmploymentHistory">
+        <h>PROFESSIONAL EXPERIENCE</h>
+        <ul>
+
+            <li typeof="Experience">
+                <p>
+                    <strong property="role">Lead Developer – API &amp; Microservices Integration</strong>
+                </p>
+                <p>
+                    <strong property="label">Cosmobilis</strong> – Chambéry, France
+                </p>
+                <p>Jan 2023 – Present</p>
+
+                <ul>
+                    <li>
+                        <p>
+                            Designed and evolved backend REST APIs and microservice-oriented integrations for high-traffic, multi-country automotive platforms.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Implemented API-based workflows integrating ERP (OpenFlex), CRM (Salesforce), marketplaces, search engines, and third-party services.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Led architecture evolution toward message-oriented and orchestrated API workflows, improving reliability and observability.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Set up and maintained CI/CD pipelines and Docker-based environments on AWS, running production workloads on Ubuntu.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+
+            <li typeof="Experience">
+                <p>
+                    <strong property="role">Author &amp; Maintainer – API Workflow Orchestration PoC (tchatAPI)</strong>
+                </p>
+                <p>
+                    <strong property="label">Internal R&amp;D Project</strong>
+                </p>
+                <p>Oct 2024 – Present</p>
+
+                <ul>
+                    <li>
+                        <p>
+                            Designed and implemented an API workflow orchestration engine in <strong>Ballerina</strong>, executing typed and generic HTTP requests (GET, POST, PATCH, PUT) defined as structured JSON workflows (“SchemedTalks”).
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Exposed the orchestration engine via OpenAPI/Swagger UI for interactive execution and testing of complex API scenarios.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Implemented features such as response memorization, JSONPath-based data extraction, and dynamic reuse of previous responses across workflow steps.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Integrated OpenAI API as a managed request type to demonstrate AI-assisted API workflows and dynamic content generation.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Live SwaggerUI demo: <a href="http://www.tchatapi.org">http://www.tchatapi.org</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Source code (monorepo): <a href="https://github.com/sitedesc/bal_apps/tree/main/apps/chatapi">https://github.com/sitedesc/bal_apps/tree/main/apps/chatapi</a>
+                        </p>
+                    </li>
+                </ul>
+            </li>
+
+            <li typeof="Experience">
+                <p>
+                    <strong property="role">Senior Software Engineer – Search &amp; Distributed Systems</strong>
+                </p>
+                <p>
+                    <strong property="label">Kelkoo / Yahoo</strong> – Grenoble, France
+                </p>
+                <p>2005 – 2006</p>
+
+                <ul>
+                    <li>
+                        <p>
+                            Development and maintenance of large-scale search APIs based on Lucene, serving high-traffic comparison services.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Migration toward distributed search infrastructure (Yahoo Vespa) with REST/XML APIs for scalability and performance.
+                        </p>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+    </section>
+
+    <!-- ===================== EDUCATION ===================== -->
+    <section id="Education" coex="EDUCATION" typeof="EducationHistory">
+        <h>EDUCATION</h>
+        <ul>
+            <li>
+                <p><strong>Engineering Degree – IT &amp; Automation</strong>, Polytech Grenoble</p>
+            </li>
+            <li>
+                <p><strong>DEUG A – General Science</strong>, Université Joseph Fourier, Grenoble</p>
+            </li>
+            <li>
+                <p><strong>Scientific High School Diploma</strong>, Grenoble</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- ===================== LANGUAGES ===================== -->
+    <section id="Languages" coex="LANGUAGES" typeof="LanguageSet">
+        <h>LANGUAGES</h>
+        <ul>
+            <li><p><strong>French</strong> – Native</p></li>
+            <li><p><strong>English</strong> – Professional</p></li>
+        </ul>
+    </section>
+
+</document>

@@ -1,0 +1,311 @@
+<document section-numbering="true" figure-numbering="true" features="RESUME">
+    <h text-align="justify">Curriculum Vitae – Franck Delahaye – Lead Développeur Full Stack</h>
+    <p/>
+    <section id="Contact" coex="CONTACT">
+        <h>CONTACT</h>
+        <p>Franck Delahaye</p>
+        <p>franck_delahaye@yahoo.fr</p>
+        <p>+33 7 67 38 28 95</p>
+        <p>Grenoble, France (mobile, ouvert à un poste à Lyon)</p>
+    </section>
+    <section id="Objectives" coex="OBJECTIF PROFESSIONNEL">
+        <h>OBJECTIF PROFESSIONNEL</h>
+        <p>Lead développeur full stack avec plus de 20 ans d&apos;expérience en architectures web, intégration d&apos;applications métiers et modernisation de SI. Habitué à faire évoluer des plateformes existantes (PHP/Symfony, Python/Odoo, Java) vers des architectures plus structurées, sécurisées et testables, en lien étroit avec les équipes métiers. Je souhaite mettre mon expérience de Tech Lead, de CI/CD et d&apos;intégration d&apos;APIs au service de la transformation digitale d&apos;une mutuelle à taille humaine comme la MER.</p>
+    </section>
+    <section id="skills" coex="COMPÉTENCES CLÉS">
+        <h>COMPÉTENCES CLÉS</h>
+        <ul>
+            <li>
+                <p>
+                    <strong>Développement back-end</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>PHP / Symfony (3 à 6) – conception et évolution de back-offices riches, APIs REST, microservices, intégration de paiements, ERP, CRM, PIM, marketplaces.</p>
+                    </li>
+                    <li>
+                        <p>Python – intégration et personnalisation avancée d&apos;Odoo (ERP) : ventes, achats, stocks, comptabilité, CRM, facturation, interfaçage avec sites e-commerce.</p>
+                    </li>
+                    <li>
+                        <p>Java / J2EE – plateformes de recherche, CMS, chaînes de publication et applications métiers (santé, énergie).</p>
+                    </li>
+                    <li>
+                        <p>XML / XSLT / XQuery – transformations, génération de documents (PDF, ODF), flux d&apos;intégration et indexation pour la recherche.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Développement front-end &amp; UX</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>Intégration front avec Bootstrap, jQuery, DevExtreme, Vue.js/Nuxt (évaluation) et composants Twig.</p>
+                    </li>
+                    <li>
+                        <p>Sensibilité UX : travail régulier avec les équipes marketing et métiers pour simplifier les écrans BackOffice et les parcours adhérents/clients.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>APIs, intégration &amp; interconnexion du SI</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>Conception et développement d&apos;APIs REST (Symfony, Java, Ballerina) pour relier ERP, CRM, PIM, sites web, GED, outils marketing et partenaires externes.</p>
+                    </li>
+                    <li>
+                        <p>Intégration de services tiers : paiements (WorldPay, SystemPay), banques (EBICS/SEPA, ISO 20022), marketplaces, comparateurs, outils de marketing et BI.</p>
+                    </li>
+                    <li>
+                        <p>Expérience de mise en place de modules de type ESB pour orchestrer les flux de données entre applications internes et externes.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>DevOps, qualité &amp; tests</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>GitLab / GitHub CI/CD – pipelines de build, tests et déploiement, scripts d&apos;environnement, gestion multi-environnements.</p>
+                    </li>
+                    <li>
+                        <p>Docker – conteneurisation de services et d&apos;environnements de développement/test.</p>
+                    </li>
+                    <li>
+                        <p>Tests automatisés – mise en place d&apos;outils de tests fonctionnels navigateur (Selenium, php-webdriver) et de suites de régression pour plateformes e-commerce.</p>
+                    </li>
+                    <li>
+                        <p>Supervision &amp; monitoring – tableaux de bord, KPIs, analyse de logs (Kibana) pour sites à fort trafic et back-offices critiques.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Sécurité &amp; bonnes pratiques</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>Prise en compte systématique des bonnes pratiques de sécurité applicative (gestion des droits, validation des entrées, protection des données sensibles, intégration bancaire sécurisée).</p>
+                    </li>
+                    <li>
+                        <p>Utilisation de protocoles sécurisés (EBICS/SEPA, OAuth2) et de flux XML normalisés pour les échanges financiers et de santé.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Leadership technique &amp; agilité</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>Lead technique sur des équipes de 3 à 10 développeurs : accompagnement, revues de code, choix d&apos;architecture, diffusion des bonnes pratiques.</p>
+                    </li>
+                    <li>
+                        <p>Pratiques agiles inspirées Scrum : itérations courtes, rituels réguliers, gestion de backlog avec les métiers, priorisation et arbitrages.</p>
+                    </li>
+                    <li>
+                        <p>Capacité à vulgariser les enjeux techniques auprès des équipes opérationnelles (marketing, logistique, finance, support, métiers énergie/santé).</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Secteurs &amp; domaines fonctionnels</strong>
+                </p>
+                <ul>
+                    <li>
+                        <p>E-commerce &amp; fidélisation : espaces clients, programmes de fidélité, gestion d&apos;offres et de campagnes, multi-pays.</p>
+                    </li>
+                    <li>
+                        <p>Énergie : facturation sur marché libéralisé, échanges de données de consommation via messages XML, comptabilité et taxation.</p>
+                    </li>
+                    <li>
+                        <p>Santé &amp; documentation technique : plateformes de dossiers patients, LIMS, biobanques, GED et workflows documentaires.</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="Employment" coex="EXPÉRIENCE PROFESSIONNELLE">
+        <h>EXPÉRIENCE PROFESSIONNELLE</h>
+        <ul>
+            <li>
+                <p>
+                    <strong>Lead développeur / Architecte solutions – Plateformes web &amp; intégration SI</strong>
+                </p>
+                <p>Made In Design / Bilendi / Arturia / Cosmobilis – Grenoble, France</p>
+                <p>2011 – 2025</p>
+                <ul>
+                    <li>
+                        <p>Conception, développement et maintenance de plateformes e-commerce et de fidélisation multi-pays, avec back-offices riches, gestion de catalogues produits, promotions et intégrations partenaires.</p>
+                    </li>
+                    <li>
+                        <p>Lead technique sur des architectures PHP/Symfony (3 à 6) orientées composants et microservices : APIs REST pour l&apos;import de véhicules depuis l&apos;ERP, envoi de leads vers Salesforce, synchronisation d&apos;opportunités vers des solutions de concessionnaires.</p>
+                    </li>
+                    <li>
+                        <p>Intégration et personnalisation de l&apos;ERP Odoo (Python/PostgreSQL) : commandes clients (en ligne et en magasin), réapprovisionnements fournisseurs, gestion de stock/entrepôts, comptabilité, CRM, PIM intégré.</p>
+                    </li>
+                    <li>
+                        <p>Conception d&apos;une architecture d&apos;intégration de type ESB pour faire circuler les données entre ERP, PIM, CRM, CMS, marketplaces, outils marketing et BI (Talend, modules maison).</p>
+                    </li>
+                    <li>
+                        <p>Intégration de services externes : paiements en ligne (WorldPay, SystemPay), flux bancaires EBICS/SEPA (ISO 20022 XML), marketplaces (Neteven, ShoppingFeed, Verbolia), outils de campagnes marketing (Neolane).</p>
+                    </li>
+                    <li>
+                        <p>Mise en place et évolution de workflows de développement : GitHub/GitLab, CI/CD, Docker, déploiements sur AWS et hébergeurs externes, gestion multi-environnements.</p>
+                    </li>
+                    <li>
+                        <p>Supervision et monitoring des plateformes de production via des tableaux de bord et Kibana, avec un focus sur la performance, la disponibilité et la qualité de service.</p>
+                    </li>
+                    <li>
+                        <p>Développement d&apos;outils de tests automatisés pour les parcours web (outil PHP intégrant Selenium et php-webdriver) afin de sécuriser les mises en production.</p>
+                    </li>
+                    <li>
+                        <p>Accompagnement et montée en compétences de développeurs (dont apprentis) : cadrage technique, revues de code, choix de frameworks, partage de bonnes pratiques (tests, refactoring, documentation).</p>
+                    </li>
+                    <li>
+                        <p>Travail étroit avec les équipes métiers (marketing, logistique, finance, support) pour prioriser les évolutions, gérer les incidents et faire évoluer les outils internes.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Responsable technique – Solutions énergie &amp; santé</strong>
+                </p>
+                <p>HC Forum / Open ENERGIE – Grenoble, France</p>
+                <p>2007 – 2010</p>
+                <ul>
+                    <li>
+                        <p>Plateforme de facturation pour le marché de l&apos;énergie libéralisé, basée sur Odoo : personnalisation des modules Comptabilité/Taxes, CRM, produits/tarification, abonnements énergie, intégration avec les flux XML de consommation échangés avec distributeurs et opérateurs.</p>
+                    </li>
+                    <li>
+                        <p>Participation aux réponses à appels d&apos;offres pour des intégrations Odoo avec des sites e-commerce et des systèmes tiers.</p>
+                    </li>
+                    <li>
+                        <p>Plateforme santé &quot;HC Forum&quot; : application J2EE trois tiers avec modules LIMS, biobanque (BRC) et dossier patient, intégrant des messages HL7 XML via BaseX/XQuery.</p>
+                    </li>
+                    <li>
+                        <p>Encadrement technique d&apos;équipes de 5 à 10 développeurs, en lien direct avec des experts métiers (médecins, spécialistes énergie) et les directions de projet.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Senior Java Developer – Moteur de recherche Kelkoo</strong>
+                </p>
+                <p>Kelkoo (Yahoo) – Grenoble, France</p>
+                <p>2005 – 2006</p>
+                <ul>
+                    <li>
+                        <p>Maintenance et évolution des APIs de recherche basées sur Lucene dans une plateforme J2EE à composants (250+ composants) alimentant le comparateur d&apos;offres.</p>
+                    </li>
+                    <li>
+                        <p>Intégration de Berkeley-DB pour accélérer la restitution des résultats sur des requêtes à fort trafic.</p>
+                    </li>
+                    <li>
+                        <p>Migration progressive des APIs de recherche vers le moteur Yahoo Vespa (REST/XML, architecture distribuée sur matrice de serveurs).</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Chef d&apos;équipe développement – CMS &amp; gestion documentaire</strong>
+                </p>
+                <p>Cap Gemini / Akazi Technologies / Xerox Global Services – Grenoble, France</p>
+                <p>1999 – 2004</p>
+                <ul>
+                    <li>
+                        <p>Projets de GED et de CMS pour de grands comptes (industrie, énergie, secteur public) : workflows documentaires, cycles de vie, gestion des droits et publication multi-supports.</p>
+                    </li>
+                    <li>
+                        <p>Migration de référentiels documentaires vers des plateformes EDMS Java (Documentum), mise en place de référentiels répliqués et de processus de validation.</p>
+                    </li>
+                    <li>
+                        <p>Chaînes de publication XML multi-langues (Fiat Auto, EDF R&amp;D, CNIL, Renault Trucks) avec sorties Web, CD-ROM et PDF.</p>
+                    </li>
+                    <li>
+                        <p>Participation aux estimations et réponses à appels d&apos;offres, incluant la définition d&apos;architectures techniques et de plans de mise en œuvre.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Ingénieur développement – Systèmes SGML/XML &amp; bases documentaires</strong>
+                </p>
+                <p>AIS Technologies / Synlog Technologies / CS Group – Paris, Grenoble, Toulouse</p>
+                <p>1993 – 1999</p>
+                <ul>
+                    <li>
+                        <p>Développement de chaînes de traitement SGML/XML pour des bases bibliographiques, dictionnaires historiques et documentations techniques (C++, Perl, LaTeX, FrameMaker/MIF).</p>
+                    </li>
+                    <li>
+                        <p>Intégration de moteurs de recherche structurés (XPAT, eXist-db) et de bases de données (Ingres, Oracle) pour des recherches avancées dans de grands corpus documentaires.</p>
+                    </li>
+                    <li>
+                        <p>Personnalisation d&apos;outils d&apos;édition SGML pour des auteurs industriels (aéronautique, automobile, énergie).</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    <strong>Ingénieur de terrain – Réseau sismologique national du Népal</strong>
+                </p>
+                <p>Projet de coopération – Katmandou, Népal</p>
+                <p>1991 – 1993</p>
+                <ul>
+                    <li>
+                        <p>Participation aux études de terrain, à l&apos;installation des stations sismologiques, à la configuration de la chaîne d&apos;acquisition et à la logistique d&apos;expédition.</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="Education" coex="FORMATION">
+        <h>FORMATION</h>
+        <ul>
+            <li>
+                <p>
+                    <strong>1989–1991 – Polytech Grenoble – Diplôme d&apos;ingénieur informatique &amp; automatique</strong>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>1985–1988 – DEUG A – Sciences générales – Université Joseph Fourier, Grenoble</strong>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <strong>1984 – Baccalauréat scientifique – Grenoble</strong>
+                </p>
+            </li>
+        </ul>
+    </section>
+    <section id="Languages" coex="LANGUES">
+        <h>LANGUES</h>
+        <ul>
+            <li>
+                <p>
+                    <strong>Français</strong> – langue maternelle</p>
+            </li>
+            <li>
+                <p>
+                    <strong>Anglais</strong> – professionnel</p>
+            </li>
+            <li>
+                <p>
+                    <strong>Allemand, Russe, Népali</strong> – niveau scolaire, non pratiqué récemment</p>
+            </li>
+        </ul>
+    </section>
+    <section id="Interest" coex="CENTRES D&apos;INTÉRÊT">
+        <h>CENTRES D&apos;INTÉRÊT</h>
+        <p>Nature et activités de plein air (trekking, longboard de descente, snowboard), découverte d&apos;autres cultures, intérêt marqué pour l&apos;observation et l&apos;amélioration de systèmes complexes (techniques, sociaux ou organisationnels).</p>
+    </section>
+    <section id="NOTES" coex="NOTES">
+        <h>NOTES</h>
+        <p>CV ciblé pour un poste de Lead Développeur Full Stack (Python/Django, PHP/Symfony, Angular, MySQL, APIs REST, CI/CD, Docker, sécurité) dans une mutuelle en transformation digitale.</p>
+    </section>
+</document>

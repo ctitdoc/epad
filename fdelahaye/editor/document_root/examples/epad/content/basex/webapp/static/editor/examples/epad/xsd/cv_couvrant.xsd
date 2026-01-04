@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Root element for the covering CV -->
+  <xs:element name="cvCover" type="cvCover.type"/>
+
+  <!-- Covering CV: high-level structure -->
+  <xs:complexType name="cvCover.type">
+    <xs:sequence>
+      <xs:element name="identity" type="identity.type"/>
+      <xs:element name="summary" type="summary.type" minOccurs="0"/>
+      <xs:element name="experience" type="experience.type" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="education" type="education.type" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="skill" type="skill.type" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="language" type="language.type" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="interest" type="interest.type" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="reference" type="reference.type" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Identity / contact -->
+  <xs:complexType name="identity.type">
+    <xs:sequence>
+      <xs:element name="fullName" type="xs:string"/>
+      <xs:element name="email" type="xs:string" minOccurs="0"/>
+      <xs:element name="phone" type="xs:string" minOccurs="0"/>
+      <xs:element name="location" type="xs:string" minOccurs="0"/>
+      <xs:element name="headline" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Global professional summary -->
+  <xs:complexType name="summary.type">
+    <xs:sequence>
+      <xs:element name="paragraph" type="xs:string" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Experience: one unit per position or mission -->
+  <xs:complexType name="experience.type">
+    <xs:sequence>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="employer" type="xs:string" minOccurs="0"/>
+      <xs:element name="employerHomepage" type="xs:anyURI" minOccurs="0"/>
+      <xs:element name="location" type="xs:string" minOccurs="0"/>
+      <xs:element name="domain" type="xs:string" minOccurs="0"/>
+      <xs:element name="startDate" type="xs:gYearMonth" minOccurs="0"/>
+      <xs:element name="endDate" type="xs:gYearMonth" minOccurs="0"/>
+      <xs:element name="ongoing" type="xs:boolean" minOccurs="0"/>
+      <xs:element name="summary" type="xs:string" minOccurs="0"/>
+      <xs:element name="responsibility" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="achievement" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="techSkillRef" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="businessSkillRef" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" use="optional"/>
+  </xs:complexType>
+
+  <!-- Education -->
+  <xs:complexType name="education.type">
+    <xs:sequence>
+      <xs:element name="label" type="xs:string"/>
+      <xs:element name="institution" type="xs:string" minOccurs="0"/>
+      <xs:element name="institutionHomepage" type="xs:anyURI" minOccurs="0"/>
+      <xs:element name="location" type="xs:string" minOccurs="0"/>
+      <xs:element name="startDate" type="xs:gYearMonth" minOccurs="0"/>
+      <xs:element name="endDate" type="xs:gYearMonth" minOccurs="0"/>
+      <xs:element name="comment" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Atomic skill unit -->
+  <xs:complexType name="skill.type">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="category" type="xs:string" minOccurs="0"/>
+      <xs:element name="level" type="xs:string" minOccurs="0"/>
+      <xs:element name="yearsOfPractice" type="xs:decimal" minOccurs="0"/>
+      <xs:element name="lastUsedYear" type="xs:gYear" minOccurs="0"/>
+      <xs:element name="description" type="xs:string" minOccurs="0"/>
+      <xs:element name="wikiRef" type="xs:anyURI" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" use="optional"/>
+  </xs:complexType>
+
+  <!-- Languages -->
+  <xs:complexType name="language.type">
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="level" type="xs:string"/>
+      <xs:element name="comment" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Interests -->
+  <xs:complexType name="interest.type">
+    <xs:sequence>
+      <xs:element name="label" type="xs:string"/>
+      <xs:element name="description" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- External reference (company, project, technology, etc.) -->
+  <xs:complexType name="reference.type">
+    <xs:sequence>
+      <xs:element name="label" type="xs:string"/>
+      <xs:element name="kind" type="xs:string" minOccurs="0"/>
+      <xs:element name="url" type="xs:anyURI" minOccurs="0"/>
+      <xs:element name="description" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

@@ -10,6 +10,8 @@ import module namespace xslt='http://basex.org/modules/xslt';
 import module namespace admin="http://basex.org/modules/admin";
 import module namespace file="http://expath.org/ns/file";
 import module namespace proc='http://basex.org/modules/proc';
+import module namespace http='http://expath.org/ns/http-client';
+import module namespace json='http://basex.org/modules/json';
 
 declare option db:intparse "yes";
 (:declare option db:dtd "no";:)
@@ -101,6 +103,363 @@ db:output(<html xmlns="http://www.w3.org/1999/xhtml">
 };
 
 
+declare
+%rest:path("/cms/retroconv_text_document_form")
+%output:method("xhtml")
+%output:omit-xml-declaration("no")
+%output:doctype-public("-//W3C//DTD XHTML 1.1//EN")
+%output:doctype-system("http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd")
+function page:retroconv_text_document_form()
+as element(Q{http://www.w3.org/1999/xhtml}html)
+{
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Text Document retroconversion form</title>
+</head>
+
+<body>
+<div width="90%">
+<pre> </pre>
+<p>Below is a raw text of a resume.</p>
+<p>Clicking on "Restructure" button triggers the restructure processing:</p>
+<p>The text is submited to an AI.</p>
+<p>The resume document schema is also provided to the AI: this schema defines and describes the content types of a resume: the different sections of a CV: contact, skills, cursus, experiences with company, period ...</p>
+<p>The AI analyses both the raw text contents and this schema, and assigns to these raw contents, the proper content types defined in the schema, resulting in a (XML) tagged document, that can be automatically edited, displayed (HTML/PDF) and searched, according to the schema.</p>
+<p>Put the text of your resume in this text area (or play with the default one):</p>
+<form action="retroconv_text_document_request" method="post">
+<p><input title="Restructure" value="Restructure" type="submit" /> (<i>Please wait: restructure processing may take a few minutes and rerun in case of error/time out).</i>)</p>
+<p><textarea name="text_document"
+title="Resume in text format" type="text" cols="120" rows="40">Contact
+Franck Delahaye
+email:franck_delahaye@yahoo.fr
+Professional summary
+Senior IT software engineer with over 25 years of experience in enterprise application integration, high-traffic Internet
+platforms and structured content systems. Strong expertise in XML / XSLT / XQuery, search engines, SQL &amp; NoSQL
+databases, ERP/CRM/PIM integrations and microservices/data-centric architectures. Comfortable working with both
+technical and business stakeholders, leading migrations of legacy platforms and coaching development teams on
+modern practices.
+Key skills
+XML, XSLT, XQuery, SGML, structured document systems, CMS and EDMS.
+XML-aware &amp; NoSQL databases (BaseX, Berkeley DB, dbXML), full-text search engines (Lucene, Vespa).
+Enterprise application integration: ERP (Odoo), PIM, CRM, BI, payment workflows, EBICS/SEPA banking
+protocols, health-care data &amp; HL7.
+Web &amp; backend frameworks: Java/J2EE/Spring, PHP/Symfony &amp; Yii, Python/Odoo, Rust/WASM (PoC-level).
+DevOps &amp; CI/CD: GitLab, GitHub, Docker, AWS, virtualized and container-based environments.
+Architecture design, legacy platform migrations, multi-site and multi-country deployments, component-based
+and customizable platforms.
+Technical leadership &amp; mentoring, agile practices (Scrum, TDD, CMMI-inspired), technical pre-sales and RFP
+responses.
+Multi-lingual documentation &amp; publishing chains: schema-driven content, Web &amp; PDF output (XSL-FO/
+PostScript), internationalization.
+Professional experience
+Senior Solutions Architect &amp; Developer- Cosmobilis / Bilendi / Arturia / Made In Design - Grenoble, France
+- 2011–2025
+Design, development and maintenance of multi-country e-commerce, loyalty and paneling platforms
+based on PHP/Symfony with rich back-offices, product catalogs and partner integrations.
+Integration of enterprise systems: ERP (Odoo), PIM, CRM, marketing campaign tools, marketplaces,
+payment providers, BI and ETL tools.
+Implementation of REST APIs and microservice architectures, progressive migration of legacy platforms
+(PHP/Symfony versions, technical &amp; functional refactoring).
+Close collaboration with business teams (marketing, logistics, finance, customer support) to analyse
+requirements, manage backlogs and plan iterations.
+Technical mentoring and coaching of developers (code reviews, best practices, framework guidance).
+Contribution to target architecture and IT roadmap (in-house ESB, Talend data flows, marketplace
+integrations, application landscape diagrams).
+Technology watch and PoC work on new stacks (Rust/WASM, web components, Ballerina for API
+orchestration, etc.).
+Solutions Architect &amp; Technical Lead / Developer- Kelkoo, Ositech, HCForum, Schneider Electric, Cap
+Gemini - 2000–2010
+EDMS/CMS/BPM and technical publishing projects (automotive, energy, aeronautics, health-care,
+industry) from design to production.
+Deployment of full-text search and XML-aware repositories (Lucene, Vespa, XML databases) for large
+document and data volumes.
+ERP/CRM/PIM and document management integrations (Documentum and other solutions), project
+management and team leadership.
+Technical proposals for RFPs, architecture design and customer advisory on solution choices.
+Software Engineer - Content &amp; Document Systems- Airbus, STMicroelectronics, CS Group, AIS
+Technologies - 1991–2000
+C/C++ and SGML/XML development on large-scale technical documentation systems (tens of thousands
+of pages).
+Design and implementation of processing chains: import, validation, transformation, publishing (Web &amp;
+print).
+Work on printing formats (PostScript, HP-GL, PCL), SGML/XML parsers and document databases.
+Education &amp; training
+Engineering degree - Polytech Grenoble, major in IT &amp; automation
+DEUG A (general science degree) - Université Joseph Fourier, Grenoble
+Scientific high school diploma - Grenoble
+Languages
+French (native), English (professional), basic German, Russian and Nepali.
+Interests
+Nature, discovering other cultures, and outdoor sports &amp; activities (trekking, downhill longboarding, snowboarding).
+</textarea></p>
+</form>
+</div>
+</body>
+</html>
+};
+
+declare
+%updating
+%rest:path('/cms/retroconv_text_document_request')
+%rest:POST
+%rest:form-param("text_document","{$text_document}", "")
+%output:method("xhtml")
+%output:omit-xml-declaration("no")
+%output:doctype-public("-//W3C//DTD XHTML 1.1//EN")
+%output:doctype-system("http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd")
+function page:retroconv_text_document_request(
+$text_document as xs:string
+) {
+
+(: Escape JSON :)
+let $json-safe-text :=
+replace(
+replace(
+replace($text_document, '\\', '\\\\'),
+'"', '\\"'
+),
+'\n', '\\n'
+)
+
+(: Build JSON payload manually :)
+let $payload :=
+concat(
+'[{"type":"OARequest",',
+'"prePromptFile":"SchemedTalks/OACVRetroconvRules.txt",',
+'"prompt":"', $json-safe-text, '"}]'
+)
+
+let $request :=
+<http:request href='http://www.sitems.org:16387/schemed_talks'
+method='post' send-charset='no' timeout='300'>
+<http:header name="Content-Type" value="application/json"/>
+<http:header name="Accept" value="application/json"/>
+<http:body media-type="application/json">{$payload}</http:body>
+</http:request>
+
+let $response := http:send-request($request)
+let $jsonText := $response[2]
+let $wrapped := concat("<content>", $jsonText, "</content>")
+let $parsed := parse-xml($wrapped)
+let $document := $parsed/node()/document
+let $currentTime := page:sanitize-datetime(fn:current-dateTime())
+
+
+return
+(
+db:replace(
+"dictionary",
+concat('content/dictionary_retroconversion_demo_',$currentTime,'.xml'),
+$document
+),
+db:output(
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Restructure document request status</title>
+<link type="text/css" rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+<pre> </pre>
+<pre> </pre>
+<pre> </pre>
+<p>Text has been restructured as XML document content/dictionary_retroconversion_demo_{$currentTime}.xml:
+<span><a href="{concat('/static/editor/xopus/xopus.html#/cms/edit_dict_file_request?file=', 'content/dictionary_retroconversion_demo_',$currentTime,'.xml')}" target="_blank">EDIT</a></span>
+<span> OR <a href="{concat('/cms/delete_dict_file_request?file=', 'content/dictionary_retroconversion_demo_',$currentTime,'.xml')}">DELETE</a></span>,
+<span> OR <a href="{concat('/cms/get_dict_file_content_as_resume_request?file=', 'content/dictionary_retroconversion_demo_',$currentTime,'.xml')}" target="_blank">RESUME</a> OR <a href="{concat('/cms/get_dict_file_content_as_pdf_resume_request?file=', 'content/dictionary_retroconversion_demo_',$currentTime,'.xml')}" target="_blank">RESUME PDF</a></span>
+<span> OR <a href="{concat('/cms/get_dict_file_xml_content_request?file=content/dictionary_retroconversion_demo_',$currentTime,'.xml')}" target="_blank">XML</a></span>
+</p>
+</body>
+</html>
+)
+)
+};
+
+
+(: ========================================================================================================================= :)
+
+
+declare
+%rest:path("/cms/get_resume_for_job_offer_form")
+%output:method("xhtml")
+%output:omit-xml-declaration("no")
+%output:doctype-public("-//W3C//DTD XHTML 1.1//EN")
+%output:doctype-system("http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd")
+function page:get_resume_for_job_offer_form()
+as element(Q{http://www.w3.org/1999/xhtml}html)
+{
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Resume For Job Offer form</title>
+</head>
+
+<body>
+<div width="90%">
+<pre> </pre>
+<p>Below is a raw text of a (french) job offer.</p>
+<p>Clicking below on "Get a resume for this job":</p>
+<ul><li>analyses this job offer and the (english) global resume below,</li>
+<li>extracts from it the relevant informations for this job,</li>
+<li>and creates a resume version targeted for this job.</li>
+<li>global resume:
+<span><a href="{concat('/static/editor/xopus/xopus.html#/cms/edit_dict_file_request?file=', 'content/dictionary_cv_couvrant_v2.xml')}" target="_blank">EDIT</a></span>
+<span> OR <a href="{concat('/cms/get_dict_file_content_as_resume_request?file=', 'content/dictionary_cv_couvrant_v2.xml')}" target="_blank">RESUME</a></span>
+<span> OR <a href="{concat('/cms/get_dict_file_xml_content_request?file=','content/dictionary_cv_couvrant_v2.xml')}" target="_blank">XML</a></span>
+</li>
+</ul>
+<p>The targeted resume can then be edited for final checks/tunings.</p>
+<p>The partner AI generating this resume is driven by a set of rules ensuring efficient offer and global resume analyses, and target resume structure and contents generation.</p>
+<p>The resume document schema, defining its structures and content types, is also provided to the AI: contact section structure, skills, cursus, experiences with employer names and period ...</p>
+<p>They are analysed by the AI, ensuring a precise resume document semantic analysis and a "schema valid" generated resume.</p>
+<p><i>NB: the AI automatically manages french vs english text translations in this process.</i></p>
+<p><i>NB: as it is just a demo, the AI integration is not optimized yet to minimize costs, so one may have to rerun the processing several times before having the generated resume.</i></p>
+<p>Put the text of a job offer in this text area (or play with the default one):</p>
+
+<form action="get_resume_for_job_offer_request" method="post">
+<p><input title="Get a resume for this job" value="Get a resume for this job" type="submit" /> (<i>Please wait: analysis/generation processing may take a few minutes and rerun in case of error/time out.</i>)</p>
+<p><textarea name="text_document"
+title="Offer in text format" type="text" cols="120" rows="40">
+Offre UMR5648-PIEDIM-004 - Concepteur réalisateur (H/F) traitement automatisé de données comptables du Moyen age
+Concepteur réalisateur (H/F) traitement automatisé de données comptables du Moyen age
+
+Date Limite Candidature : lundi 8 décembre 2025 23:59:00 heure de Paris
+
+Assurez-vous que votre profil candidat soit correctement renseigné avant de postuler
+Informations générales
+
+Intitulé de l'offre : Concepteur réalisateur (H/F) traitement automatisé de données comptables du Moyen age
+Référence : UMR5648-PIEDIM-004
+Nombre de Postes : 1
+Lieu de travail : LYON 07
+Date de publication : lundi 17 novembre 2025
+Type de contrat : IT en contrat CDD
+Durée du contrat : 9 mois
+Date d'embauche prévue : 1 mars 2026
+Quotité de travail : Complet
+Rémunération : à partir de 2521€ brut selon expérience
+Niveau d'études souhaité : BAC+3/4
+Expérience souhaitée : 1 à 4 années
+BAP : D - Sciences Humaines et Sociales
+Emploi type : Ingenieure ou ingenieur d'etudes en analyses des sources historiques et culturelles
+Missions
+
+L'objectif principal est le développement et la création d'un outil permettant l'identification et l'exploitation de données chiffrées contenues dans les textes médiévaux.
+Les missions confiées à la personne recrutée sont d'une part l'identification et l'extraction des données chiffrées dans les textes, puis d'autre part la collecte, l'analyse et la visualisation des éléments obtenus avec pour objectif final la création et le développement de nouveaux outils d'exploitation.
+Activités
+
+Analyse structurelle des textes du corpus pour cerner les voies possibles d'un traitement automatique ou semi-automatique.
+Marquage des éléments avec des balises XML, extraits et transformés pour faciliter leur collecte en XSLT.
+Extraction des données chiffrées considérées comme des entités nommées pour établir un processus prototypique.
+Conception d'une saisie des données, manuelle ou semi-manuelle avec interconnexion logicielle, intégrant éventuellement la conversion de devises, ce qui revient à la création d'un tableur spécifique (accompagné des variables et des formules de conversion).
+Mise en place d'un outil d'analyse des données chiffrées, configurable (construction des différents types d'analyse) en fonction de la problématique de recherche, outil censé produire des rendus visuels.
+Compétences
+
+- Connaissance approfondie de XML TEI, tableurs et technologies NER.
+- Maîtrise de git pour mettre en place des dépôts github ou gitlab.
+- Capacité à dialoguer avec des chercheurs et connaissances des problématiques d'édition.
+- Savoir travailler en équipe et en autonomie.
+- Savoir rendre compte à sa hiérarchie.
+Compétences souhaitées :
+- Maîtrise des langages de script
+- Connaissance des bases de données XML TEI (eXistdb)
+- Connaissance de xQuery
+- Connaissance des méthodes et d'outils d'analyse de données textuelles (plateforme TXM ou autre)
+- Connaissance du latin et de certaines langues vernaculaires. compétences en paléographie médiévale requises
+Contexte de travail
+
+Localisé dans les bureaux du CIHAM à Lyon et Avignon, le poste est lié à l'obtention d'un contrat Biblissima+ pour la création de ces référentiels exploratoires, qui seront hébergés sur Huma-num. La personne recrutée assurera la gestion de la plateforme de stockage et la mutualisation. Elle aura un rôle d'interface avec les partenaires du CIHAM et Biblissima +. Elle sera rattachée au CIHAM. Des déplacements occasionnels sont à prévoir, mais une grande partie du travail pourra être effectuée en télétravail en accord avec les différents partenaires.
+
+
+</textarea></p>
+
+</form>
+</div>
+</body>
+</html>
+};
+
+
+
+declare
+%updating
+%rest:path('/cms/get_resume_for_job_offer_request')
+%rest:POST
+%rest:form-param("text_document","{$text_document}", "")
+%output:method("xhtml")
+%output:omit-xml-declaration("no")
+%output:doctype-public("-//W3C//DTD XHTML 1.1//EN")
+%output:doctype-system("http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd")
+function page:get_resume_for_job_offer_request(
+$text_document as xs:string
+) {
+
+(: Escape JSON :)
+let $json-safe-text :=
+replace(
+replace(
+replace($text_document, '\\', '\\\\'),
+'"', '\\"'
+),
+'\n', '\\n'
+)
+
+(: Build JSON payload manually :)
+let $payload :=
+concat(
+'[{"type":"OARequest",',
+'"prePromptFile":"SchemedTalks/cvForOfferRulesFile.txt",',
+'"prompt":"', $json-safe-text, '"}]'
+)
+
+let $request :=
+<http:request href='http://www.sitems.org:16387/schemed_talks'
+method='post' send-charset='no' timeout='300'>
+<http:header name="Content-Type" value="application/json"/>
+<http:header name="Accept" value="application/json"/>
+<http:body media-type="application/json">{$payload}</http:body>
+</http:request>
+
+let $response := http:send-request($request)
+let $jsonText := $response[2]
+let $wrapped := concat("<content>", $jsonText, "</content>")
+let $parsed := parse-xml($wrapped)
+let $document := $parsed/node()/document
+let $currentTime := page:sanitize-datetime(fn:current-dateTime())
+
+
+return
+(
+db:replace(
+"dictionary",
+concat('content/dictionary_cv_for_job_offer_demo_',$currentTime,'.xml'),
+$document
+),
+db:output(
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CV For Job Offer request status</title>
+<link type="text/css" rel="stylesheet" href="/static/style.css"/>
+</head>
+<body>
+<pre> </pre>
+<pre> </pre>
+<pre> </pre>
+<p>Resume targeted for this job offer: content/dictionary_cv_for_job_offer_demo_{$currentTime}.xml:
+<span><a href="{concat('/static/editor/xopus/xopus.html#/cms/edit_dict_file_request?file=', 'content/dictionary_cv_for_job_offer_demo_',$currentTime,'.xml')}" target="_blank">EDIT</a></span>
+<span> OR <a href="{concat('/cms/delete_dict_file_request?file=', 'content/dictionary_cv_for_job_offer_demo_',$currentTime,'.xml')}">DELETE</a></span>,
+<span> OR <a href="{concat('/cms/get_dict_file_content_as_resume_request?file=', 'content/dictionary_cv_for_job_offer_demo_',$currentTime,'.xml')}" target="_blank">RESUME</a> OR <a href="{concat('/cms/get_dict_file_content_as_pdf_resume_request?file=', 'content/dictionary_cv_for_job_offer_demo_',$currentTime,'.xml')}" target="_blank">RESUME PDF</a></span>
+<span> OR <a href="{concat('/cms/get_dict_file_xml_content_request?file=content/dictionary_cv_for_job_offer_demo_',$currentTime,'.xml')}" target="_blank">XML</a></span>
+</p>
+</body>
+</html>
+)
+)
+};
+
+
+(: =================================================================================================================== :)
+
+
+
 (:~
  : This function returns the list of document (by default of the 'dictionary' database's root collection)
  : @return HTML page
@@ -123,8 +482,12 @@ declare
   <body>
     <div id="readme" style="text-align: justify">
     <h1 style="text-align: left">Schema driven CMS PoC</h1>
+    <p><i>NB: if you loose this demo prompt while playing some of the demos below, just click "home" in the upper left corner.</i></p>
+    <p><i>...NB: prefer a guided tour over a lonely self-service demo? <a href="mailto:ctitdoc@gmail.com">Email me at ctitdoc@gmail.com</a> and we’ll schedule a live walkthrough.</i></p>
+
+    <pre> </pre>
     <p style="width:80%">This proof of concept talks about the potential of a CMS driven by document/content schemas.</p>
-    <p style="width:80%">The demonstrated concepts and technologies behind the hood exist for decades, are standardized, and fit very well with the new "IA techno wave" (demo to come).</p>
+    <p style="width:80%">The demonstrated concepts and technologies behind the hood exist for decades, are standardized, and fit very well with the new "IA techno wave" (see demos below).</p>
     <p style="width:80%">The target audience is more technologists, as they can evaluate the benefits (or not) of such a solution for their target document authors and users, and less for the latters as... well, it's just a PoC, so it's more difficult for them to see how it could evolve in a complete CMS, yet an <a href="https://en.wikipedia.org/wiki/Minimum_viable_product">MVP</a> solution can be completed in a few weeks.</p>
     <p style="width:80%">The documents below are of various types: application dictionary, skate site page, music software page, resume, work document...</p>
     <p style="width:80%">Their edition is governed by schemas: it defines common element types like paragraph, table, image etc... but also more semantic types, derived from these ones or not, like task descriptions with their status, or even an application's data definition with its validtion constaints and implementation for a software documentation, etc...</p>
@@ -147,7 +510,7 @@ declare
     </ul>
     <p style="width:80%">The documents are stored in a dedicated database and one can query them using an accurate query language using the element types and structure rules defined to find the exact type of content one is looking for, example : searching "email" returns most of the time poor results, as "email" is so common in documents, but searching for a data definition "email" within an application data dictionary return the exact matches one is looking for:</p>
     <ul style='width:80%'>
-      <li>a click on the button "Envoyer" of <a href="/cms/eval_dict_xquery_request_form">this Document query form</a> demonstrates it.</li>
+      <li>a click on the button "Send" of <a href="/cms/eval_dict_xquery_request_form">this Document query form</a> demonstrates it.</li>
     </ul>
     <p style="width:80%">Another value added feature of such a solution is the ability to manage "applicabilities" to contents of document:</p>
     <ul style='width:80%'><li>click on <a href="/cms/get_dict_file_content_as_pdf_resume_request?file=content/dictionary_resume_franck_delahaye_fr.xml&amp;ignore=standard">the "standard" version of this resume</a>:</li>
@@ -157,7 +520,10 @@ declare
         <li>the author can edit several versions in a single "multi-versions" document, setting "applicability" attributes to the contents that are applicable only to some versions and should be ignored for others,</li>
         <li>thus, one avoids having to manage one document for each version and the tedious work of manually copying the common parts in each of them, each time they change.</li>
     </ul>
-    <p style='width:80%;margin-bottom:2em'>... more to come : IA (for automatically tagging and structuring unstructured text and more), modular contents, translations, workflows/annotations/releases, access control, word processors integrations, enterprise application integrations, legacy document solutions and formats migrations, paper documents digitization and re-structuring ... => stay tuned !</p>
+    <p><strong><a href="/cms/retroconv_text_document_form" target="product_iframe">AI demo: restructuring unstructured text: click me!</a></strong></p>
+    <p><strong><a href="/cms/get_resume_for_job_offer_form" target="product_iframe">AI demo: generate document from existing ones: click me!</a></strong></p>
+    <pre> </pre>
+    <p style='width:80%;margin-bottom:2em'>... more to come : more  AI, modular contents, translations managment, workflows/annotations/releases, access control, word processors integrations, enterprise application integrations, legacy document solutions and formats migrations, paper documents digitization and re-structuring ... => stay tuned !</p>
   </div>
 { for $file in db:list-details('dictionary','content')[text() != 'content/resume.html']
   let $doc := fn:doc(fn:concat("dictionary/", $file))/node()
@@ -230,6 +596,9 @@ declare
   </head>
 
   <body><nav> <ul>
+    <li><a href="/cms/list_dictionary_request"
+        style="color:white" target="product_iframe">home</a></li>
+
       <li><a href="/cms/list_dictionary_request"
       style="color:white" target="product_iframe">list documents</a></li>
 
@@ -265,7 +634,8 @@ function page:delete_dict_file_request(
     $file as xs:string)
 {
 (: if ($file != 'content/dictionary_f.delahaye.xml' ) then ( :)
-if (contains($file,'training')) then (
+if (contains($file,'training') or contains($file,'2025')  or contains($file,'2026')  or contains($file,'2027')
+or contains($file,'2028')  or contains($file,'2029') or contains($file,'2030') ) then (
 db:output(<html xmlns="http://www.w3.org/1999/xhtml">
             <head>
               <title>Delete file request status</title>
@@ -770,8 +1140,30 @@ return $x
 &#125;
 &lt;/document&gt;
 </textarea></p>
-<p><input type="submit" /></p>
+<p><input value="Send" type="submit" /></p>
 </form>
 </body>
 </html>
 };
+
+
+declare
+%rest:path('/cms/get_logs_request')
+%rest:GET
+%output:method("xml")
+%output:omit-xml-declaration("no")
+function page:get_logs_request() as element(logs)
+{
+<logs>
+{for $log in admin:logs() return admin:logs($log)}
+</logs>
+};
+
+
+declare function page:sanitize-datetime($dt as xs:dateTime) as xs:string {
+let $s := replace(string($dt), '\..*', '')  (: supprime .991+01:00 :)
+let $s := replace($s, 'T', '_')             (: T → _ :)
+let $s := replace($s, ':', '_')             (: : → _ :)
+return $s
+};
+

@@ -1,0 +1,14 @@
+<document section-numbering="false" figure-numbering="false" features="PDF">
+    <h>Lettre de motivation – Développeur Full Stack PHP/Symfony</h>
+    <section>
+        <p text-align="justify">
+            Développeur full stack senior à dominante back-end PHP/Symfony, j’interviens depuis plusieurs années sur des plateformes SaaS et e-commerce à fort trafic, fortement orientées API REST et intégrations partenaires.
+        </p>
+        <p text-align="justify">
+            Le positionnement de DOOD, centré sur un produit SaaS connecté à de nombreux systèmes tiers dans un contexte transactionnel, correspond très bien à mon expérience et à ma manière de travailler : delivery continu, qualité du code, tests et maintenance en conditions réelles de production.
+        </p>
+        <p text-align="justify">
+            Je souhaite rejoindre une équipe produit pour contribuer concrètement au développement, à la stabilité et à l’évolution d’une plateforme existante, en collaboration étroite avec le CTO, les leads techniques et le product management.
+        </p>
+    </section>
+</document>

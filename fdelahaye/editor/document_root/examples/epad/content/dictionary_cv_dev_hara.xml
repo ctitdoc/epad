@@ -1,0 +1,89 @@
+<document section-numbering="true" figure-numbering="true" features="RESUME">
+    <h text-align="justify">Curriculum Vitae – Franck Delahaye</h>
+    <p/>
+    <section id="Contact" coex="Contact">
+        <h>Contact</h>
+        <p>
+            Franck Delahaye<br/>
+            email: <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a><br/>
+            tel: +33 7 67 38 28 95
+        </p>
+    </section>
+    <section id="Objectives" coex="Résumé professionnel">
+        <h>Résumé professionnel</h>
+        <p>
+            Développeur PHP confirmé avec plus de 10 ans d’expérience Symfony/PHP et une large pratique des architectures applicatives, APIs, intégration de données et projets web complexes. Expertise en conception, développement et maintenance de solutions métier, optimisation de performances, qualité de code et bonnes pratiques. Habitué aux environnements Agile, au travail avec les parties prenantes et au soutien d’équipes techniques. Motivé par les projets à impact et les environnements mettant en valeur l’accompagnement, la collaboration et le sens.
+        </p>
+    </section>
+    <section id="skills" coex="Compétences clés">
+        <h>Compétences clés</h>
+        <ul>
+            <li><p><strong>Développement PHP &amp; frameworks</strong></p>
+                <ul>
+                    <li><p>PHP 8+, Symfony (10+ ans).</p></li>
+                    <li><p>API REST/JSON, services métiers, architecture modulaire, Doctrine ORM.</p></li>
+                    <li><p>Développement front : Angular, jQuery, Web Components (Lit).</p></li>
+                </ul></li>
+            <li><p><strong>Architecture, qualité &amp; bonnes pratiques</strong></p>
+                <ul>
+                    <li><p>Conception applicative, modèles de domaine, structuration de projets.</p></li>
+                    <li><p>Revue de code, automatisation, tests unitaires/fonctionnels (PHPUnit, outils internes).</p></li>
+                    <li><p>Performance, sécurité, gestion des erreurs, documentation technique.</p></li>
+                </ul></li>
+            <li><p><strong>Intégration &amp; APIs</strong></p>
+                <ul>
+                    <li><p>Intégration de systèmes internes/externes : ERP, CRM, PIM, services bancaires, plateforme e‑commerce.</p></li>
+                    <li><p>Conception de mini‑ESB internes pour orchestrer flux et synchronisations (XML/JSON/APIs).</p></li>
+                </ul></li>
+            <li><p><strong>Base de données</strong></p>
+                <ul>
+                    <li><p>MySQL, PostgreSQL, NoSQL ; optimisation de requêtes et schémas.</p></li>
+                </ul></li>
+            <li><p><strong>Gestion de projet &amp; méthodes Agile</strong></p>
+                <ul>
+                    <li><p>Participation à l’analyse des besoins, conception technique, accompagnement métier.</p></li>
+                    <li><p>Pratiques Agile/Scrum, priorisation, communication, documentation.</p></li>
+                </ul></li>
+        </ul>
+    </section>
+    <section id="Employment" coex="Expérience professionnelle">
+        <h>Expérience professionnelle</h>
+        <ul>
+            <li><p><strong>Développement PHP &amp; projets applicatifs<br/>Cosmobilis, Bilendi, Arturia, Made In Design (2011–2025)</strong></p>
+                <ul>
+                    <li><p>Développement d’applications métiers, API REST, back‑offices multilingues en Symfony/PHP.</p></li>
+                    <li><p>Maintenance et évolution de plateformes complexes (e‑commerce, CRM, flux produits, commandes, paiements).</p></li>
+                    <li><p>Optimisation des performances SQL, amélioration continue et bonnes pratiques.</p></li>
+                    <li><p>Encadrement technique ponctuel, structuration de projets, montée en compétences des équipes.</p></li>
+                    <li><p>Contributions front : Angular, DexExtreme, jQuery.</p></li>
+                    <li><p>Audit d’intégration Vue.js/vue‑storefront chez Arturia.</p></li>
+                </ul></li>
+            <li><p><strong>Intégration applicative &amp; APIs<br/>Made In Design, Cosmobilis, Bilendi</strong></p>
+                <ul>
+                    <li><p>Intégration ERP, CRM, PIM, systèmes bancaires et logistique via APIs REST/XML.</p></li>
+                    <li><p>Conception d’un mini‑ESB interne orchestrant données et synchronisations.</p></li>
+                </ul></li>
+            <li><p><strong>Systèmes de contenus &amp; CMS XML (projet R&amp;D personnel)</strong></p>
+                <ul>
+                    <li><p>Démonstrateur CMS XML/XSD piloté par schémas, édition WYSIWYG, publication multi‑canal.</p></li>
+                    <li><p>Production automatisée de contenus dérivés (HTML, Markdown, tableaux, rapports).</p></li>
+                </ul></li>
+        </ul>
+    </section>
+    <section id="Education" coex="Formation">
+        <h>Formation</h>
+        <ul>
+            <li><p>Ingénieur – Polytech Grenoble (informatique &amp; automatique).</p></li>
+            <li><p>DEUG A – Université Joseph Fourier.</p></li>
+            <li><p>Baccalauréat scientifique.</p></li>
+        </ul>
+    </section>
+    <section id="Languages" coex="Langues">
+        <h>Langues</h>
+        <p>Français (natif), anglais (professionnel).</p>
+    </section>
+    <section id="Interest" coex="Centres d'intérêt">
+        <h>Centres d'intérêt</h>
+        <p>Développement web, qualité logicielle, technologies open‑source.</p>
+    </section>
+</document>

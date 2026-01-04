@@ -324,3 +324,24 @@ DROP DB dictionary
 CREATE DB dictionary /tmp/dict
 xquery count(collection('dictionary')//data_definition)
 exit
+open dictionary
+list
+list dictionary/content
+open dictionary
+XQUERY collection('dictionary/content')
+XQUERY db:list-details('dictionary','content')
+delete content/dictionary_retroconversion_demo',fn:current-dateTime(),'.xml
+quit
+exit
+open dictionary
+XQUERY db:list-details('dictionary','content')
+delete content/dictionary_retroconversion_demo2025-12-04T21:04:50.991+01:00.xml
+exit
+XQUEY for $x in collection('dictionary')/document[@features] return $x
+XQUERY for $x in collection('dictionary')/document[@features] return $x
+exit
+open dictionary
+ls
+help
+inspect
+exit

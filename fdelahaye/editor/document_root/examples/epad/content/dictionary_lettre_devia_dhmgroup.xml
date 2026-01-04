@@ -1,0 +1,39 @@
+
+<document section-numbering="true" figure-numbering="true" features="PDF">
+    <h text-align="justify">Lettre de motivation – Ingénieur Fullstack IA Générative – DHM Group</h>
+    <section>
+        <h> </h>
+        <p>Madame, Monsieur,</p>
+        <section view="normal">
+            <h> </h>
+            <p text-align="justify">
+                Ingénieur logiciel senior orienté IA générative appliquée, je souhaite vous proposer ma candidature au poste d’Ingénieur·e Fullstack IA Générative au sein de DHM Group. Votre positionnement autour du développement de solutions d’IA intégrées aux contenus digitaux et aux usages métiers correspond étroitement à mon parcours et à mes motivations actuelles.
+            </p>
+            <p text-align="justify">
+                Fort de plus de vingt ans d’expérience dans la conception et l’industrialisation de plateformes web et data-centric, j’ai développé une expertise solide en intégration d’APIs, orchestration de workflows et génération de contenus structurés. Ces dernières années, j’ai orienté mon activité vers l’intégration de services de type LLM dans des stacks existantes, avec un focus particulier sur la robustesse des pipelines, la validation des sorties (JSON Schema, XML/XSD) et leur exploitabilité dans des back-offices et outils métier.
+            </p>
+            <p text-align="justify">
+                J’ai notamment conçu et développé une plateforme d’orchestration de scénarios d’API multi-étapes intégrant des modèles de langage (OpenAI API), permettant la génération contrôlée de données et de contenus, leur réutilisation conditionnelle et leur validation systématique. Cette approche, proche de cas d’usage RAG-like, s’inscrit pleinement dans les enjeux que vous décrivez autour de l’intégration d’IA générative, de la qualité des réponses et de leur mise en production dans des environnements exigeants.
+            </p>
+            <p text-align="justify">
+                Mon parcours m’a également conduit à travailler sur des architectures fullstack, en collaboration étroite avec des équipes produit, front-end et DevOps, sur des plateformes à fort trafic. Habitué aux contextes agiles, j’attache une importance particulière à la lisibilité des choix techniques, à la traçabilité des traitements IA et à l’industrialisation via CI/CD, conteneurisation et pratiques de qualité adaptées à la production.
+            </p>
+            <p text-align="justify">
+                Rejoindre DHM Group représente pour moi l’opportunité de contribuer à des projets concrets et ambitieux autour de l’IA générative appliquée, au sein d’une équipe pluridisciplinaire et orientée innovation. Je serais ravi de pouvoir échanger avec vous afin de détailler ma motivation et la manière dont mon expérience pourrait s’inscrire dans vos projets.
+            </p>
+        </section>
+    </section>
+    <section>
+        <h> </h>
+        <p>
+            Je vous prie d’agréer, Madame, Monsieur, l’expression de mes salutations distinguées.
+            <br/>
+            Franck Delahaye
+            <br/>
+            e-mail:
+            <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a>
+            <br/>
+            tel: +33 7 67 38 28 95
+        </p>
+    </section>
+</document>

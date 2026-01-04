@@ -1,0 +1,130 @@
+<document section-numbering="true" figure-numbering="true" features="RESUME">
+    <h text-align="justify">Curriculum Vitae – Franck Delahaye</h>
+    <p/>
+
+    <section id="Contact" coex="Contact">
+        <h>Contact</h>
+        <p>
+            Franck Delahaye<br/>
+            email: <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a><br/>
+            tel: +33 7 67 38 28 95
+        </p>
+    </section>
+
+    <section id="Objectives" coex="Résumé professionnel">
+        <h>Résumé professionnel</h>
+        <p>
+            Chef de projet technique et développeur senior possédant plus de 25 ans d’expérience dans l’innovation numérique, les systèmes d’information, les architectures API, la transformation digitale et la gestion de projets transverses. Forte pratique de conception de POC, d’expérimentations technologiques, d’animation d’ateliers, d’accompagnement des métiers et de conduite du changement. Utilisation avancée d’IA génératives (ChatGPT et multi-agents) pour automatiser, structurer, analyser et accélérer des workflows métiers complexes. Habitué à organiser, documenter et généraliser des solutions innovantes, en lien étroit avec des équipes techniques, académiques et fonctionnelles.
+        </p>
+    </section>
+
+    <section id="skills" coex="Compétences clés">
+        <h>Compétences clés</h>
+        <ul>
+            <li>
+                <p><strong>Innovation digitale &amp; IA appliquée</strong></p>
+                <ul>
+                    <li><p>Animation d’ateliers d’idéation et d’innovation : émergence d’usages IA, priorisation, cadrage fonctionnel.</p></li>
+                    <li><p>Conception et développement de POC IA (agents, automatisation, classification, extraction structurée). </p></li>
+                    <li><p>Utilisation experte de ChatGPT et d’outils IA multimodaux : structuration automatique de données, rédaction assistée, génération de workflows, aide à la décision.</p></li>
+                    <li><p>Acculturation IA : vulgarisation, conception de supports, tutoriels, guides pratiques, ateliers pédagogiques.</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Gestion de projet &amp; pilotage</strong></p>
+                <ul>
+                    <li><p>Gestion de projets innovants : exploration, prototypage, tests, documentation, industrialisation.</p></li>
+                    <li><p>Animation de COPIL, ateliers, roadmap, reporting, suivi d’indicateurs.</p></li>
+                    <li><p>Relation métier : compréhension des besoins, accompagnement au changement, communication pédagogique.</p></li>
+                    <li><p>Gestion de prestataires, intégrateurs, partenaires technologiques.</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Développement &amp; architectures</strong></p>
+                <ul>
+                    <li><p>Conception et intégration d’API REST/JSON, pipelines de données, orchestrations et microservices.</p></li>
+                    <li><p>Maîtrise de Ballerina pour la modélisation de processus, l’orchestration de services et la génération assistée par IA de workflows API.</p></li>
+                    <li><p>Développement front/back : PHP/Symfony (10+ ans), Vue.js, Angular, web services, scripts d’automatisation.</p></li>
+                    <li><p>CI/CD, Git/GitLab/GitHub, Docker, bonnes pratiques de documentation technique.</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Contenus structurés &amp; transformation numérique</strong></p>
+                <ul>
+                    <li><p>Expertise avancée des technologies XML, XSLT, XQuery, SGML → XML, corpus textuels et bases documentaires.</p></li>
+                    <li><p>Extraction structurée, organisation de données textuelles, prototypes IA pour classer ou restructurer des contenus.</p></li>
+                    <li><p>Conception de CMS XML et workflows de publication multi-canal (HTML, PDF, wiki).</p></li>
+                </ul>
+            </li>
+
+        </ul>
+    </section>
+
+    <section id="Employment" coex="Expérience professionnelle">
+        <h>Expérience professionnelle</h>
+        <ul>
+
+            <li>
+                <p><strong>Innovation, IA appliquée &amp; automatisation (expériences transverses 2023–2025)</strong></p>
+                <ul>
+                    <li><p>Utilisation avancée de ChatGPT comme outil professionnel : design d’agents, structuration automatique de données, organisation de contenus, synthèses, extraction et normalisation.</p></li>
+                    <li><p>Conception de démonstrateurs IA pour automatiser des workflows (analyse textuelle, API toolchains, classification, enrichissement de données).</p></li>
+                    <li><p>Création de prototypes permettant de transformer des instructions métier en séquences d’appels API (proche des approches low-code/IA).</p></li>
+                    <li><p>Accompagnement de collaborateurs sur l’usage raisonné de l’IA : formations internes, production de guides, optimisation de processus via IA.</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Architecture, intégration &amp; pilotage technique — Cosmobilis / Bilendi / Arturia / Made In Design (2011–2025)</strong></p>
+                <ul>
+                    <li><p>Pilotage de projets techniques, conception d’architectures applicatives, animation d’équipes et transmission de bonnes pratiques.</p></li>
+                    <li><p>Conception de POC techniques et ateliers fonctionnels pour explorer de nouvelles approches (microservices, API orchestration, data workflows).</p></li>
+                    <li><p>Conception d’un ESB interne pour orchestrer les flux entre ERP, CRM, CMS, PIM et partenaires externes.</p></li>
+                    <li><p>Design de workflows Ballerina incluant scénarios automatisables par IA (orchestration, transformation de données, simulation de process).</p></li>
+                    <li><p>Déploiement d’applications front/back, intégration d’APIs, accompagnement des métiers (marketing, finance, logistique, e-commerce).</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Solutions architect &amp; document systems — Kelkoo, Ositech, HCForum, Schneider, Cap Gemini (2000–2010)</strong></p>
+                <ul>
+                    <li><p>Gestion de projets transverses dans des environnements multidisciplinaires : moteurs de recherche, BPM, GED, santé, industrie.</p></li>
+                    <li><p>Animation d’équipes mixtes (métier / IT), documentation structurée, coordination éditeurs/développeurs/experts métier.</p></li>
+                    <li><p>Production de prototypes fonctionnels pour accompagner les décisions d’architecture et les évolutions métier.</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Ingénierie logicielle &amp; systèmes documentaires — Airbus, STMicroelectronics, CS Group (1991–2000)</strong></p>
+                <ul>
+                    <li><p>Développement de systèmes de documentation, pipelines de publication, outils d’analyse structurée et automatisation de contrôles qualité.</p></li>
+                    <li><p>Travail dans des environnements fortement normés nécessitant rigueur, pédagogie et coordination avec experts métiers.</p></li>
+                </ul>
+            </li>
+
+        </ul>
+    </section>
+
+    <section id="Education" coex="Formation">
+        <h>Formation</h>
+        <ul>
+            <li><p>Ingénieur – Polytech Grenoble (informatique &amp; automatique).</p></li>
+            <li><p>DEUG A – Université Joseph Fourier, Grenoble.</p></li>
+            <li><p>Baccalauréat scientifique – Grenoble.</p></li>
+        </ul>
+    </section>
+
+    <section id="Languages" coex="Langues">
+        <h>Langues</h>
+        <p>Français (natif), anglais (professionnel).</p>
+    </section>
+
+    <section id="Interest" coex="Centres d'intérêt">
+        <h>Centres d'intérêt</h>
+        <p>Innovation numérique, IA générative, automatisation, architectures API, humanités numériques, montagne &amp; outdoor.</p>
+    </section>
+
+</document>

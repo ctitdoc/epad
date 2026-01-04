@@ -1,0 +1,174 @@
+<document section-numbering="true" figure-numbering="true" features="RESUME">
+    <h text-align="justify">Curriculum Vitae – Franck Delahaye – Développeur Fullstack Java / Angular</h>
+    <p/>
+
+    <section id="Contact" coex="CONTACT">
+        <h>CONTACT</h>
+        <p>Franck Delahaye</p>
+        <p>Grenoble, France</p>
+        <p>franck_delahaye@yahoo.fr</p>
+        <p>+33 7 67 38 28 95</p>
+        <p>Ingénieur logiciel senior, architecte de solutions</p>
+    </section>
+
+    <section id="Objectives" coex="OBJECTIFS PROFESSIONNELS">
+        <h>OBJECTIFS PROFESSIONNELS</h>
+        <p>
+            Développeur fullstack senior Java / Angular avec plus de vingt ans d’expérience dans le
+            développement de plateformes web, e-commerce et CMS, la conception de services REST
+            et l’intégration de systèmes. Je souhaite contribuer à des projets Java / Spring et
+            Angular orientés intégration, qualité logicielle et produits CMS, au sein d’une équipe
+            à taille humaine.
+        </p>
+    </section>
+
+    <section id="skills" coex="COMPÉTENCES">
+        <h>COMPÉTENCES</h>
+        <ul>
+            <li>
+                <p><strong>Java / J2EE / Spring</strong></p>
+                <ul>
+                    <li><p>Développement Java/J2EE sur plus de dix ans cumulés&nbsp;: architectures 3-tiers, services métiers, APIs REST et échanges XML.</p></li>
+                    <li><p>Spring Framework utilisé pour la structuration applicative (IoC, couches services) et la mise en œuvre de services Java.</p></li>
+                    <li><p>Spring Boot pratiqué sur démonstrateurs et exercices techniques orientés intégration et CMS.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Angular / TypeScript</strong></p>
+                <ul>
+                    <li><p>TMA et évolutions d’une application Angular 15 en production depuis 14 mois sur un site e-commerce à fort trafic.</p></li>
+                    <li><p>Maintenance et évolution de composants UI, intégration InstantSearch et facettes de recherche.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Intégration, ETL et API</strong></p>
+                <ul>
+                    <li><p>Conception et intégration d’API REST et Web Services.</p></li>
+                    <li><p>ETL Talend étendu par des composants Java spécifiques pour des besoins d’intégration avancés.</p></li>
+                    <li><p>Ballerina utilisé comme langage d’intégration orienté API, dans la continuité des usages Java.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>CMS, XML et données structurées</strong></p>
+                <ul>
+                    <li><p>CMS orientés XML&nbsp;: XSD, XSLT, XQuery, édition guidée par schéma et chaînes de publication multi-formats.</p></li>
+                    <li><p>Reporting et documents XML/PDF via XSL-FO et JasperReports.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Qualité et industrialisation</strong></p>
+                <ul>
+                    <li><p>Tests unitaires, maintenance évolutive, sécurisation des évolutions.</p></li>
+                    <li><p>Git (GitLab / GitHub selon contexte) et conteneurisation Docker.</p></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="Employment" coex="EXPÉRIENCES PROFESSIONNELLES">
+        <h>EXPÉRIENCES PROFESSIONNELLES</h>
+        <ul>
+
+            <li>
+                <p><strong>Lead Developer / Architecte logiciel – Plateformes web et e-commerce</strong></p>
+                <p>Cosmobilis – Grenoble – depuis 2023</p>
+                <ul>
+                    <li><p>Conception et évolution de plateformes e-commerce à fort trafic.</p></li>
+                    <li><p>Développement de services backend et d’APIs REST pour l’intégration de CMS, ERP et CRM.</p></li>
+                    <li><p>Travail sur l’architecture applicative, la robustesse des échanges et la maintenabilité.</p></li>
+                    <li><p>Participation aux estimations et à la coordination technique des projets.</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Développeur Angular – TMA application e-commerce</strong></p>
+                <p>elite-auto.fr – 14 mois</p>
+                <ul>
+                    <li><p>Maintenance évolutive d’une application Angular 15 en production.</p></li>
+                    <li><p>Évolutions des composants Angular et d’intégration InstantSearch, ajout de nouvelles facettes de recherche.</p></li>
+                    <li><p>Mises à jour coordonnées sur de nombreux composants UI.</p></li>
+                    <li><p>Évolutions fonctionnelles et réglementaires (mentions légales).</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Senior Solutions Architect &amp; Developer – Internet &amp; e-commerce platforms</strong></p>
+                <p>Made In Design / Bilendi / Arturia – Grenoble, France – 2011 à 2022</p>
+                <ul>
+                    <li><p>Conception et développement de plateformes internet et e-commerce à fort trafic.</p></li>
+                    <li><p>Développement Java/J2EE de services métiers et d’APIs REST.</p></li>
+                    <li><p>Intégration de systèmes tiers (paiement, CRM, marketing, logistique) via Web Services.</p></li>
+                    <li><p>Mise en œuvre de chaînes d’intégration de données et de traitements ETL avec Talend, enrichis par des composants Java.</p></li>
+                    <li><p>Travail sur des CMS et plateformes orientées catalogues produits et contenus structurés.</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Lead technique – Solutions énergie et santé</strong></p>
+                <p>HC Forum / Open ENERGIE – Grenoble – 2007 à 2010</p>
+                <ul>
+                    <li><p>Développement d’applications Java/J2EE 3-tiers pour des plateformes santé et énergie.</p></li>
+                    <li><p>Structuration applicative avec Spring (injection de dépendances, couches services).</p></li>
+                    <li><p>Intégration XML (HL7) et workflows d’échanges inter-applicatifs.</p></li>
+                    <li><p>Modules Java basés sur BaseX et XQuery pour le traitement de messages XML.</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Développeur Java serveur – Reporting BI</strong></p>
+                <p>Projets plateformes – période incluse dans les expériences Java</p>
+                <ul>
+                    <li><p>Développement d’un serveur Java de reporting BI.</p></li>
+                    <li><p>Intégration de JasperReports pour la génération de rapports.</p></li>
+                    <li><p>Déploiement et exploitation sous Tomcat.</p></li>
+                    <li><p>Connexion aux sources de données et exposition des rapports aux applications clientes.</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Fondateur – it-doc (entreprise unipersonnelle)</strong></p>
+                <p>Activité transverse en parallèle des projets – plateformes et intégration</p>
+                <ul>
+                    <li><p>Démonstrateur CMS XML schema-driven&nbsp;: édition guidée par XSD, gestion multi-versions et publication.</p></li>
+                    <li><p>Démonstrateur API Java / Spring Boot intégrant MarkLogic et XQuery.</p></li>
+                    <li><p>tchatapi.org&nbsp;: démonstrateur d’orchestration d’API et de scénarios d’intégration.</p></li>
+                    <li><p>Exploration de Ballerina pour simplifier certains scénarios d’intégration orientés API.</p></li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Développeur Java / J2EE – CMS et moteurs de recherche</strong></p>
+                <p>Cap Gemini / Akazi Technologies / Xerox / Kelkoo (puis Yahoo) – Grenoble – 1999 à 2006</p>
+                <ul>
+                    <li><p>Développement Java/J2EE de CMS, portails web et chaînes documentaires.</p></li>
+                    <li><p>Portails et applications web déployés sous Tomcat.</p></li>
+                    <li><p>Moteurs de recherche basés sur Lucene et premières architectures distribuées.</p></li>
+                    <li><p>Chaînes de publication XML et génération de documents multi-formats.</p></li>
+                </ul>
+            </li>
+
+        </ul>
+    </section>
+
+    <section id="Education" coex="FORMATION">
+        <h>FORMATION</h>
+        <ul>
+            <li><p>1989 – 1991&nbsp;: Diplôme d’ingénieur – Polytech Grenoble – Informatique &amp; automatisme</p></li>
+            <li><p>1985 – 1988&nbsp;: DEUG A – Sciences générales – Université Joseph Fourier, Grenoble</p></li>
+            <li><p>1984&nbsp;: Baccalauréat scientifique</p></li>
+        </ul>
+    </section>
+
+    <section id="Languages" coex="LANGUES">
+        <h>LANGUES</h>
+        <ul>
+            <li><p>Français&nbsp;: langue maternelle</p></li>
+            <li><p>Anglais&nbsp;: niveau professionnel</p></li>
+        </ul>
+    </section>
+
+    <section id="Interest" coex="CENTRES D’INTÉRÊT">
+        <h>CENTRES D’INTÉRÊT</h>
+        <p>Architectures CMS, intégration de systèmes, données structurées, moteurs de recherche et qualité logicielle.</p>
+    </section>
+</document>

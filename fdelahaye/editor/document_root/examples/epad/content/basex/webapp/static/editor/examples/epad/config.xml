@@ -179,7 +179,13 @@
       <x:name xml:lang="nl">Superscript</x:name>
     </x:node>
 
-    <x:node match="br">
+      <x:node match="span">
+          <x:role>span</x:role>
+          <x:name xml:lang="en">Span</x:name>
+          <x:name xml:lang="nl">Span</x:name>
+      </x:node>
+
+      <x:node match="br">
       <x:role>linebreak</x:role>
       <x:name xml:lang="en">Line Break</x:name>
       <x:name xml:lang="nl">Regel Einde</x:name>

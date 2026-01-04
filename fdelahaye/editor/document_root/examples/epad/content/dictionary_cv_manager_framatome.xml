@@ -1,0 +1,193 @@
+<document section-numbering="true" figure-numbering="true" features="RESUME">
+    <h text-align="justify">Franck Delahaye – Manager Développement Logiciel &amp; V&amp;V</h>
+    <section id="Contact" coex="CONTACT">
+        <h>Franck Delahaye</h>
+        <p>Email : <a href="mailto://franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a> — tél : +33 7 67 38 28 95
+        </p>
+    </section>
+    <section id="Objectives" coex="PROFIL">
+        <h>PROFIL</h>
+        <p>Ingénieur informatique industrielle avec plus de 25 ans d'expérience, dont plus d’une décennie dans la
+            direction technique, la gestion d’équipes de développement et le pilotage de projets complexes. Mon parcours
+            couvre le développement logiciel, l’intégration de systèmes, la qualité, le pilotage de roadmaps techniques
+            et la coordination multi-sites. Habitué à manager des équipes pluridisciplinaires (développeurs, testeurs,
+            responsables techniques), j'accompagne les collaborateurs dans leur évolution, structure les processus,
+            renforce l’excellence opérationnelle et sécurise la livraison des produits logiciels. Enthousiaste à l’idée
+            de contribuer à la BU I&amp;C de Framatome, je souhaite mettre mon expérience au service d’une équipe dédiée
+            à la sûreté, au testing, à la qualification logiciel et à l’ingénierie outillée.
+        </p>
+    </section>
+    <section id="skills" coex="COMPÉTENCES CLÉS">
+        <h>COMPÉTENCES CLÉS</h>
+        <ul>
+            <li>
+                <p>Management &amp; leadership :</p>
+                <ul>
+                    <li>
+                        <p>Pilotage hiérarchique et transverse d'équipes multi-sites jusqu'à 15 personnes.</p>
+                    </li>
+                    <li>
+                        <p>Développement des compétences, entretiens de performance, recrutement et structuration des
+                            équipes.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Animation de comités techniques, coordination avec les parties prenantes métier et
+                            techniques.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Organisation du travail, planification, gestion des charges, priorisation multi-projets.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>Gestion de projet &amp; excellence opérationnelle :</p>
+                <ul>
+                    <li>
+                        <p>Suivi de livrables, KPIs, qualité, documentation technique (FR/EN).</p>
+                    </li>
+                    <li>
+                        <p>Contribution aux roadmaps, estimation, arbitrage et gestion des dépendances.</p>
+                    </li>
+                    <li>
+                        <p>Expérience en ESB/ETL, ERP, plateformes techniques et environnements critiques.</p>
+                    </li>
+                    <li>
+                        <p>Maîtrise des workflows CI/CD, méthodologies agiles et gouvernance.</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>Technique &amp; ingénierie logicielle :</p>
+                <ul>
+                    <li>
+                        <p>Informatique industrielle, automatisme, intégration logicielle, testing et validation.</p>
+                    </li>
+                    <li>
+                        <p>Environnements Linux et Windows.</p>
+                    </li>
+                    <li>
+                        <p>Gestion de version (git), gestion de tickets (Jira), traçabilité technique.</p>
+                    </li>
+                    <li>
+                        <p>Connaissances des contraintes des systèmes critiques et exigences qualité (pratiques proches
+                            IEC 61513 / IEC 60880).
+                        </p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p>Communication :</p>
+                <ul>
+                    <li>
+                        <p>Très bon relationnel, communication transparente et transverse.</p>
+                    </li>
+                    <li>
+                        <p>Expérience confirmée rédaction technique FR/EN.</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="Employment" coex="PARCOURS" view="normal" behavior="section">
+        <h>PARCOURS</h>
+        <p>
+            <strong>Informaticien senior – Lead &amp; Management technique | Cosmobilis / Bilendi / Arturia / Made In
+                Design
+            </strong>
+            <br/>Grenoble, France | 2011 – présent
+        </p>
+        <ul>
+            <li>
+                <p>Management technique : mentoring des équipes, revue de code, coordination technique et appui à la
+                    prise de décision.
+                </p>
+            </li>
+            <li>
+                <p>Encadrement de projets complexes impliquant développement, testing, intégration et qualité.</p>
+            </li>
+            <li>
+                <p>Pilotage de migrations logiciel/ERP, évolution d’architectures complexes et supervision des
+                    livraisons.
+                </p>
+            </li>
+            <li>
+                <p>Relation étroite avec les métiers, qualification du besoin, chiffrage, planification, suivi et
+                    communication projet.
+                </p>
+            </li>
+            <li>
+                <p>Collaboration avec devops internes/externes (Docker, VM, CI/CD) et pilotage d’équipes
+                    multi-compétences.
+                </p>
+            </li>
+            <li>
+                <p>Conduite de nombreux projets d’intégration, automatisation, API, ETL et systèmes distribués.</p>
+            </li>
+        </ul>
+        <p>
+            <strong>Informaticien senior – Lead projets techniques | Kelkoo / Ositech / HCForum / Akazi / Xerox / Cap
+                Gemini
+            </strong>
+            <br/>Grenoble | 2000–2010
+        </p>
+        <ul>
+            <li>
+                <p>Coordination d’équipes sur des projets ERP, GED, CMS, santé, search distribué.</p>
+            </li>
+            <li>
+                <p>Gestion de projets internationaux, avant-vente, chiffrage, relation client.</p>
+            </li>
+            <li>
+                <p>Intégration de moteurs de recherche, plateformes métier et workflow documentaire.</p>
+            </li>
+            <li>
+                <p>Pilotage technique, structuration d’équipes et synchronisation avec les parties prenantes.</p>
+            </li>
+        </ul>
+        <p>
+            <strong>Informaticien | CS Group / Synlog / AIS Technologies</strong>
+            <br/>Paris, Grenoble, Toulouse &amp; Népal | 1991–2000
+        </p>
+        <ul>
+            <li>
+                <p>Projets industriels (aéronautique, édition, bibliographie), développement et coordination
+                    technique.
+                </p>
+            </li>
+            <li>
+                <p>Participation à des projets d’envergure nationale et internationale.</p>
+            </li>
+            <li>
+                <p>Coopération scientifique au Népal (18 mois).</p>
+            </li>
+        </ul>
+    </section>
+    <section id="Education" coex="CURSUS">
+        <h>CURSUS</h>
+        <ul>
+            <li>
+                <p>Ingénieur informatique industrielle, option automatique — Polytech Grenoble</p>
+            </li>
+            <li>
+                <p>DEUG A mathématiques — Université Joseph Fourier, Grenoble</p>
+            </li>
+        </ul>
+    </section>
+    <section id="Languages" coex="LANGUAGES">
+        <h>LANGUES</h>
+        <ul>
+            <li>
+                <p>Anglais opérationnel (documentation, rédaction et échanges techniques quotidiennement).</p>
+            </li>
+            <li>
+                <p>Bases en allemand, russe et népalais.</p>
+            </li>
+        </ul>
+    </section>
+    <section id="Interest" coex="CENTRES D’INTÉRÊT">
+        <h>CENTRES D’INTÉRÊT</h>
+        <p>Nature, exploration d’autres cultures, trekking, snowboard, longboard.</p>
+    </section>
+</document>

@@ -1,0 +1,38 @@
+<document section-numbering="true" figure-numbering="true" features="PDF">
+    <h text-align="justify"> </h>
+    <section>
+        <h> </h>
+        <p>Dear Hiring Team,</p>
+        <section view="normal">
+            <h> </h>
+            <p text-align="justify">
+                I am applying for the Rust Engineering Lead role at Canonical, as it strongly aligns with my background in Linux-based systems, open source software, and my recent focus on Rust as a strategic language for future system-level platforms.
+            </p>
+            <p text-align="justify">
+                With more than 25 years of experience designing and evolving distributed systems on Linux, I have worked across the full software stack, from low-level performance-sensitive components to large-scale web and cloud-native platforms. Over the last years, I have actively invested in Rust and WebAssembly through hands-on projects, tooling experiments, and mentoring developers new to the language.
+            </p>
+            <p text-align="justify">
+                Canonical’s vision of rethinking the foundations of Linux with Rust resonates strongly with my professional trajectory and technical interests. I am particularly motivated by advocating Rust adoption, contributing to upstream open source projects, improving developer tooling, and helping make Ubuntu an outstanding platform for Rust development.
+            </p>
+            <p text-align="justify">
+                Used to fully remote and distributed collaboration, I value high engineering standards, clear communication, and technical leadership through code reviews, architecture discussions, and mentoring. I would welcome the opportunity to contribute these strengths to Canonical’s teams.
+            </p>
+            <p text-align="justify">
+                I would be glad to discuss how my experience and motivation could support Canonical’s Rust and open source ambitions.
+            </p>
+        </section>
+    </section>
+    <section>
+        <h> </h>
+        <p>
+            Kind regards,
+            <br/>
+            Franck Delahaye
+            <br/>
+            e-mail:
+            <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a>
+            <br/>
+            tel: +33 7 67 38 28 95
+        </p>
+    </section>
+</document>

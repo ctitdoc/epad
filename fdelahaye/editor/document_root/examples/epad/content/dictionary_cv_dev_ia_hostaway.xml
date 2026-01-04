@@ -1,0 +1,146 @@
+<document section-numbering="true" figure-numbering="true" features="RESUME">
+    <section id="Contact" coex="CONTACT">
+        <h>CONTACT</h>
+        <p>Franck Delahaye<br/>franck_delahaye@yahoo.fr<br/>+33 7 67 38 28 95<br/>Grenoble, France (EMEA)<br/>Senior Backend Engineer &amp; Solutions Architect – Applied Generative AI Integration, API Orchestration, Structured Data (XML/JSON), SaaS Integrations.</p>
+    </section>
+
+    <section id="Objectives" coex="PROFESSIONAL SUMMARY">
+        <h>PROFESSIONAL SUMMARY</h>
+        <p>Senior backend engineer and solutions architect with 25+ years of experience building production services and integration-heavy platforms (APIs, workflows, data pipelines) across SaaS and enterprise systems. Recent focus on applied generative AI: integrating LLM APIs (OpenAI) into multi-step orchestration workflows, producing schema-constrained structured outputs (JSON Schema, XML/XSD), and implementing validation/error-handling to make AI outputs reliable for downstream services. Strong background in SaaS integrations (CRM/ERP/partners), observability (dashboards/log analysis), and iterative delivery with cross-functional teams in distributed contexts.</p>
+    </section>
+
+    <section id="skills" coex="KEY SKILLS">
+        <h>KEY SKILLS</h>
+
+        <section id="Skills-AI" coex="Applied Generative AI Engineering">
+            <h>Applied Generative AI Engineering</h>
+            <ul>
+                <li><p>LLM API integration: OpenAI API integration patterns for production services (contract-first I/O, repeatable execution, integration testing).</p></li>
+                <li><p>LLM pipeline orchestration (framework-like): multi-step workflows, response memory, JSONPath-based reuse, conditional execution, delays, reusable sub-workflows.</p></li>
+                <li><p>Structured output generation &amp; parsing: schema-constrained generation targeting deterministic downstream use (JSON Schema, XML/XSD); parsing and validation pipelines.</p></li>
+                <li><p>Robustness: explicit error handling, deterministic validation, failure-mode design, end-to-end scenario testing for AI-assisted workflows.</p></li>
+            </ul>
+        </section>
+
+        <section id="Skills-Backend" coex="Backend &amp; SaaS Integrations">
+            <h>Backend &amp; SaaS Integrations</h>
+            <ul>
+                <li><p>REST APIs &amp; integrations: OpenAPI/Swagger, API Platform, webhooks, OAuth2; multi-system workflows (CRM/ERP/partners).</p></li>
+                <li><p>Integration architecture: ESB-like orchestration and data synchronization; bridging heterogeneous stacks and data models.</p></li>
+                <li><p>Core stack experience: PHP/Symfony (high-traffic web platforms and APIs), Ballerina (API orchestration/services/jobs), Java/J2EE (service platforms).</p></li>
+            </ul>
+        </section>
+
+        <section id="Skills-Prod" coex="Production Readiness">
+            <h>Production Readiness</h>
+            <ul>
+                <li><p>Observability: dashboards, log analysis, KPIs (including Kibana-based monitoring).</p></li>
+                <li><p>CI/CD &amp; delivery: GitHub/GitLab workflows, code reviews, Docker, Linux; iterative, backlog-driven delivery (Jira/Confluence).</p></li>
+            </ul>
+        </section>
+
+        <section id="Skills-Langs" coex="Languages &amp; Related Skills">
+            <h>Languages &amp; Related Skills</h>
+            <ul>
+                <li><p>TypeScript (related): Angular/TypeScript maintenance in production (API consumption, WebSocket events, UI component maintenance) and tight front/back API contract collaboration.</p></li>
+                <li><p>Python (related): Odoo ERP integrations and Python customizations (PostgreSQL) in data-centric workflows.</p></li>
+                <li><p>Rust (WIP): design of a backend execution engine for LLM workflows (parsing/validation/error handling, API-first design).</p></li>
+            </ul>
+        </section>
+    </section>
+
+    <section id="Employment" coex="PROFESSIONAL EXPERIENCE">
+        <h>PROFESSIONAL EXPERIENCE</h>
+        <ul>
+
+            <li>
+                <p><strong>Rust-based LLM Processing Engine (Work in Progress)</strong><br/>
+                    <strong>Role:</strong> Senior Software Engineer / Architect<br/>
+                    <strong>Dates:</strong> Oct 2025 – Present<br/>
+                    <strong>Summary:</strong> Design and implementation of a Rust backend execution service for LLM-driven data processing workflows: LLM calls, structured parsing, schema validation (JSON Schema, XML/XSD), and deterministic error handling. Designed for integration within a multi-service architecture with strict separation between orchestration, execution, and communication layers.<br/>
+                    <strong>Technologies:</strong> Rust (async), REST APIs, OpenAI API integration patterns, JSON Schema, XML/XSD validation, HTTP/JSON, Git/GitHub, Linux.</p>
+            </li>
+
+            <li>
+                <p><strong>Senior Lead Developer &amp; Architect – Applied AI integration &amp; SaaS/enterprise workflows</strong><br/>
+                    <strong>Company:</strong> Cosmobilis – Chambéry, France<br/>
+                    <strong>Dates:</strong> Jan 2023 – Present</p>
+                <ul>
+                    <li>
+                        <p><strong>tchatAPI.org – LLM-enabled API workflow orchestration engine (product demo / R&amp;D)</strong> (Oct 2024 – Present, Solo Developer)<br/>
+                            Designed and implemented a Ballerina-based orchestration engine to execute schema-driven, multi-step API workflows (typed request hierarchy, reusable sub-workflows). Integrated OpenAI API as a managed request type to embed AI-assisted steps within workflows. Implemented execution primitives required for production-grade orchestration: response memorization, JSONPath-based reuse, conditional execution, delays, and validation-oriented control flow. Exposed execution via CLI and OpenAPI/Swagger UI for reproducible runs, inspection, and debugging.<br/>
+                            References: <a href="http://www.tchatapi.org">http://www.tchatapi.org</a> ; <a href="https://github.com/sitedesc/bal_apps/tree/main/apps/chatapi/srv_opportunity">https://github.com/sitedesc/bal_apps/tree/main/apps/chatapi/srv_opportunity</a></p>
+                    </li>
+
+                    <li>
+                        <p><strong>CMS-integrated CV retro-conversion &amp; targeted CV generation (LLM + structured outputs)</strong><br/>
+                            Built an automated workflow converting free-text CV inputs into schema-driven XML via OpenAI API orchestrated in Ballerina, stored in BaseX, editable through WYSIWYG authoring, and published as PDF/HTML. Implemented schema-constrained generation/validation (XML/XSD) to ensure reliable structured outputs for downstream formatting and editing pipelines.<br/>
+                            Demo: <a href="http://www.sitems.org:16386/cms/dictionary">http://www.sitems.org:16386/cms/dictionary</a></p>
+                    </li>
+
+                    <li>
+                        <p><strong>Enterprise Application Integration Service (CRM &lt;-&gt; ERP)</strong> (Jan 2024 – Present, Lead Developer)<br/>
+                            Built and maintained API-based integration between Salesforce and OpenFlex ERP for leads/opportunities workflows (mapping, synchronization, multi-country scenarios). Evolved architecture toward message-oriented, observable orchestration; introduced async execution patterns via Ballerina services. Implemented end-to-end automated scenario tests to detect regressions before production impact.<br/>
+                            Stack: PHP/Symfony (3–6), API Platform/OpenAPI, webhooks, OAuth2, MySQL/PostgreSQL, Docker/AWS, GitHub CI/CD.</p>
+                    </li>
+
+                    <li>
+                        <p><strong>High-traffic web platforms – delivery &amp; integrations</strong> (Jan 2023 – Sep 2025)<br/>
+                            Lead developer across multi-country, high-traffic platforms: maintained partner integrations (search, CRM, marketplaces, mailing, image services), stabilized API contracts, and supported production operations (CI/CD, Docker/AWS deployments, monitoring and incident analysis).<br/>
+                            TypeScript/Angular experience: maintained production Angular/TypeScript front-end applications consuming REST APIs; WebSocket-based real-time updates; UI component maintenance and coordinated front/back releases.</p>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <p><strong>Senior Solutions Architect &amp; Developer – Integration-heavy e-commerce platforms</strong><br/>
+                    <strong>Company:</strong> Made In Design / Bilendi / Arturia – Grenoble, France<br/>
+                    <strong>Dates:</strong> 2011 – 2022<br/>
+                    Designed and delivered integration-centric architectures connecting ERP (Odoo), PIM, CMS, CRM, marketplaces, payment providers, and marketing tools; built and evolved data synchronization processes (ETL/Talend) and ESB-like modules. Production practices: GitLab CI/CD, Dockerized deployments, monitoring with dashboards (including Kibana), and incident resolution with business stakeholders. Technical leadership: mentoring, code reviews, architecture documentation, and cross-team coordination.</p>
+            </li>
+
+            <li>
+                <p><strong>Technical Lead – Data-centric platforms (health-care &amp; energy)</strong><br/>
+                    <strong>Company:</strong> HC Forum / Open ENERGIE – Grenoble, France<br/>
+                    <strong>Dates:</strong> 2007 – 2010<br/>
+                    Health-care: J2EE/Spring platform; implemented BaseX/XQuery modules to manage HL7 XML message interchange workflows across healthcare applications. Energy: Odoo-based billing/accounting driven by XML messages; Python customizations and integration patterns around accounting/CRM/pricing modules.</p>
+            </li>
+
+            <li>
+                <p><strong>Senior Java Developer – Search platform</strong><br/>
+                    <strong>Company:</strong> Kelkoo (later Yahoo) – Grenoble, France<br/>
+                    <strong>Dates:</strong> 2005 – 2006<br/>
+                    Maintained and evolved Lucene-based search APIs in a large J2EE platform; performance/scalability work for high-traffic queries; participated in migration to Vespa (REST/XML API, distributed architecture).</p>
+            </li>
+
+            <li>
+                <p><strong>Earlier experience (compressed)</strong><br/>
+                    1993 – 2004 – Cap Gemini / Akazi Technologies / Xerox Global Services; AIS Technologies / Synlog Technologies / CS Group (Paris/Grenoble/Toulouse). Content/document management systems, workflow engines, and structured publishing chains (SGML/XML, XSLT/XSL-FO), with continuous focus on data models, validation, and production delivery.</p>
+            </li>
+
+        </ul>
+    </section>
+
+    <section id="Education" coex="EDUCATION">
+        <h>EDUCATION</h>
+        <ul>
+            <li><p>1989–1991 – Polytech Grenoble – Engineering degree, IT &amp; automation</p></li>
+            <li><p>1985–1988 – Université Joseph Fourier – DEUG A (General science)</p></li>
+            <li><p>1984 – Scientific high school diploma – Grenoble</p></li>
+        </ul>
+    </section>
+
+    <section id="Languages" coex="LANGUAGES">
+        <h>LANGUAGES</h>
+        <ul>
+            <li><p>French – native</p></li>
+            <li><p>English – professional</p></li>
+            <li><p>German, Russian, Nepali – school learning, not practiced recently</p></li>
+        </ul>
+    </section>
+
+    <section id="Interest" coex="INTERESTS">
+        <h>INTERESTS</h>
+        <p>Nature and outdoor activities (trekking, downhill longboarding, snowboarding), discovering other cultures, and observing how complex systems (technical, social, organizational) behave and evolve.</p>
+    </section>
+</document>

@@ -1,0 +1,678 @@
+<document section-numbering="true"
+          figure-numbering="true"
+          features="RESUME_COVERING"
+          vocab="http://example.org/cv#"
+          typeof="Person"
+          about="#franck">
+  <h text-align="justify" property="label">
+    Curriculum Vitae – Franck Delahaye (CV couvrant)
+  </h>
+  <p/>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="Contact" coex="Contact" typeof="ContactPoint">
+    <h>Contact</h>
+    <p property="name">Franck Delahaye</p>
+    <p property="email">franck_delahaye@yahoo.fr</p>
+    <p property="telephone">+33 7 67 38 28 95</p>
+    <p property="addressLocality">Grenoble, France</p>
+    <p property="headline">
+      Senior software engineer &amp; solutions architect – XML/SGML, e-commerce &amp; ERP integrations, search &amp; data-centric platforms.
+    </p>
+  </section>
+
+  <!-- ===================== SUMMARY ===================== -->
+  <section id="Summary" coex="Professional summary" typeof="Summary">
+    <h>Professional summary</h>
+    <p property="description">
+      Senior IT engineer and solutions architect with 25+ years of experience in enterprise application
+      integration, XML/SGML content and publishing systems, high-traffic Internet and e-commerce
+      platforms, and ERP/CRM/PIM integrations. Strong background in search engines, NoSQL/XML
+      databases, data-centric and microservice architectures, and structured authoring workflows.
+      Experienced in technical leadership, legacy platform migration, mentoring development teams and
+      working closely with business stakeholders (marketing, logistics, finance, support).
+    </p>
+  </section>
+
+  <!-- ===================== SKILLS (TECH / METHODS / DOMAINS) ===================== -->
+  <section id="Skills" coex="Skills" typeof="SkillSet">
+    <h>Skills overview</h>
+
+    <!-- Technologies & Frameworks -->
+    <section id="Skills-Technologies" coex="Technologies &amp; frameworks" typeof="SkillCluster">
+      <h>Technologies &amp; frameworks</h>
+      <ul>
+        <li typeof="Technology" resource="#tech_symfony">
+          <p>
+            <a href="https://symfony.com" property="externalReference">Symfony</a> – PHP framework for
+            large e-commerce and back-office platforms (multi-country catalog, order flows, integrations).
+          </p>
+        </li>
+        <li typeof="Technology" resource="#tech_php">
+          <p>
+            <a href="https://www.php.net" property="externalReference">PHP</a> – backend development for
+            high-traffic web sites and APIs, including e-commerce and loyalty platforms.
+          </p>
+        </li>
+        <li typeof="Technology" resource="#tech_yii">
+          <p>
+            <a href="https://www.yiiframework.com" property="externalReference">Yii</a> – integration for
+            product catalog modules and back-office tools.
+          </p>
+        </li>
+        <li typeof="Technology" resource="#tech_odoo">
+          <p>
+            <a href="https://www.odoo.com" property="externalReference">Odoo</a> – ERP integration for
+            sales, purchases, warehouse, helpdesk and accounting (Python / PostgreSQL).
+          </p>
+        </li>
+        <li typeof="Technology" resource="#tech_java">
+          <p>
+            <a href="https://www.java.com" property="externalReference">Java</a> / J2EE – three-tier
+            architectures, XML-centric CMS, health-care platforms and publishing chains.
+          </p>
+        </li>
+        <li typeof="Technology" resource="#tech_xml_xslt_xquery">
+          <p>
+            XML / XSLT / XQuery – schema-driven content, transformations to HTML, XSL-FO/PDF, data views,
+            and search index feeds.
+          </p>
+        </li>
+        <li typeof="Technology" resource="#tech_exstdb">
+          <p>
+            <a href="https://exist-db.org" property="externalReference">eXist-db</a> – XML database used for
+            health-care platforms (HL7 messages) and documentation/search.
+          </p>
+        </li>
+        <li typeof="Technology" resource="#tech_basex">
+          <p>
+            <a href="https://basex.org" property="externalReference">BaseX</a> – XML database &amp; REST-XQ
+            used as the backbone of the CMS and CV management/demo platform.
+          </p>
+        </li>
+        <li typeof="Technology" resource="#tech_lucene">
+          <p>
+            <a href="https://lucene.apache.org" property="externalReference">Lucene</a> – full-text search
+            engine embedded in Internet offers comparator platforms and content systems.
+          </p>
+        </li>
+        <li typeof="Technology" resource="#tech_vespa">
+          <p>
+            <a href="https://vespa.ai" property="externalReference">Vespa</a> – Yahoo search engine, used as
+            distributed REST/XML search backend after migration from Lucene.
+          </p>
+        </li>
+        <li typeof="Technology" resource="#tech_postgresql">
+          <p>
+            <a href="https://www.postgresql.org" property="externalReference">PostgreSQL</a> – main RDBMS
+            behind Odoo and other back-office integrations.
+          </p>
+        </li>
+        <li typeof="Technology" resource="#tech_docker">
+          <p>
+            <a href="https://www.docker.com" property="externalReference">Docker</a> – containerization of
+            services and dev/test environments.
+          </p>
+        </li>
+        <li typeof="Technology" resource="#tech_gitlab">
+          <p>
+            <a href="https://about.gitlab.com" property="externalReference">GitLab</a> &amp;
+            <a href="https://github.com" property="externalReference">GitHub</a> – source control, CI/CD
+            pipelines and code reviews.
+          </p>
+        </li>
+        <li typeof="Technology" resource="#tech_rust_wasm">
+          <p>
+            <a href="https://www.rust-lang.org" property="externalReference">Rust</a> /
+            <a href="https://webassembly.org" property="externalReference">WebAssembly</a> – PoC-level work
+            on new stacks and web components.
+          </p>
+        </li>
+        <li typeof="Technology" resource="#tech_ballerina">
+          <p>
+            <a href="https://ballerina.io" property="externalReference">Ballerina</a> – integration &amp;
+            orchestration language used for OpenAI API based CV retro-conversion services.
+          </p>
+        </li>
+        <li typeof="Technology" resource="#tech_openai">
+          <p>
+            <a href="https://platform.openai.com" property="externalReference">OpenAI API</a> – prompt
+            design and integration for automated CV XML generation and retro-conversion.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Architecture / Integration / Data -->
+    <section id="Skills-Architecture" coex="Architecture &amp; integration" typeof="SkillCluster">
+      <h>Architecture, integration &amp; data</h>
+      <ul>
+        <li typeof="Skill" resource="#skill_integration">
+          <p>
+            Enterprise application integration – ERP (Odoo), PIM, CRM, BI, payment workflows, SEPA/EBICS,
+            marketplaces, marketing tools, ESB-like orchestrations and data flows.
+          </p>
+        </li>
+        <li typeof="Skill" resource="#skill_microservices">
+          <p>
+            REST APIs &amp; microservices – design, refactoring of legacy PHP/J2EE platforms toward
+            services, documentation, and testable interfaces.
+          </p>
+        </li>
+        <li typeof="Skill" resource="#skill_search">
+          <p>
+            Search and indexing – Lucene, Vespa, XML-aware search engines, bibliographic and technical
+            documentation search, performance tuning.
+          </p>
+        </li>
+        <li typeof="Skill" resource="#skill_structured_content">
+          <p>
+            Structured content &amp; publishing – SGML/XML tag suites (CALS, AECMA, ATA, HL7, domain
+            vocabularies), XSLT/XSL-FO chains, multi-output (Web, PDF, CD-ROM).
+          </p>
+        </li>
+        <li typeof="Skill" resource="#skill_cms_edms">
+          <p>
+            CMS/EDMS &amp; workflows – collaborative authoring (checkin/checkout, versions, reviews),
+            schema-driven forms and publication chains.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- DevOps & Tooling -->
+    <section id="Skills-DevOps" coex="DevOps &amp; tooling" typeof="SkillCluster">
+      <h>DevOps &amp; tooling</h>
+      <ul>
+        <li typeof="Skill" resource="#skill_devops">
+          <p>
+            DevOps &amp; CI/CD – GitLab and GitHub pipelines, build &amp; deploy scripts, environment
+            management (virtualization, containers).
+          </p>
+        </li>
+        <li typeof="Skill" resource="#skill_monitoring">
+          <p>
+            Monitoring &amp; KPIs – BI modules, custom dashboards, operational KPIs for high-traffic sites
+            and back-office processes.
+          </p>
+        </li>
+        <li typeof="Skill" resource="#skill_issue_tracking">
+          <p>
+            Project &amp; issue tracking – Redmine, GitLab issues, backlog and iteration management with
+            business teams.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Methods & Leadership -->
+    <section id="Skills-Methods" coex="Methods &amp; leadership" typeof="SkillCluster">
+      <h>Methods &amp; leadership</h>
+      <ul>
+        <li typeof="Skill" resource="#skill_agile">
+          <p>
+            Agile / iterative – Scrum-inspired practices, incremental delivery, negotiation of scope with
+            business stakeholders.
+          </p>
+        </li>
+        <li typeof="Skill" resource="#skill_lead">
+          <p>
+            Technical leadership – coaching of developers, code reviews, quality practices, mentoring on
+            frameworks and architectures.
+          </p>
+        </li>
+        <li typeof="Skill" resource="#skill_presales">
+          <p>
+            Pre-sales &amp; RFPs – solution proposals, effort estimates, architecture options and technical
+            advisory for customers.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Domains -->
+    <section id="Skills-Domains" coex="Business domains" typeof="SkillCluster">
+      <h>Business domains</h>
+      <ul>
+        <li typeof="Skill" resource="#skill_ecommerce">
+          <p>
+            E-commerce &amp; loyalty – product catalogs, promotions, loyalty programs, multi-country
+            platforms, marketplaces.
+          </p>
+        </li>
+        <li typeof="Skill" resource="#skill_energy">
+          <p>
+            Energy – liberalized market billing, meter data exchanges via XML messages, invoicing and
+            accounting.
+          </p>
+        </li>
+        <li typeof="Skill" resource="#skill_healthcare">
+          <p>
+            Health-care – HL7 XML, patient records, genetics-enabled platforms (pedigrees, karyotypes),
+            LIMS and biobank (BRC) modules.
+          </p>
+        </li>
+        <li typeof="Skill" resource="#skill_industry_docs">
+          <p>
+            Industrial technical documentation – aeronautics, automotive, energy; multi-language
+            maintenance manuals and document repositories.
+          </p>
+        </li>
+      </ul>
+    </section>
+  </section>
+
+  <!-- ===================== EXPERIENCE ===================== -->
+  <section id="Experience" coex="Professional experience" typeof="EmploymentHistory">
+    <h>Professional experience</h>
+    <ul>
+
+      <!-- Internet / e-commerce platforms -->
+      <li typeof="Experience" resource="#exp_cosmobilis_bilendi_arturia_mid">
+        <p>
+          <strong property="label">
+            Senior Solutions Architect &amp; Developer – Internet &amp; e-commerce platforms
+          </strong>
+        </p>
+        <p>
+          <span typeof="Employer" resource="#org_cosmobilis_bilendi_arturia_mid">
+            <span property="label">Cosmobilis / Bilendi / Arturia / Made In Design</span>
+            <a href="https://www.madeindesign.com" property="externalReference">Made In Design</a>
+          </span>
+          – <span property="addressLocality">Grenoble, France</span>
+        </p>
+        <p>
+          <span property="startDate"
+                content="2011-01-01"
+                datatype="http://www.w3.org/2001/XMLSchema#date">2011</span>
+          –
+          <span property="endDate"
+                content="2025-01-01"
+                datatype="http://www.w3.org/2001/XMLSchema#date">2025</span>
+        </p>
+        <ul>
+          <li>
+            <p>
+              Design, development and maintenance of multi-country e-commerce and loyalty platforms with
+              rich back-offices, product catalogs and partner integrations.
+            </p>
+          </li>
+          <li>
+            <p>
+              Integration of Odoo ERP (sales, purchases, helpdesk, warehouse, accounting) and numerous
+              external systems (marketplaces, payment providers, marketing tools, BI, ETL).
+            </p>
+          </li>
+          <li>
+            <p>
+              Progressive migration of legacy PHP/Symfony platforms (versions, refactoring, APIs) toward
+              better structured, service-oriented architectures.
+            </p>
+          </li>
+          <li>
+            <p>
+              Close collaboration with marketing, logistics, finance and support teams for backlog
+              management, iteration planning and incident resolution.
+            </p>
+          </li>
+          <li>
+            <p>
+              Technical mentoring of developers; framework guidance, code reviews and documentation of
+              target architectures and integration flows.
+            </p>
+          </li>
+          <li typeof="Project" resource="#proj_ballerina_openai">
+            <p property="label">
+              CMS-integrated CV retro-conversion using Ballerina &amp; OpenAI
+            </p>
+            <p>
+              <a href="http://www.sitems.org:16386/cms/dictionary" property="externalReference">
+                XML CMS demo
+              </a>
+              – design and implementation of an automated service that converts free-text CVs to
+              schema-driven XML via OpenAI API orchestrated in Ballerina, with BaseX as backend.
+            </p>
+          </li>
+        </ul>
+      </li>
+
+      <!-- Energy & healthcare -->
+      <li typeof="Experience" resource="#exp_energy_health">
+        <p>
+          <strong property="label">
+            Technical lead – Energy &amp; health-care solutions
+          </strong>
+        </p>
+        <p>
+          <span typeof="Employer" resource="#org_health_energy">
+            <span property="label">HCNet / Open ENERGIE</span>
+          </span>
+          – <span property="addressLocality">Grenoble, France</span>
+        </p>
+        <p>
+          <span property="startDate"
+                content="2007-01-01"
+                datatype="http://www.w3.org/2001/XMLSchema#date">2007</span>
+          –
+          <span property="endDate"
+                content="2010-11-30"
+                datatype="http://www.w3.org/2001/XMLSchema#date">2010</span>
+        </p>
+        <ul>
+          <li typeof="Project" resource="#proj_open_energie">
+            <p property="label">
+              Open ENERGIE – billing platform for liberalized energy market
+            </p>
+            <p>
+              Odoo-based invoicing and accounting, driven by XML messages of energy consumption exchanged
+              with distributors and operators.
+            </p>
+          </li>
+          <li typeof="Project" resource="#proj_hcnet">
+            <p property="label">
+              HCNet – health-care genetics-enabled platform
+            </p>
+            <p>
+              J2EE three-tier architecture with HL7 XML messages, eXist-db/XQuery, LIMS module, biobank
+              (BRC) and patient record with pedigrees and karyotype analysis.
+            </p>
+          </li>
+          <li>
+            <p>
+              Agile development in small teams (~5 devs), close collaboration with medical and energy
+              domain experts, and management of technical choices and evolutions.
+            </p>
+          </li>
+        </ul>
+      </li>
+
+      <!-- Kelkoo / Yahoo -->
+      <li typeof="Experience" resource="#exp_kelkoo">
+        <p>
+          <strong property="label">
+            Lead developer – Kelkoo Internet search engine
+          </strong>
+        </p>
+        <p>
+          <span typeof="Employer" resource="#org_kelkoo">
+            <span property="label">Kelkoo (later Yahoo)</span>
+            <a href="https://www.kelkoo.fr" property="externalReference">Kelkoo</a>
+          </span>
+          – <span property="addressLocality">Grenoble, France</span>
+        </p>
+        <p>
+          <span property="startDate"
+                content="2005-01-01"
+                datatype="http://www.w3.org/2001/XMLSchema#date">2005</span>
+          –
+          <span property="endDate"
+                content="2006-12-31"
+                datatype="http://www.w3.org/2001/XMLSchema#date">2006</span>
+        </p>
+        <ul>
+          <li>
+            <p>
+              Maintenance and evolution of Lucene-based search APIs in a large component-based J2EE
+              platform (250+ components) powering the offers comparator.
+            </p>
+          </li>
+          <li>
+            <p>
+              Integration of Berkeley-DB to accelerate result delivery for high-traffic queries.
+            </p>
+          </li>
+          <li>
+            <p>
+              Migration of search APIs to Yahoo Vespa – REST/XML API, distributed architecture on a matrix
+              of servers for scalability.
+            </p>
+          </li>
+        </ul>
+      </li>
+
+      <!-- CMS / Document management -->
+      <li typeof="Experience" resource="#exp_cms">
+        <p>
+          <strong property="label">
+            Development team leader – Content &amp; document management systems
+          </strong>
+        </p>
+        <p>
+          <span typeof="Employer" resource="#org_cms_mix">
+            <span property="label">Cap Gemini, Xerox Global Services, Akazi technologies</span>
+          </span>
+          – <span property="addressLocality">Grenoble, France</span>
+        </p>
+        <p>
+          <span property="startDate"
+                content="1999-02-01"
+                datatype="http://www.w3.org/2001/XMLSchema#date">1999</span>
+          –
+          <span property="endDate"
+                content="2004-10-31"
+                datatype="http://www.w3.org/2001/XMLSchema#date">2004</span>
+        </p>
+        <ul>
+          <li typeof="Project" resource="#proj_fiat_docs">
+            <p property="label">
+              Fiat – multi-language technical documentation publishing chain
+            </p>
+            <p>
+              J2EE/XML chain for vehicle documentation in nine languages/alphabets (European, Russian,
+              Arabic), with Web, CD-ROM (XML search) and PDF outputs (XSL-FO, Apache FOP/XEP).
+            </p>
+          </li>
+          <li typeof="Customer" resource="#cust_schneider">
+            <p property="label">Schneider Electric</p>
+          </li>
+          <li typeof="Customer" resource="#cust_edf">
+            <p property="label">EDF</p>
+          </li>
+          <li typeof="Customer" resource="#cust_cnil">
+            <p property="label">CNIL</p>
+          </li>
+          <li typeof="Customer" resource="#cust_renault">
+            <p property="label">Renault</p>
+          </li>
+          <li>
+            <p>
+              Projects: intranet portals, collaborative documentation workflows (checkin/checkout,
+              reviews, annotations, publishing), Documentum migrations and bpml-based process design tools.
+            </p>
+          </li>
+          <li>
+            <p>
+              Estimates and proposals for RFPs in industry, legal and energy sectors.
+            </p>
+          </li>
+        </ul>
+      </li>
+
+      <!-- SGML/XML content & publishing -->
+      <li typeof="Experience" resource="#exp_ais_sgml">
+        <p>
+          <strong property="label">
+            Developer – SGML/XML content &amp; publishing systems
+          </strong>
+        </p>
+        <p>
+          <span typeof="Employer" resource="#org_ais">
+            <span property="label">AIS Technologies &amp; others</span>
+          </span>
+          – <span property="addressLocality">Paris, Grenoble, Toulouse</span>
+        </p>
+        <p>
+          <span property="startDate"
+                content="1993-10-01"
+                datatype="http://www.w3.org/2001/XMLSchema#date">1993</span>
+          –
+          <span property="endDate"
+                content="1999-02-01"
+                datatype="http://www.w3.org/2001/XMLSchema#date">1999</span>
+        </p>
+        <ul>
+          <li typeof="Project" resource="#proj_edilectre">
+            <p property="label">
+              Edilectre – bibliographic SGML database &amp; search
+            </p>
+            <p>
+              Integration of SGML with Ingres and PAT search engine; optimization of response time for
+              large bibliographic datasets.
+            </p>
+          </li>
+          <li typeof="Project" resource="#proj_airbus_gfor">
+            <p property="label">
+              Airbus – GFOR SGML publishing engine
+            </p>
+            <p>
+              C++ SGML publishing engine generating LaTeX/PostScript for ~80 000 pages of maintenance
+              manuals (CALS tables, floating images, lists of modified pages…).
+            </p>
+          </li>
+          <li typeof="Project" resource="#proj_swiss_dict">
+            <p property="label">
+              Swiss historical dictionary – SGML publishing chain
+            </p>
+            <p>
+              Full chain from SGML authoring tool configuration to FrameMaker/MIF printable outputs,
+              synchronized with SQL dictionary database.
+            </p>
+          </li>
+          <li>
+            <p>
+              Work on Balise (SGML/XML transformation tool), Dynatext (SGML browser) and Synerweb
+              (HyTime-based linking prototype).
+            </p>
+          </li>
+        </ul>
+      </li>
+
+      <!-- National service in Nepal -->
+      <li typeof="Experience" resource="#exp_nepal">
+        <p>
+          <strong property="label">
+            Field engineer – National seismological network of Nepal
+          </strong>
+        </p>
+        <p>
+          <span typeof="Employer" resource="#org_nepal_project">
+            <span property="label">Cooperation project – Nepal seismological network</span>
+          </span>
+          – <span property="addressLocality">Kathmandu, Nepal</span>
+        </p>
+        <p>
+          <span property="startDate"
+                content="1991-10-01"
+                datatype="http://www.w3.org/2001/XMLSchema#date">1991</span>
+          –
+          <span property="endDate"
+                content="1993-01-31"
+                datatype="http://www.w3.org/2001/XMLSchema#date">1993</span>
+        </p>
+        <ul>
+          <li>
+            <p>
+              Assisted Nepali stakeholders and French project managers during survey and installation of
+              seismological stations, mapping, configuration of acquisition chain and expedition logistics.
+            </p>
+          </li>
+        </ul>
+      </li>
+
+      <!-- Verilog internship -->
+      <li typeof="Experience" resource="#exp_verilog">
+        <p>
+          <strong property="label">
+            Internship – Verilog technologies (SCADA documentation)
+          </strong>
+        </p>
+        <p>
+          <span typeof="Employer" resource="#org_verilog">
+            <span property="label">Verilog technologies</span>
+          </span>
+          – <span property="addressLocality">Grenoble, France</span>
+        </p>
+        <p>
+          <span property="startDate"
+                content="1990-05-01"
+                datatype="http://www.w3.org/2001/XMLSchema#date">1990</span>
+          –
+          <span property="endDate"
+                content="1991-09-30"
+                datatype="http://www.w3.org/2001/XMLSchema#date">1991</span>
+        </p>
+        <ul>
+          <li>
+            <p>
+              Development in C of a PostScript interpreter/driver targeting multiple printer languages
+              (HPGL, PCL5, low-level PostScript).
+            </p>
+          </li>
+          <li>
+            <p>
+              Integration of SGML as pivot format for configurable documentation generation, and
+              development of an SGML parser/formatter for high-level PostScript.
+            </p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ===================== EDUCATION ===================== -->
+  <section id="Education" coex="Education and training" typeof="EducationHistory">
+    <h>Education &amp; training</h>
+    <ul>
+      <li typeof="Education" resource="#edu_polytech">
+        <p>
+          <strong property="label">
+            1989–1991 – Polytech Grenoble – Engineering degree, IT &amp; automation
+          </strong>
+        </p>
+      </li>
+      <li typeof="Education" resource="#edu_deug">
+        <p>
+          <strong property="label">
+            1985–1988 – DEUG A – General science diploma – Université Joseph Fourier, Grenoble
+          </strong>
+        </p>
+      </li>
+      <li typeof="Education" resource="#edu_bac">
+        <p>
+          <strong property="label">
+            1984 – Scientific high school diploma – Grenoble
+          </strong>
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ===================== LANGUAGES ===================== -->
+  <section id="Languages" coex="Languages" typeof="LanguageSet">
+    <h>Languages</h>
+    <ul>
+      <li typeof="LanguageSkill" resource="#lang_fr">
+        <p><strong property="label">French</strong> – native language</p>
+      </li>
+      <li typeof="LanguageSkill" resource="#lang_en">
+        <p><strong property="label">English</strong> – professional</p>
+      </li>
+      <li typeof="LanguageSkill" resource="#lang_others">
+        <p>
+          <strong property="label">German, Russian, Nepali</strong> – school learning, not practiced
+          recently
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ===================== INTERESTS ===================== -->
+  <section id="Interest" coex="Interests" typeof="InterestSet">
+    <h>Interests</h>
+    <p property="description">
+      Nature and outdoor activities (trekking, downhill longboarding, snowboarding), discovering other
+      cultures and observing how complex systems (technical, social or organizational) behave and evolve.
+    </p>
+  </section>
+
+</document>

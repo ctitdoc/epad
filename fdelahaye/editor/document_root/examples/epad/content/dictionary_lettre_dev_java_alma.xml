@@ -1,0 +1,29 @@
+<document section-numbering="true" figure-numbering="true" features="PDF">
+    <h text-align="justify"> </h>
+    <section>
+        <h> </h>
+        <p>Madame, Monsieur,</p>
+        <section view="normal">
+            <h> </h>
+            <p text-align="justify">
+                Ingénieur logiciel senior avec plus de vingt ans d’expérience en développement Java et systèmes d’information orientés données, dont plusieurs années dans le domaine de la santé (plateformes de génétique, flux HL7, LIMS, biobanque), je souhaite rejoindre le département Santé d’Alma pour contribuer à l’évolution de logiciels critiques du circuit du médicament hospitalier.
+            </p>
+            <p text-align="justify">
+                Habitué aux environnements réglementés, au travail en équipe agile et au support de production de niveau avancé, je suis particulièrement sensible à la qualité logicielle, à la traçabilité et à l’ergonomie des interfaces. Le modèle coopératif d’Alma et le sens donné aux produits développés constituent pour moi une forte source de motivation.
+            </p>
+        </section>
+        <section>
+            <h> </h>
+            <p>
+                Cordialement,
+                <br/>
+                Franck Delahaye
+                <br/>
+                e-mail:
+                <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a>
+                <br/>
+                tel : +33 7 67 38 28 95
+            </p>
+        </section>
+    </section>
+</document>

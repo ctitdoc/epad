@@ -1,0 +1,35 @@
+<document section-numbering="true" figure-numbering="true" features="PDF">
+    <h text-align="justify">Application Letter – Franck Delahaye</h>
+    <section>
+        <h> </h>
+        <p>Dear Hiring Team,</p>
+        <section view="normal">
+            <h> </h>
+            <p text-align="justify">
+                I am applying for the Engineer – API / Microservices role at Canonical, as it closely matches my background in designing and operating API-driven platforms, microservice-oriented systems, and integration layers on Linux-based infrastructures.
+            </p>
+            <p text-align="justify">
+                With more than 25 years of experience in backend and distributed systems, I have designed REST APIs, integration services, and workflow orchestration mechanisms used in production across high-traffic, multi-country platforms. My recent work focuses on schema-driven API orchestration, service integration, and automation, notably through an internal Ballerina-based orchestration engine exposed via OpenAPI and Swagger UI.
+            </p>
+            <p text-align="justify">
+                Canonical’s emphasis on well-designed APIs, reliability, and long-term maintainability strongly resonates with my engineering approach. I am particularly motivated by building clear service contracts, improving observability and robustness, and contributing to platforms that operate at scale on Ubuntu and cloud environments.
+            </p>
+            <p text-align="justify">
+                Accustomed to remote collaboration, I value rigorous engineering practices, clear communication, and pragmatic problem-solving. I would be glad to discuss how my experience in API platforms and microservices could contribute to Canonical’s teams.
+            </p>
+        </section>
+    </section>
+    <section>
+        <h> </h>
+        <p>
+            Kind regards,
+            <br/>
+            Franck Delahaye
+            <br/>
+            e-mail:
+            <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a>
+            <br/>
+            tel: +33 7 67 38 28 95
+        </p>
+    </section>
+</document>

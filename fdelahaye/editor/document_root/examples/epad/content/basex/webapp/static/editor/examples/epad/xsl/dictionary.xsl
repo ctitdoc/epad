@@ -134,4 +134,13 @@
   <xsl:template match="data_definition/data_constraints_definition/data_constraint_definition/h">
 <h4><xsl:call-template name="parent_id"/><xsl:call-template name="business_term_header"/></h4><xsl:call-template name="business_term_switch_and_managed"/></xsl:template>
 
+
+  <xsl:template match="@vocab"/>
+  <xsl:template match="@typeof"/>
+  <xsl:template match="@property"/>
+  <xsl:template match="@resource"/>
+  <xsl:template match="@about"/>
+  <xsl:template match="@content"/>
+  <xsl:template match="@datatype"/>
+
 </xsl:stylesheet>
