@@ -1,0 +1,195 @@
+<document section-numbering="true" figure-numbering="true" features="RESUME" vocab="http://example.org/cv#" typeof="Person" about="#franck">
+    <h text-align="justify" property="label">Targeted Resume – Fullstack Software Engineer (Claims Management) – Alan</h>
+    <p/>
+    <!-- Source Super CV: :contentReference[oaicite:0]{index=0} -->
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="Contact" coex="CONTACT" typeof="ContactPoint">
+        <h>CONTACT</h>
+        <p property="contact">Franck Delahaye<br/>franck_delahaye@yahoo.fr<br/>+33 7 67 38 28 95<br/>Grenoble, France<br/>Senior software engineer &amp; solutions architect – data-centric platforms, API integrations, production delivery, applied generative AI workflows.</p>
+    </section>
+
+    <!-- ===================== OBJECTIVES / SUMMARY ===================== -->
+    <section id="Objectives" coex="PROFESSIONAL SUMMARY" typeof="Summary">
+        <h>PROFESSIONAL SUMMARY</h>
+        <p property="description">Senior software engineer and solutions architect with 25+ years of experience building and operating business-critical platforms (high-traffic web, integration services, data-centric systems). Strong background in backend engineering, API design, observability, incident-driven improvements, and structured data processing (XML/XSD, JSON/JSON Schema). Recent applied generative AI focus: integrating LLM APIs into multi-step workflows, constraining outputs with formal schemas, and implementing validation/error-handling patterns so AI features are reliable and maintainable in production. Comfortable in product-facing environments with ownership, mentoring, and cross-functional collaboration; English working proficiency.</p>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <section id="skills" coex="KEY SKILLS" typeof="SkillSet">
+        <h>KEY SKILLS</h>
+
+        <section id="Skills-AI" coex="Applied AI / LLM engineering" typeof="SkillCluster">
+            <h>Applied AI / LLM engineering</h>
+            <ul>
+                <li typeof="Skill"><p>LLM API integration: OpenAI API; production-oriented prompt design for structured generation.</p></li>
+                <li typeof="Skill"><p>Multi-step orchestration (LangChain-like patterns, framework-agnostic): workflow composition, response memory, conditional execution, retries/delays, reusable sub-workflows.</p></li>
+                <li typeof="Skill"><p>Structured outputs &amp; validation: JSON Schema and XML/XSD constrained generation; parsing and deterministic validation with explicit failure modes.</p></li>
+                <li typeof="Skill"><p>Production readiness for AI services: observability hooks, traceability, error taxonomy, and end-to-end scenario testing.</p></li>
+            </ul>
+        </section>
+
+        <section id="Skills-Backend" coex="Backend &amp; APIs" typeof="SkillCluster">
+            <h>Backend &amp; APIs</h>
+            <ul>
+                <li typeof="Skill"><p>REST APIs &amp; integration services: contract-first design (OpenAPI/Swagger), OAuth2, webhooks, multi-system workflows (CRM/ERP/partners).</p></li>
+                <li typeof="Skill"><p>Backend engineering: PHP/Symfony (high-traffic platforms, service-oriented refactoring), Java/J2EE/Spring (component platforms, XML-centric systems), Ballerina (integration/orchestration services and connectors).</p></li>
+                <li typeof="Skill"><p>Data stores: PostgreSQL, MySQL; XML databases (BaseX, eXist-db); data synchronization and ETL patterns.</p></li>
+            </ul>
+        </section>
+
+        <section id="Skills-Product" coex="Product &amp; collaboration" typeof="SkillCluster">
+            <h>Product &amp; collaboration</h>
+            <ul>
+                <li typeof="Skill"><p>Product-oriented delivery: backlog-driven iterations, scope negotiation with stakeholders, pragmatic quality improvements.</p></li>
+                <li typeof="Skill"><p>Mentoring and technical leadership: code reviews, guidance on architecture and quality practices, onboarding support.</p></li>
+                <li typeof="Skill"><p>English working proficiency; experience collaborating with distributed teams.</p></li>
+            </ul>
+        </section>
+
+        <section id="Skills-Platform" coex="Production, reliability &amp; delivery" typeof="SkillCluster">
+            <h>Production, reliability &amp; delivery</h>
+            <ul>
+                <li typeof="Skill"><p>Observability: dashboards, KPIs, log analysis and incident troubleshooting (including Kibana-based monitoring depending on projects).</p></li>
+                <li typeof="Skill"><p>CI/CD &amp; environments: GitHub/GitLab pipelines, Docker, Linux; multi-environment deployment workflows and reproducible dev/test setups.</p></li>
+                <li typeof="Skill"><p>Testing: integration and end-to-end scenario automation; refactoring guided by tests and debugger feedback loops.</p></li>
+            </ul>
+        </section>
+
+        <section id="Skills-Fullstack" coex="Fullstack adjacency (requested stack)" typeof="SkillCluster">
+            <h>Fullstack adjacency (requested stack)</h>
+            <ul>
+                <li typeof="Skill"><p>TypeScript / modern web: strong proximity through Angular/TypeScript maintenance, WebSocket-based real-time features, and API contract work across front/back teams.</p></li>
+                <li typeof="Skill"><p>Python: practical experience via ERP/integration work (Odoo customizations) and data-centric workflows.</p></li>
+                <li typeof="Skill"><p>React: familiarity with component-based UI approaches and integration constraints; ready to ramp up quickly in a React monorepo environment.</p></li>
+            </ul>
+        </section>
+    </section>
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section id="Employment" coex="PROFESSIONAL EXPERIENCE" typeof="EmploymentHistory">
+        <h>PROFESSIONAL EXPERIENCE</h>
+        <ul>
+
+            <li typeof="Experience">
+                <p><strong property="label">Rust-based LLM Processing Engine (Work in Progress)</strong></p>
+                <p><strong>Dates</strong><br/>Oct 2025 – Present</p>
+                <p><strong>Role</strong><br/>Senior Software Engineer / Architect</p>
+                <p><strong>Description</strong><br/>Designing a Rust backend execution engine for LLM-driven data processing workflows, emphasizing deterministic validation, explicit error handling, and schema-constrained structured outputs suitable for downstream systems.</p>
+                <p><strong>Focus</strong></p>
+                <ul>
+                    <li><p>API contracts for AI-driven transformation services producing schema-constrained outputs (JSON Schema, XML/XSD).</p></li>
+                    <li><p>Separation of concerns: orchestration vs execution vs communication layers.</p></li>
+                    <li><p>Robust parsing/validation pipelines with explicit failure modes for production usage.</p></li>
+                </ul>
+            </li>
+
+            <li typeof="Experience">
+                <p><strong property="role">Senior Lead Developer &amp; Architect – Applied AI integration &amp; SaaS/enterprise workflows</strong></p>
+                <p><strong property="label">Cosmobilis</strong> – Chambéry, France</p>
+                <p><span property="startDate" content="2023-01-01" datatype="http://www.w3.org/2001/XMLSchema#date">Jan 2023</span> – Present</p>
+
+                <ul>
+                    <li>
+                        <p><strong>tchatAPI.org – LLM-enabled workflow orchestration (R&amp;D / product demo)</strong><br/>Oct 2024 – Present – Solo Developer / Product Designer.</p>
+                        <ul>
+                            <li><p>Built a schema-driven orchestration engine to execute multi-step workflows (typed request hierarchy, reusable sub-workflows, conditional execution, delays, response memory).</p></li>
+                            <li><p>Integrated OpenAI API as a managed step type to embed AI capabilities into production-like pipelines (structured generation within orchestrated flows).</p></li>
+                            <li><p>Exposed workflows through CLI and OpenAPI/Swagger UI for reproducible execution, inspection, and debugging.</p></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <p><strong>CMS-integrated CV retro-conversion &amp; targeted generation (LLM + schemas)</strong></p>
+                        <ul>
+                            <li><p>Designed workflows converting free-text inputs into schema-driven XML using OpenAI API orchestration, with BaseX as backend and optional WYSIWYG editing.</p></li>
+                            <li><p>Implemented schema-constrained generation and validation (XML/XSD) to ensure reliable downstream formatting (PDF/HTML).</p></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <p><strong>Enterprise integration service (CRM &lt;-&gt; ERP) – production-grade APIs</strong><br/>Jan 2024 – Present – Lead Developer.</p>
+                        <ul>
+                            <li><p>Built API-based integration between Salesforce and OpenFlex ERP (mapping, synchronization, multi-country workflows) with traceability and explicit error handling.</p></li>
+                            <li><p>Introduced end-to-end automated scenario testing patterns to detect regressions before production impact.</p></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <p><strong>High-traffic web platforms – delivery &amp; partner integrations</strong><br/>Jan 2023 – Sep 2025.</p>
+                        <ul>
+                            <li><p>Maintained and evolved high-traffic sites with numerous third-party integrations (search, CRM, marketplaces, marketing, image services), with strong production focus.</p></li>
+                            <li><p>Operational practices: CI/CD workflows, Docker/AWS deployments, log-driven incident analysis and stability improvements.</p></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li typeof="Experience">
+                <p><strong property="label">Senior Solutions Architect &amp; Developer – Integration-heavy e-commerce platforms</strong></p>
+                <p><strong>Made In Design / Bilendi / Arturia</strong> – Grenoble, France</p>
+                <p>2011 – 2022</p>
+                <ul>
+                    <li><p>Designed and delivered integration architectures connecting ERP (Odoo), PIM, CMS, CRM, marketplaces, payment providers, and marketing tools; data synchronization (ETL/Talend).</p></li>
+                    <li><p>Operated production platforms with CI/CD (GitLab), Dockerized environments, monitoring (dashboards/KPIs, including Kibana depending on context), and incident resolution with business stakeholders.</p></li>
+                    <li><p>Technical leadership: mentoring, code reviews, architecture documentation, cross-team coordination.</p></li>
+                </ul>
+            </li>
+
+            <li typeof="Experience">
+                <p><strong property="label">Technical Lead – Energy &amp; health-care solutions</strong></p>
+                <p><strong>HC Forum / Open ENERGIE</strong> – Grenoble, France</p>
+                <p>2007 – 2010</p>
+                <ul>
+                    <li><p>Health-care platform: J2EE/Spring suite; built XML workflow modules (BaseX/XQuery) to manage HL7 message interchange between applications.</p></li>
+                    <li><p>Energy billing platform: Odoo-based invoicing/accounting driven by XML messages; Python customizations and integration work.</p></li>
+                </ul>
+            </li>
+
+            <li typeof="Experience">
+                <p><strong property="label">Senior Java Developer – Search platform</strong></p>
+                <p><strong>Kelkoo (later Yahoo)</strong> – Grenoble, France</p>
+                <p>2005 – 2006</p>
+                <ul>
+                    <li><p>Maintained and evolved Lucene-based search APIs in a large J2EE platform; performance and scalability improvements.</p></li>
+                    <li><p>Participated in migration to Vespa (REST/XML, distributed architecture).</p></li>
+                </ul>
+            </li>
+
+            <li typeof="Experience">
+                <p><strong property="label">Earlier experience (compressed)</strong></p>
+                <p>1993 – 2004</p>
+                <ul>
+                    <li><p>Content/document management systems, workflow engines, and structured publishing chains (SGML/XML, XSLT/XSL-FO), plus early C/C++ and Java engineering roles.</p></li>
+                </ul>
+            </li>
+
+        </ul>
+    </section>
+
+    <!-- ===================== EDUCATION ===================== -->
+    <section id="Education" coex="EDUCATION" typeof="EducationHistory">
+        <h>EDUCATION</h>
+        <ul>
+            <li><p>1989–1991 – Polytech Grenoble – Engineering degree, IT &amp; automation</p></li>
+            <li><p>1985–1988 – Université Joseph Fourier – DEUG A (General science)</p></li>
+            <li><p>1984 – Scientific high school diploma – Grenoble</p></li>
+        </ul>
+    </section>
+
+    <!-- ===================== LANGUAGES ===================== -->
+    <section id="Languages" coex="LANGUAGES" typeof="LanguageKnowledge">
+        <h>LANGUAGES</h>
+        <ul>
+            <li><p>French – native</p></li>
+            <li><p>English – professional working proficiency</p></li>
+            <li><p>German, Russian, Nepali – school learning, not practiced recently</p></li>
+        </ul>
+    </section>
+
+    <!-- ===================== INTERESTS ===================== -->
+    <section id="Interest" coex="INTERESTS" typeof="CreativeWork">
+        <h>INTERESTS</h>
+        <p>Nature and outdoor activities (trekking, downhill longboarding, snowboarding), discovering other cultures, and observing how complex systems (technical, social, organizational) behave and evolve.</p>
+    </section>
+</document>

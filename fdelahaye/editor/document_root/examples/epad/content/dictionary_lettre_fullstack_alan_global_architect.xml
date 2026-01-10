@@ -1,0 +1,26 @@
+<document section-numbering="true" figure-numbering="true" features="PDF">
+<h text-align="justify">Cover Letter – Application to Alan (Fullstack Software Engineer – Global Architecture)</h>
+<section>
+    <h> </h>
+    <p>Sir, Madam</p>
+    <section view="normal">
+        <h> </h>
+        <p text-align="justify">I am applying for the Fullstack Software Engineer role in the Global Architecture team. I have spent 25+ years building and operating business-critical platforms where multiple domains, teams, and systems must converge into coherent, maintainable software. I particularly enjoy the kind of work you describe: transforming local implementations into global building blocks, removing cross-team technical blockers, and making complex systems simpler to develop and safer to run.</p>
+        <p text-align="justify">In my recent roles, I delivered integration-heavy services and high-traffic platforms in multi-site / multi-country contexts, where consistent contracts and data transformations are essential. I have designed and implemented workflows that harmonize heterogeneous models (CRM/ERP and partner integrations), introduced contract-first APIs and validation pipelines, and owned production concerns (observability, incident-driven improvements, CI/CD and deployments). This combination of pragmatic architecture and long-term ownership aligns closely with Alan’s approach: we build what we design, and we maintain what we ship.</p>
+        <p text-align="justify">I would welcome the opportunity to contribute to Alan’s global-first transformation by designing cross-cutting modules that enable product teams to ship across markets with less friction, while preserving local flexibility. I am comfortable working in a written-first, radically transparent environment, collaborating across teams, and mentoring engineers with a focus on high-impact, cross-domain solutions.</p>
+    </section>
+</section>
+<section>
+    <h> </h>
+    <p>
+        Yours sincerely,
+        <br/>
+        Franck Delahaye
+        <br/>
+        e-mail:
+        <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a>
+        <br/>
+        tel: +33 7 67 38 28 95
+    </p>
+</section>
+</document>

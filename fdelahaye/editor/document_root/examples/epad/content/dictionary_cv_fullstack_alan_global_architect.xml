@@ -1,0 +1,143 @@
+<document section-numbering="true" figure-numbering="true" features="RESUME" vocab="http://example.org/cv#" typeof="Person" about="#franck">
+    <h text-align="justify" property="label">Curriculum Vitae – Franck Delahaye (Targeted for Alan – Fullstack Software Engineer – Global Architecture)</h>
+    <p/>
+    <section id="Contact" coex="CONTACT" typeof="ContactPoint">
+        <h>CONTACT</h>
+        <p property="contact">Franck Delahaye<br/>franck_delahaye@yahoo.fr<br/>+33 7 67 38 28 95<br/>Grenoble, France (eligible to work in France; open to hybrid/remote within France/Belgium/Spain)<br/>Senior software engineer &amp; solutions architect – global-ready modules, data model harmonization, APIs/integrations, structured data (XML/JSON), high-traffic platforms.</p>
+    </section>
+    <section id="Objectives" coex="PROFESSIONAL SUMMARY" typeof="Summary">
+        <h>PROFESSIONAL SUMMARY</h>
+        <p property="description">Senior software engineer / solutions architect (25+ years) building and operating business-critical platforms across high-traffic web, integration services, and data-centric systems. Strong in designing cross-cutting components, harmonizing heterogeneous data models into unified schemas (without losing local flexibility), and delivering contract-first APIs with robust validation and observability. Experienced in multi-country product contexts, legacy-to-modular refactoring, and close collaboration with product and operations teams. Comfortable shipping and maintaining what I design; pragmatic trade-offs, written-first communication, mentoring and cross-team enablement.</p>
+    </section>
+    <section id="skills" coex="KEY SKILLS" typeof="SkillSet">
+        <h>KEY SKILLS</h>
+        <section id="Skills-Architecture" coex="Architecture &amp; cross-cutting engineering" typeof="SkillCluster">
+            <h>Architecture &amp; cross-cutting engineering</h>
+            <ul>
+                <li><p>Designing global, reusable modules replacing country-specific implementations; identifying blockers spanning domains and removing them with durable building blocks.</p></li>
+                <li><p>Data model harmonization: consolidation of heterogeneous schemas into unified, configurable models; structured content governance and validation (XML/XSD, JSON Schema).</p></li>
+                <li><p>Trade-off driven engineering: incremental migration patterns, compatibility layers, and long-term maintainability in fast-moving product environments.</p></li>
+            </ul>
+        </section>
+        <section id="Skills-Backend" coex="Backend, APIs &amp; integrations" typeof="SkillCluster">
+            <h>Backend, APIs &amp; integrations</h>
+            <ul>
+                <li><p>REST APIs, OpenAPI/Swagger, webhook-based integrations, contract-first design, explicit error handling.</p></li>
+                <li><p>Enterprise / SaaS integrations: CRM/ERP/marketplaces/search/marketing tools; multi-system synchronization and workflow automation.</p></li>
+                <li><p>Service refactoring: extracting services/jobs, progressive modularization of legacy codebases, and production-grade operational practices.</p></li>
+            </ul>
+        </section>
+        <section id="Skills-Data" coex="Data &amp; structured content" typeof="SkillCluster">
+            <h>Data &amp; structured content</h>
+            <ul>
+                <li><p>Structured data engineering: XML, XSLT, XQuery; JSON, JSONPath; schema validation and transformations for downstream systems.</p></li>
+                <li><p>Datastores: PostgreSQL, MySQL; XML databases: BaseX, eXist-db; indexing feeds and data synchronization patterns.</p></li>
+            </ul>
+        </section>
+        <section id="Skills-Delivery" coex="Production readiness &amp; delivery" typeof="SkillCluster">
+            <h>Production readiness &amp; delivery</h>
+            <ul>
+                <li><p>CI/CD (GitHub Actions, GitLab CI/CD), Docker, Linux; reproducible environments and multi-environment deployments.</p></li>
+                <li><p>Observability: dashboards/KPIs, log analysis (including Kibana); incident-driven improvements (latency, error rate, reliability).</p></li>
+                <li><p>Collaboration: backlog-driven delivery, written documentation, code reviews, mentoring, cross-team coordination.</p></li>
+            </ul>
+        </section>
+        <section id="Skills-Languages" coex="Languages &amp; frameworks" typeof="SkillCluster">
+            <h>Languages &amp; frameworks</h>
+            <ul>
+                <li><p>PHP/Symfony (high-traffic platforms, back-offices, integrations), Java/J2EE (Spring, three-tier architectures), Ballerina (integration/orchestration services).</p></li>
+                <li><p>Python (connexe to the role requirements): Odoo ERP integrations/customizations and data-centric workflows.</p></li>
+                <li><p>Modern JavaScript (connexe to the role requirements): front/back collaboration, API-driven applications, and structured CMS UI customization (HTML/CSS/JS); Angular experience on API-consuming front-ends.</p></li>
+            </ul>
+        </section>
+    </section>
+    <section id="Employment" coex="PROFESSIONAL EXPERIENCE" typeof="EmploymentHistory">
+        <h>PROFESSIONAL EXPERIENCE</h>
+        <ul>
+            <li>
+                <p><strong>Cosmobilis – Chambéry, France – Senior Lead Developer &amp; Architect (high-traffic platforms, integrations, modularization)</strong></p>
+                <ul>
+                    <li><p>Dates: Jan 2023 – Present</p></li>
+                    <li><p>Designed and maintained integration-heavy backend services and APIs across multi-site / multi-country web platforms; ensured stable contracts between front/back systems and third-party services.</p></li>
+                    <li><p>Removed cross-domain technical blockers by extracting reusable services/connectors (integration modules, ETL jobs, shared components) and standardizing contracts/validation across flows.</p></li>
+                    <li><p>Orchestrated data transformations and synchronization workflows between heterogeneous systems (Salesforce CRM and OpenFlex ERP), including mapping, status lifecycles, multi-country scenarios, and traceability.</p></li>
+                    <li><p>Production ownership: CI/CD workflows, Docker/AWS environments, monitoring (KPIs/log analysis), and incident-driven improvements for reliability and performance.</p></li>
+                    <li>
+                        <p><strong>Selected cross-cutting initiatives</strong></p>
+                        <ul>
+                            <li><p><strong>Enterprise Application Integration Service (Salesforce &lt;-&gt; OpenFlex ERP)</strong> (Jan 2024 – Present): API-based synchronization of leads/opportunities workflows; message-oriented orchestration patterns; end-to-end automated scenario testing to reduce regressions.</p></li>
+                            <li><p><strong>Componentized Ballerina services (monorepo)</strong>: shared connector modules (databases/external APIs), modular ETL jobs, and reproducible delivery pipelines for multi-environment deployments.</p></li>
+                            <li><p><strong>High-traffic legacy migration (elite-auto.fr)</strong> (Sep 2024 – Sep 2025): infrastructure migration to AWS VM and progressive refactoring toward service-oriented components while maintaining production stability.</p></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>tchatapi.org – Internal product demo / R&amp;D – Product &amp; Technical Author (API workflow orchestration)</strong></p>
+                <ul>
+                    <li><p>Dates: Oct 2024 – Present</p></li>
+                    <li><p>Designed and implemented a multi-step API orchestration engine to execute complex scenarios defined as schema-driven JSON (typed request hierarchy, validation, reproducibility).</p></li>
+                    <li><p>Implemented response memory and JSONPath-based reuse of previous outputs to enrich subsequent steps (context injection patterns for downstream processing).</p></li>
+                    <li><p>Exposed orchestration via CLI and OpenAPI/Swagger UI for inspection, debugging, and non-code execution.</p></li>
+                    <li><p>Reference: <a href="http://www.tchatapi.org" property="externalReference">tchatapi.org</a>; source/documentation: <a href="https://github.com/sitedesc/bal_apps/tree/main/apps/chatapi/srv_opportunity" property="externalReference">GitHub repository</a>.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Made In Design / Bilendi / Arturia – Grenoble, France – Senior Solutions Architect &amp; Developer (integration-heavy e-commerce platforms)</strong></p>
+                <ul>
+                    <li><p>Dates: 2011 – 2022</p></li>
+                    <li><p>Built and evolved multi-country e-commerce and loyalty platforms (PHP/Symfony), rich back-offices, and extensive partner integrations (ERP/PIM/CMS/CRM/marketplaces/payment/marketing).</p></li>
+                    <li><p>Designed integration architectures and data synchronization flows (Talend-based ETL); implemented patterns to consolidate data across systems while preserving domain-specific constraints.</p></li>
+                    <li><p>Operated production platforms: CI/CD (GitLab), Dockerized environments, monitoring/dashboards (including Kibana), incident resolution with business stakeholders.</p></li>
+                    <li><p>Technical leadership: mentoring, code reviews, architecture documentation, cross-team coordination (marketing, logistics, finance, support).</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>HC Forum / Open ENERGIE – Grenoble, France – Technical Lead (data-centric health-care &amp; energy platforms)</strong></p>
+                <ul>
+                    <li><p>Dates: 2007 – 2010</p></li>
+                    <li><p>Health-care platform (J2EE/Spring): implemented XML workflow modules (BaseX/XQuery) to manage HL7 message interchange between applications.</p></li>
+                    <li><p>Energy billing platform: Odoo-based invoicing/accounting driven by structured messages; Python customizations and integration work.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Kelkoo (later Yahoo) – Grenoble, France – Senior Java Developer (search platform)</strong></p>
+                <ul>
+                    <li><p>Dates: 2005 – 2006</p></li>
+                    <li><p>Maintained and evolved Lucene-based search APIs in a large J2EE platform; performance/scalability work and participation in migration to Vespa (REST/XML, distributed architecture).</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Earlier experience (compressed)</strong></p>
+                <ul>
+                    <li><p>Cap Gemini / Akazi Technologies / Xerox Global Services – Grenoble, France (1999 – 2004): document/content management systems, XML publishing chains (XSL-FO/PDF), workflow configuration, repository migrations.</p></li>
+                    <li><p>AIS Technologies / Synlog Technologies / CS Group – Paris/Grenoble/Toulouse, France (1993 – 1999): SGML/XML processing and publishing systems (C++/Perl), large-scale structured data transformation and indexing.</p></li>
+                    <li><p>Cooperation project – Kathmandu, Nepal (1991 – 1993): field engineering support for seismological stations installation and operations.</p></li>
+                    <li><p>Verilog Technologies – Grenoble, France (1990 – 1991): internship; C development on PostScript interpreter/driver; early SGML pivot-format work.</p></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="Education" coex="EDUCATION" typeof="EducationHistory">
+        <h>EDUCATION</h>
+        <ul>
+            <li><p>1989–1991 – Polytech Grenoble – Engineering degree, IT &amp; automation</p></li>
+            <li><p>1985–1988 – DEUG A – General science diploma – Université Joseph Fourier, Grenoble</p></li>
+            <li><p>1984 – Scientific high school diploma – Grenoble</p></li>
+        </ul>
+    </section>
+    <section id="Languages" coex="LANGUAGES" typeof="LanguageSkills">
+        <h>LANGUAGES</h>
+        <ul>
+            <li><p>French – native</p></li>
+            <li><p>English – professional working proficiency</p></li>
+            <li><p>German, Russian, Nepali – school learning, not practiced recently</p></li>
+        </ul>
+    </section>
+    <section id="Interest" coex="INTERESTS" typeof="Interests">
+        <h>INTERESTS</h>
+        <ul>
+            <li><p>Nature and outdoor activities (trekking, downhill longboarding, snowboarding), discovering other cultures, and observing how complex systems (technical, social, organizational) behave and evolve.</p></li>
+        </ul>
+    </section>
+</document>

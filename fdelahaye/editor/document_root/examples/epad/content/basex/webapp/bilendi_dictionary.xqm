@@ -301,13 +301,13 @@ as element(Q{http://www.w3.org/1999/xhtml}html)
 <li>extracts from it the relevant informations for this job,</li>
 <li>and creates a resume version targeted for this job.</li>
 <li>global resume:
-<span><a href="{concat('/static/editor/xopus/xopus.html#/cms/edit_dict_file_request?file=', 'content/dictionary_cv_couvrant_v2.xml')}" target="_blank">EDIT</a></span>
-<span> OR <a href="{concat('/cms/get_dict_file_content_as_resume_request?file=', 'content/dictionary_cv_couvrant_v2.xml')}" target="_blank">RESUME</a></span>
-<span> OR <a href="{concat('/cms/get_dict_file_xml_content_request?file=','content/dictionary_cv_couvrant_v2.xml')}" target="_blank">XML</a></span>
+<span><a href="{concat('/static/editor/xopus/xopus.html#/cms/edit_dict_file_request?file=', 'content/dictionary_cv_couvrant_v5.xml')}" target="_blank">EDIT</a></span>
+<span> OR <a href="{concat('/cms/get_dict_file_content_as_resume_request?file=', 'content/dictionary_cv_couvrant_v5.xml')}" target="_blank">RESUME</a></span>
+<span> OR <a href="{concat('/cms/get_dict_file_xml_content_request?file=','content/dictionary_cv_couvrant_v5.xml')}" target="_blank">XML</a></span>
 </li>
 </ul>
 <p>The targeted resume can then be edited for final checks/tunings.</p>
-<p>The partner AI generating this resume is driven by a set of rules ensuring efficient offer and global resume analyses, and target resume structure and contents generation.</p>
+<p>The partner AI generating this resume is driven by a set of rules ensuring efficient offer and global resume analyses, and target resume structure and contents generation (more details on this rules mechanism at the bottom of this page).</p>
 <p>The resume document schema, defining its structures and content types, is also provided to the AI: contact section structure, skills, cursus, experiences with employer names and period ...</p>
 <p>They are analysed by the AI, ensuring a precise resume document semantic analysis and a "schema valid" generated resume.</p>
 <p><i>NB: the AI automatically manages french vs english text translations in this process.</i></p>
@@ -370,6 +370,17 @@ Localisé dans les bureaux du CIHAM à Lyon et Avignon, le poste est lié à l'o
 
 
 </textarea></p>
+<p><input title="Generation rules file" name="prePromptFile" type="text"
+value="SchemedTalks/cvForOfferRulesFile_default.txt" size="50" /></p>
+<p>The generation rules file is a set of rules driving the LLM in its content generation.
+It is based on a rules hierachy mechanism enabling :</p>
+<ul><li>A constrained resume format generation suitable for integration
+with the other features of this CMS (editing, HTML/PDF composition, adavanced search queries...).</li>
+<li>Customizations of the contents generated, with custom generation rules defining various profiles corresponding to
+offers like: "operational senior software engineer profile", "applied llm software engineer profile", etc...</li>
+<li>Other document type generation like a cover letter for provided offer and resume, with the same customization principle.</li>
+</ul>
+<p><i>a demo of these features is possible <a href="mailto:ctitdoc@gmail.com">on demand</a>.</i></p>
 
 </form>
 </div>
@@ -384,12 +395,14 @@ declare
 %rest:path('/cms/get_resume_for_job_offer_request')
 %rest:POST
 %rest:form-param("text_document","{$text_document}", "")
+%rest:form-param("prePromptFile","{$prePromptFile}", "SchemedTalks/cvForOfferRulesFile_default.txt")
 %output:method("xhtml")
 %output:omit-xml-declaration("no")
 %output:doctype-public("-//W3C//DTD XHTML 1.1//EN")
 %output:doctype-system("http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd")
 function page:get_resume_for_job_offer_request(
-$text_document as xs:string
+$text_document as xs:string,
+$prePromptFile as xs:string
 ) {
 
 (: Escape JSON :)
@@ -406,7 +419,7 @@ replace($text_document, '\\', '\\\\'),
 let $payload :=
 concat(
 '[{"type":"OARequest",',
-'"prePromptFile":"SchemedTalks/cvForOfferRulesFile.txt",',
+'"prePromptFile":"', $prePromptFile, '",',
 '"prompt":"', $json-safe-text, '"}]'
 )
 

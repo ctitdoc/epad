@@ -1,0 +1,48 @@
+<document section-numbering="true" figure-numbering="true" features="PDF">
+    <h text-align="justify">Cover Letter – Fullstack Software Engineer (Claims Management) – Alan</h>
+
+    <section>
+        <h> </h>
+        <p>Dear Hiring Team,</p>
+
+        <section view="normal">
+            <h> </h>
+
+            <p text-align="justify">
+                I am writing to apply for the Fullstack Software Engineer position within the Claims Management team at Alan. Your mission to reimburse members quickly and accurately at scale, across multiple countries, strongly resonates with my background in building and operating business-critical, integration-heavy platforms where correctness, reliability and user experience are non-negotiable.
+            </p>
+
+            <p text-align="justify">
+                I am a senior software engineer and solutions architect with 25+ years of experience delivering backend services, workflows and data pipelines for high-traffic platforms and enterprise systems. I have a strong production mindset: contract-first APIs, explicit validation, robust error handling, observability (dashboards, logs, KPIs), and continuous delivery practices that improve reliability over time through incident-driven learning.
+            </p>
+
+            <p text-align="justify">
+                In recent years, I have focused on applied generative AI integration: embedding LLM capabilities into products through multi-step orchestration workflows, and constraining outputs with formal schemas (JSON Schema, XML/XSD) to make results reliable for downstream systems. This matches Alan’s ambition to further automate document processing with LLMs and continuously improve claims handling efficiency while maintaining a high level of trust.
+            </p>
+
+            <p text-align="justify">
+                While my recent production stack has been PHP/Symfony and integration services, I am comfortable operating in cross-platform environments and ramping up quickly on TypeScript and Python in a monorepo setting. I enjoy collaborating closely with product teams, and I value ownership: building systems that run 24/7, iterating fast, and taking responsibility for outcomes.
+            </p>
+
+            <p text-align="justify">
+                I would be glad to discuss how my experience in reliability-focused backend engineering, workflow automation and AI integration could contribute to Claims Management, whether on document processing, payments/ingestion workflows, or scaling robust member-facing experiences.
+            </p>
+        </section>
+    </section>
+
+    <section>
+        <h> </h>
+        <p>
+            Yours sincerely,
+            <br/>
+            Franck Delahaye
+            <br/>
+            e-mail:
+            <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a>
+            <br/>
+            tel: +33 7 67 38 28 95
+            <br/>
+            Grenoble, France
+        </p>
+    </section>
+</document>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <section id="Contact" coex="CONTACT">
+        <p>
+            Franck Delahaye
+            franck_delahaye@yahoo.fr
+            +33 7 67 38 28 95
+            Grenoble, France
+        </p>
+        <p>
+            Senior Software Engineer – Backend &amp; AI Systems
+        </p>
+    </section>
+
+    <section id="Objectives" coex="PROFESSIONAL SUMMARY">
+        <p>
+            Senior software engineer with 25+ years of experience designing and operating
+            production-grade backend systems in high-traffic and regulated environments.
+            Recent focus on applied AI and LLM-based systems: integrating large language
+            models into real products with strong guarantees on robustness, validation,
+            observability and scalability.
+        </p>
+        <p>
+            Experienced at working at the intersection of product engineering, backend
+            architecture and domain experts (including healthcare), with a strong bias
+            toward systems that must work reliably, safely and at scale.
+        </p>
+    </section>
+
+    <section id="Skills" coex="KEY SKILLS">
+        <p>
+            <b>Applied AI &amp; LLM systems</b><br/>
+            LLM API integration (OpenAI), multi-step orchestration, agent-like workflows,
+            schema-constrained generation (JSON Schema, XML/XSD), deterministic validation,
+            explicit error handling, production monitoring.
+        </p>
+        <p>
+            <b>Backend &amp; systems engineering</b><br/>
+            REST APIs, service-oriented architectures, async workflows, contract-first APIs,
+            PostgreSQL/MySQL, high-availability backend services, observability (logs, KPIs).
+        </p>
+        <p>
+            <b>Languages &amp; stacks</b><br/>
+            Python (integration &amp; data workflows), PHP/Symfony, Java/J2EE, Rust (LLM
+            execution engine – WIP), Ballerina (orchestration), SQL, XML/XQuery.
+        </p>
+        <p>
+            <b>Product &amp; collaboration</b><br/>
+            Product-minded engineering, close collaboration with non-technical experts,
+            mentoring, architectural ownership, written documentation, iterative delivery.
+        </p>
+        <p>
+            <b>Healthcare &amp; regulated domains</b><br/>
+            Experience with healthcare platforms (HL7 XML workflows), data integrity,
+            traceability, and collaboration with medical professionals.
+        </p>
+    </section>
+
+    <section id="Employment" coex="PROFESSIONAL EXPERIENCE">
+        <p>
+            <b>Senior Software Engineer / Architect – LLM Processing Engine (WIP)</b><br/>
+            Oct 2025 – Present
+        </p>
+        <p>
+            Designing a Rust-based backend execution engine dedicated to reliable LLM-driven
+            workflows. Focus on strict separation of concerns (orchestration vs execution),
+            schema-driven validation, explicit failure modes and reuse across AI-powered
+            products.
+        </p>
+
+        <p>
+            <b>Senior Lead Developer &amp; Architect – Applied AI &amp; Integration Platforms</b><br/>
+            Cosmobilis – Jan 2023 – Present
+        </p>
+        <p>
+            Designed and built tchatAPI, an API workflow orchestration engine enabling
+            multi-step, schema-driven execution of complex workflows, including LLM-assisted
+            steps. Integrated OpenAI API into production-oriented pipelines with validation,
+            observability and reproducibility.
+        </p>
+        <p>
+            Built and operated production integration services (CRM ↔ ERP), handling
+            asynchronous workflows, error recovery and end-to-end automated scenario testing.
+        </p>
+
+        <p>
+            <b>Senior Solutions Architect &amp; Developer – E-commerce &amp; Data Platforms</b><br/>
+            Made In Design / Bilendi / Arturia – 2011 – 2022
+        </p>
+        <p>
+            Designed and operated large-scale platforms with strong integration constraints.
+            Extensive experience with data pipelines, monitoring, incident analysis and
+            collaboration with business teams.
+        </p>
+
+        <p>
+            <b>Technical Lead – Healthcare &amp; Energy Platforms</b><br/>
+            HC Forum / Open ÉNERGIE – 2007 – 2010
+        </p>
+        <p>
+            Worked on healthcare systems handling HL7 XML messages and medical data
+            workflows. Close collaboration with doctors, researchers and healthcare staff,
+            with strong attention to data correctness and interoperability.
+        </p>
+    </section>
+
+    <section id="Education" coex="EDUCATION">
+        <p>
+            Engineering Degree – IT &amp; Automation<br/>
+            Polytech Grenoble
+        </p>
+    </section>
+
+    <section id="Languages" coex="LANGUAGES">
+        <p>
+            French – Native<br/>
+            English – Professional working proficiency
+        </p>
+    </section>
+</document>

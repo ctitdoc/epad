@@ -345,3 +345,17 @@ ls
 help
 inspect
 exit
+list
+basex -c "CREATE DB webpages /chemin/vers/repertoire -parser html" /media/rupture
+CREATE DB webpages /chemin/vers/repertoire -parser html /media/rupture
+exit
+list
+list webpages
+cd rupture
+exit
+open webpages
+list
+list webpages
+DROP DB webpages
+list
+exit
