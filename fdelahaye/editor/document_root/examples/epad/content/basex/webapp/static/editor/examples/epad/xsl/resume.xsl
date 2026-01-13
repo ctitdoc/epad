@@ -14,7 +14,11 @@
 -->
 
   <!-- xsl:output method="html" doctype-public="html" indent="yes" / -->
-  <xsl:output method="xhtml" indent="no" />
+  <xsl:output method="xml"
+              encoding="UTF-8"
+              indent="no"
+  />
+
   <xsl:param name="xopus">false</xsl:param>
 
   <xsl:include href="dates.xsl"/>
@@ -120,15 +124,15 @@ elem = document.getElementById(id);
 <body>
 <div class="body">
 <div class="field">
-<h1 id="Contact"><xsl:apply-templates select="//section[@id='Contact']/h/(*|text())"/></h1>
+<h1 id="Contact"><xsl:apply-templates select="//section[@id='Contact']/h/node()"/></h1>
 <xsl:apply-templates select="//section[@id='Contact']/*[name()!='h']"/>
 </div>
 <div class="field">
-<h1 id="Objectives"><xsl:apply-templates select="//section[@id='Objectives']/h/(*|text())"/></h1>
+<h1 id="Objectives"><xsl:apply-templates select="//section[@id='Objectives']/h/node()"/></h1>
 <xsl:apply-templates select="//section[@id='Objectives']/*[name()!='h']"/>
 </div>
 <div class="field">
-<h1 id="skills"><xsl:apply-templates select="//section[@id='skills']/h/(*|text())"/></h1>
+<h1 id="skills"><xsl:apply-templates select="//section[@id='skills']/h/node()"/></h1>
 <div id="page">
 <div id="articleBody">
 <div class="section">
@@ -139,27 +143,27 @@ elem = document.getElementById(id);
 </div>
 <xsl:if test="//section[@id='Employment']">
 <div class="field">
-<h1 id="Employment"><xsl:apply-templates select="//section[@id='Employment']/h/(*|text())"/></h1>
+<h1 id="Employment"><xsl:apply-templates select="//section[@id='Employment']/h/node()"/></h1>
 <xsl:apply-templates select="//section[@id='Employment']/*[name()!='h']"/>
 </div>
 </xsl:if>
 <xsl:if test="//section[@id='Education']">
 <div class="field">
-<h1 id="Education"><xsl:apply-templates select="//section[@id='Education']/h/(*|text())"/></h1>
+<h1 id="Education"><xsl:apply-templates select="//section[@id='Education']/h/node()"/></h1>
 <xsl:apply-templates select="//section[@id='Education']/*[name()!='h']"/>
 </div>
 </xsl:if>
 <div class="field">
-<h1 id="Languages"><xsl:apply-templates select="//section[@id='Languages']/h/(*|text())"/></h1>
+<h1 id="Languages"><xsl:apply-templates select="//section[@id='Languages']/h/node()"/></h1>
 <xsl:apply-templates select="//section[@id='Languages']/*[name()!='h']"/>
 </div>
 <div class="field">
-<h1 id="Interest"><xsl:apply-templates select="//section[@id='Interest']/h/(*|text())"/></h1>
+<h1 id="Interest"><xsl:apply-templates select="//section[@id='Interest']/h/node()"/></h1>
 <xsl:apply-templates select="//section[@id='Interest']/*[name()!='h']"/>
 </div>
 <xsl:if test="//section[@id='NOTES']">
 <div class="field">
-<h1 id="NOTES"><xsl:apply-templates select="//section[@id='NOTES']/h/(*|text())"/></h1>
+<h1 id="NOTES"><xsl:apply-templates select="//section[@id='NOTES']/h/node()"/></h1>
 <xsl:apply-templates select="//section[@id='NOTES']/*[name()!='h']"/>
 </div>
 </xsl:if>

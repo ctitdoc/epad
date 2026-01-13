@@ -12,9 +12,8 @@
       <x:treeTransform/>
     </x:view>
 -->
-
   <!-- xsl:output method="html" doctype-public="html" indent="yes" / -->
-  <xsl:output method="xhtml" indent="no" />
+
 
   <xsl:template match="dictionary">
     <div class="article">

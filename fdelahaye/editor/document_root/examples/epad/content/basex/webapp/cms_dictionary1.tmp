@@ -1,0 +1,38 @@
+
+import module namespace page =
+  "http://basex.org/modules/bilendi_dictionary"
+  at "cms_dictionary_module.xqm";
+
+import module namespace rest = "http://exquery.org/ns/restxq";
+declare namespace output="http://www.w3.org/2010/xslt-xquery-serialization";
+declare namespace db="http://basex.org/modules/db";
+
+declare option db:intparse "yes";
+(:declare option db:dtd "no";:)
+
+
+(: ======================================================================
+   ENDPOINTS RESTXQ
+   ====================================================================== :)
+
+(:
+names abbreviations used in the code of this module :
+'bilendi_dictionary' is abbreviated as 'dict'
+:)
+
+(:~
+ : This function returns the document cms homepage.
+ : @return HTML page
+ :)
+declare
+  %rest:path("/cms/dictionary")
+  %output:method("xhtml")
+  %output:omit-xml-declaration("no")
+  %output:doctype-public("-//W3C//DTD XHTML 1.1//EN")
+  %output:doctype-system("http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd")
+  function dictionary_home_page()
+  as element(Q{http://www.w3.org/1999/xhtml}html)
+{
+page:dictionary_home_page()
+};
+()

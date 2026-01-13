@@ -1,0 +1,168 @@
+<document section-numbering="true" figure-numbering="true" features="RESUME">
+  <h text-align="justify">Curriculum Vitae – Franck Delahaye – Concepteur éditique / CCM &amp; Document Engineering</h>
+  <p/>
+  <section id="Contact" coex="CONTACT">
+    <h>CONTACT</h>
+    <p>Franck Delahaye<br/>franck_delahaye@yahoo.fr<br/>+33 7 67 38 28 95<br/>Grenoble, France<br/>Senior Document / CCM Engineer – ingénierie documentaire, chaînes de publication XML/SGML, interopérabilité SI, performance et maintenabilité de la génération.</p>
+  </section>
+  <section id="Objectives" coex="OBJECTIF PROFESSIONNEL">
+    <h>OBJECTIF PROFESSIONNEL</h>
+    <p>Ingénieur logiciel senior (25+ ans) spécialisé en ingénierie documentaire et chaînes de publication structurées (SGML/XML) : modélisation de contenus, validation par schémas, transformations (XSLT/XQuery), génération multi-formats (Web/HTML, PDF via XSL-FO), référentiels documentaires et workflows (versioning, revue, publication). Habitué aux environnements à forte exigence de qualité (tests, non-régression), de maintenabilité et de performance, ainsi qu’à l’intégration de données métier entre SI hétérogènes. Compétences transférables vers des plateformes CCM basées sur des concepts XML/XSLT (ex. Quadient Inspire, OpenText Exstream, StreamServe).</p>
+  </section>
+  <section id="skills" coex="COMPÉTENCES CLÉS">
+    <h>COMPÉTENCES CLÉS</h>
+    <ul>
+      <li>
+        <p><strong>Éditique / document engineering (socle technique)</strong></p>
+        <ul>
+          <li><p>XML, XSL, XSLT, XQuery - transformations, vues, alimentation d’index, génération de livrables.</p></li>
+          <li><p>Chaînes de publication XML/SGML - multi-sorties Web/HTML, PDF (XSL-FO), CD-ROM ; industrialisation des flux.</p></li>
+          <li><p>Validation et robustesse - schémas (XSD), contrôle de structure, gestion d’erreurs explicite, interopérabilité.</p></li>
+          <li><p>Référentiels documentaires / GED / CMS - gestion de versions, check-in/check-out, workflows de revue et publication.</p></li>
+          <li><p>Qualité &amp; non-régression - outillage de tests, scénarios de validation, sécurisation des évolutions.</p></li>
+          <li><p>Performance &amp; scalabilité - indexation, optimisation de traitements, génération et recherche sur corpus volumineux.</p></li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Technologies &amp; environnements</strong></p>
+        <ul>
+          <li><p>SGML/XML : CALS, AECMA, ATA, HL7, vocabulaires métiers ; suites de balisage et contraintes de structure.</p></li>
+          <li><p>Moteurs / bases orientées documents : BaseX, eXist-db ; requêtes et services (REST-XQ, XQuery).</p></li>
+          <li><p>Recherche / indexation : Lucene, Vespa (REST/XML), XPAT (recherche structurelle sur corpus SGML).</p></li>
+          <li><p>Java/J2EE : architectures 3-tiers, Tomcat/Jetty, intégration de bibliothèques de génération/édition.</p></li>
+          <li><p>SGBD : PostgreSQL, MySQL (pratiques SQL en contexte applicatif et intégration).</p></li>
+          <li><p>Systèmes : Linux (Ubuntu/Alpine), Unix ; pratique Windows en contexte projet.</p></li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Intégration SI &amp; pratiques de delivery</strong></p>
+        <ul>
+          <li><p>Interopérabilité SI : échanges de données métier, synchronisation inter-applications, APIs et flux.</p></li>
+          <li><p>CI/CD &amp; outillage : GitLab/GitHub, scripts de build/déploiement, environnements reproductibles (Docker).</p></li>
+          <li><p>Organisation : itératif/agile, backlog, estimation, documentation, accompagnement d’équipes.</p></li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+  <section id="Employment" coex="EXPÉRIENCE PROFESSIONNELLE">
+    <h>EXPÉRIENCE PROFESSIONNELLE</h>
+    <ul>
+      <li>
+        <p><strong>Développeur - Systèmes de contenus SGML/XML &amp; chaînes de publication</strong></p>
+        <p><strong>AIS Technologies, Synlog Technologies &amp; CS Group</strong> - Paris, Grenoble, Toulouse</p>
+        <p>1993 - 1999</p>
+        <ul>
+          <li><p><strong>Electre - base bibliographique SGML &amp; moteur de recherche</strong> : indexation C++ de gros volumes de données extraites d’un SGBD (Ingres) et indexées par le moteur OpenText XPAT, avec API de recherche rapide et sensible à la structure SGML.</p></li>
+          <li><p><strong>Dictionnaire historique suisse - chaîne éditoriale SGML</strong> : chaîne C++/Perl depuis une base SQL vers des documents SGML, puis production d’imprimables FrameMaker/MIF.</p></li>
+          <li><p>Travaux sur outils SGML/XML : transformation, navigation par feuilles de style, prototypes de liens (HyTime).</p></li>
+          <li><p><strong>Airbus - moteur de publication SGML</strong> : génération LaTeX pour environ 80 000 pages de manuels de maintenance (tables CALS, images flottantes, listes de pages modifiées).</p></li>
+          <li><p>Conception d’architectures, conseil client et réponses à appels d’offres (CMS, publication, bases de données).</p></li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Responsable d’équipe - GED / CMS &amp; workflows documentaires</strong></p>
+        <p><strong>Cap Gemini, Akazi Technologies, Xerox Global Services</strong> - Grenoble, France</p>
+        <p>1999 - 2004</p>
+        <ul>
+          <li><p><strong>Schneider Electric - migration de référentiel documentaire</strong> : migration vers Documentum (Java) avec architecture de référentiels répliqués ; paramétrage des workflows, cycles de vie, rôles et règles de gestion.</p></li>
+          <li><p><strong>FlowMind (moteur BPM) - backend du modeleur de processus</strong> : intégration d’une base dbXML pour gérer un référentiel de schémas (stockage, requêtes, validation) et génération de documentation de processus en PDF via XSL-FO (Apache FOP).</p></li>
+          <li><p><strong>Fiat Auto - chaîne de publication multi-langues</strong> : chaîne J2EE/XML pour documentation véhicule (9 langues/alphabets) avec sorties Web, CD-ROM (recherche XML via eXist-db/Jetty) et PDF (XSL-FO, FOP/XEP). Utilisation d’un éditeur structuré (XMetaL).</p></li>
+          <li><p><strong>EDF R&amp;D - CMS</strong> : application Java/Swing pour workflow de documentation et publication.</p></li>
+          <li><p><strong>CNIL - portail de gestion de demandes</strong> : développement J2EE/Tomcat.</p></li>
+          <li><p><strong>Renault Trucks - CMS C++/CORBA</strong> : intégration d’une base SGML (Astoria) pour contenus de documentation technique.</p></li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Senior développeur Java - moteur de recherche Internet</strong></p>
+        <p><strong>Kelkoo (puis Yahoo)</strong> - Grenoble, France</p>
+        <p>2005 - 2006</p>
+        <ul>
+          <li><p>Maintenance et évolution d’APIs de recherche basées sur Lucene dans une plateforme J2EE à composants (fort trafic).</p></li>
+          <li><p>Optimisation des temps de réponse via Berkeley-DB.</p></li>
+          <li><p>Migration vers Yahoo Vespa : API REST/XML, architecture distribuée et montée en charge.</p></li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Lead technique - solutions énergie &amp; santé (données structurées)</strong></p>
+        <p><strong>HC Forum / Open ENERGIE</strong> - Grenoble, France</p>
+        <p>2007 - 2010</p>
+        <ul>
+          <li><p>Plateforme santé : suite J2EE/Spring ; module Java + BaseX/XQuery pour gérer des échanges de messages HL7 XML entre applications (workflow d’interopérabilité).</p></li>
+          <li><p>Plateforme énergie : facturation et comptabilité pilotées par messages XML ; personnalisation d’ERP (Odoo) et intégration de données métier.</p></li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Architecte / développeur senior - plateformes e-commerce &amp; intégrations (expérience compressée)</strong></p>
+        <p><strong>Made In Design / Bilendi / Arturia</strong> - Grenoble, France</p>
+        <p>2011 - 2022</p>
+        <ul>
+          <li><p>Chaînes documentaires et génération : transformations XML/XSLT, génération PDF (XSL-FO) et automatisation de documents (ex. factures via modèles ODF et transformations XSLT).</p></li>
+          <li><p>Interopérabilité SI : synchronisation de données entre ERP/PIM/CRM/CMS et services tiers ; flux ETL et intégrations.</p></li>
+          <li><p>Qualité &amp; exploitation : outillage, supervision, documentation d’architectures, accompagnement d’équipes.</p></li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Développeur CMS XML (référentiel documentaire) - projet personnel / démonstrateur</strong></p>
+        <p><strong>CMS XML (BaseX/XQuery)</strong> - Grenoble, France</p>
+        <p>2018 - Présent</p>
+        <ul>
+          <li><p>Conception et évolution d’un CMS structuré : édition pilotée par schéma, stockage XML en base BaseX, requêtes XQuery, publication multi-formats (HTML, PDF, Markdown) via feuilles de style et composeurs de documents.</p></li>
+          <li><p>Personnalisation des vues et comportements d’édition (HTML/CSS/JavaScript) et industrialisation de la publication.</p></li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Lead développeur - plateformes web &amp; intégration SI (expérience compressée)</strong></p>
+        <p><strong>Cosmobilis</strong> - Chambéry, France</p>
+        <p>2023 - Présent</p>
+        <ul>
+          <li><p>Intégrations inter-applications (CRM/ERP, APIs), orchestration de flux, maintien en conditions opérationnelles et évolutions.</p></li>
+          <li><p>Pratiques de qualité : scénarios automatisés, sécurisation des livraisons, CI/CD.</p></li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Ingénieur de terrain - réseau sismologique national du Népal</strong></p>
+        <p><strong>Projet de coopération - Népal</strong> - Kathmandu, Népal</p>
+        <p>1991 - 1993</p>
+        <ul>
+          <li><p>Support aux parties prenantes : installation de stations, configuration de chaîne d’acquisition, logistique.</p></li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>Stage - Verilog Technologies (documentation SCADE)</strong></p>
+        <p><strong>Verilog Technologies</strong> - Grenoble, France</p>
+        <p>1990 - 1991</p>
+        <ul>
+          <li><p>Développement C d’un interpréteur/driver PostScript multi-langages d’impression.</p></li>
+          <li><p>Étude et intégration SGML comme format pivot pour génération documentaire configurable ; spécification de parseur et API C.</p></li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+  <section id="Education" coex="FORMATION">
+    <h>FORMATION</h>
+    <ul>
+      <li><p>1989-1991 - Polytech Grenoble - Diplôme d’ingénieur, informatique &amp; automatisme</p></li>
+      <li><p>1985-1988 - DEUG A - Sciences générales - Université Joseph Fourier, Grenoble</p></li>
+      <li><p>1984 - Baccalauréat scientifique - Grenoble</p></li>
+    </ul>
+  </section>
+  <section id="Languages" coex="LANGUES">
+    <h>LANGUES</h>
+    <ul>
+      <li><p>Français - langue maternelle</p></li>
+      <li><p>Anglais - courant professionnel</p></li>
+      <li><p>Allemand, russe, népali - notions scolaires, non pratiquées récemment</p></li>
+    </ul>
+  </section>
+  <section id="Interest" coex="CENTRES D’INTÉRÊT">
+    <h>CENTRES D’INTÉRÊT</h>
+    <p>Nature et activités outdoor (trekking, longboard de descente, snowboard), découverte d’autres cultures, intérêt pour l’observation et l’évolution des systèmes complexes (techniques, sociaux, organisationnels).</p>
+  </section>
+  <section id="NOTES" coex="NOTES">
+    <h>NOTES</h>
+    <ul>
+      <li><p>Disponibilité : dès que possible.</p></li>
+      <li><p>Mobilité : France (Ile-de-France, Lyon) et international selon modalités.</p></li>
+    </ul>
+  </section>
+</document>

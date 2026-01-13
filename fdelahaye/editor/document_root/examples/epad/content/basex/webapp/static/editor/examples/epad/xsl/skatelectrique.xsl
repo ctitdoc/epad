@@ -14,7 +14,10 @@
 -->
 
   <!-- xsl:output method="html" doctype-public="html" indent="yes" / -->
-  <xsl:output method="xhtml" indent="no" />
+  <xsl:output method="xml"
+              encoding="UTF-8"
+              indent="no"
+  />
   <xsl:param name="xopus">false</xsl:param>
 
   <xsl:include href="dates.xsl"/>
@@ -278,7 +281,7 @@
 <!--
         <div id="imCell_6" class="" data-responsive-sequence-number="1">
           <div id="imCellStyleGraphics_6"></div>
-          <div id="imCellStyleBorders_6"></div>&lt;!&ndash; UNSEARCHABLE &ndash;&gt;
+          <div id="imCellStyleBorders_6"></div>&lt;!&#8211; UNSEARCHABLE &#8211;&gt;
           <div id="imMenuObject_35_06">
             <div id="imMenuObject_35_06_container">
               <div class="hamburger-button hamburger-component">
@@ -408,7 +411,7 @@
                 </li>
               </ul>
             </div>
-          </div>&lt;!&ndash; UNSEARCHABLE END &ndash;&gt;
+          </div>&lt;!&#8211; UNSEARCHABLE END &#8211;&gt;
           <script>
             var imMenuObject_35_06_settings = {
             'menuId': 'imMenuObject_35_06',

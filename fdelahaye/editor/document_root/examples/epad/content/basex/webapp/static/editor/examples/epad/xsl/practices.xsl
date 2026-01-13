@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
-<!-- 
+<!--
   Note for developers taking this stylesheet
   as starting point: Use a treeTransform on the
   generated HTML to see the resulting tags inside 
@@ -13,8 +12,11 @@
     </x:view>
 -->
 
-  <!-- xsl:output method="html" doctype-public="html" indent="yes" / -->
-  <xsl:output method="xhtml" indent="no" />
+  <xsl:output method="xml"
+              encoding="UTF-8"
+              indent="no"
+              />
+
   <xsl:param name="xopus">false</xsl:param>
 
   <xsl:include href="dates.xsl"/>
