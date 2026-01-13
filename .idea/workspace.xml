@@ -355,7 +355,7 @@
       <workItem from="1768032917895" duration="7873000" />
       <workItem from="1768042827803" duration="4013000" />
       <workItem from="1768047514514" duration="12087000" />
-      <workItem from="1768314289353" duration="3232000" />
+      <workItem from="1768314289353" duration="3860000" />
     </task>
     <task id="LOCAL-00001" summary="- removes log files&#10;- commits db content/state&#10;- manage a feature list for each doc by mean of new attribute features: thus the doc listing displays for each doc, its list of actionable feature; thus this listing dos not display anymore for a doc like a CV, the ARTURIA feature as a CV cannot be displayed as an ARTURIA product page;&#10;- ARTURIA product page: fix the background product url that has changed on Arturia site;&#10;- adds new CVs and letters in the db;&#10;- fix a query evaluation bug leading to no result retruend by the demo query: diag: path index was corrupted, because of a bug of basex 7.x depending options values in .basex : changed the options values to avoid the bug to happen again: &#10;CHOP = false&#10;COMPPLAN = false&#10;AUTOFLUSH = false&#10;&#10;&#10;the bug required also a recreation of the DB from bin/basex console:&#10;&gt; EXPORT /tmp/dict Database 'dictionary' was exported in 192.86 ms. &#10;&gt; DROP DB dictionary Database 'dictionary' was dropped. &#10;&gt; CREATE DB dictionary /tmp/dict Database 'dictionary' created in 480.23 ms. &#10;&gt; xquery count(collection('dictionary')//data_definition)&#10;1&#10;Query executed in 22.09 ms. &gt;">
       <created>1764620582263</created>
@@ -371,7 +371,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767548973683</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="migrates the CMS to BaseX 12">
+      <option name="closed" value="true" />
+      <created>1768325555035</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1768325555035</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
