@@ -973,30 +973,6 @@ return
 </html>
 };
 
-
-(:declare %updating function page:save_dict_file_request(
-    $uri as xs:string, $body as document-node())
-{
-(: exemple $uri = 'http://dev.dmz.loc:8984/get_dict_file_xml_content_request?file=content/dictionary_f.delahaye.xml':)
-
-  update:output(fn:concat("Save request status : ", page:file_from_uri($uri), " correctly saved in the database.")),
-        if (contains($uri, 'training') or ($body/*[1]/@ignore_for = 'Tihar92$')) then
-           db:put("dictionary",
-             copy $content := $body/node()
-             modify(
-               delete node $content/@ignore_for,
-               for $code in $content//code
-                 return replace node $code with element code {
-                   if ($code/@text-align) then attribute {'text-align'} {$code/@text-align} else (),
-                   for $n in $code/node()
-                   return page:replace_lf_by_br($n)
-               }
-             ) return $content,
-             page:file_from_uri($uri)
-          )
-        else ()
-};
-:)
 declare %updating function page:save_dict_file_request(
     $uri as xs:string,
     $body as document-node()
@@ -1069,7 +1045,7 @@ declare function page:file_from_uri($uri as xs:string) as xs:string
 {fn:replace($uri,".*\?file=","")};
 
 declare function page:eval_dict_xquery_request(
-$xquery as xs:string, $result_format as xs:string) as node() (:as element(Q{http://www.w3.org/1999/xhtml}html):) (:as document-node():)
+$xquery as xs:string, $result_format as xs:string) as node()
 {
 if ($result_format != 'xml') then (
 xslt:transform(xquery:eval($xquery),
