@@ -187,7 +187,7 @@ let $payload :=
     ],
     $request :=
 <http:request
-method='post' timeout='300'>
+method='post' timeout='900'>
 <http:header name="Content-Type" value="application/json; charset=utf-8"/>
 <http:header name="Accept" value="application/json"/>
 <http:body media-type="application/json"/>
@@ -321,7 +321,7 @@ Localisé dans les bureaux du CIHAM à Lyon et Avignon, le poste est lié à l'o
 
 </textarea></p>
 <p><input title="Generation rules file" name="prePromptFile" type="text"
-value="SchemedTalks/cvForOfferRulesFile_default.txt" size="50" /></p>
+value="SchemedTalks/cvForOfferRulesFile_default.txt" size="80" /></p>
 <p>The generation rules file is a set of rules driving the LLM in its content generation.
 It is based on a rules hierachy mechanism enabling :</p>
 <ul><li>A constrained resume format generation suitable for integration
@@ -355,7 +355,7 @@ let $payload :=
     ],
     $request :=
 <http:request
-method='post' timeout='300'>
+method='post' timeout='900'>
 <http:header name="Content-Type" value="application/json; charset=utf-8"/>
 <http:header name="Accept" value="application/json"/>
 <http:body media-type="application/json"/>
@@ -398,6 +398,61 @@ update:output(
 )
 };
 
+declare %updating function page:get_resume_for_job_offer_request_json(
+                                                           $text_document as xs:string,
+                                                           $prePromptFile as xs:string
+                                                           ) {
+  let $payload :=
+      [
+        map {
+          "type": "OARequest",
+          "prePromptFile": $prePromptFile,
+          "prompt": $text_document
+        }
+      ],
+      $request :=
+  <http:request
+  method='post' timeout='900'>
+  <http:header name="Content-Type" value="application/json; charset=utf-8"/>
+  <http:header name="Accept" value="application/json"/>
+  <http:body media-type="application/json"/>
+  </http:request>
+
+  let $response := http:send-request($request, "http://www.sitems.org:16387/schemed_talks", $payload)
+  let $jsonText := $response[2]
+  let $wrapped := concat("<content>", $jsonText, "</content>")
+  let $parsed := parse-xml($wrapped)
+  let $document := $parsed/node()/document
+  let $currentTime := page:sanitize-datetime(fn:current-dateTime())
+
+
+  return
+  (
+  db:put(
+  "dictionary",
+  $document,
+  concat('content/dictionary_cv_for_job_offer_demo_',$currentTime,'.xml')
+  ),
+  update:output(
+  map {
+          "id":	concat('content/dictionary_cv_for_job_offer_demo_',$currentTime,'.xml'),
+          "kind": "generic",
+          "lastModifiedIso":  string(fn:current-dateTime()),
+          "features":[
+              "VIEW",
+              "EDIT",
+              "XML",
+              "RESUME"],
+          "actions": map {
+              "VIEW":	concat('/cms/get_dict_file_content_request?file=content/dictionary_cv_for_job_offer_demo_',$currentTime,'.xml'),
+              "EDIT":	concat('/static/editor/xopus/xopus.html#/cms/edit_dict_file_request?file=', 'content/dictionary_cv_for_job_offer_demo_',$currentTime,'.xml'),
+              "XML":	concat('/cms/get_dict_file_xml_content_request?file=content/dictionary_cv_for_job_offer_demo_',$currentTime,'.xml'),
+              "RESUME":	concat('/cms/get_dict_file_content_as_resume_request?file=', 'content/dictionary_cv_for_job_offer_demo_',$currentTime,'.xml'),
+              "RESUME/PDF":	concat('/cms/get_dict_file_content_as_pdf_resume_request?file=', 'content/dictionary_cv_for_job_offer_demo_',$currentTime,'.xml')
+          }
+    }
+  ))
+};
 
 (: =================================================================================================================== :)
 
@@ -419,12 +474,15 @@ declare function page:list_dictionary_request()
   <body>
     <div id="readme" style="text-align: justify">
     <h1 style="text-align: left">Schema driven CMS PoC</h1>
-    <p><i>NB: if you loose this demo prompt while playing some of the demos below, just click "home" in the upper left corner.</i></p>
-    <p><i>...NB: prefer a guided tour over a lonely self-service demo? <a href="mailto:ctitdoc@gmail.com">Email me at ctitdoc@gmail.com</a> and we’ll schedule a live walkthrough.</i></p>
+    <p><i>First things first: this demo provides a basic/lame UX as it is not a CMS UX demo at all.</i></p>
+    <p><i>It demonstrates value-added backend CMS features instead, for typical headless integration scenarios with whatever UX application and technology.</i></p>
+    <p><i>If you loose this demo prompt while playing some of the demos below, just click "home" in the upper left corner.</i></p>
+    <p><i>... Yet, to demonstrate the headless nature of this CMS: three UIs integrating its APIs are in WIP: <a href="/react/" target="_blank">React CMS UI (WIP)</a>, <a href="/angular/" target="_blank">Angular CMS UI (WIP)</a> and <a href="http://www.aiacv.fr" target="_blank">Vanilla JS CMS UI (WIP)</a>,<br/> they support : documents listing/actions and AI assisted CV document generation, and other features are mocked for now: document querying, AI assisted restructuring...</i></p>
+    <p><i>... NB: prefer a guided tour over a lonely self-service demo? <a href="mailto:ctitdoc@gmail.com">Email me at ctitdoc@gmail.com</a> and we’ll schedule a live walkthrough.</i></p>
 
     <pre> </pre>
-    <p style="width:80%">This proof of concept talks about the potential of a CMS driven by document/content schemas.</p>
-    <p style="width:80%">The demonstrated concepts and technologies behind the hood exist for decades, are standardized, and fit very well with the new "IA techno wave" (see demos below).</p>
+    <p style="width:80%">This Proof of Concept talks about the potential of a CMS driven by document/content schemas.</p>
+    <p style="width:80%">The demonstrated concepts and technologies behind the hood exist for decades, are standardized, and fit very well with the new "AI techno wave" (see demos below).</p>
     <p style="width:80%">The target audience is more technologists, as they can evaluate the benefits (or not) of such a solution for their target document authors and users, and less for the latters as... well, it's just a PoC, so it's more difficult for them to see how it could evolve in a complete CMS, yet an <a href="https://en.wikipedia.org/wiki/Minimum_viable_product">MVP</a> solution can be completed in a few weeks.</p>
     <p style="width:80%">The documents below are of various types: application dictionary, skate site page, music software page, resume, work document...</p>
     <p style="width:80%">Their edition is governed by schemas: it defines common element types like paragraph, table, image etc... but also more semantic types, derived from these ones or not, like task descriptions with their status, or even an application's data definition with its validtion constaints and implementation for a software documentation, etc...</p>
@@ -441,7 +499,8 @@ declare function page:list_dictionary_request()
       <li><a href="/static/editor/xopus/xopus.html#/cms/edit_dict_file_request?file=content/dictionary_demo_site_arturia.xml">this music software product</a>,
            is published in <a href="/cms/get_dict_file_demo_request?file=content/dictionary_demo_site_arturia.xml">this web page</a>,</li>
       <li><a href="/static/editor/xopus/xopus.html#/cms/edit_dict_file_request?file=content/dictionary_f.delahaye.xml">this application data dictionary</a>,
-           can be published as <a href="/cms/get_dict_file_content_as_markdown_request?file=content/dictionary_f.delahaye.xml">this markdown wiki</a> and can be checked with <a href="https://markdownlivepreview.com/">this online markdown viewer</a>,</li>
+           can be published as <a href="/cms/get_dict_file_content_as_markdown_request?file=content/dictionary_f.delahaye.xml">this markdown wiki</a> and can be checked with <a href="https://markdownlivepreview.com/">this online markdown viewer</a>,<br/>
+           or as <a href="/cms/get_dict_file_content_as_textile_request?file=content/dictionary_f.delahaye.xml">this textile wiki</a> and can be checked with <a href="https://textile-lang.com/">this online textile viewer</a>,</li>
       <li><a href="/static/editor/xopus/xopus.html#/cms/edit_dict_file_request?file=content/dictionary_resume_franck_delahaye_fr.xml">this resume</a>,
            can be published as <a href="/cms/get_dict_file_content_as_resume_request?file=content/dictionary_resume_franck_delahaye_fr.xml&amp;ignore=standard">this web page</a> or as <a href="/cms/get_dict_file_content_as_pdf_resume_request?file=content/dictionary_resume_franck_delahaye_fr.xml&amp;ignore=standard">this PDF document</a>.</li>
     </ul>
@@ -462,51 +521,116 @@ declare function page:list_dictionary_request()
     <pre> </pre>
     <p style='width:80%;margin-bottom:2em'>... more to come : more  AI, modular contents, translations managment, workflows/annotations/releases, access control, word processors integrations, enterprise application integrations, legacy document solutions and formats migrations, paper documents digitization and re-structuring ... => stay tuned !</p>
   </div>
+  <table>
+  <tr><th>Document</th><th>Last modified</th><th style="text-align:left">Actions</th></tr>
 { for $file in db:list-details('dictionary','content')[text() != 'content/resume.html']
   let $doc := fn:doc(fn:concat("dictionary/", $file))/node()
+  order by $doc/@last_modified descending
   return
-<p style="margin-bottom:0.5em">
- {$file/text()} (last modified : {string($file/@modified-date)}) : <a href="{concat('/cms/get_dict_file_content_request?file=', $file/text())}">VIEW</a>,
+  <tr>
+  <td>
+<!--p style="margin-bottom:0.5em"-->
+{$file/text()}</td><td>{string($doc/@last_modified)}</td><td><a href="{concat('/cms/get_dict_file_content_request?file=', $file/text())}">VIEW</a>,
 <span><a href="{concat('/static/editor/xopus/xopus.html#/cms/edit_dict_file_request?file=', $file/ text())}" target="_blank">EDIT</a>, </span>
-<span><a href="{concat('/cms/delete_dict_file_request?file=', $file/text())}">DELETE</a></span>,<br/>
+<span><a href="{concat('/cms/delete_dict_file_request?file=', $file/text())}">DELETE</a></span>,
+<span><a href="{concat('/cms/get_dict_file_xml_content_request?file=', $file/text())}" target="_blank">XML</a></span>,
+<span><a href="{concat('/cms/get_dict_file_content_as_html_file_request?file=', $file/text())}" target="_blank">HTML FILE</a></span>
+<br/>
   {
   if (contains($doc/@features, 'MARKDOWN')) then
- <span> OR <a href="{concat('/cms/get_dict_file_content_as_markdown_request?file=', $file/ text())}" target="_blank">MARKDOWN</a></span>
+ <span><a href="{concat('/cms/get_dict_file_content_as_markdown_request?file=', $file/ text())}" target="_blank">MARKDOWN</a>&#160;</span>
   else ()
   }
 {
 if (contains($doc/@features, 'PDF')) then
-<span> OR <a href="{concat('/cms/get_dict_file_content_as_pdf_request?file=', $file/text())}" target="_blank">PDF</a></span>
+<span><a href="{concat('/cms/get_dict_file_content_as_pdf_request?file=', $file/text())}" target="_blank">PDF</a>&#160;</span>
 else ()
 }
 {
 if (contains($doc/@features, 'RESUME')) then
-<span> OR <a href="{concat('/cms/get_dict_file_content_as_resume_request?file=', $file/text())}" target="_blank">RESUME</a> OR <a href="{concat('/cms/get_dict_file_content_as_pdf_resume_request?file=', $file/text())}">RESUME PDF</a></span>
+<span><a href="{concat('/cms/get_dict_file_content_as_resume_request?file=', $file/text())}" target="_blank">HTML RESUME</a>/<a href="{concat('/cms/get_dict_file_content_as_pdf_resume_request?file=', $file/text())}">PDF RESUME</a>&#160;</span>
 else ()
 }
 {
 if (contains($doc/@features, 'SKATELECTRIQUE')) then
-<span> OR <a href="{concat('/cms/get_dict_file_content_request_as_skatelectrique?file=', $file/text())}">SKATELECTRIQUE</a></span>
+<span><a href="{concat('/cms/get_dict_file_content_request_as_skatelectrique?file=', $file/text())}">SKATELECTRIQUE PAGE</a>&#160;</span>
 else ()
 }
 {
 if (contains($doc/@features, 'ARTURIA')) then
-<span> OR <a href="{concat('/cms/get_dict_file_demo_request?file=', $file/text())}" target="_blank">ARTURIA</a></span>
+<span><a href="{concat('/cms/get_dict_file_demo_request?file=', $file/text())}" target="_blank">ARTURIA PAGE</a>&#160;</span>
 else ()
 }
 {
 if (contains($doc/@features, 'TEXTILE')) then
-<span> OR <a href="{concat('/cms/get_dict_file_content_as_textile_request?file=', $file/text())}" target="_blank">TEXTILE</a> OR <a href="{concat('/cms/get_dict_file_content_as_textile_v2_request?file=', $file/text())}" target="_blank">TEXTILE V2</a></span>
+<span><a href="{concat('/cms/get_dict_file_content_as_textile_request?file=', $file/text())}" target="_blank">TEXTILE</a>/<a href="{concat('/cms/get_dict_file_content_as_textile_v2_request?file=', $file/text())}" target="_blank">TEXTILE V2</a>&#160;</span>
 else ()
 }
-<span> OR <a href="{concat('/cms/get_dict_file_content_as_html_file_request?file=', $file/text())}" target="_blank">HTML FILE</a></span>
-<span> OR <a href="{concat('/cms/get_dict_file_xml_content_request?file=', $file/text())}" target="_blank">XML</a></span>
-</p>
+</td><!--/p-->
+</tr>
 }
+</table>
 <p><pre> </pre></p>
 <p><pre> </pre></p>
   </body>
 </html>
+};
+
+(:~
+ : This function returns the list of document as json (by default of the 'dictionary' database's root collection)
+     { id: 'content/dictionary_cv_courvant_v6.xml', lastModifiedIso: '2026-02-09T16:18:19+01:00', kind: 'resume' },
+
+ : @return array
+ :)
+declare function page:list_dictionary_request_json() as array(*) {
+  array {
+    for $file in db:list-details('dictionary','content')[text() != 'content/resume.html']
+    let $doc := doc(concat("dictionary/", $file))/node()
+    order by xs:dateTime($doc/@last_modified) descending
+    let $f := string($file),
+    $u := encode-for-uri($f),
+    $defaultActions := map {
+                               "VIEW": concat("/cms/get_dict_file_content_request?file=", $u),
+                               "EDIT": concat("/static/editor/xopus/xopus.html#/cms/edit_dict_file_request?file=", $u),
+                               "XML":  concat("/cms/get_dict_file_xml_content_request?file=", $u)
+                             },
+    $markdownAction := page:action_of_doc("MARKDOWN", "MARKDOWN", $doc, $u, "/cms/get_dict_file_content_as_markdown_request"),
+    $resumeAction := page:action_of_doc("RESUME", "RESUME", $doc, $u, "/cms/get_dict_file_content_as_resume_request"),
+    $resumePdfAction := page:action_of_doc("RESUME", "RESUME/PDF", $doc, $u, "/cms/get_dict_file_content_as_pdf_resume_request"),
+    $pdfAction := page:action_of_doc("PDF", "PDF", $doc, $u, "/cms/get_dict_file_content_as_pdf_request"),
+    $skateEletriqueAction := page:action_of_doc("SKATELECTRIQUE", "SKATELECTRIQUE PAGE", $doc, $u, "/cms/get_dict_file_content_request_as_skatelectrique"),
+    $arturiaAction := page:action_of_doc("ARTURIA", "ARTURIA PAGE", $doc, $u, "/cms/get_dict_file_demo_request"),
+    $textileAction := page:action_of_doc("TEXTILE", "TEXTILE", $doc, $u, "/cms/get_dict_file_content_as_textile_request"),
+    $actions := map:merge((
+                        $defaultActions,
+                        $markdownAction,
+                        $resumeAction,
+                        $resumePdfAction,
+                        $pdfAction,
+                        $skateEletriqueAction,
+                        $arturiaAction,
+                        $textileAction
+                       )
+                    )
+    return map {
+          "id": $f,
+          "kind": "generic",
+          "lastModifiedIso": string($doc/@last_modified),
+          "features":array {
+                        array:flatten((
+                            "VIEW","EDIT","XML",
+                            array {tokenize(normalize-space($doc/@features), '\s+')}
+                        ))},
+          "actions": $actions
+        }
+  }
+};
+
+declare   function page:action_of_doc($action as xs:string, $key as xs:string, $doc as node(), $docId as xs:string, $request as xs:string) as map(*) {
+  if (contains(string($doc/@features), $action)) then
+    map { $key: concat($request, "?file=", $docId) }
+  else
+    map {}
 };
 
 (:~
@@ -562,7 +686,6 @@ update:output(<html xmlns="http://www.w3.org/1999/xhtml">
             <head>
               <title>Delete file request status</title>
             </head>
-
             <body>
               <h1>"Delete file" request status</h1>
               <p>File { $file } has been deleted.</p>
@@ -765,7 +888,8 @@ try {
 let $htmlContent := page:filter_collapse_expand(
 page:get_dict_file_filtered_content_request($file, $ignore)),
 $filePath := "/tmp/" || $file || ".html",
-$statusMkdir := proc:system(  'mkdir',('-p', '/tmp/content')),
+$fileDirPath := file:parent($filePath),
+$statusMkdir := proc:system(  'mkdir',('-p', $fileDirPath)),
 $status := file:write-text($filePath, "<!DOCTYPE html>"),
 $status2 := file:append($filePath, $htmlContent)
 return $filePath
@@ -850,7 +974,7 @@ return
 };
 
 
-declare %updating function page:save_dict_file_request(
+(:declare %updating function page:save_dict_file_request(
     $uri as xs:string, $body as document-node())
 {
 (: exemple $uri = 'http://dev.dmz.loc:8984/get_dict_file_xml_content_request?file=content/dictionary_f.delahaye.xml':)
@@ -871,6 +995,61 @@ declare %updating function page:save_dict_file_request(
              page:file_from_uri($uri)
           )
         else ()
+};
+:)
+declare %updating function page:save_dict_file_request(
+    $uri as xs:string,
+    $body as document-node()
+)
+{
+  let $now :=
+    fn:format-dateTime(
+      current-dateTime(),
+      "[Y0001]-[M01]-[D01]T[H01]:[m01]:[s01][Z]"
+    )
+
+  return
+    (
+      update:output(
+        fn:concat(
+          "Save request status : ",
+          page:file_from_uri($uri),
+          " correctly saved in the database."
+        )
+      ),
+
+      if (
+        contains($uri, 'training')
+        or ($body/*[1]/@ignore_for = 'Tihar92$')
+      )
+      then
+        db:put(
+          "dictionary",
+          copy $content := $body/node()
+          modify (
+            (: gestion ignore_for :)
+            delete node $content/@ignore_for,
+
+            (: ajout last_modified :)
+            delete node $content/@last_modified,
+            insert node attribute last_modified { $now } into $content,
+
+            (: ton code existant :)
+            for $code in $content//code
+            return
+              replace node $code with element code {
+                if ($code/@text-align)
+                then attribute {'text-align'} { $code/@text-align }
+                else (),
+                for $n in $code/node()
+                return page:replace_lf_by_br($n)
+              }
+          )
+          return $content,
+          page:file_from_uri($uri)
+        )
+      else ()
+    )
 };
 
 

@@ -1,0 +1,42 @@
+<document last_modified="2026-01-22T12:30:00+01:00" section-numbering="true" figure-numbering="true" features="PDF">
+    <h text-align="justify">Candidature - Ingénieur·e d'Études en Fouille et Ingénierie des Données (H/F) - Projet PRIMA (CESR, Tours)</h>
+
+    <section>
+        <h> </h>
+        <p>Madame, Monsieur,</p>
+
+        <section view="normal">
+            <h> </h>
+
+            <p text-align="justify">
+                Je vous propose ma candidature au poste d'Ingénieur·e d'Études en Fouille et Ingénierie des Données au sein du projet ERC-ADV PRIMA, hébergé au CESR. Mon positionnement est d'apporter une intégration de données fiable et documentée, en assurant la qualité, la traçabilité et la reproductibilité des traitements, au service des besoins des chercheurs et des partenaires du projet.
+            </p>
+
+            <p text-align="justify">
+                Dans mes missions récentes, j'ai conçu et fait évoluer des services d'intégration inter-systèmes basés sur API, incluant l'analyse de schémas, la transformation et la normalisation de données hétérogènes, et la synchronisation d'états entre applications. Chez Cosmobilis (depuis 2023), j'interviens sur des flux de données entre CRM et ERP, avec un accent constant sur la cohérence des référentiels, la validation des traitements, l'observabilité et les scénarios de bout en bout. Cette approche est directement transposable aux exigences du projet PRIMA autour d'une base PostgreSQL, d'une application web et d'une API REST.
+            </p>
+
+            <p text-align="justify">
+                Je dispose par ailleurs d'un socle solide en données structurées et en ingénierie documentaire : XML/SGML, schémas et validation, XSLT et XQuery, ainsi que l'exploitation de bases XML (BaseX, eXist-db) pour produire des vues, des extractions et des alimentations d'index. J'ai travaillé sur des workflows d'interopérabilité autour de messages HL7 XML (HC Forum) et sur des chaînes de publication multi-formats avec recherche dans corpus (Web/CD-ROM/PDF). Ce parcours s'inscrit naturellement dans l'écosystème TEI, et je suis à l'aise avec les logiques d'édition structurée, de validation et de publication comparables à une plateforme TEI Publisher.
+            </p>
+
+            <p text-align="justify">
+                Sur le volet fouille et analyse, j'ai une pratique concrète d'indicateurs, de reporting et de tableaux de bord (KPIs, exports, livraisons automatisées), avec une culture de scriptabilité et de documentation afin de rendre les résultats explicables et rejouables. Je porte une attention particulière à la qualité des données (contrôles, dédoublonnage lorsque pertinent, cohérence des règles) et à la production de formats d'extraction standardisés (XML, JSON, CSV) adaptés aux contraintes d'entrepôts et de bases partenaires.
+            </p>
+
+            <p text-align="justify">
+                Enfin, j'évolue au quotidien dans des environnements outillés (Git, CI/CD, Docker, Linux), avec une exigence de lisibilité et de maintenabilité, et une habitude de collaboration avec des interlocuteurs non informaticiens (experts métiers, équipes transverses). Je suis opérationnel en français et en anglais, et je serais ravi d'échanger sur vos priorités (intégration, extraction, analyse) et sur la meilleure manière d'accompagner l'équipe PRIMA dans la durée.
+            </p>
+        </section>
+    </section>
+
+    <section>
+        <h> </h>
+        <p>
+            Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées,
+            <br/> Franck Delahaye
+            <br/> e-mail: <a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a>
+            <br/> tel: +33 7 67 38 28 95
+        </p>
+    </section>
+</document>

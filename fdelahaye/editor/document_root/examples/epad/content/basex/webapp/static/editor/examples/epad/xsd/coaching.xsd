@@ -237,7 +237,8 @@
     <xs:attribute ref="figure-numbering" use="optional" />
     <xs:attribute ref="ignore_for"/>
     <xs:attribute ref="features"/>
-      <xs:attributeGroup ref="rdfaLite"/>
+    <xs:attribute ref="last_modified"/>
+    <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <xs:complexType name="dictionary.type" mixed="false">
@@ -251,7 +252,8 @@
     <xs:attribute ref="figure-numbering" use="optional" />
     <xs:attribute ref="ignore_for"/>
     <xs:attribute ref="features"/>
-      <xs:attributeGroup ref="rdfaLite"/>
+    <xs:attribute ref="last_modified"/>
+    <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <xs:complexType name="document.type" mixed="false">
@@ -268,7 +270,8 @@
     <xs:attribute ref="figure-numbering" use="optional" />
     <xs:attribute ref="ignore_for"/>
     <xs:attribute ref="features"/>
-      <xs:attributeGroup ref="rdfaLite"/>
+    <xs:attribute ref="last_modified"/>
+    <xs:attributeGroup ref="rdfaLite"/>
   </xs:complexType>
 
   <!-- section.type -->
@@ -708,6 +711,7 @@
   -->
 
   <xs:attribute name="ignore_for" type="xs:string"/>
+  <xs:attribute name="last_modified" type="xs:dateTime"/>
   <xs:attribute name="features" type="xs:string"/>
 </xs:schema>
 

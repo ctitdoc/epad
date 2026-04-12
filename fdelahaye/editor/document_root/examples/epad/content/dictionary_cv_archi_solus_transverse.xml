@@ -1,0 +1,171 @@
+<document section-numbering="true" figure-numbering="true" features="RESUME">
+    <h text-align="justify">Franck Delahaye &#8212; Architecte solutions / SI</h>
+    <p/>
+    <section id="Contact" coex="CONTACT">
+        <h>CONTACT</h>
+        <p>Franck Delahaye</p>
+        <p><a href="mailto:franck_delahaye@yahoo.fr">franck_delahaye@yahoo.fr</a></p>
+        <p>+33 7 67 38 28 95</p>
+        <p>Grenoble, France</p>
+        <p>Architecte solutions / SI &#8212; Modernisation de plateformes, int&#233;gration applicative, DevOps et syst&#232;mes data-centric</p>
+    </section>
+    <section id="Objectives" coex="RESUME PROFESSIONNEL">
+        <h>RESUME PROFESSIONNEL</h>
+        <p>Ing&#233;nieur informatique senior et architecte solutions avec une forte exp&#233;rience en modernisation de plateformes logicielles (back-offices, e-commerce, outillage interne), int&#233;gration d&#8217;applications d&#8217;entreprise (ERP/CRM/PIM/BI), et conception d&#8217;architectures orient&#233;es services.</p>
+        <p>Habitu&#233; aux environnements &#224; forte volum&#233;trie et aux contraintes de production (qualit&#233; de service, observabilit&#233;, d&#233;lais), avec une pratique op&#233;rationnelle du cloud (AWS), de la conteneurisation (Docker), et des cha&#238;nes CI/CD.</p>
+        <p>Exp&#233;rience transverse d&#8217;alignement entre besoins m&#233;tiers et contraintes techniques : cadrage, sc&#233;narios &#171; make or buy &#187;, r&#233;daction/lecture de dossiers de d&#233;cision, pilotage de PoC, accompagnement de prestataires, et animation d&#8217;&#233;changes avec des interlocuteurs non techniques (direction, m&#233;tiers, finance, op&#233;rations).</p>
+    </section>
+    <section id="skills" coex="COMPETENCES">
+        <h>COMPETENCES</h>
+        <ul>
+            <li>
+                <p><strong>Architecture solution &amp; transformation</strong></p>
+                <ul>
+                    <li><p>D&#233;finition d&#8217;architecture cible, trajectoires et sc&#233;narios d&#8217;&#233;volution (refactoring progressif, migration &#171; lift &amp; shift &#187; vs modernisation).</p></li>
+                    <li><p>Cartographie applicative et compr&#233;hension des responsabilit&#233;s applicatives, des flux de donn&#233;es et des int&#233;grations.</p></li>
+                    <li><p>&#201;tudes techniques et arbitrages &#171; make or buy &#187;, appui &#224; la r&#233;daction d&#8217;appels d&#8217;offres et &#224; la qualification de partenaires.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Cloud, plateforme &amp; DevOps</strong></p>
+                <ul>
+                    <li><p>AWS : d&#233;ploiement et exploitation de services sur VMs, migration d&#8217;h&#233;bergement vers AWS, environnements Linux (Ubuntu/Alpine).</p></li>
+                    <li><p>Docker : conteneurisation de services et environnements dev/test, pratiques de build &amp; d&#233;ploiement.</p></li>
+                    <li><p>CI/CD GitLab &amp; GitHub Actions (connexe &#224; GitOps) : pipelines, workflows de build/release, d&#233;ploiements &#171; on-demand &#187;, gestion multi-environnements.</p></li>
+                    <li><p>Kubernetes : formation 1 semaine (fondamentaux orchestration &amp; d&#233;ploiement).</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Int&#233;gration, APIs &amp; microservices</strong></p>
+                <ul>
+                    <li><p>Conception et mise en &#339;uvre d&#8217;int&#233;grations API entre syst&#232;mes h&#233;t&#233;rog&#232;nes (ERP/CRM/marketplaces/outils m&#233;tiers).</p></li>
+                    <li><p>REST APIs, Webhooks, OAuth2, contrats d&#8217;API (OpenAPI/Swagger), orchestration de sc&#233;narios multi-&#233;tapes.</p></li>
+                    <li><p>Approche &#171; service-oriented &#187; sur plateformes PHP/Java, d&#233;couplage front/back, synchronisation de donn&#233;es.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>S&#233;curit&#233; &amp; r&#233;seau (niveau op&#233;rationnel)</strong></p>
+                <ul>
+                    <li><p>OAuth2, s&#233;curit&#233; applicative Symfony (authn/authz), gestion de tokens et pratiques de logging/tra&#231;abilit&#233; (connexe aux exigences RSSI).</p></li>
+                    <li><p>Compr&#233;hension des interactions r&#233;seau au niveau protocolaire : HTTP/REST, WebSocket, architectures distribu&#233;es et exposition d&#8217;APIs.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Donn&#233;es, recherche &amp; plateformes data-centric</strong></p>
+                <ul>
+                    <li><p>XML/XSLT/XQuery : mod&#232;les structur&#233;s, transformations, validation et alimentations d&#8217;index.</p></li>
+                    <li><p>Moteurs de recherche : Lucene, Vespa ; optimisation et &#233;volution d&#8217;APIs de recherche.</p></li>
+                    <li><p>Bases : PostgreSQL, MySQL ; bases XML (BaseX, eXist-db).</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>M&#233;thodes &amp; leadership</strong></p>
+                <ul>
+                    <li><p>Leadership technique : mentoring, code reviews, cadrage technique, estimation, coordination avec DevOps.</p></li>
+                    <li><p>Agile / it&#233;ratif : backlog, priorisation, it&#233;rations ; outils Jira/Confluence, Redmine, Trello.</p></li>
+                    <li><p>Formalisation : documentation d&#8217;architecture, pratiques qualit&#233; inspir&#233;es CMMI, usage de BPMN pour mod&#233;liser des processus.</p></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="Employment" coex="EXPERIENCES">
+        <h>EXPERIENCES</h>
+        <ul>
+            <li>
+                <p><strong>Oct 2025 - Pr&#233;sent &#8212; Rust-based LLM Processing Engine (Work in Progress) &#8212; Projet personnel (Grenoble)</strong></p>
+                <ul>
+                    <li><p>R&#244;le : Senior Software Engineer / Architect.</p></li>
+                    <li><p>Conception d&#8217;un service backend Rust pour ex&#233;cuter des workflows de transformation de donn&#233;es pilot&#233;s par API, avec forte attention &#224; la robustesse (contrats d&#8217;API, erreurs explicites, validation par sch&#233;mas).</p></li>
+                    <li><p>Mise en place d&#8217;une s&#233;paration stricte des responsabilit&#233;s : couche d&#8217;orchestration vs couche d&#8217;ex&#233;cution vs frontends de communication.</p></li>
+                    <li><p>Technos : Rust (async), REST APIs, OpenAI API, JSON Schema, XML/XSD, Linux, Git/GitHub.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Jan 2023 - Pr&#233;sent &#8212; Cosmobilis &#8212; Chamb&#233;ry (France) &#8212; Senior Lead Developer &amp; Architect (plateformes Internet &amp; e-commerce)</strong></p>
+                <ul>
+                    <li><p>Contexte : maintenance et modernisation de plateformes &#224; fort trafic, back-offices et int&#233;grations partenaires.</p></li>
+                    <li><p>Architecture et d&#233;veloppement d&#8217;un service d&#8217;int&#233;gration d&#8217;applications d&#8217;entreprise : synchronisation d&#8217;opportunit&#233;s/lead entre Salesforce CRM et OpenFlex (ERP m&#233;tier), mapping multi-pays, Webhooks, APIs document&#233;es (OpenAPI/Swagger).</p></li>
+                    <li><p>Modernisation progressive d&#8217;un site legacy (<a href="http://www.elite-auto.fr">http://www.elite-auto.fr</a>) : migration d&#8217;h&#233;bergement vers AWS (Ubuntu 24), rationalisation des d&#233;ploiements, mise en place/maintenance de workflows CI/CD, int&#233;gration de services tiers (CRM, search, marketplaces, mailing, image services).</p></li>
+                    <li><p>Mise en &#339;uvre de services Ballerina modularis&#233;s (monorepo) : connecteurs r&#233;utilisables (Algolia, Teams, DB), ETL d&#8217;indexation, ex&#233;cutions planifi&#233;es type crontab, WebSocket broadcast pour applications front.</p></li>
+                    <li><p>Pratiques production : Docker, supervision/diagnostic (Kibana), analyse d&#8217;incidents, coordination avec &#233;quipes DevOps.</p></li>
+                    <li><p>Management / coordination : animation technique, encadrement (jusqu&#8217;&#224; 8 personnes sur le service d&#8217;int&#233;gration), estimation et pilotage des &#233;volutions avec les responsables m&#233;tier.</p></li>
+                    <li><p>Technos : PHP/Symfony (2-6), Ballerina, AWS, Docker, GitHub CI/CD, MySQL/PostgreSQL, REST/Webhooks/WebSocket, OAuth2, Angular (maintenance d&#8217;une app Angular 15).</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Oct 2024 - Pr&#233;sent &#8212; tchatapi.org &#8212; D&#233;mo produit / R&amp;D (Grenoble)</strong></p>
+                <ul>
+                    <li><p>R&#244;le : Solo Developer / Product Designer.</p></li>
+                    <li><p>Conception d&#8217;un moteur d&#8217;orchestration de sc&#233;narios d&#8217;APIs multi-&#233;tapes d&#233;finis en JSON, avec validation par sch&#233;mas, r&#233;utilisation de r&#233;sultats (JSONPath), et ex&#233;cution via CLI ou Swagger UI.</p></li>
+                    <li><p>Support de connecteurs (OAuth2, APIs REST) et int&#233;gration OpenAI comme type de requ&#234;te, utile pour des PoCs et l&#8217;industrialisation de sc&#233;narios reproductibles.</p></li>
+                    <li><p>Site : <a href="http://www.tchatapi.org">http://www.tchatapi.org</a></p></li>
+                    <li><p>Technos : Ballerina, OpenAPI/Swagger UI, JSON/JSON Schema/JSONPath, OAuth2, GitHub Actions, Docker, Linux.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Jan 2018 - Pr&#233;sent &#8212; Structured XML CMS &#8212; Projet personnel / d&#233;monstrateur (Grenoble)</strong></p>
+                <ul>
+                    <li><p>R&#244;le : Solo Developer.</p></li>
+                    <li><p>Conception d&#8217;un CMS &#171; schema-driven &#187; : &#233;dition WYSIWYG guid&#233;e par sch&#233;ma XML, stockage BaseX, services REST-XQ/XQuery, et cha&#238;nes de publication multi-formats (HTML/PDF/Markdown).</p></li>
+                    <li><p>D&#233;monstrateur de gestion de CVs : r&#233;tro-conversion de CV texte vers XML contraint par sch&#233;ma via OpenAI (orchestration Ballerina), &#233;dition dans le CMS, publication automatique.</p></li>
+                    <li><p>D&#233;mo : <a href="http://www.sitems.org:16386/cms/dictionary">http://www.sitems.org:16386/cms/dictionary</a></p></li>
+                    <li><p>Technos : XML, XQuery, REST-XQ, BaseX, XSLT, HTML/CSS/JS, PDF.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>2011 - 2022 &#8212; Made In Design / Bilendi / Arturia &#8212; Grenoble (France) &#8212; Senior Solutions Architect &amp; Developer (plateformes e-commerce &amp; SI)</strong></p>
+                <ul>
+                    <li><p>Conception et documentation d&#8217;une architecture d&#8217;int&#233;gration type ESB pour orchestrer les flux entre ERP, PIM, CMS, CRM et services tiers (marketplaces, marketing, paiement), avec synchronisations Talend.</p></li>
+                    <li><p>Int&#233;grations ERP Odoo (Python/PostgreSQL) : ventes, achats, stock/warehouse, helpdesk, comptabilit&#233; ; alignement des processus avec les &#233;quipes m&#233;tiers.</p></li>
+                    <li><p>DevOps : pipelines GitLab CI/CD ; supervision production (Kibana) ; migrations progressives Symfony/PHP et refactorings vers services.</p></li>
+                    <li><p>Assistance &#224; la DSI (sur 4 ans) : mise &#224; jour de la roadmap op&#233;rationnelle SI, participation aux roadmaps avec CEO/investisseurs/managers, reprise de contexte de 4 DG successifs ; contribution aux aspects d&#8217;architecture pour la r&#233;daction d&#8217;appels d&#8217;offres vers des int&#233;grateurs (ERP Odoo et autres ERP), qualification technique des partenaires, d&#233;finition de macro-plannings d&#8217;int&#233;gration et de migrations incr&#233;mentales du SI.</p></li>
+                    <li><p>Technos : PHP/Symfony, Java/Tomcat, Odoo (Python), Talend, PostgreSQL/MySQL, REST APIs, GitLab CI/CD, Docker, Kibana.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>2007 - 2010 &#8212; HC Forum / Open ENERGIE &#8212; Grenoble (France) &#8212; Technical Lead (&#233;nergie &amp; sant&#233;)</strong></p>
+                <ul>
+                    <li><p>Open ENERGIE : plateforme de facturation march&#233; lib&#233;ralis&#233;, compta/facturation Odoo pilot&#233;es par messages XML d&#8217;&#233;changes de donn&#233;es de consommation ; personnalisations Python (compta/taxes, CRM, produits/pricing).</p></li>
+                    <li><p>HC Forum : suite applicative J2EE (Spring) sant&#233; ; module BaseX/XQuery pour g&#233;rer des workflows d&#8217;&#233;changes de messages HL7 XML entre applications.</p></li>
+                    <li><p>Travail en &#233;quipes Agile (5-10 devs), prise en charge de choix techniques et d&#8217;&#233;volutions.</p></li>
+                    <li><p>Technos : Odoo (Python), PostgreSQL, XML, Java/J2EE/Spring, BaseX/XQuery, HL7.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>2005 - 2006 &#8212; Kelkoo (Yahoo) &#8212; Grenoble (France) &#8212; Senior Java Developer (moteur de recherche)</strong></p>
+                <ul>
+                    <li><p>Maintenance et &#233;volution d&#8217;APIs de recherche bas&#233;es sur Lucene dans une plateforme J2EE fortement componentis&#233;e.</p></li>
+                    <li><p>Migration vers Yahoo Vespa (API REST/XML, architecture distribu&#233;e) et optimisation des temps de r&#233;ponse.</p></li>
+                    <li><p>Technos : Java/J2EE, Lucene, Vespa, REST/XML.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Exp&#233;riences ant&#233;rieures</strong></p>
+                <ul>
+                    <li><p>D&#233;veloppement et pilotage technique de cha&#238;nes documentaires et CMS (Java, C++/CORBA), EDM/Documentum, portails, moteurs de publication SGML/XML, g&#233;n&#233;ration PDF (XSL-FO/FOP), et outils de mod&#233;lisation de processus (backends de moteurs BPM).</p></li>
+                    <li><p>R&#233;f&#233;rences : projets pour EDF (R&amp;D CMS), Schneider Electric (EDM), Fiat Auto (cha&#238;ne de publication multilingue), CNIL, Renault Trucks, ainsi que des projets SGML/XML et d&#8217;indexation documentaire.</p></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="Education" coex="FORMATION">
+        <h>FORMATION</h>
+        <ul>
+            <li><p>1989 - 1991 &#8212; Polytech Grenoble &#8212; Dipl&#244;me d&#8217;ing&#233;nieur (informatique &amp; automatisme)</p></li>
+            <li><p>1985 - 1988 &#8212; DEUG A &#8212; Sciences g&#233;n&#233;rales &#8212; Universit&#233; Joseph Fourier, Grenoble</p></li>
+            <li><p>1984 &#8212; Baccalaur&#233;at scientifique &#8212; Grenoble</p></li>
+        </ul>
+    </section>
+    <section id="Languages" coex="LANGUES">
+        <h>LANGUES</h>
+        <ul>
+            <li><p>Fran&#231;ais &#8212; langue maternelle</p></li>
+            <li><p>Anglais &#8212; professionnel</p></li>
+            <li><p>Allemand, Russe, N&#233;palais &#8212; scolaire, non pratiqu&#233; r&#233;cemment</p></li>
+        </ul>
+    </section>
+    <section id="Interest" coex="CENTRES D&#8217;INTERET">
+        <h>CENTRES D&#8217;INTERET</h>
+        <p>Nature et activit&#233;s outdoor (trekking, longboard, snowboard), d&#233;couverte d&#8217;autres cultures, observation des syst&#232;mes complexes (techniques, sociaux, organisationnels).</p>
+    </section>
+</document>

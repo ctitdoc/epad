@@ -1,0 +1,131 @@
+<document section-numbering="true" figure-numbering="true" features="RESUME" vocab="http://example.org/cv#" typeof="Person" about="#franck">
+    <h>Curriculum Vitae – Franck Delahaye</h>
+
+    <section id="Contact" coex="CONTACT" typeof="ContactPoint">
+        <h>CONTACT</h>
+        <p>
+            Franck Delahaye<br/>
+            Grenoble, France<br/>
+            Architecte Solution / Technique<br/>
+            Email : franck_delahaye@yahoo.fr
+        </p>
+    </section>
+
+    <section id="Objectives" coex="PROFESSIONAL SUMMARY" typeof="Summary">
+        <h>PROFIL PROFESSIONNEL</h>
+        <p>
+            Architecte Solution / Technique avec plus de 20 ans d’expérience dans la conception, l’évolution et la gouvernance de systèmes d’information complexes.
+            Intervention transverse sur des programmes multi-projets, avec une forte implication dans l’analyse des besoins métiers, la définition d’architectures applicatives et techniques alignées avec la trajectoire cible du SI, et l’accompagnement des équipes projets.
+            Habitué aux contextes de transformation, de rationalisation et d’urbanisation du SI, avec une culture affirmée de l’intégration, des arbitrages architecturaux et de la cohérence globale.
+        </p>
+    </section>
+
+    <section id="Skills" coex="KEY SKILLS" typeof="SkillSet">
+        <h>COMPÉTENCES CLÉS</h>
+
+        <section typeof="SkillCluster">
+            <h>Architecture &amp; gouvernance SI</h>
+            <ul>
+                <li>Conception d’architectures applicatives et techniques</li>
+                <li>Définition de trajectoires SI et alignement avec le SDSI</li>
+                <li>Scénarios d’architecture et arbitrages techniques</li>
+                <li>Participation aux comités et instances d’architecture</li>
+            </ul>
+        </section>
+
+        <section typeof="SkillCluster">
+            <h>Intégration &amp; architectures distribuées</h>
+            <ul>
+                <li>SOA, API, microservices, architectures event-driven</li>
+                <li>Orchestration de services et de workflows applicatifs</li>
+                <li>Cohérence et robustesse des échanges inter-applications</li>
+            </ul>
+        </section>
+
+        <section typeof="SkillCluster">
+            <h>Modélisation &amp; structuration</h>
+            <ul>
+                <li>UML, BPMN, ArchiMate</li>
+                <li>Cartographies applicatives et techniques</li>
+                <li>Chaînes documentaires et plateformes data-centric</li>
+            </ul>
+        </section>
+
+        <section typeof="SkillCluster">
+            <h>Environnements techniques (niveau architectural)</h>
+            <ul>
+                <li>Cloud (AWS), CI/CD, conteneurisation</li>
+                <li>Environnements Java / PHP / Angular (vision globale)</li>
+                <li>Notions de sécurité et patterns associés (IAM, API security)</li>
+            </ul>
+        </section>
+    </section>
+
+    <section id="Employment" coex="PROFESSIONAL EXPERIENCE" typeof="EmploymentHistory">
+        <h>EXPÉRIENCE PROFESSIONNELLE</h>
+        <ul>
+
+            <li typeof="Experience">
+                <p><strong>Architecte Solution / Technique – Missions transverses SI</strong></p>
+                <p><strong>Cosmobilis – plateformes e-commerce et services</strong></p>
+                <p>2023 – présent</p>
+                <ul>
+                    <li>Conception et évolution d’architectures applicatives dans un contexte multi-projets et multi-équipes.</li>
+                    <li>Analyse des besoins métiers et traduction en solutions techniques cohérentes.</li>
+                    <li>Définition de scénarios d’architecture et participation aux arbitrages techniques.</li>
+                    <li>Accompagnement des équipes projets tout au long du cycle de vie des solutions.</li>
+                    <li>Veille à la cohérence globale du SI et à l’alignement avec la trajectoire cible.</li>
+                </ul>
+            </li>
+
+            <li typeof="Experience">
+                <p><strong>Architecte &amp; concepteur – Orchestration et intégration</strong></p>
+                <p><strong>Démonstrateur interne d’architecture</strong></p>
+                <p>
+                    Conception et réalisation d’un démonstrateur interne illustrant des architectures documentaires et d’orchestration
+                    (CMS headless, workflows API, intégration de services IA contraints par schéma),
+                    utilisé comme support de validation et d’échange autour de choix d’architecture.<br/>
+                    Démonstration disponible sur demande.
+                </p>
+            </li>
+
+            <li typeof="Experience">
+                <p><strong>Architecte / Lead technique – Intégration &amp; transformation SI</strong></p>
+                <p><strong>Made In Design / Bilendi / Arturia – Grenoble</strong></p>
+                <p>2011 – 2022</p>
+                <ul>
+                    <li>Contribution à la définition et à l’évolution d’architectures cibles de plateformes e-commerce et de fidélisation à forte volumétrie.</li>
+                    <li>Urbanisation des flux entre ERP, CRM, PIM, CMS et partenaires externes.</li>
+                    <li>Participation aux décisions structurantes : migrations, découplage applicatif, architectures orientées services.</li>
+                    <li>Rôle d’interface entre équipes métiers, IT et partenaires techniques.</li>
+                </ul>
+            </li>
+
+        </ul>
+    </section>
+
+    <section id="Education" coex="EDUCATION" typeof="EducationHistory">
+        <h>FORMATION</h>
+        <ul>
+            <li>Diplôme d’ingénieur – Polytech Grenoble (Informatique &amp; automatisation)</li>
+            <li>DEUG A – Sciences générales – Université Joseph Fourier, Grenoble</li>
+        </ul>
+    </section>
+
+    <section id="Languages" coex="LANGUAGES" typeof="LanguageSet">
+        <h>LANGUES</h>
+        <ul>
+            <li>Français – langue maternelle</li>
+            <li>Anglais – professionnel</li>
+        </ul>
+    </section>
+
+    <section id="Interest" coex="INTERESTS" typeof="InterestSet">
+        <h>CENTRES D’INTÉRÊT</h>
+        <p>
+            Activités de plein air, découverte d’autres cultures, intérêt pour le fonctionnement et l’évolution des systèmes complexes
+            (techniques, organisationnels et sociaux).
+        </p>
+    </section>
+
+</document>

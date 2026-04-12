@@ -118,6 +118,19 @@ $prePromptFile as xs:string
 page:get_resume_for_job_offer_request($text_document, $prePromptFile)
 };
 
+declare
+%updating
+%rest:path('/cms/get_resume_for_job_offer_request_json')
+%rest:POST
+%rest:form-param("text_document","{$text_document}", "")
+%rest:form-param("prePromptFile","{$prePromptFile}", "SchemedTalks/cvForOfferRulesFile_default.txt")
+%output:method("json")
+function get_resume_for_job_offer_request_json(
+$text_document as xs:string,
+$prePromptFile as xs:string
+) {
+    page:get_resume_for_job_offer_request_json($text_document, $prePromptFile)
+};
 
 (: =================================================================================================================== :)
 
@@ -138,6 +151,21 @@ declare
 {
 page:list_dictionary_request()
 };
+
+
+(:~
+ : This function returns the list of document (by default of the 'dictionary' database's root collection)
+ : @return HTML page
+ :)
+declare
+  %rest:path("/cms/list_dictionary_request_json")
+  %output:method("json")
+  function list_dictionary_request_json()
+  as array(*)
+{
+page:list_dictionary_request_json()
+};
+
 
 (:~
  : This function returns the document cms homepage.

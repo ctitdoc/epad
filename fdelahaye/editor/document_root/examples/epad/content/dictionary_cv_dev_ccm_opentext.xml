@@ -1,0 +1,141 @@
+<document section-numbering="true" figure-numbering="true" features="RESUME">
+    <h text-align="justify">Curriculum Vitae – Franck Delahaye</h>
+    <p/>
+    <section id="Contact" coex="CONTACT">
+        <h>CONTACT</h>
+        <p>Franck Delahaye<br/>franck_delahaye@yahoo.fr<br/>+33 7 67 38 28 95<br/>Grenoble, France<br/>Consultant technique / architecte solutions &#8211; XML/XSLT, int&#233;gration applicative, GED/ECM &amp; cha&#238;nes documentaires.</p>
+    </section>
+    <section id="Objectives" coex="OBJECTIF PROFESSIONNEL">
+        <h>OBJECTIF PROFESSIONNEL</h>
+        <p>Accompagner des clients dans des projets de transformation digitale et de d&#233;mat&#233;rialisation (GED/archivage, cha&#238;nes documentaires), en combinant recueil du besoin, cadrage technique, int&#233;gration logicielle et d&#233;veloppement sp&#233;cifique autour de XML/XSLT, avec une forte culture qualit&#233; et documentation.</p>
+    </section>
+    <section id="skills" coex="COMP&#201;TENCES CL&#201;S">
+        <h>COMP&#201;TENCES CL&#201;S</h>
+        <ul>
+            <li>
+                <p><strong>GED / ECM, d&#233;mat&#233;rialisation, cha&#238;nes documentaires</strong></p>
+                <ul>
+                    <li><p>Conception et mise en &#339;uvre de syst&#232;mes de gestion documentaire et de cha&#238;nes de publication (workflows, versions, validation, multi-sorties Web/PDF).</p></li>
+                    <li><p>Exp&#233;rience Documentum (migration de r&#233;f&#233;rentiel, workflows, cycles de vie, r&#244;les) et CMS/portails Java.</p></li>
+                    <li><p>Structuration de contenus et mod&#232;les de donn&#233;es documentaires (sch&#233;mas, r&#233;f&#233;rentiels, indexation, recherche).</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>XML / XSL / XSLT / XQuery</strong></p>
+                <ul>
+                    <li><p>Transformations XSLT (HTML, XSL-FO/PDF), validation par sch&#233;mas, g&#233;n&#233;ration de flux d&#8217;indexation et vues de donn&#233;es.</p></li>
+                    <li><p>Bases XML et requ&#234;tes (BaseX, eXist-db) pour stockage, recherche et manipulation de contenus structur&#233;s.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Int&#233;gration logicielle &amp; d&#233;veloppement sp&#233;cifique</strong></p>
+                <ul>
+                    <li><p>Int&#233;gration applicative par API REST, synchronisation de donn&#233;es, orchestration de sc&#233;narios, documentation d&#8217;interfaces.</p></li>
+                    <li><p>D&#233;veloppement back-end : PHP/Symfony, Java/J2EE ; scripts et outillage d&#8217;automatisation.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Syst&#232;mes &amp; environnements</strong></p>
+                <ul>
+                    <li><p>Linux/Unix : d&#233;ploiements, exploitation, scripts, environnements de dev/test.</p></li>
+                    <li><p>Conteneurs et CI/CD : Docker, GitHub/GitLab CI.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Gestion de projet / AMOA orient&#233;e technique</strong></p>
+                <ul>
+                    <li><p>Recueil et analyse des besoins fonctionnels et techniques, cadrage, chiffrage, suivi et coordination.</p></li>
+                    <li><p>Relation client, animation d&#8217;&#233;changes, documentation, accompagnement des &#233;quipes.</p></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="Employment" coex="EXP&#201;RIENCE PROFESSIONNELLE">
+        <h>EXP&#201;RIENCE PROFESSIONNELLE</h>
+        <ul>
+            <li>
+                <p><strong>Senior Lead Developer &amp; Architect &#8211; Int&#233;gration applicative &amp; plateformes web</strong><br/><strong>Cosmobilis</strong> &#8211; Chamb&#233;ry, France<br/>Jan 2023 &#8211; Pr&#233;sent</p>
+                <ul>
+                    <li><p>Pilotage technique et relation client sur des projets d&#8217;int&#233;gration (API) et d&#8217;&#233;volution de plateformes &#224; fort trafic.</p></li>
+                    <li><p>Analyse des besoins, conception d&#8217;interfaces, documentation (OpenAPI/Swagger), suivi des livraisons et coordination d&#8217;&#233;quipe (jusqu&#8217;&#224; 8 personnes).</p></li>
+                    <li><p>Int&#233;grations et synchronisations de donn&#233;es entre syst&#232;mes h&#233;t&#233;rog&#232;nes (CRM/ERP, partenaires, outils m&#233;tier), avec sc&#233;narios de tests automatis&#233;s.</p></li>
+                    <li><p>Environnements : Linux/Unix, Docker, CI/CD GitHub ; d&#233;veloppement PHP/Symfony et services d&#8217;orchestration.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>D&#233;veloppeur / Architecte &#8211; CMS XML, cha&#238;nes documentaires &amp; publication</strong><br/><strong>Projets personnels / d&#233;mos (CMS XML)</strong><br/>Jan 2018 &#8211; Pr&#233;sent</p>
+                <ul>
+                    <li><p>Conception d&#8217;un CMS structur&#233; bas&#233; sur XML : &#233;dition guid&#233;e par sch&#233;ma, stockage en base XML, requ&#234;tes XQuery, publication multi-formats (HTML, PDF, Markdown).</p></li>
+                    <li><p>Mise en place de cha&#238;nes de transformation et validation (XML/XSD, XSLT, XSL-FO) et d&#8217;outils de recherche sur contenus structur&#233;s.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Senior Solutions Architect &amp; Developer &#8211; Int&#233;gration SI, e-commerce, flux documentaires</strong><br/><strong>Made In Design / Bilendi / Arturia</strong> &#8211; Grenoble, France<br/>2011 &#8211; 2022</p>
+                <ul>
+                    <li><p>Architecture d&#8217;int&#233;gration entre ERP/PIM/CRM/CMS et services tiers ; synchronisations et ETL (Talend), supervision et outillage.</p></li>
+                    <li><p>Traitements XML (dont ISO 20022/SEPA) et transformations XSLT pour int&#233;grations bancaires (EBICS/SEPA).</p></li>
+                    <li><p>Conception de modules de publication et g&#233;n&#233;ration documentaire (ex. impression &#224; la demande via mod&#232;les ODF et transformations XML/XSLT).</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Technical Lead &#8211; Solutions &#233;nergie &amp; sant&#233;</strong><br/><strong>HC Forum / Open ENERGIE</strong> &#8211; Grenoble, France<br/>2007 &#8211; 2010</p>
+                <ul>
+                    <li><p>Plateforme de facturation &#233;nergie : processus m&#233;tier pilot&#233;s par &#233;changes de messages XML, personnalisation ERP (Odoo) et int&#233;grations.</p></li>
+                    <li><p>Plateforme sant&#233; : suite J2EE/Spring ; module XML/XQuery pour gestion de workflows d&#8217;&#233;changes HL7 entre applications.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Senior Java Developer &#8211; Moteur de recherche</strong><br/><strong>Kelkoo (puis Yahoo)</strong> &#8211; Grenoble, France<br/>2005 &#8211; 2006</p>
+                <ul>
+                    <li><p>Maintenance et &#233;volution d&#8217;API de recherche (Lucene), migration vers une architecture distribu&#233;e (Vespa) avec API REST/XML.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Team Leader &#8211; GED / gestion documentaire &amp; cha&#238;nes de publication</strong><br/><strong>Cap Gemini / Akazi Technologies / Xerox Global Services</strong> &#8211; Grenoble, France<br/>1999 &#8211; 2004</p>
+                <ul>
+                    <li><p>Migration de r&#233;f&#233;rentiel documentaire vers Documentum (workflows, cycles de vie, r&#244;les, param&#233;trage).</p></li>
+                    <li><p>Cha&#238;nes XML de publication multi-langues (Web, PDF) et syst&#232;mes de recherche sur contenus structur&#233;s (eXist-db, XSL-FO).</p></li>
+                    <li><p>Conception d&#8217;outils BPM/CMS et g&#233;n&#233;ration de documentation (PDF) &#224; partir de mod&#232;les XML.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>D&#233;veloppeur &#8211; Syst&#232;mes SGML/XML &amp; &#233;dition structur&#233;e</strong><br/><strong>AIS Technologies / Synlog Technologies / CS Group</strong> &#8211; Paris, Grenoble, Toulouse<br/>1993 &#8211; 1999</p>
+                <ul>
+                    <li><p>Cha&#238;nes de transformation et publication SGML/XML, indexation et recherche, g&#233;n&#233;ration de documents techniques.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Ing&#233;nieur terrain &#8211; R&#233;seau sismologique national</strong><br/><strong>Projet de coop&#233;ration &#8211; N&#233;pal</strong> &#8211; Katmandou, N&#233;pal<br/>1991 &#8211; 1993</p>
+                <ul>
+                    <li><p>Support aux parties prenantes locales : installation, configuration, logistique et coordination terrain.</p></li>
+                </ul>
+            </li>
+            <li>
+                <p><strong>Stage &#8211; Verilog Technologies</strong> &#8211; Grenoble, France<br/>1990 &#8211; 1991</p>
+                <ul>
+                    <li><p>D&#233;veloppement C (interpr&#233;teur/driver PostScript) et &#233;tude/int&#233;gration SGML pour g&#233;n&#233;ration documentaire.</p></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section id="Education" coex="FORMATION">
+        <h>FORMATION</h>
+        <ul>
+            <li><p>1989&#8211;1991 &#8211; Polytech Grenoble &#8211; Dipl&#244;me d&#8217;ing&#233;nieur, informatique &amp; automatisme</p></li>
+            <li><p>1985&#8211;1988 &#8211; DEUG A &#8211; Sciences g&#233;n&#233;rales &#8211; Universit&#233; Joseph Fourier, Grenoble</p></li>
+            <li><p>1984 &#8211; Baccalaur&#233;at scientifique &#8211; Grenoble</p></li>
+        </ul>
+    </section>
+    <section id="Languages" coex="LANGUES">
+        <h>LANGUES</h>
+        <ul>
+            <li><p>Fran&#231;ais &#8211; langue maternelle</p></li>
+            <li><p>Anglais &#8211; professionnel</p></li>
+            <li><p>Allemand, russe, n&#233;palais &#8211; notions scolaires, peu pratiqu&#233;es r&#233;cemment</p></li>
+        </ul>
+    </section>
+    <section id="Interest" coex="CENTRES D&#8217;INT&#201;R&#202;T">
+        <h>CENTRES D&#8217;INT&#201;R&#202;T</h>
+        <p>Nature et activit&#233;s outdoor (trek, longboard de descente, snowboard), d&#233;couverte d&#8217;autres cultures, observation du fonctionnement et de l&#8217;&#233;volution des syst&#232;mes complexes (techniques, sociaux, organisationnels).</p>
+    </section>
+</document>
