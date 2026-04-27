@@ -33,24 +33,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5419d1d-3628-49fc-a25a-7ee737c6320f" name="Default Changelist" comment="adds frontend framework support&#10;- adds endpoints returning json for document listing and CV generation;&#10;- adds links to three frontend apps PoC: React, Angular and Vanilla JS;&#10;- adds documents las modification time managment and orders document listing by defaut by decreasing modification time;&#10;- adds/updates db and xml docs;&#10;- adds missing link to textile publishing demo;">
-      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_cv_archi_solus_si.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_cv_archi_solus_si_v2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_cv_archi_solus_transverse.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_cv_complet_laureline.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_cv_dev_ccm_opentext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_lettre_inge_tei.xml" afterDir="false" />
+    <list default="true" id="e5419d1d-3628-49fc-a25a-7ee737c6320f" name="Default Changelist" comment="cleans obsolete commented code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/.basex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/atv.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/atv.basex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/inf.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/inf.basex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/pth.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/pth.basex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/tbl.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/tbl.basex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/tbli.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/tbli.basex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/txt.basex" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/data/dictionary/txt.basex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/cms_dictionary.xq" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/cms_dictionary.xq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/WEB-INF/jetty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/WEB-INF/jetty.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/cms_dictionary_module.xqm" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/cms_dictionary_module.xqm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsd/coaching.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/basex/webapp/static/editor/examples/epad/xsd/coaching.xsd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_cv_couvrant_v5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fdelahaye/editor/document_root/examples/epad/content/dictionary_cv_couvrant_v5.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +194,8 @@
       <workItem from="1773768955471" duration="46000" />
       <workItem from="1773769866197" duration="70000" />
       <workItem from="1773770149983" duration="51000" />
-      <workItem from="1775971777058" duration="1083000" />
+      <workItem from="1775971777058" duration="6904000" />
+      <workItem from="1777265715486" duration="3312000" />
     </task>
     <task id="LOCAL-00001" summary="- removes log files&#10;- commits db content/state&#10;- manage a feature list for each doc by mean of new attribute features: thus the doc listing displays for each doc, its list of actionable feature; thus this listing dos not display anymore for a doc like a CV, the ARTURIA feature as a CV cannot be displayed as an ARTURIA product page;&#10;- ARTURIA product page: fix the background product url that has changed on Arturia site;&#10;- adds new CVs and letters in the db;&#10;- fix a query evaluation bug leading to no result retruend by the demo query: diag: path index was corrupted, because of a bug of basex 7.x depending options values in .basex : changed the options values to avoid the bug to happen again: &#10;CHOP = false&#10;COMPPLAN = false&#10;AUTOFLUSH = false&#10;&#10;&#10;the bug required also a recreation of the DB from bin/basex console:&#10;&gt; EXPORT /tmp/dict Database 'dictionary' was exported in 192.86 ms. &#10;&gt; DROP DB dictionary Database 'dictionary' was dropped. &#10;&gt; CREATE DB dictionary /tmp/dict Database 'dictionary' created in 480.23 ms. &#10;&gt; xquery count(collection('dictionary')//data_definition)&#10;1&#10;Query executed in 22.09 ms. &gt;">
       <created>1764620582263</created>
@@ -249,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775972861500</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="cleans obsolete commented code">
+      <option name="closed" value="true" />
+      <created>1775973123887</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1775973123887</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +288,7 @@
     <MESSAGE value="removes obsolete log files" />
     <MESSAGE value="updates cms db" />
     <MESSAGE value="adds frontend framework support&#10;- adds endpoints returning json for document listing and CV generation;&#10;- adds links to three frontend apps PoC: React, Angular and Vanilla JS;&#10;- adds documents las modification time managment and orders document listing by defaut by decreasing modification time;&#10;- adds/updates db and xml docs;&#10;- adds missing link to textile publishing demo;" />
-    <option name="LAST_COMMIT_MESSAGE" value="adds frontend framework support&#10;- adds endpoints returning json for document listing and CV generation;&#10;- adds links to three frontend apps PoC: React, Angular and Vanilla JS;&#10;- adds documents las modification time managment and orders document listing by defaut by decreasing modification time;&#10;- adds/updates db and xml docs;&#10;- adds missing link to textile publishing demo;" />
+    <MESSAGE value="cleans obsolete commented code" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleans obsolete commented code" />
   </component>
 </project>

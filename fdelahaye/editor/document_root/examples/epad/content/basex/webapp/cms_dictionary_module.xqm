@@ -339,20 +339,63 @@ offers like: "operational senior software engineer profile", "applied llm softwa
 };
 
 
+declare function page:get-async-response($talk_thread) as item()+ {
+    http:send-request(
+      <http:request method='post' timeout='30'>
+        <http:header name="Accept" value="application/json"/>
+        <http:body media-type="application/json"/>
+      </http:request>,
+      "http://www.sitems.org:16387/schemed_talks_responses",
+      [
+        map {
+            "type": "TalkThread",
+            "id": $talk_thread
+        }
+      ]
+    )[2]
+};
+
+declare function page:get-talk-thread() as xs:string {
+  let $payload :=
+    [
+      map {
+        "type": "TalkThread"
+      }
+    ]
+  return
+    parse-json(Q{java:local.http.HttpHelper}postJson(
+      "http://www.sitems.org:16387/schemed_talks",
+      serialize(
+        $payload,
+          map {
+            'method': 'json'
+            }
+      ),
+      900
+      ))?2?id
+};
+
 
 declare %updating function page:get_resume_for_job_offer_request(
 $text_document as xs:string,
 $prePromptFile as xs:string
 ) {
 
-let $payload :=
+let
+$talk_thread := page:get-talk-thread(),
+$payload :=
     [
+      map {
+        "type": "TalkThread",
+        "id": $talk_thread
+      },
       map {
         "type": "OARequest",
         "prePromptFile": $prePromptFile,
         "prompt": $text_document
       }
     ],
+(:
     $request :=
 <http:request
 method='post' timeout='900'>
@@ -360,14 +403,37 @@ method='post' timeout='900'>
 <http:header name="Accept" value="application/json"/>
 <http:body media-type="application/json"/>
 </http:request>
+:)
 
-let $response := http:send-request($request, "http://www.sitems.org:16387/schemed_talks", $payload)
-let $jsonText := $response[2]
+(: let $response := http:send-request($request, "http://www.sitems.org:16387/schemed_talks", $payload) :)
+
+  $jsonText :=
+ try {
+  parse-json(Q{java:local.http.HttpHelper}postJson(
+    "http://www.sitems.org:16387/schemed_talks",
+    serialize(
+     $payload,
+     map {
+    'method': 'json'
+    }
+   ),
+   900
+  ))?4?oaResponse
+ } catch * {
+    if (
+      $err:code = xs:QName('err:XPTY0004')
+      and contains($err:description, 'Stream timed out')
+    ) then (
+      proc:system("sleep", ("90")),
+      string((page:get-async-response($talk_thread))//oaResponse)
+    ) else {
+      error($err:code, $err:description)
+    }
+}
 let $wrapped := concat("<content>", $jsonText, "</content>")
 let $parsed := parse-xml($wrapped)
 let $document := $parsed/node()/document
 let $currentTime := page:sanitize-datetime(fn:current-dateTime())
-
 
 return
 (
